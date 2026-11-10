@@ -529,8 +529,7 @@ function values(){
  const buckets=Object.fromEntries(NAMES.map(n=>[n,[]]));
  const rows=getRecords().filter(matched);
  for(const r of rows){
-   const d=knownDistrict(r.district||'');
-   if(d&&buckets[d])buckets[d].push(r);
+   for(const d of NAMES)if(researchRelation(r,d)==='direct')buckets[d].push(r);
  }
  return {buckets,rows};
 }
@@ -541,6 +540,7 @@ const shade=(v,m)=>{
 };
 function paint(){
  const {buckets,rows}=values();
+ renderDistrictResearch();
  const max=Math.max(...Object.values(buckets).map(v=>v.length),1);
  const sum=Object.values(buckets).reduce((n,v)=>n+v.length,0);
  E('cg-map-mapped').textContent=String(sum);
@@ -575,8 +575,13 @@ function paint(){
 }
 function select(name,scroll){
  if(!NAMES.includes(name))return;
- selected=name;paint();
- if(scroll&&innerWidth<950)E('cgDistrictTitle').scrollIntoView({behavior:'smooth',block:'start'});
+ const changed=selected!==name;
+ selected=name;
+ if(changed){researchLeader='all';researchTopic='all';researchLimit=20;E('cgResearchRelation').value='direct';E('cgResearchQuery').value=''}
+ paint();
+ if(scroll){
+  E('cgDistrictResearch').scrollIntoView({behavior:'smooth',block:'start'});
+ }
 }
 document.querySelectorAll('.cg-poly').forEach(p=>{
  p.addEventListener('click',()=>select(p.getAttribute('data-name'),true));
@@ -602,12 +607,133 @@ E('cgMapPlay').addEventListener('click',()=>{
  },850);
 });
 E('cgMapReset').addEventListener('click',()=>{
- stopTimeline();E('cgMapLeader').value='all';E('cgMapIssue').value='all';E('cgMapType').value='all';E('cgMapFrom').value='2023-01-01';E('cgMapTo').value='2026-11-10';E('cgTimelineMode').value='cumulative';E('cgTimeline').value='46';selected='Raipur';formatTimeline();paint();
+ stopTimeline();E('cgMapLeader').value='all';E('cgMapIssue').value='all';E('cgMapType').value='all';E('cgMapFrom').value='2023-01-01';E('cgMapTo').value='2026-11-10';E('cgTimelineMode').value='cumulative';E('cgTimeline').value='46';selected='Raipur';researchLeader='all';researchTopic='all';researchLimit=20;E('cgResearchRelation').value='direct';E('cgResearchQuery').value='';formatTimeline();paint();
 });
 window.addEventListener('storage',paint);
 window.addEventListener('focus',paint);
 document.addEventListener('visibilitychange',()=>{if(document.hidden)stopTimeline();else paint()});
-formatTimeline();paint();
+formatTimeline();
+/* District research joins source records by explicit district relevance; all ten people and five issue domains are always inspectable. */
+const RESEARCH_TOPICS=['Tribal Issues','Religion / Hinduism','Governance','Minerals','Mining'];
+const RESEARCH_LEADERS=Array.from(E('cgMapLeader').options).map(o=>o.value).filter(v=>v!=='all');
+const RESEARCH_ALIASES={
+ 'Surguja':['Ambikapur'],'Bastar':['Jagdalpur','Bodhghat','Muria Darbar'],
+ 'Durg':['Bhilai','Patan','Risali'],'Raigarh':['Kharsia','Robertson','Bhalunara'],
+ 'Kondagaon':['Farsgaon'],'Baloda Bazar':['Kasdol','Balodabazar','Bhatapara'],
+ 'Kabirdham':['Kawardha'],'Uttar Bastar Kanker':['Kanker'],
+ 'Manendragarh-Chirimiri-Bharatpur':['Manendragarh','Chirimiri'],
+ 'Gaurela-Pendra-Marwahi':['Gaurela','Pendra','Marwahi'],
+ 'Mohla-Manpur-Ambagarh Chowki':['Mohla Manpur','Ambagarh Chowki'],
+ 'Khairagarh-Chhuikhadan-Gandai':['Khairagarh','Chhuikhadan','Gandai'],
+ 'Sarangarh-Bilaigarh':['Sarangarh','Bilaigarh']
+};
+let researchLeader='all',researchTopic='all',researchLimit=20;
+function researchText(r){return norm([r.title||'',r.summary||'',r.event||''].join(' '))}
+function researchRelation(r,district){
+ if(!r||!district)return null;
+ const primary=knownDistrict(String(r.district||''));
+ const hay=' '+researchText(r)+' ';
+ const labels=[district,...(RESEARCH_ALIASES[district]||[])];
+ const cited=labels.some(label=>{const needle=norm(label);return needle.length>=4&&hay.includes(' '+needle+' ')});
+ if(cited||(r.scope==='district-history'&&primary===district))return 'direct';
+ if(primary===district)return 'venue';
+ return null;
+}
+function researchPeople(r){return Array.isArray(r.leaders)?r.leaders:String(r.leaders||'').split('|').map(x=>x.trim()).filter(Boolean)}
+function researchCategories(r){return Array.isArray(r.categories)?r.categories:String(r.categories||'').split('|').filter(Boolean)}
+function researchHasTopic(r,topic){return researchCategories(r).some(t=>norm(t)===norm(topic))}
+function researchDateRows(){
+ const from=E('cgMapFrom').value||'2023-01-01',to=E('cgMapTo').value||'2026-11-10';
+ const items=getRecords().filter(r=>{const d=String(r.date||'').slice(0,10);return d&&d>=from&&d<=to});
+ const byId=new Set();
+ return items.filter((r,i)=>{const key=String(r.id||r.url||i);if(byId.has(key))return false;byId.add(key);return true});
+}
+function researchDistrictRows(){
+ return researchDateRows().map(r=>({r,relation:researchRelation(r,selected)})).filter(o=>o.relation!==null);
+}
+function researchEvidenceLink(r){
+ const u=String(r.url||'');
+ return /^https:\/\/[^\s"<>]+$/i.test(u)?'<a class="cg-item-head" target="_blank" rel="noopener noreferrer" href="'+esc(u)+'">'+esc(r.title||'Source item')+' ↗</a>':'<span class="cg-item-head">'+esc(r.title||'Source item without a verified link')+'</span>';
+}
+function researchCard(o){
+ const r=o.r,what=r.actionType||(isEvent(r)?'Reported public event':'News / reported statement or action');
+ const outcome=r.outcomeStatus||'No independently verified delivery or final policy outcome in this archive';
+ const bits=RESEARCH_TOPICS.filter(t=>researchHasTopic(r,t)).map(t=>'<span>'+esc(t)+'</span>').join('');
+ const relationship=o.relation==='direct'
+ ?'<div class="cg-item-relation is-direct">Explicitly linked to this district in the report, or in the sourced historical district record. Statements and outcomes remain attributed.</div>'
+ :'<div class="cg-item-relation">Location-index tag only: the report does not clearly connect its substantive subject to this district. Do not treat it as district-specific work without verification.</div>';
+ return '<article class="cg-research-item"><div class="cg-item-top"><b>'+esc(r.date||'Undated')+'</b><span>·</span><span>'+esc(r.publisher||r.platform||'Publication not recorded')+'</span><span>·</span><span>'+esc(what)+'</span></div>'
+ +researchEvidenceLink(r)+'<div class="cg-item-leaders">'+esc(researchPeople(r).join(' · ')||'Leader attribution not indexed')+'</div>'
+ +'<p class="cg-item-text">'+esc(r.summary||'Consult linked original source for statements and details.')+'</p><div class="cg-item-tags">'+bits+'</div>'
+ +relationship+'<div class="cg-item-outcome"><strong>Outcome status:</strong> '+esc(outcome)+(r.verification?' <span>· Evidence note: '+esc(r.verification)+'</span>':'')+'</div></article>';
+}
+function researchDiscoverLink(){
+ const phrase=[researchLeader!=='all'?researchLeader:'Chhattisgarh opposition',selected,researchTopic!=='all'?researchTopic:'public policy', 'since 2023'].join(' ');
+ const url='https://www.google.com/search?tbm=nws&q='+encodeURIComponent(phrase);
+ return '<a target="_blank" rel="noopener noreferrer" href="'+esc(url)+'">Search additional public reporting (not yet verified) ↗</a>';
+}
+function renderDistrictResearch(){
+ if(!E('cgDistrictResearch'))return;
+ const all=researchDistrictRows(),direct=all.filter(o=>o.relation==='direct');
+ const base=E('cgResearchRelation').value==='all'?all:direct;
+ const query=norm(E('cgResearchQuery').value||'');
+ const counts=Object.fromEntries(RESEARCH_LEADERS.map(l=>[l,Object.fromEntries(RESEARCH_TOPICS.map(t=>[t,base.filter(o=>researchPeople(o.r).includes(l)&&researchHasTopic(o.r,t)).length]))]));
+ const leaderUnique=new Set(base.flatMap(o=>researchPeople(o.r)));
+ const topicUnique=new Set(RESEARCH_TOPICS.filter(t=>base.some(o=>researchHasTopic(o.r,t))));
+ const venueOnly=all.filter(o=>o.relation==='venue');
+ E('cgResearchDistrict').textContent=selected+' — research dossier';
+ E('cgResearchSourceCount').textContent=String(base.length);
+ E('cgResearchLeaderCount').textContent=String(leaderUnique.size);
+ E('cgResearchTopicCount').textContent=String(topicUnique.size)+' / 5';
+ E('cgResearchVenueOnly').textContent=String(venueOnly.length);
+ E('cgResearchDateLabel').textContent=(E('cgMapFrom').value||'2023-01-01')+' — '+(E('cgMapTo').value||'2026-11-10');
+ E('cgResearchLeader').value=researchLeader;
+ E('cgResearchTopic').value=researchTopic;
+ E('cgResearchMatrixBody').innerHTML=RESEARCH_LEADERS.map(leader=>{
+   const rowsForLeader=base.filter(o=>researchPeople(o.r).includes(leader));
+   const total=rowsForLeader.length;
+   const leaderClass=researchLeader===leader?' class="is-picked"':'';
+   const cells=RESEARCH_TOPICS.map(topic=>{
+     const n=counts[leader][topic];
+     const picked=researchLeader===leader&&researchTopic===topic;
+     return '<td><button type="button" data-research-leader="'+esc(leader)+'" data-research-topic="'+esc(topic)+'" class="'+(n?'has-evidence ':'')+(picked?'is-picked':'')+'" aria-label="'+esc(leader+', '+topic+', '+n+' source-linked records')+'">'+(n?String(n):'—')+'</button></td>';
+   }).join('');
+   return '<tr><th scope="row"><button type="button" data-research-leader="'+esc(leader)+'" data-research-topic="all"'+leaderClass+'>'+esc(leader)+'</button></th>'+cells+'<td><button type="button" data-research-leader="'+esc(leader)+'" data-research-topic="all" aria-label="'+esc(leader+', all topics, '+total+' sources')+'">'+total+'</button></td></tr>';
+ }).join('');
+ let result=base.filter(o=>(researchLeader==='all'||researchPeople(o.r).includes(researchLeader))&&(researchTopic==='all'||researchHasTopic(o.r,researchTopic)));
+ if(query)result=result.filter(o=>norm([o.r.title,o.r.summary,o.r.publisher,o.r.event,...researchPeople(o.r),...researchCategories(o.r)].join(' ')).includes(query));
+ result.sort((a,b)=>String(b.r.date||'').localeCompare(String(a.r.date||'')));
+ const who=researchLeader==='all'?'all ten leaders':researchLeader;
+ const issue=researchTopic==='all'?'all five issues':researchTopic;
+ E('cgResearchFeedTitle').textContent=selected+' · '+who;
+ E('cgResearchFeedSub').textContent='Selected topic: '+issue+' · '+(E('cgResearchRelation').value==='direct'?'only explicitly district-linked evidence':'including venue-only tags')+' · dates follow the map timeline';
+ E('cgResearchMatches').textContent=result.length+' source'+(result.length===1?'':'s');
+ if(!result.length)E('cgResearchFeed').innerHTML='<div class="cg-research-empty"><h4>No directly supported source indexed for this combination</h4><p>Our archive does not currently establish what '+esc(who)+' said or did in '+esc(selected)+' about '+esc(issue)+'. This is a research gap, not evidence of inactivity. Try broadening the timeline, switching district relevance, or checking the sources below.</p>'+researchDiscoverLink()+'</div>';
+ else E('cgResearchFeed').innerHTML=result.slice(0,researchLimit).map(researchCard).join('');
+ E('cgResearchMore').hidden=result.length<=researchLimit;
+ if(result.length>researchLimit)E('cgResearchMore').textContent='Show more sources ('+(result.length-researchLimit)+' remaining)';
+}
+for(const leader of RESEARCH_LEADERS){const o=document.createElement('option');o.value=leader;o.textContent=leader;E('cgResearchLeader').appendChild(o)}
+for(const topic of RESEARCH_TOPICS){const o=document.createElement('option');o.value=topic;o.textContent=topic;E('cgResearchTopic').appendChild(o)}
+E('cgResearchLeader').addEventListener('change',()=>{researchLeader=E('cgResearchLeader').value;researchLimit=20;renderDistrictResearch()});
+E('cgResearchTopic').addEventListener('change',()=>{researchTopic=E('cgResearchTopic').value;researchLimit=20;renderDistrictResearch()});
+E('cgResearchRelation').addEventListener('change',()=>{researchLimit=20;renderDistrictResearch()});
+E('cgResearchQuery').addEventListener('input',()=>{researchLimit=20;renderDistrictResearch()});
+E('cgResearchMatrixBody').addEventListener('click',ev=>{
+ const cell=ev.target.closest('[data-research-leader]');if(!cell)return;
+ researchLeader=cell.getAttribute('data-research-leader')||'all';
+ researchTopic=cell.getAttribute('data-research-topic')||'all';
+ researchLimit=20;E('cgResearchQuery').value='';renderDistrictResearch();
+ E('cgResearchFeed').scrollIntoView({behavior:'smooth',block:'start'});
+});
+E('cgResearchClear').addEventListener('click',()=>{
+ researchLeader='all';researchTopic='all';researchLimit=20;
+ E('cgResearchRelation').value='direct';E('cgResearchQuery').value='';renderDistrictResearch();
+});
+E('cgResearchMore').addEventListener('click',()=>{researchLimit+=20;renderDistrictResearch()});
+E('cgResearchBack').addEventListener('click',()=>E('cgDistrictMap').scrollIntoView({behavior:'smooth',block:'center'}));
+
+paint();
 })();
 </script>
 </body></html>
