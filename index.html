@@ -1155,4 +1155,110 @@ loadLocal();renderDirectory();renderMeta();
 })();
 </script>
 
+
+<script id="cg-social-evidence-v11-script">
+(()=>{'use strict';
+const SEED=JSON.parse(document.getElementById('cgSocialSeed').textContent||'{}');
+const META=JSON.parse(document.getElementById('cgMetaSeed').textContent||'{}');
+const E=id=>document.getElementById(id);
+if(!E('siEvidenceList'))return;
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function urlSafe(value){try{const u=new URL(value);return u.protocol==='https:'?u.href:null}catch(e){return null}}
+const LEADERS=(SEED.x_accounts||[]).map(a=>a.leader);
+const TOPICS=['Tribal Issues','Religion / Hinduism','Governance','Minerals','Mining'];
+let limit=18,updates=[];
+function norm(v){return String(v||'').trim().toLowerCase()}
+function sameTopic(a,b){return norm(a)===norm(b)}
+function isMetaOriginal(r){return r && r.verification_status==='verified' && r.source_type==='original_permalink' && ['Facebook','Instagram'].includes(r.platform) && urlSafe(r.url)}
+function allRows(){
+ const x=(SEED.x_posts||[]).map(r=>({id:r.id,date:r.date,leaders:[r.leader],platform:'X',topics:r.topics||[],title:r.title,summary:r.summary,url:r.url,corroboration_url:r.corroboration_url,kind:'x',publisher:r.publisher||'X / publisher embedded',verification:r.verification}));
+ const press=(SEED.press_leads||[]).concat(updates).map(r=>({id:r.id,date:r.date,leaders:r.leaders||[],platform:r.platform||'Social / unconfirmed',topics:r.topics||[],title:r.title,summary:r.summary,url:r.url,publisher:r.publisher,kind:'press',verification:r.status||'Publisher report; original post not authenticated'}));
+ const originals=(META.posts||[]).filter(isMetaOriginal).map(r=>({id:r.id,date:r.published_at,leaders:[r.leader],platform:r.platform,topics:r.topics||[],title:'Verified original '+r.platform+' post',summary:r.text||'Caption not supplied',url:r.url,kind:'meta_original',publisher:r.platform,verification:'First-party permalink with documented verification'}));
+ const seen=new Set();
+ return x.concat(originals,press).filter(r=>{
+  if(!r||!urlSafe(r.url)||!r.date||!LEADERS.some(l=>r.leaders.includes(l)))return false;
+  const key=(r.kind==='press'?'press:':'post:')+urlSafe(r.url).split('?')[0];
+  if(seen.has(key))return false;seen.add(key);return true;
+ });
+}
+function dateNow(){
+ try{return new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())}
+ catch(e){return '2026-11-10'}
+}
+const TO_DEFAULT=dateNow()<'2026-11-10'?'2026-11-10':dateNow();
+E('siTo').value=TO_DEFAULT;
+const selectOptions=(id,items)=>{const node=E(id);items.forEach(value=>{const option=document.createElement('option');option.value=value;option.textContent=value;node.appendChild(option)})};
+selectOptions('siLeader',LEADERS);
+selectOptions('siTopic',TOPICS);
+function card(r){
+ const original=r.kind==='x'||r.kind==='meta_original', x=r.kind==='x';
+ const label=x?'Publisher-linked original X status':r.kind==='meta_original'?'Verified original '+r.platform+' post':r.platform==='Social / unconfirmed'?'Social discussion · platform unspecified':r.platform+' · reported by press';
+ const detail=original?(x?'X permalink embedded or cited by publisher; direct platform API retrieval not established': 'Original Meta permalink and date verified by documented source'):'This is a dated publisher reference, not a retrieved first-party social post';
+ const primary=urlSafe(r.url);
+ const secondary=urlSafe(r.corroboration_url);
+ return '<article class="si-card">'+
+  '<div class="si-meta"><span>'+esc(r.date)+'</span><span>'+esc(r.platform)+'</span><span>'+esc(r.publisher||'Source')+'</span></div>'+
+  '<span class="si-source-badge '+(x?'si-x':'')+'">'+esc(label)+'</span>'+
+  '<h3>'+esc(r.title||'Social-source report')+'</h3>'+
+  '<div class="si-meta"><b>'+esc((r.leaders||[]).join(' · '))+'</b></div>'+
+  '<p>'+esc(r.summary||'Open linked publisher for full context')+'</p>'+
+  '<div class="si-tags">'+(r.topics||[]).filter(t=>TOPICS.some(x=>sameTopic(x,t))).map(t=>'<span>'+esc(t)+'</span>').join('')+'</div>'+
+  '<div class="si-card-links"><a href="'+esc(primary)+'" rel="noopener noreferrer" target="_blank">'+(original?'Open original '+esc(r.platform)+' status ↗':'Read publisher evidence ↗')+'</a>'+
+   (secondary?'<a href="'+esc(secondary)+'" rel="noopener noreferrer" target="_blank">Corroborating report ↗</a>':'')+'</div>'+
+  '<div class="si-verification">'+esc(detail)+' · '+esc(r.verification||'Evidence classification: reporting / unverified underlying post')+'</div>'+
+  '</article>';
+}
+function render(){
+ const rows=allRows();
+ E('siXCount').textContent=String(rows.filter(r=>r.kind==='x').length);
+ E('siPressCount').textContent=String(rows.filter(r=>r.kind==='press').length);
+ E('siMetaCount').textContent=String(rows.filter(r=>r.kind==='meta_original').length);
+ const kind=E('siKind').value,leader=E('siLeader').value,platform=E('siPlatform').value,topic=E('siTopic').value;
+ const from=E('siFrom').value||'2026-08-05',to=E('siTo').value||TO_DEFAULT, query=norm(E('siQuery').value);
+ const filtered=rows.filter(r=>
+  (kind==='all'||(kind==='x'&&r.kind==='x')||(kind==='press'&&r.kind==='press')||(kind==='meta'&&(r.platform==='Facebook'||r.platform==='Instagram'))) &&
+  (leader==='all'||r.leaders.includes(leader)) &&
+  (platform==='all'||r.platform===platform) &&
+  (topic==='all'||(r.topics||[]).some(t=>sameTopic(t,topic))) &&
+  r.date>=from && r.date<=to &&
+  (!query||norm([r.title,r.summary,r.publisher,r.platform,r.verification,...r.leaders,...r.topics].join(' ')).includes(query))
+ ).sort((a,b)=>String(b.date).localeCompare(String(a.date))||String(a.title).localeCompare(String(b.title)));
+ E('siMatches').textContent=filtered.length+' evidence item'+(filtered.length===1?'':'s');
+ E('siEvidenceList').innerHTML=filtered.length?filtered.slice(0,limit).map(card).join(''):
+ '<article class="si-card si-empty"><span class="si-source-badge">Coverage gap</span><h3>No attributable evidence indexed for this selection</h3><p>This does not mean that the leader made no social posts. Try a wider date or topic filter, inspect linked accounts, or add permitted original-source records. The archive does not automatically invent post text or timestamps.</p></article>';
+ E('siMore').hidden=filtered.length<=limit;
+ if(filtered.length>limit)E('siMore').textContent='Show more ('+(filtered.length-limit)+' remaining)';
+}
+function directory(){
+ const byLeader=new Map((META.accounts||[]).map(a=>[a.leader,a]));
+ E('siAccountDirectory').innerHTML=(SEED.x_accounts||[]).map(a=>{
+ const m=byLeader.get(a.leader)||{};
+ const platforms=[{name:'X / Twitter',u:a.profile_url,ev:a.reference,qual:a.identity_level},...['facebook','instagram'].map(k=>({name:k==='facebook'?'Facebook':'Instagram',u:m[k]?.url,ev:m[k]?.evidence_url,qual:m[k]?.status}))];
+ const cells=platforms.map(p=>{const u=urlSafe(p.u),ref=urlSafe(p.ev);
+  return '<div><b>'+esc(p.name)+'</b>'+(u?'<a target="_blank" rel="noopener noreferrer" href="'+esc(u)+'">Candidate account ↗</a>':'<span>No authenticated profile</span>')+
+  (ref?'<a target="_blank" rel="noopener noreferrer" href="'+esc(ref)+'">Public reference ↗</a>':'')+
+  '<small>'+esc(u?'Identity not independently certified':'Identity pending verification')+'</small></div>';
+ }).join('');
+ return '<article class="si-account"><strong>'+esc(a.leader)+'</strong><div class="si-acc-platforms">'+cells+'</div></article>';
+ }).join('');
+}
+function reset(){
+ E('siKind').value=E('siLeader').value=E('siPlatform').value=E('siTopic').value='all';
+ E('siFrom').value='2026-08-05';E('siTo').value=TO_DEFAULT;E('siQuery').value='';limit=18;render();
+}
+for(const id of ['siKind','siLeader','siPlatform','siTopic','siFrom','siTo'])E(id).addEventListener('change',()=>{limit=18;render()});
+E('siQuery').addEventListener('input',()=>{limit=18;render()});
+E('siReset').addEventListener('click',reset);
+E('siMore').addEventListener('click',()=>{limit+=18;render()});
+directory();render();
+if(location.protocol!=='file:'){
+ fetch('data/social_updates.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('no published update');return r.json()}).then(data=>{
+  updates=Array.isArray(data.leads)?data.leads.filter(r=>r && (r.status==='unverified_press_discovery') && LEADERS.some(l=>(r.leaders||[]).includes(l))):[];
+  if(data.last_checked_utc)E('siRefreshTime').textContent='Public-source check: '+new Date(data.last_checked_utc).toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Kolkata'})+' IST';
+  E('siRefreshStatus').textContent=updates.length?'Rolling public-source leads available':'Historical archive + scheduled checks';
+  render();
+ }).catch(()=>{E('siRefreshStatus').textContent='Historical archive available';});
+}
+})();
+</script>
 </body></html>
