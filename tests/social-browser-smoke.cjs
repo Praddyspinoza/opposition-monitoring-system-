@@ -21,7 +21,7 @@ function check(condition,message){if(!condition)throw Error(message)}
     await page.locator('[data-nav="meta"]').click();
     check(await page.locator('#meta').isVisible(),spec.name+': social archive tab did not activate');
     check((await page.locator('#siXCount').innerText()).trim()==='11',spec.name+': expected eleven publisher-corroborated X post URLs');
-    check((await page.locator('#siPressCount').innerText()).trim()==='14',spec.name+': expected fourteen press leads');
+    check((await page.locator('#siPressCount').innerText()).trim()==='15',spec.name+': expected fifteen press leads');
     check((await page.locator('#siMetaCount').innerText()).trim()==='0',spec.name+': should not fabricate direct Meta posts');
     check(await page.locator('#siAccountDirectory .si-account').count()===10,spec.name+': missing leader account entries');
     check(await page.locator('#siAccountDirectory .si-acc-platforms>div').count()===30,spec.name+': missing Facebook Instagram or X identity slots');
@@ -43,7 +43,7 @@ function check(condition,message){if(!condition)throw Error(message)}
     const count=await page.locator('#siEvidenceList .si-card').count();
     check(count===18,spec.name+': list must show first 18 evidence items; got '+count);
     await page.locator('#siMore').click();
-    check(await page.locator('#siEvidenceList .si-card').count()===25,spec.name+': show-more button missing final source');
+    check(await page.locator('#siEvidenceList .si-card').count()===26,spec.name+': show-more button missing final source');
     await page.locator('#siAccountsDetails summary').click();
     check(await page.locator('#siAccountsDetails').getAttribute('open')!==null,spec.name+': candidate account directory did not open');
     check((await page.locator('#metaOriginalCount').innerText()).trim()==='0',spec.name+': old Meta archive must not change');
