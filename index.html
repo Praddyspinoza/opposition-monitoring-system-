@@ -1252,7 +1252,7 @@ E('siQuery').addEventListener('input',()=>{limit=18;render()});
 E('siReset').addEventListener('click',reset);
 E('siMore').addEventListener('click',()=>{limit+=18;render()});
 directory();render();
-if(location.protocol!=='file:'){
+if(location.protocol!=='file:' && typeof fetch==='function'){
  fetch('data/social_updates.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('no published update');return r.json()}).then(data=>{
   updates=Array.isArray(data.leads)?data.leads.filter(r=>r && (r.status==='unverified_press_discovery') && LEADERS.some(l=>(r.leaders||[]).includes(l))):[];
   if(data.last_checked_utc)E('siRefreshTime').textContent='Public-source check: '+new Date(data.last_checked_utc).toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Kolkata'})+' IST';
