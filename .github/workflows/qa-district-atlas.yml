@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - 'feature/33-district-activity-map-v7'
+      - 'feature/district-timeline-v8'
   pull_request:
     branches: [main]
   workflow_dispatch:
