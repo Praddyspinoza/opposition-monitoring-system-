@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "last_checked_utc": null,
+  "collection_status": "X_BEARER_TOKEN not connected; no direct API acquisition",
+  "permission_requirement": "Authorized X API full-archive access and publisher-backed identities required. Facebook and Instagram require authorized originals or exports.",
+  "confirmed_publisher_linked_handles": {
+    "Charan Das Mahant": "DrCharandas",
+    "Deepak Baij": "DeepakBaijINC",
+    "Bhupesh Baghel": "bhupeshbaghel"
+  },
+  "posts": []
+}
