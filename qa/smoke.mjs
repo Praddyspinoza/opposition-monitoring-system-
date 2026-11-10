@@ -13,13 +13,16 @@ const archivMatch=html.match(/<script id="archiveData" type="application\/json">
 assert(histMatch && archivMatch, "data containers must be available statically");
 const historic=JSON.parse(histMatch[1]);
 const archive=JSON.parse(archivMatch[1]);
-assert.equal(historic.length,19);
+assert.equal(historic.length,32);
 assert.equal(archive.length,182);
 assert.equal(new Set(historic.flatMap(r=>r.leaders)).size,10);
 assert(historic.some(r=>r.date.startsWith("2023")));
 assert(historic.every(r=>r.url.startsWith("https://")));
 assert(historic.every(r=>r.actionType && r.outcomeStatus),"every historical item labels action and outcome");
-assert(historic.some(r=>r.district==="Mahasamund"),"new Mahasamund source present");
+assert(historic.some(r=>r.district==="Mahasamund"),"Mahasamund source present");
+assert(historic.some(r=>r.district==="Baloda Bazar" && r.leaders.includes("Sandeep Sahu") && r.date==="2025-03-20"),"Sahu's constituency employment question");
+assert(historic.some(r=>r.district==="Uttar Bastar Kanker" && r.leaders.includes("Deepak Baij")),"district-subject Kanker iron-ore source");
+assert(historic.filter(r=>r.district==="Durg" && r.leaders.includes("Devendra Yadav")).length>=3,"Bhilai local evidence");
 assert(archive.every(r=>r.date>="2026-08-05" && r.date<="2026-11-05"));
 
 const errors=[];
@@ -68,6 +71,9 @@ document.getElementById("cgMapReset").click();
 assert.equal(dt.value,"2026-11-10");
 assert.equal(document.querySelectorAll('#cgResearchMatrixBody tr').length,10,"all ten monitored leaders represented");
 assert.equal(document.querySelectorAll('#cgResearchMatrixBody tr:first-child td').length,6,"five issue cells and all-topics count");
+assert.equal(document.querySelectorAll('#cgResearchMatrixBody button[data-research-topic]:not([data-research-topic="all"])').length,50,"50 leader-topic research cells");
+assert.equal(document.querySelectorAll('#cgDistrictMap .cg-poly').length,33);
+
 assert.equal(document.querySelectorAll('#cgResearchLeader option').length,11,"all ten leaders selectable");
 assert.equal(document.querySelectorAll('#cgResearchTopic option').length,6,"all five topics selectable");
 assert.equal(document.getElementById('cgResearchDistrict').textContent,"Raipur — research dossier");
@@ -86,6 +92,19 @@ issue.value="Mining";issue.dispatchEvent(new Event('change',{bubbles:true}));
 assert.match(document.getElementById('cgResearchFeedTitle').textContent,/Jyotsna/);
 assert.match(document.getElementById('cgResearchFeedSub').textContent,/Mining/);
 assert(document.getElementById('cgResearchFeed').querySelectorAll('a[href^="https://"]').length>0,"Korba MP mining needs dated source link");
+const totalFiltered=Number(document.getElementById('cgResearchMatches').textContent.split(' ')[0]);
+assert(totalFiltered>0,'Korba MP has linked mining coverage');
+const matchNews=document.querySelector('#cgResearchFeed .cg-item-head');
+assert(matchNews && matchNews.getAttribute('href').startsWith('https://'),'news cards link to source publishers');
+const testSearch=document.getElementById('cgResearchQuery');
+testSearch.value='definitely-nonexistent-314159';
+testSearch.dispatchEvent(new Event('input',{bubbles:true}));
+assert.match(document.getElementById('cgResearchFeed').textContent,/No directly supported source indexed/);
+testSearch.value='';testSearch.dispatchEvent(new Event('input',{bubbles:true}));
+const relation=document.getElementById('cgResearchRelation');relation.value='all';relation.dispatchEvent(new Event('change',{bubbles:true}));
+assert.match(document.getElementById('cgResearchFeedSub').textContent,/venue-only/);
+relation.value='direct';relation.dispatchEvent(new Event('change',{bubbles:true}));
+
 const emptyDistrict=document.querySelector('.cg-district-choice[data-map-choice="Bemetara"]');
 emptyDistrict.click();
 assert.equal(document.querySelectorAll('#cgResearchMatrixBody tr').length,10);
