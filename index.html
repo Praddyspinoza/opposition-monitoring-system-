@@ -857,4 +857,207 @@ E('cgResearchBack').addEventListener('click',()=>E('cgDistrictMap').scrollIntoVi
 paint();
 })();
 </script>
+
+<script id="cg-meta-v10-script">
+(() => {'use strict';
+const root=document.getElementById('meta');
+if(!root)return;
+const E=id=>document.getElementById(id);
+const SEED=JSON.parse(E('cgMetaSeed').textContent||'{}');
+const LEADERS=(SEED.accounts||[]).map(x=>x.leader);
+const TOPICS=SEED.issue_taxonomy||['Tribal Issues','Religion / Hinduism','Governance','Minerals','Mining'];
+const STORAGE_KEY='cg_meta_public_posts_local_v10';
+const DATE_START='2026-08-05',DATE_END='2026-11-05';
+let local=[];
+const esc=x=>String(x??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+const safeUrl=x=>{try{const u=new URL(x);return u.protocol==='https:'?u.href:''}catch{return ''}};
+function platformFromURL(raw) {
+ try {
+  const u=new URL(raw);
+  if(u.protocol!=='https:')return null;
+  const host=u.hostname.toLowerCase();
+  if(host==='facebook.com'||host.endsWith('.facebook.com')) {
+   const path=u.pathname.toLowerCase();
+   const direct=path.includes('/posts/')||path.includes('/videos/')||path.includes('/reel/')||path.includes('/share/p/')||
+    path.includes('/share/v/')||path.endsWith('/permalink.php')||path.endsWith('/photo.php')||
+    (path.includes('/photo')&&u.searchParams.has('fbid'))||
+    (path.endsWith('/watch/')&&u.searchParams.has('v'))||
+    (path.endsWith('/story.php')&&(u.searchParams.has('story_fbid')||u.searchParams.has('id')));
+   return direct?'Facebook':null;
+  }
+  if(host==='instagram.com'||host.endsWith('.instagram.com')) {
+   return /^\/(p|reel|tv)\/[a-z0-9_-]+\/?$/i.test(u.pathname)?'Instagram':null;
+  }
+ }catch{}
+ return null;
+}
+const dateValid=d=>typeof d==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(d)&&new Date(d+'T00:00:00Z').toISOString().slice(0,10)===d&&d>=DATE_START&&d<=DATE_END;
+function toTerms(v) {
+ let a=Array.isArray(v)?v:typeof v==='string'?v.split('|'):[];
+ return [...new Set(a.map(x=>String(x||'').trim()).filter(Boolean))];
+}
+function normalizeRow(raw,index){
+ if(!raw||typeof raw!=='object'||Array.isArray(raw))throw Error('Row '+index+': expected an object');
+ const name=String(raw.leader||'').trim();
+ if(!LEADERS.includes(name))throw Error('Row '+index+': leader not in the ten monitored names');
+ let p=String(raw.platform||'').trim().toLowerCase();
+ const platform=p==='facebook'?'Facebook':p==='instagram'?'Instagram':null;
+ if(!platform)throw Error('Row '+index+': platform must be Facebook or Instagram');
+ const d=String(raw.published_at||raw.date||'').trim().slice(0,10);
+ if(!dateValid(d))throw Error('Row '+index+': valid date must be between '+DATE_START+' and '+DATE_END);
+ const url=String(raw.url||'').trim();
+ if(platformFromURL(url)!==platform)throw Error('Row '+index+': not a matching direct Facebook/Instagram post, video or reel permalink');
+ const topics=toTerms(raw.topics);
+ if(topics.some(t=>!TOPICS.includes(t)))throw Error('Row '+index+': unknown topic (use one of the five taxonomy values)');
+ const districts=toTerms(raw.districts);
+ const text=String(raw.text||raw.caption||'').slice(0,12000);
+ const post_type=String(raw.post_type||'post').slice(0,100);
+ return {id:'META-LOCAL-'+d+'-'+index,leader:name,platform,published_at:d,url,text,topics,districts,post_type,source_type:'user_supplied_permalink',verification_status:'user_supplied_unverified',imported_at:new Date().toISOString()};
+}
+function loadLocal(){
+ try {
+  const raw=JSON.parse(localStorage.getItem(STORAGE_KEY)||'[]');
+  local=Array.isArray(raw)?raw.filter(x=>x&&typeof x==='object'&&platformFromURL(x.url)===x.platform&&LEADERS.includes(x.leader)&&dateValid(x.published_at)): [];
+ }catch{local=[]}
+}
+function saveLocal(items){
+ const before=local;
+ local=items;
+ try{localStorage.setItem(STORAGE_KEY,JSON.stringify(local))}
+ catch(e){local=before;throw Error('Browser storage unavailable/full: '+String(e.message||e))}
+}
+const safePost=(r)=>r && platformFromURL(r.url)===r.platform && LEADERS.includes(r.leader) && dateValid(r.published_at);
+function rows(){return (SEED.posts||[]).filter(safePost).concat(local.filter(safePost))}
+function renderMeta(){
+ const items=rows();
+ const leader=E('metaLeader').value,platform=E('metaPlatform').value,topic=E('metaTopic').value;
+ const from=E('metaFrom').value||DATE_START,to=E('metaTo').value||DATE_END;
+ const query=E('metaQuery').value.trim().toLowerCase();
+ const matching=items.filter(r=>(leader==='all'||r.leader===leader)&&(platform==='all'||r.platform===platform)&&
+ (topic==='all'||(r.topics||[]).includes(topic))&&r.published_at>=from&&r.published_at<=to&&
+ (!query||[r.leader,r.platform,r.text,r.post_type,...(r.topics||[]),...(r.districts||[])].join(' ').toLowerCase().includes(query)))
+ .sort((a,b)=>String(b.published_at||'').localeCompare(String(a.published_at||'')));
+ E('metaOriginalCount').textContent=String((SEED.posts||[]).filter(safePost).length);
+ E('metaLocalCount').textContent=String(local.filter(safePost).length);
+ E('metaFilteredCount').textContent=matching.length+' match'+(matching.length===1?'':'es');
+ const list=E('metaPostList');
+ if(!matching.length) {
+  list.innerHTML='<div class="meta-empty"><strong>No source-linked Meta posts currently available for these filters.</strong><p>This is an archive collection gap, not a claim of no posts. Original platform permalinks and publication dates are required before a post appears in this ledger. Select a known public account below or import a documented export.</p></div>';
+  return;
+ }
+ list.innerHTML=matching.map(r=>
+  '<article class="meta-post"><div class="meta-post-top"><strong>'+esc(r.leader)+'</strong><span class="meta-pill">'+esc(r.platform)+'</span><span>'+esc(r.published_at)+'</span><span class="meta-pill warn">'+esc(r.verification_status==='verified'&&r.source_type==='original_permalink'?'Original permalink indexed':'User-supplied · unverified')+'</span></div>'+
+  '<h3>'+esc(r.post_type||'Public post')+'</h3><p>'+esc(r.text||'Caption not supplied. Open the original permalink to inspect it.')+'</p>'+
+  '<div class="meta-post-top">'+(r.topics||[]).map(x=>'<span class="meta-pill">'+esc(x)+'</span>').join('')+(r.districts||[]).map(x=>'<span class="meta-pill">'+esc(x)+'</span>').join('')+'</div>'+
+  '<a href="'+esc(safeUrl(r.url))+'" target="_blank" rel="noopener noreferrer">Open original '+esc(r.platform)+' permalink ↗</a></article>'
+ ).join('');
+}
+function renderDirectory(){
+ E('metaAccountRefCount').textContent=String((SEED.accounts||[]).reduce((n,a)=>n+['facebook','instagram'].filter(p=>a[p]?.status==='externally_referenced').length,0));
+ E('metaAccountDirectory').innerHTML=(SEED.accounts||[]).map(a=>
+  '<article class="meta-account"><strong>'+esc(a.leader)+'</strong><div class="meta-account-links">'+['facebook','instagram'].map(k=>{
+   const v=a[k]||{},url=v.url&&safeUrl(v.url);
+   const status=url?'Externally referenced · not verified':'No confirmed profile';
+   const source=v.evidence_url?safeUrl(v.evidence_url):'';
+   const search='https://www.google.com/search?q='+encodeURIComponent('site:'+k+'.com '+a.leader+' 2026');
+   return '<div><div class="platform">'+(k==='facebook'?'Facebook':'Instagram')+'</div><span class="status '+(url?'warning':'')+'">'+status+'</span>'+
+    (url?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">Candidate profile ↗</a>':'<span class="meta-missing">Account identity awaiting confirmation</span>')+
+    (source?'<a href="'+esc(source)+'" target="_blank" rel="noopener noreferrer">Public reference ↗</a>':'')+
+    '<a href="'+esc(search)+'" target="_blank" rel="noopener noreferrer">Search public indexed references ↗</a><small>Post coverage: not established</small></div>';
+  }).join('')+'</div></article>'
+ ).join('');
+ const leads=(SEED.discovery_leads||[]);
+ E('metaDiscoveryLeads').innerHTML=leads.length?leads.map(l=>
+  '<article class="meta-lead"><strong>'+esc(l.title||'Unconfirmed social reference')+'</strong><p>'+esc(l.description||'Original post permalink/date not independently verified')+'</p>'+
+  '<div class="meta-post-top"><span class="meta-pill warn">NOT A VERIFIED META POST</span><span>'+esc(l.leader||'')+'</span><span>'+esc(l.platform||'')+'</span></div>'+
+  (safeUrl(l.source_url)?'<a href="'+esc(safeUrl(l.source_url))+'" target="_blank" rel="noopener noreferrer">Read third-party report ↗</a>':'')+'</article>'
+ ).join(''):'<div class="meta-empty">No third-party leads indexed.</div>';
+}
+function setStatus(message,bad=false){E('metaImportStatus').textContent=message;E('metaImportStatus').classList.toggle('bad',bad)}
+function importData(input){
+ const source=Array.isArray(input)?input:(input&&Array.isArray(input.posts)?input.posts:null);
+ if(!source)throw Error('Expected a JSON array or an object containing a posts array');
+ if(!source.length)throw Error('No records found in input');
+ if(source.length>5000)throw Error('Import in batches of 5,000 or fewer posts');
+ const normalized=source.map((x,i)=>normalizeRow(x,i+1));
+ const known=new Set(rows().map(r=>r.platform+'|'+String(r.url).replace(/\/+$/,'')));
+ const additional=[];let duplicates=0;
+ for(const r of normalized){
+  const key=r.platform+'|'+r.url.replace(/\/+$/,'');
+  if(known.has(key)){duplicates++;continue}
+  known.add(key);additional.push(r);
+ }
+ if(!additional.length){setStatus('No new records. '+duplicates+' duplicate permalink(s) already indexed.');return}
+ saveLocal(local.concat(additional));
+ E('metaPaste').value='';E('metaFile').value='';
+ renderMeta();
+ setStatus('Imported '+additional.length+' permalink(s) into this browser; '+duplicates+' duplicate(s) skipped. All are marked USER-SUPPLIED / UNVERIFIED until independently checked.');
+}
+function parseCSV(src){
+ const cells=[];let row=[],field='',quoted=false;
+ for(let i=0;i<src.length;i++){
+  const ch=src[i];
+  if(ch==='"'){
+   if(quoted&&src[i+1]==='"'){field+='"';i++}
+   else quoted=!quoted;
+  }else if(ch===','&&!quoted){row.push(field);field=''}
+  else if((ch==='\n'||ch==='\r')&&!quoted){
+   if(ch==='\r'&&src[i+1]==='\n')i++;
+   row.push(field);cells.push(row);row=[];field='';
+  }else field+=ch;
+ }
+ if(quoted)throw Error('CSV has an unmatched quote');
+ row.push(field);if(row.some(v=>String(v).trim()))cells.push(row);
+ if(cells.length<2)throw Error('CSV needs header row and at least one post');
+ const keys=cells.shift().map(x=>x.replace(/^\uFEFF/,'').trim());
+ for(const name of ['leader','platform','published_at','url'])if(!keys.includes(name))throw Error('Missing CSV column '+name);
+ return cells.filter(r=>r.some(v=>String(v).trim())).map((r,i)=>{
+  if(r.length!==keys.length)throw Error('CSV row '+(i+2)+' has '+r.length+' values for '+keys.length+' headers');
+  return Object.fromEntries(keys.map((k,j)=>[k,r[j]]));
+ });
+}
+function exportData(format){
+ const list=rows().map(({leader,platform,published_at,url,text,topics,districts,post_type,source_type,verification_status})=>({leader,platform,published_at,url,text,topics,districts,post_type,source_type,verification_status}));
+ let content,mime,name;
+ if(format==='json'){content=JSON.stringify({window:SEED.window,posts:list},null,2);mime='application/json';name='cg-meta-2026-aug-nov.json'}
+ else {
+  const cols=['leader','platform','published_at','url','text','topics','districts','post_type','source_type','verification_status'];
+  const csvVal=v=>'"'+String(Array.isArray(v)?v.join('|'):(v??'')).replace(/"/g,'""')+'"';
+  content=cols.join(',')+'\n'+list.map(r=>cols.map(k=>csvVal(r[k])).join(',')).join('\n');
+  mime='text/csv;charset=utf-8';name='cg-meta-2026-aug-nov.csv';
+ }
+ const blob=new Blob([content],{type:mime});
+ const url=URL.createObjectURL(blob),anchor=document.createElement('a');
+ anchor.href=url;anchor.download=name;document.body.appendChild(anchor);anchor.click();anchor.remove();URL.revokeObjectURL(url);
+ setStatus('Exported '+list.length+' record(s) to '+name+'. Browser-local imports have not been published to GitHub.');
+}
+for(const name of LEADERS){const o=document.createElement('option');o.value=name;o.textContent=name;E('metaLeader').appendChild(o)}
+for(const name of TOPICS){const o=document.createElement('option');o.value=name;o.textContent=name;E('metaTopic').appendChild(o)}
+for(const id of ['metaLeader','metaPlatform','metaTopic','metaFrom','metaTo','metaQuery'])E(id).addEventListener('input',renderMeta);
+E('metaClearFilters').addEventListener('click',()=>{
+ E('metaLeader').value=E('metaPlatform').value=E('metaTopic').value='all';
+ E('metaFrom').value=DATE_START;E('metaTo').value=DATE_END;E('metaQuery').value='';renderMeta();
+});
+E('metaImportPaste').addEventListener('click',()=>{
+ try{importData(JSON.parse(E('metaPaste').value))}
+ catch(e){setStatus('Import rejected: '+String(e.message||e),true)}
+});
+E('metaImportFile').addEventListener('click',async()=>{
+ const file=E('metaFile').files?.[0];
+ if(!file){setStatus('Choose a JSON or CSV file first.',true);return}
+ if(file.size>3_500_000){setStatus('File over 3.5 MB; split your archive into smaller batches.',true);return}
+ try{const txt=await file.text();const csv=/\.csv$/i.test(file.name);importData(csv?parseCSV(txt):JSON.parse(txt))}
+ catch(e){setStatus('File import rejected: '+String(e.message||e),true)}
+});
+E('metaExportJson').addEventListener('click',()=>{try{exportData('json')}catch(e){setStatus('Export unavailable: '+e.message,true)}});
+E('metaExportCsv').addEventListener('click',()=>{try{exportData('csv')}catch(e){setStatus('Export unavailable: '+e.message,true)}});
+E('metaClearLocal').addEventListener('click',()=>{
+ if(!local.length){setStatus('No browser-local posts to clear.');return}
+ if(!window.confirm('Clear '+local.length+' browser-local Meta records? This does not affect GitHub.'))return;
+ saveLocal([]);renderMeta();setStatus('This browser’s imported records were cleared.');
+});
+loadLocal();renderDirectory();renderMeta();
+})();
+</script>
+
 </body></html>
