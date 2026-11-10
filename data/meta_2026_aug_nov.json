@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-10",
+  "window": {
+    "from": "2026-08-05",
+    "to": "2026-11-05",
+    "timezone": "Asia/Kolkata",
+    "inclusive": true
+  },
+  "scope": "Facebook and Instagram first-party posts authored by ten named Chhattisgarh leaders; exclude third-party reposts and unconfirmed handles",
+  "method": "Open-source identity research only. Facebook returned a temporary blocking notice and direct Instagram pages were unavailable to automated retrieval. No evasion or bulk access attempted. No first-party post permalink, content or creation timestamp is claimed to have been verified.",
+  "accounts": [
+    {
+      "leader": "Charan Das Mahant",
+      "facebook": {
+        "url": null,
+        "evidence_url": null,
+        "status": "unverified",
+        "note": "Do not guess the handle; identity confirmation is needed."
+      },
+      "instagram": {
+        "url": null,
+        "evidence_url": null,
+        "status": "unverified",
+        "note": "Do not guess the handle; identity confirmation is needed."
+      }
+    },
+    {
+      "leader": "Deepak Baij",
+      "facebook": {
+        "url": null,
+        "evidence_url": null,
+        "status": "unverified",
+        "note": "Do not guess the handle; identity confirmation is needed."
+      },
+      "instagram": {
+        "url": "https://www.instagram.com/deepak_baij/",
+        "evidence_url": "https://www.profileage.com/profile/deepak-baij/",
+        "status": "externally_referenced",
+        "note": "This address was linked or referenced publicly. Live Meta access and historical posts have not been authenticated."
+      }
+    },
+    {
+      "leader": "Bhupesh Baghel",
+      "facebook": {
+        "url": "https://www.facebook.com/BhupeshBaghelCG/",
+        "evidence_url": "https://www.indiatoday.in/amp/topic/bhupesh-baghel",
+        "status": "externally_referenced",
+        "note": "This address was linked or referenced publicly. Live Meta access and historical posts have not been authenticated."
+      },
+      "instagram": {
+        "url": "https://www.instagram.com/bhupeshbaghelinc/",
+        "evidence_url": "https://www.speakrj.com/audit/report/bhupeshbaghelinc/instagram",
+        "status": "externally_referenced",
+        "note": "This address was linked or referenced publicly. Live Meta access and historical posts have not been authenticated."
+      }
+    },
+    {
+      "leader": "T. S. Singh Deo",
+      "facebook": {
+        "url": "https://www.facebook.com/tssinghdeosurguja/",
+        "evidence_url": "https://www.wikidata.org/wiki/Q55081536",
+        "status": "externally_referenced",
+        "note": "This address was linked or referenced publicly. Live Meta access and historical posts have not been authenticated."
+      },
+      "instagram": {
+        "url": null,
+        "evidence_url": null,
+        "status": "unverified",
+        "note": "Do not guess the handle; identity confirmation is needed."
+      }
+    },
+    {
+      "leader": "Phulo Devi Netam",
+      "facebook": {
+        "url": null,
+        "evidence_url": null,
+        "status": "unverified",
+        "note": "Do not guess the handle; identity confirmation is needed."
+      },
+      "instagram": {
+        "url": null,
+        "evidence_url": null,
+        "status": "unverified",
+        "note": "Do not guess the handle; identity confirmation is needed."
+      }
+    },
+    {
+      "leader": "Jyotsna Charandas Mahant",
+      "facebook": {
+        "url": null,
+        "evidence_url": null,
+        "status": "unverified",
+        "note": "Do not guess the handle; identity confirmation is needed."
+      },
+      "instagram": {
+        "url": null,
+        "evidence_url": null,
+        "status": "unverified",
+        "note": "Do not guess the handle; identity confirmation is needed."
+      }
+    },
+    {
+      "leader": "Mohan Markam",
+      "facebook": {
+        "url": "https://www.facebook.com/MohanMarkamPCC",
+        "evidence_url": "https://en.wikipedia.org/wiki/Mohan_Markam",
+        "status": "externally_referenced",
+        "note": "This address was linked or referenced publicly. Live Meta access and historical posts have not been authenticated."
+      },
+      "instagram": {
+        "url": null,
+        "evidence_url": null,
+        "status": "unverified",
+        "note": "Do not guess the handle; identity confirmation is needed."
+      }
+    },
+    {
+      "leader": "Sandeep Sahu",
+      "facebook": {
+        "url": null,
+        "evidence_url": null,
+        "status": "unverified",
+        "note": "Do not guess the handle; identity confirmation is needed."
+      },
+      "instagram": {
+        "url": null,
+        "evidence_url": null,
+        "status": "unverified",
+        "note": "Do not guess the handle; identity confirmation is needed."
+      }
+    },
+    {
+      "leader": "Devendra Yadav",
+      "facebook": {
+        "url": "https://www.facebook.com/dyadav.bhilai.official/",
+        "evidence_url": "https://in.linkedin.com/in/devendra-yadav-a59b17262",
+        "status": "externally_referenced",
+        "note": "This address was linked or referenced publicly. Live Meta access and historical posts have not been authenticated."
+      },
+      "instagram": {
+        "url": "https://www.instagram.com/devendra.yadav.official/",
+        "evidence_url": "https://socialveins.com/influencer/instagram/devendra.yadav.official",
+        "status": "externally_referenced",
+        "note": "This address was linked or referenced publicly. Live Meta access and historical posts have not been authenticated."
+      }
+    },
+    {
+      "leader": "Umesh Patel",
+      "facebook": {
+        "url": "https://www.facebook.com/umeshnandkumarpatel/",
+        "evidence_url": "https://umeshpatel.online/",
+        "status": "externally_referenced",
+        "note": "This address was linked or referenced publicly. Live Meta access and historical posts have not been authenticated."
+      },
+      "instagram": {
+        "url": "https://www.instagram.com/umeshnandkumarpatel/",
+        "evidence_url": "https://umeshpatel.online/",
+        "status": "externally_referenced",
+        "note": "This address was linked or referenced publicly. Live Meta access and historical posts have not been authenticated."
+      }
+    }
+  ],
+  "posts": [],
+  "discovery_leads": [
+    {
+      "leader": "Bhupesh Baghel",
+      "platform": "Facebook",
+      "title": "Publisher describes a Facebook political poster on PM housing debate",
+      "source_url": "https://www.haribhoomi.com/state-local/chhattishgarh/news/raipur-poster-war-pm-s-residence-bhupesh-baghel-vijay-sharma-113106",
+      "source_type": "third_party_press",
+      "exact_post_url": null,
+      "post_published_at": null,
+      "description": "Hari Bhoomi refers to a Facebook post by Baghel about a debate with Vijay Sharma. The original post URL and exact publication timestamp were not independently retrieved, so this item is only a discovery lead, NOT a verified post.",
+      "status": "needs_original_permalink_and_timestamp",
+      "topics": [
+        "Governance"
+      ]
+    }
+  ],
+  "issue_taxonomy": [
+    "Tribal Issues",
+    "Religion / Hinduism",
+    "Governance",
+    "Minerals",
+    "Mining"
+  ],
+  "post_schema": {
+    "id": "unique-id",
+    "leader": "one of ten names",
+    "platform": "Facebook or Instagram",
+    "published_at": "2026-08-05",
+    "url": "https://www.facebook.com/.../posts/... or https://www.instagram.com/p/... or /reel/...",
+    "text": "public post caption or documented excerpt",
+    "topics": [
+      "Governance"
+    ],
+    "districts": [
+      "Raipur"
+    ],
+    "post_type": "post / reel / video / photo",
+    "source_type": "original_permalink",
+    "verification_status": "verified",
+    "verified_at": "ISO timestamp",
+    "evidence_url": "independent source or original link"
+  },
+  "not_collected_note": "A zero count denotes no independently verified direct Meta post in this research build; it does not establish zero actual posts."
+}
