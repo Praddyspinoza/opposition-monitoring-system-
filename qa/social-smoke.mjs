@@ -26,7 +26,7 @@ assert.equal(document.querySelectorAll('#siAccountDirectory .si-account').length
 assert.equal(document.querySelectorAll('#siAccountDirectory .si-acc-platforms>div').length,30,'30 social profile slots');
 assert.equal(document.querySelectorAll('#siLeader option').length,11,'all leader filters');
 assert.equal(document.querySelectorAll('#siTopic option').length,6,'all five categories');
-assert.equal(E('siMatches').textContent,'25 evidence items','all evidence cards counted');
+assert.equal(E('siMatches').textContent,'26 evidence items','all evidence cards counted');
 E('siKind').value='x';E('siKind').dispatchEvent(new Event('change',{bubbles:true}));
 assert.equal(E('siMatches').textContent,'11 evidence items','X filter counts original permalinks only');
 assert.equal(document.querySelectorAll('#siEvidenceList .si-card a[href^="https://x.com/"]').length,11,'X links open original statuses');
@@ -37,7 +37,7 @@ assert.equal(E('siMatches').textContent,'2 evidence items','tribal topic tags no
 E('siFrom').value='2026-09-01';E('siFrom').dispatchEvent(new Event('change',{bubbles:true}));
 assert.equal(E('siMatches').textContent,'0 evidence items','date filter works');
 E('siReset').click();
-assert.equal(E('siMatches').textContent,'25 evidence items','reset restores sources');
+assert.equal(E('siMatches').textContent,'26 evidence items','reset restores sources');
 E('siKind').value='meta';E('siKind').dispatchEvent(new Event('change',{bubbles:true}));
 assert.equal(E('siMatches').textContent,'1 evidence item','Facebook press reference but no fake Instagram posts');
 assert.match(E('siEvidenceList').textContent,/not a retrieved first-party social post/i);
