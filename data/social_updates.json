@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "last_checked_utc": "2026-11-10T09:48:47.378650+00:00",
+  "collection_status": "complete_rss_discovery_run",
+  "queries_attempted": 10,
+  "requests_succeeded": 10,
+  "issues": [],
+  "limitations": "Google News publisher discovery only. It does not authenticate individual X, Facebook, or Instagram posts. RSS links may redirect to publisher.",
+  "leads": [
+    {
+      "id": "RSS-e1461487d7b72866",
+      "date": "2026-08-23",
+      "leaders": [
+        "Bhupesh Baghel"
+      ],
+      "platform": "Facebook",
+      "topics": [],
+      "title": "Dainik Savera. . Raja Warring ਨੇ Bhupesh Baghel ਨੂੰ ਲੈ ਕੇ ਕੀਤਾ ਵੱਡਾ ਟਵੀਟ - Facebook",
+      "summary": "Dainik Savera. . Raja Warring ਨੇ Bhupesh Baghel ਨੂੰ ਲੈ ਕੇ ਕੀਤਾ ਵੱਡਾ ਟਵੀਟ Facebook",
+      "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxQTklZYk9iTVhkRTRyZEkzWEpBU2hPcnpOc1NWbHRxcnZzX01TWFFvU3o2eWVZWllIX1o2cHk0N3hzSkx6cU96RjYwSlY1OXdOVUtSdG5icXJtbnBST0FKc1BXTjQtczlLZnI5aTZYeUNHZXRsS1Z4aFRqaWoyYmpUQWdiQ3pIUlhKbm1XbWw2MGNQaF8tM3BPZW5VcjVQZjQ2SThxcGtyYzkyQlQxcmdaSkdEc0Vsc21JWVhjb085dmk5OUoxNTZrQjk0M1MzWXRaVnBSbUtkMUtYQXJVcTNlVnhUbGtNN0RYbDBqU09Ubll5c1FnZEtiMksxZDFoQ3Jpa055WXBLV0M5WHRIVGdKMmZEakp2OFJOb0JNeFpVeFpQNlNERS13Y05nc0VySWxSU1Z2Yl9pVDgydjRwc3ZGWXI0YkN4eVpGZ3JfVGhUTDZIVnRiUURZbEZRaEtUQnFpWUozV2c4ZGJpbFVRblVhSnd6bHBLVjJ4SjUyUnBzVnpOTjZTVWM4cDNqa3pEa2JhZFdmRFg3eGFKQQ?oc=5",
+      "publisher": "Facebook",
+      "source_type": "google_news_rss_discovery",
+      "status": "unverified_press_discovery",
+      "review_note": "RSS publisher link, not an authenticated original X/Meta post"
+    }
+  ]
+}

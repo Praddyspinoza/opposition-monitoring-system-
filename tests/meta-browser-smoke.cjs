@@ -43,7 +43,7 @@ function assert(cond,msg){if(!cond)throw Error(msg)}
     assert((await page.locator('#metaLocalCount').innerText()).trim()==='0',spec.name+': local clearing failed');
    }else{
     assert(await page.locator('#meta').isVisible(),spec.name+': no-JS fallback not readable');
-    assert((await page.locator('#meta').innerText()).includes('Collection status'),spec.name+': status note absent');
+    assert((await page.locator('#meta').innerText()).includes('Meta primary-post status'),spec.name+': original Meta evidence warning absent');
    }
    const overflow=await page.evaluate(()=>Math.max(0,document.documentElement.scrollWidth-window.innerWidth));
    assert(overflow<=28,spec.name+': horizontal overflow '+overflow+'px');

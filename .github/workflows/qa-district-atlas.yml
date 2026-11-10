@@ -6,6 +6,7 @@ on:
       - 'feature/district-timeline-v8'
       - 'feature/33-district-ten-leader-five-topic-dossiers'
       - 'feature/meta-facebook-instagram-archive-v10'
+      - 'feature/social-evidence-x-meta-v11'
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -26,6 +27,8 @@ jobs:
         run: node qa/smoke.mjs
       - name: Verify Meta archive and import validation
         run: node qa/meta-smoke.mjs
+      - name: Verify X / Meta social evidence archive
+        run: node qa/social-smoke.mjs
 
   browser:
     if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
@@ -45,6 +48,8 @@ jobs:
         run: node tests/dossier-browser-smoke.cjs
       - name: Verify separate Facebook / Instagram tab
         run: node tests/meta-browser-smoke.cjs
+      - name: Verify evidence-first X and Meta experience
+        run: node tests/social-browser-smoke.cjs
       - name: Save browser QA screenshots
         if: always()
         uses: actions/upload-artifact@v4
@@ -53,4 +58,5 @@ jobs:
           path: |
             tests/v9-*.png
             tests/meta-*.png
+            tests/social-*.png
           if-no-files-found: ignore
