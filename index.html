@@ -1166,16 +1166,17 @@ const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 function urlSafe(value){try{const u=new URL(value);return u.protocol==='https:'?u.href:null}catch(e){return null}}
 const LEADERS=(SEED.x_accounts||[]).map(a=>a.leader);
 const TOPICS=['Tribal Issues','Religion / Hinduism','Governance','Minerals','Mining'];
-let limit=18,updates=[];
+let limit=18,updates=[],apiPosts=[];
 function norm(v){return String(v||'').trim().toLowerCase()}
 function sameTopic(a,b){return norm(a)===norm(b)}
 function isMetaOriginal(r){return r && r.verification_status==='verified' && r.source_type==='original_permalink' && ['Facebook','Instagram'].includes(r.platform) && urlSafe(r.url)}
 function allRows(){
  const x=(SEED.x_posts||[]).map(r=>({id:r.id,date:r.date,leaders:[r.leader],platform:'X',topics:r.topics||[],title:r.title,summary:r.summary,url:r.url,corroboration_url:r.corroboration_url,kind:'x',publisher:r.publisher||'X / publisher embedded',verification:r.verification}));
+ const api=apiPosts.filter(r=>r&&r.source_type==='authenticated_x_api').map(r=>({...r,kind:'x_api'}));
  const press=(SEED.press_leads||[]).concat(updates).map(r=>({id:r.id,date:r.date,leaders:r.leaders||[],platform:r.platform||'Social / unconfirmed',topics:r.topics||[],title:r.title,summary:r.summary,url:r.url,publisher:r.publisher,kind:'press',verification:r.status||'Publisher report; original post not authenticated'}));
  const originals=(META.posts||[]).filter(isMetaOriginal).map(r=>({id:r.id,date:r.published_at,leaders:[r.leader],platform:r.platform,topics:r.topics||[],title:'Verified original '+r.platform+' post',summary:r.text||'Caption not supplied',url:r.url,kind:'meta_original',publisher:r.platform,verification:'First-party permalink with documented verification'}));
  const seen=new Set();
- return x.concat(originals,press).filter(r=>{
+ return api.concat(x,originals,press).filter(r=>{
   if(!r||!urlSafe(r.url)||!r.date||!LEADERS.some(l=>r.leaders.includes(l)))return false;
   const key=(r.kind==='press'?'press:':'post:')+urlSafe(r.url).split('?')[0];
   if(seen.has(key))return false;seen.add(key);return true;
@@ -1191,9 +1192,9 @@ const selectOptions=(id,items)=>{const node=E(id);items.forEach(value=>{const op
 selectOptions('siLeader',LEADERS);
 selectOptions('siTopic',TOPICS);
 function card(r){
- const original=r.kind==='x'||r.kind==='meta_original', x=r.kind==='x';
- const label=x?'Publisher-linked original X status':r.kind==='meta_original'?'Verified original '+r.platform+' post':r.platform==='Social / unconfirmed'?'Social discussion · platform unspecified':r.platform+' · reported by press';
- const detail=original?(x?'X permalink embedded or cited by publisher; direct platform API retrieval not established': 'Original Meta permalink and date verified by documented source'):'This is a dated publisher reference, not a retrieved first-party social post';
+ const original=r.kind==='x'||r.kind==='x_api'||r.kind==='meta_original', x=r.kind==='x'||r.kind==='x_api';
+ const label=x?(r.kind==='x_api'?'Authenticated X API post':'Publisher-linked original X status'):r.kind==='meta_original'?'Verified original '+r.platform+' post':r.platform==='Social / unconfirmed'?'Social discussion · platform unspecified':r.platform+' · reported by press';
+ const detail=original?(x?(r.kind==='x_api'?'X original text and author retrieved using authorized API':'X permalink embedded or cited by publisher; direct platform API retrieval not established'):'Original Meta permalink and date verified by documented source'):'This is a dated publisher reference, not a retrieved first-party social post';
  const primary=urlSafe(r.url);
  const secondary=urlSafe(r.corroboration_url);
  return '<article class="si-card">'+
@@ -1210,13 +1211,13 @@ function card(r){
 }
 function render(){
  const rows=allRows();
- E('siXCount').textContent=String(rows.filter(r=>r.kind==='x').length);
+ E('siXCount').textContent=String(rows.filter(r=>r.kind==='x'||r.kind==='x_api').length);
  E('siPressCount').textContent=String(rows.filter(r=>r.kind==='press').length);
  E('siMetaCount').textContent=String(rows.filter(r=>r.kind==='meta_original').length);
  const kind=E('siKind').value,leader=E('siLeader').value,platform=E('siPlatform').value,topic=E('siTopic').value;
  const from=E('siFrom').value||'2026-08-05',to=E('siTo').value||TO_DEFAULT, query=norm(E('siQuery').value);
  const filtered=rows.filter(r=>
-  (kind==='all'||(kind==='x'&&r.kind==='x')||(kind==='press'&&r.kind==='press')||(kind==='meta'&&(r.platform==='Facebook'||r.platform==='Instagram'))) &&
+  (kind==='all'||(kind==='x'&&(r.kind==='x'||r.kind==='x_api'))||(kind==='press'&&r.kind==='press')||(kind==='meta'&&(r.platform==='Facebook'||r.platform==='Instagram'))) &&
   (leader==='all'||r.leaders.includes(leader)) &&
   (platform==='all'||r.platform===platform) &&
   (topic==='all'||(r.topics||[]).some(t=>sameTopic(t,topic))) &&
@@ -1258,6 +1259,11 @@ if(location.protocol!=='file:'){
   E('siRefreshStatus').textContent=updates.length?'Rolling public-source leads available':'Historical archive + scheduled checks';
   render();
  }).catch(()=>{E('siRefreshStatus').textContent='Historical archive available';});
+ fetch('data/verified_x_posts.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('no authorized X API archive');return r.json()}).then(data=>{
+  apiPosts=Array.isArray(data.posts)?data.posts.filter(r=>r && r.source_type==='authenticated_x_api' && urlSafe(r.url) && (r.leaders||[]).some(l=>LEADERS.includes(l))):[];
+  if(apiPosts.length)E('siRefreshStatus').textContent='Authenticated X API posts available';
+  render();
+ }).catch(()=>{});
 }
 })();
 </script>
