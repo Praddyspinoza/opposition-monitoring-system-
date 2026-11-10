@@ -1,0 +1,420 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-10",
+  "scope": "Public first-party X permalinks corroborated by press and separately attributed Meta/X press-discovery leads. All ten leaders, five subjects, 5 Aug–5 Nov 2026.",
+  "window": {
+    "from": "2026-08-05",
+    "to": "2026-11-05",
+    "timezone": "Asia/Kolkata"
+  },
+  "method": "No covert browser evasion or bypass. An original permalink linked in a publisher is not necessarily an authenticated retrieved post; Facebook/Instagram individual originals remain unverified. Press leads are not counted as original platform posts.",
+  "x_accounts": [
+    {
+      "leader": "Charan Das Mahant",
+      "handle": "DrCharandas",
+      "profile_url": "https://x.com/DrCharandas",
+      "reference": "https://timesofindia.indiatimes.com/city/raipur/charan-das-mahant-to-be-leader-of-opposition-in-assembly-baij-to-continue-as-cg-cong-chief/articleshow/106050826.cms",
+      "identity_level": "publicly_referenced_candidate"
+    },
+    {
+      "leader": "Deepak Baij",
+      "handle": "DeepakBaijINC",
+      "profile_url": "https://x.com/DeepakBaijINC",
+      "reference": "https://www.profileage.com/profile/deepak-baij/",
+      "identity_level": "publicly_referenced_candidate"
+    },
+    {
+      "leader": "Bhupesh Baghel",
+      "handle": "bhupeshbaghel",
+      "profile_url": "https://x.com/bhupeshbaghel",
+      "reference": "https://www.indiatoday.in/topic/bhupesh-baghel",
+      "identity_level": "publicly_referenced_candidate"
+    },
+    {
+      "leader": "T. S. Singh Deo",
+      "handle": "TS_SinghDeo",
+      "profile_url": "https://x.com/TS_SinghDeo",
+      "reference": "https://w.twstalker.com/TS_Singhdeo",
+      "identity_level": "publicly_referenced_candidate"
+    },
+    {
+      "leader": "Phulo Devi Netam",
+      "handle": null,
+      "profile_url": null,
+      "reference": null,
+      "identity_level": "unknown"
+    },
+    {
+      "leader": "Jyotsna Charandas Mahant",
+      "handle": "jyotsnamahant",
+      "profile_url": "https://x.com/jyotsnamahant",
+      "reference": "https://twstalker.com/jyotsnamahant",
+      "identity_level": "publicly_referenced_candidate"
+    },
+    {
+      "leader": "Mohan Markam",
+      "handle": "MohanMarkamPCC",
+      "profile_url": "https://x.com/MohanMarkamPCC",
+      "reference": "https://w.twstalker.com/search/Mohan",
+      "identity_level": "publicly_referenced_candidate"
+    },
+    {
+      "leader": "Sandeep Sahu",
+      "handle": null,
+      "profile_url": null,
+      "reference": null,
+      "identity_level": "unknown"
+    },
+    {
+      "leader": "Devendra Yadav",
+      "handle": "Devendra_1925",
+      "profile_url": "https://x.com/Devendra_1925",
+      "reference": "https://in.linkedin.com/in/devendra-yadav-a59b17262",
+      "identity_level": "publicly_referenced_candidate"
+    },
+    {
+      "leader": "Umesh Patel",
+      "handle": "umeshpatelcgpyc",
+      "profile_url": "https://x.com/umeshpatelcgpyc",
+      "reference": "https://twstalker.com/umeshpatelcgpyc",
+      "identity_level": "publicly_referenced_candidate"
+    }
+  ],
+  "x_posts": [
+    {
+      "id": "CG-V6-0164",
+      "date": "2026-10-26",
+      "leader": "Bhupesh Baghel",
+      "platform": "X",
+      "topics": [
+        "Governance"
+      ],
+      "title": "Baghel X post questions arms-law enforcement in gun-video controversy",
+      "summary": "Bansal News embeds the 26 October post and attributes the questions to Baghel. Post is publisher-corroborated; X did not make the original text directly retrievable for this research.",
+      "url": "https://x.com/bhupeshbaghel/status/2114585926240465316",
+      "corroboration_url": "https://bansalnews.com/chhattisgarh/raipur/cg-firing-controversy-sp-yashpal-singh-son-hindi-news-rkg-12755317",
+      "publisher": "X · bhupeshbaghel",
+      "source_type": "original_X_permalink_corroborated_by_publisher",
+      "verification": "Publisher-embedded permalink and attributed date; X original page/API could not be independently retrieved",
+      "date_method": "publisher_and_X_snowflake"
+    },
+    {
+      "id": "CG-0149",
+      "date": "2026-09-15",
+      "leader": "Bhupesh Baghel",
+      "platform": "X",
+      "topics": [
+        "Governance"
+      ],
+      "title": "Baghel X response following public PMAY policy debate",
+      "summary": "Nishaanebaz embeds Baghel’s X response to Vijay Sharma on the PM housing scheme. Post date/account and partial text can be corroborated at publisher; on-platform retrieval is blocked.",
+      "url": "https://x.com/bhupeshbaghel/status/2099766655392116964",
+      "corroboration_url": "https://nishaanebaz.com/state-chhattisgarh-bhupesh-baghel-vijay-sharma-pm-awas-debate-cartoon-war/",
+      "publisher": "X · bhupeshbaghel",
+      "source_type": "original_X_permalink_corroborated_by_publisher",
+      "verification": "Publisher-embedded permalink and attributed date; X original page/API could not be independently retrieved",
+      "date_method": "publisher_and_X_snowflake"
+    },
+    {
+      "id": "CG-0148",
+      "date": "2026-08-10",
+      "leader": "Deepak Baij",
+      "platform": "X",
+      "topics": [
+        "Tribal issues",
+        "Governance"
+      ],
+      "title": "Baij X post raises Adivasi culture and identity concerns",
+      "summary": "Second distinct publisher-embedded X post from Baij on tribal culture, identity and political representation. Direct X access denied; publisher reproduces the post text and account/date.",
+      "url": "https://x.com/DeepakBaijINC/status/2086769976183230616",
+      "corroboration_url": "https://nishaanebaz.com/politics-chhattisgarh-pcc-chief-deepak-baij-attacks-bjp-on-world-tribal-day/",
+      "publisher": "X · DeepakBaijINC",
+      "source_type": "original_X_permalink_corroborated_by_publisher",
+      "verification": "Publisher-embedded permalink and attributed date; X original page/API could not be independently retrieved",
+      "date_method": "publisher_and_X_snowflake"
+    },
+    {
+      "id": "CG-0147",
+      "date": "2026-08-10",
+      "leader": "Deepak Baij",
+      "platform": "X",
+      "topics": [
+        "Tribal issues",
+        "Governance"
+      ],
+      "title": "Baij X post questions BJP leaders’ silence on World Tribal Day",
+      "summary": "Publisher-embedded original X status URL: Baij criticised the absence of World Tribal Day greetings by ruling party leaders. Direct X access denied; publisher retains the embedded post and date.",
+      "url": "https://x.com/DeepakBaijINC/status/2086768791606960436",
+      "corroboration_url": "https://nishaanebaz.com/politics-chhattisgarh-pcc-chief-deepak-baij-attacks-bjp-on-world-tribal-day/",
+      "publisher": "X · DeepakBaijINC",
+      "source_type": "original_X_permalink_corroborated_by_publisher",
+      "verification": "Publisher-embedded permalink and attributed date; X original page/API could not be independently retrieved",
+      "date_method": "publisher_and_X_snowflake"
+    },
+    {
+      "id": "CG-0146",
+      "date": "2026-08-08",
+      "leader": "Charan Das Mahant",
+      "platform": "X",
+      "topics": [
+        "Religion / Hinduism",
+        "Governance"
+      ],
+      "title": "Mahant X post disputes omission of Chhattisgarh Mahtari from Hareli festival poster",
+      "summary": "Publisher-embedded original X status URL. Mahant criticized the festival publicity and linked the imagery to Chhattisgarh cultural identity. X direct response unavailable; quotation corroborated by Hari Bhoomi.",
+      "url": "https://x.com/DrCharandas/status/2086116504903516402",
+      "corroboration_url": "https://www.haribhoomi.com/state-local/chhattishgarh/news/raipur-hareli-tihar-chhattisgarh-mahtari-picture-missing-charandas-mahant-107895",
+      "publisher": "X · DrCharandas",
+      "source_type": "original_X_permalink_corroborated_by_publisher",
+      "verification": "Publisher-embedded permalink and attributed date; X original page/API could not be independently retrieved",
+      "date_method": "publisher_and_X_snowflake"
+    }
+  ],
+  "press_leads": [
+    {
+      "id": "CG-0134",
+      "date": "2026-11-03",
+      "leaders": [
+        "Bhupesh Baghel"
+      ],
+      "platform": "X",
+      "topics": [
+        "Religion / Hinduism"
+      ],
+      "title": "Deshbandhu reproduces Baghel’s reported X reaction to Ram–Krishna remarks",
+      "summary": "The newspaper quotes a statement said to be from Baghel on X about a Hindu religious speaker; original X status URL not located, so classification is press reporting, NOT an ingested original post.",
+      "url": "https://www.deshbandhu.co.in/amp/madhyapardesh/dhirendra-shastri-krishna-comment-controversy-329638",
+      "publisher": "Deshbandhu",
+      "source_type": "publisher_report",
+      "status": "A dated press reference; the underlying individual post is NOT authenticated by this record"
+    },
+    {
+      "id": "CG-V6-0162",
+      "date": "2026-10-28",
+      "leaders": [
+        "Deepak Baij"
+      ],
+      "platform": "Social / unconfirmed",
+      "topics": [
+        "Governance"
+      ],
+      "title": "INH News reports BJP-Congress social-media poster dispute naming Baij",
+      "summary": "INH reports social-media exchanges between parties and references the Chhattisgarh PCC president; political jibes are described as allegations, not facts.",
+      "url": "https://www.inhnews.in/News/chhattisgarh-bjp-congress-poster-war-smriti-irani",
+      "publisher": "INH News",
+      "source_type": "publisher_report",
+      "status": "A dated press reference; the underlying individual post is NOT authenticated by this record"
+    },
+    {
+      "id": "CG-V6-0163",
+      "date": "2026-10-27",
+      "leaders": [
+        "Bhupesh Baghel"
+      ],
+      "platform": "X",
+      "topics": [
+        "Governance"
+      ],
+      "title": "Baghel questions official handling of circulated firearm video",
+      "summary": "Bansal reports Baghel questioned public officials about a circulating gun-use clip. The IG said the footage was old; the article embeds an X status attributed to Baghel.",
+      "url": "https://bansalnews.com/chhattisgarh/raipur/cg-firing-controversy-sp-yashpal-singh-son-hindi-news-rkg-12755317",
+      "publisher": "Bansal News MP-CG",
+      "source_type": "publisher_report",
+      "status": "A dated press reference; the underlying individual post is NOT authenticated by this record"
+    },
+    {
+      "id": "CG-0071",
+      "date": "2026-09-16",
+      "leaders": [
+        "Bhupesh Baghel",
+        "Deepak Baij"
+      ],
+      "platform": "Social / unconfirmed",
+      "topics": [
+        "Governance"
+      ],
+      "title": "Baghel and Baij question expenses and administration of BJP lamp campaign",
+      "summary": "Outlet reports Baghel referring to a social post that asked whether public funds supported a political lamp-lighting campaign; original post URL not supplied.",
+      "url": "https://amritsandesh.com/diya-of-blessings-campaign-target-of-2-5-million-set-for-the-capital-bhupesh-baghel-targets-the-government-over-expenditure/",
+      "publisher": "Amrit Sandesh",
+      "source_type": "publisher_report",
+      "status": "A dated press reference; the underlying individual post is NOT authenticated by this record"
+    },
+    {
+      "id": "CG-V6-0175",
+      "date": "2026-09-15",
+      "leaders": [
+        "Bhupesh Baghel"
+      ],
+      "platform": "Social / unconfirmed",
+      "topics": [
+        "Governance"
+      ],
+      "title": "Bansal reports advance coverage of PMAY Press Club debate",
+      "summary": "Publisher reports both sides preparing to discuss housing scheme numbers at the Press Club; check a post-event report before treating every proposed remark as delivered.",
+      "url": "https://bansalnews.com/chhattisgarh/vijay-sharma-bhupesh-baghel-live-debate-pm-awas-yojana-raipur-press-club-xap-12533997",
+      "publisher": "Bansal News MP-CG",
+      "source_type": "publisher_report",
+      "status": "A dated press reference; the underlying individual post is NOT authenticated by this record"
+    },
+    {
+      "id": "CG-V6-0174",
+      "date": "2026-09-15",
+      "leaders": [
+        "Bhupesh Baghel"
+      ],
+      "platform": "Social / unconfirmed",
+      "topics": [
+        "Governance"
+      ],
+      "title": "INH reports PMAY debate poster and response exchange",
+      "summary": "Separate INH report covers the parties’ poster response around the housing programme debate. Statements remain attributed.",
+      "url": "https://www.inhnews.in/news/pm-awas-poster-war-bhupesh-baghel-vijay-sharma",
+      "publisher": "INH News",
+      "source_type": "publisher_report",
+      "status": "A dated press reference; the underlying individual post is NOT authenticated by this record"
+    },
+    {
+      "id": "CG-0154",
+      "date": "2026-09-15",
+      "leaders": [
+        "Bhupesh Baghel"
+      ],
+      "platform": "Social / unconfirmed",
+      "topics": [
+        "Governance"
+      ],
+      "title": "Baghel and Vijay Sharma trade PM housing figures in Raipur public debate",
+      "summary": "Report lays out each side’s disputed PMAY numbers and references Baghel’s social-media response.",
+      "url": "https://www.hindustantimes.com/india-news/chhattisgarh-dy-cm-sharma-baghel-trade-barbs-over-pm-awas-figures-in-raipur-101789488204695.html",
+      "publisher": "Hindustan Times",
+      "source_type": "publisher_report",
+      "status": "A dated press reference; the underlying individual post is NOT authenticated by this record"
+    },
+    {
+      "id": "CG-0152",
+      "date": "2026-09-15",
+      "leaders": [
+        "Bhupesh Baghel"
+      ],
+      "platform": "X",
+      "topics": [
+        "Governance"
+      ],
+      "title": "PMAY debate spills into X posts following Baghel–Sharma exchange",
+      "summary": "Publisher describes the televised public debate and embeds a Baghel X post; figures on housing remain attributed to respective political speakers.",
+      "url": "https://nishaanebaz.com/state-chhattisgarh-bhupesh-baghel-vijay-sharma-pm-awas-debate-cartoon-war/",
+      "publisher": "Nishaanebaz",
+      "source_type": "publisher_report",
+      "status": "A dated press reference; the underlying individual post is NOT authenticated by this record"
+    },
+    {
+      "id": "CG-0095",
+      "date": "2026-08-29",
+      "leaders": [
+        "T. S. Singh Deo"
+      ],
+      "platform": "Social / unconfirmed",
+      "topics": [
+        "Governance"
+      ],
+      "title": "Singh Deo arrives in Jagdalpur; questions police response to violence",
+      "summary": "Singh Deo visited Jagdalpur before a Congress training camp and commented on police responses to unrest in Bilaspur.",
+      "url": "https://www.haribhoomi.com/state-local/chhattishgarh/news/jagdalpur-ts-singhdeo-bilaspur-violence-congress-elections-social-media-110649",
+      "publisher": "Hari Bhoomi",
+      "source_type": "publisher_report",
+      "status": "A dated press reference; the underlying individual post is NOT authenticated by this record"
+    },
+    {
+      "id": "CG-V6-0183",
+      "date": "2026-08-06",
+      "leaders": [
+        "Bhupesh Baghel"
+      ],
+      "platform": "X",
+      "topics": [
+        "Governance"
+      ],
+      "title": "Nai Dunia reports Baghel’s X criticism of CGPSC sub-inspector result names",
+      "summary": "Nai Dunia reports that Baghel criticised names appearing in a police recruitment preliminary merit list on X; the commission offered an explanation. The publisher article confirms his attributed response but does not provide an original X status URL.",
+      "url": "https://www.naidunia.com/chhattisgarh/raipur-cgpsc-si-result-row-space-rani-controversy-sub-inspector-merit-list-news-8455789",
+      "publisher": "Nai Dunia",
+      "source_type": "publisher_report",
+      "status": "A dated press reference; the underlying individual post is NOT authenticated by this record"
+    },
+    {
+      "id": "CG-V6-0170",
+      "date": "2026-09-22",
+      "leaders": [
+        "Deepak Baij",
+        "Charan Das Mahant",
+        "Bhupesh Baghel",
+        "T. S. Singh Deo"
+      ],
+      "platform": "Social / unconfirmed",
+      "topics": [
+        "Governance",
+        "Religion / Hinduism"
+      ],
+      "title": "Grand News covers training camp for 74 Congress block presidents",
+      "summary": "Grand News documents the completed Raipur-area training programme with sessions attended by Baij, Mahant, Singh Deo and Baghel. Baghel was reported discussing religion and secularism; source is the channel’s website article, not a verified YouTube upload.",
+      "url": "https://grandnews.in/2026/09/22/three-day-training-camp-for-74-congress-block-presidents-concludes-training-focused-on-organizational-strengthening-social-media-and-election-preparations/",
+      "publisher": "Grand News",
+      "source_type": "publisher_report",
+      "status": "A dated press reference; the underlying individual post is NOT authenticated by this record"
+    },
+    {
+      "id": "CG-0151",
+      "date": "2026-08-10",
+      "leaders": [
+        "Deepak Baij"
+      ],
+      "platform": "X",
+      "topics": [
+        "Tribal issues",
+        "Governance"
+      ],
+      "title": "Baij criticism on World Tribal Day with two embedded original X posts",
+      "summary": "Publisher quotes two separately linked Baij X statuses about tribal identity, land and ruling-party statements; treats assertions as the leader’s opinions.",
+      "url": "https://nishaanebaz.com/politics-chhattisgarh-pcc-chief-deepak-baij-attacks-bjp-on-world-tribal-day/",
+      "publisher": "Nishaanebaz",
+      "source_type": "publisher_report",
+      "status": "A dated press reference; the underlying individual post is NOT authenticated by this record"
+    },
+    {
+      "id": "CG-0150",
+      "date": "2026-08-09",
+      "leaders": [
+        "Charan Das Mahant"
+      ],
+      "platform": "Social / unconfirmed",
+      "topics": [
+        "Religion / Hinduism",
+        "Governance"
+      ],
+      "title": "Mahant questions absence of Chhattisgarh Mahtari in Hareli festival poster",
+      "summary": "Hari Bhoomi includes a dated post from Mahant and attributes his criticism of the festival poster to him.",
+      "url": "https://www.haribhoomi.com/state-local/chhattishgarh/news/raipur-hareli-tihar-chhattisgarh-mahtari-picture-missing-charandas-mahant-107895",
+      "publisher": "Hari Bhoomi",
+      "source_type": "publisher_report",
+      "status": "A dated press reference; the underlying individual post is NOT authenticated by this record"
+    },
+    {
+      "id": "EXT-2026-09-16-FB",
+      "date": "2026-09-16",
+      "leaders": [
+        "Bhupesh Baghel"
+      ],
+      "platform": "Facebook",
+      "topics": [
+        "Governance"
+      ],
+      "title": "Publisher refers to Baghel’s Facebook poster and PM housing figures debate",
+      "summary": "Hari Bhoomi describes a Facebook publicity exchange about PMAY. The original author post permalink and timestamp were not independently accessible; this is a press-discovery lead only.",
+      "url": "https://www.haribhoomi.com/state-local/chhattishgarh/news/raipur-poster-war-pm-s-residence-bhupesh-baghel-vijay-sharma-113106",
+      "publisher": "Hari Bhoomi",
+      "source_type": "publisher_report",
+      "status": "Original Facebook post not retrieved"
+    }
+  ]
+}
