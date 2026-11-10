@@ -45,7 +45,7 @@ function check(condition,message){if(!condition)throw Error(message)}
     await page.locator('#siMore').click();
     check(await page.locator('#siEvidenceList .si-card').count()===19,spec.name+': show-more button missing final source');
     await page.locator('#siAccountsDetails summary').click();
-    check(await page.locator('#siAccountsDetails').getAttribute('open')!==null,spec.name+': candidate account directory won't open');
+    check(await page.locator('#siAccountsDetails').getAttribute('open')!==null,spec.name+': candidate account directory did not open');
     check((await page.locator('#metaOriginalCount').innerText()).trim()==='0',spec.name+': old Meta archive must not change');
    }else{
     check(await page.locator('#meta').isVisible(),spec.name+': no-JS status must remain accessible');
