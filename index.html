@@ -117,6 +117,23 @@ body{background:#020307;color:#d0d9ec}
 @keyframes cgSweep{to{transform:translateY(850px)}}@keyframes cgOutline{to{stroke:#fb7186;stroke-width:4}}@keyframes cgStatus{to{opacity:.35;box-shadow:0 0 4px #dc6076}}
 @media(max-width:1220px){.cg-district-choices{grid-template-columns:repeat(4,minmax(0,1fr))}}@media(max-width:960px){.cg-map-layout{grid-template-columns:1fr}.cg-map-visual{border-right:0;border-bottom:1px solid #263c59}.cg-map-detail{max-height:unset}.cg-svg-frame{height:500px}.cg-district-choices{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:550px){.cg-map-heading{flex-direction:column;padding:14px}.cg-map-heading h2{font-size:21px}.cg-map-status{grid-template-columns:46px 1fr}.cg-map-controls{padding:10px}.cg-map-controls label{flex-basis:135px}.cg-svg-frame{height:415px;min-height:350px}.cg-map-visual{padding:12px 9px}.cg-map-detail{padding:14px}.cg-district-choices{grid-template-columns:repeat(2,minmax(0,1fr))}.cg-map-legend i{width:19px}}
 @media(prefers-reduced-motion:reduce){.cg-live-dot,.cg-svg-beam,.cg-poly.cg-selected{animation:none}}
+
+.cg-playback{border:1px solid #344d6e;border-radius:9px;background:linear-gradient(115deg,#0b1e3d,#071327);padding:13px 15px;margin:10px 0 16px}
+.cg-playback-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+.cg-playback-top>div{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px}
+.cg-playback-kicker{color:#97afce;font-size:9px;font-weight:850;letter-spacing:1.5px}
+.cg-playback-top strong{color:#f4c5ce;font-size:14px}.cg-playback-top>span{color:#97adca;font-size:10px}
+.cg-playback-row{display:flex;align-items:center;gap:12px}
+#cgMapPlay{border:1px solid #9b5576;border-radius:6px;background:#3c2140;color:#f4e8f1;padding:10px 13px;white-space:nowrap;font-weight:750;min-width:145px}
+#cgMapPlay:hover,#cgMapPlay[aria-pressed="true"]{background:#70405a;border-color:#eaa2ba;color:white}
+.cg-time-label{display:grid;gap:3px;flex:1;color:#a9bcd5;font-size:10px;min-width:90px}
+#cgTimeline{width:100%;accent-color:#e56c86;cursor:pointer;min-height:25px}
+.cg-time-mode{display:grid;gap:4px;font-size:10px;color:#a9bcd5}
+#cgTimelineMode{border:1px solid #395273;background:#0c2342;color:#e8eef9;border-radius:6px;padding:8px 10px;min-width:120px}
+.cg-timeline-years{display:flex;justify-content:space-between;padding:1px 139px 0 160px;color:#8ba0c1;font-size:9px;letter-spacing:.5px}
+.cg-playback p{font-size:10px;line-height:1.55;color:#9aacc7;margin:8px 0 0}.cg-playback p strong{color:#e1d3dc}
+@media(max-width:700px){.cg-playback-top,.cg-playback-row{flex-wrap:wrap}.cg-time-label{order:2;flex-basis:100%}.cg-time-mode{margin-left:auto}.cg-timeline-years{padding:0 5px}}
+@media(prefers-reduced-motion:reduce){.cg-playback *{scroll-behavior:auto}}
 </style>
 </head>
 <body><div class="shell"><aside class="sidebar"><div class="brand"><div class="brandmark">CG</div><div><b>CHHATTISGARH</b><small>OPPOSITION INTELLIGENCE<br/>RESEARCH CONSOLE</small></div></div><div class="sidebar-section"><p class="sidecap">WORKSPACE</p><nav class="navlinks"><a class="side-link" data-nav="command" href="#command"><svg aria-hidden="true" class="ic" viewbox="0 0 24 24"><rect height="7" rx="1" width="7" x="3" y="3"></rect><rect height="7" rx="1" width="7" x="14" y="3"></rect><rect height="7" rx="1" width="7" x="3" y="14"></rect><rect height="7" rx="1" width="7" x="14" y="14"></rect></svg><span>Command centre</span></a><a class="side-link" data-nav="dossiers" href="#dossiers"><svg aria-hidden="true" class="ic" viewbox="0 0 24 24"><circle cx="12" cy="8" r="4"></circle><path d="M4 21a8 8 0 0 1 16 0"></path></svg><span>Leader dossiers</span><i>10</i></a><a class="side-link" data-nav="social" href="#social"><svg aria-hidden="true" class="ic" viewbox="0 0 24 24"><path d="M3 12h4l3-7 4 14 3-7h4"></path></svg><span>X / Meta chronicle</span></a><a class="side-link" data-nav="archive" href="#archive"><svg aria-hidden="true" class="ic" viewbox="0 0 24 24"><rect height="5" rx="1" width="18" x="3" y="4"></rect><path d="M5 9v11h14V9M9 14h6"></path></svg><span>Activity archive</span><i>161</i></a><a class="side-link" data-nav="events" href="#events"><svg aria-hidden="true" class="ic" viewbox="0 0 24 24"><rect height="16" rx="2" width="18" x="3" y="5"></rect><path d="M7 3v4M17 3v4M3 10h18"></path></svg><span>Public activity ledger</span><i>42</i></a><a class="side-link" data-nav="video" href="#video"><svg aria-hidden="true" class="ic" viewbox="0 0 24 24"><rect height="14" rx="3" width="18" x="3" y="5"></rect><path d="m10 9 5 3-5 3z"></path></svg><span>Video library</span><i>13</i></a><a class="side-link" data-nav="audit" href="#audit"><svg aria-hidden="true" class="ic" viewbox="0 0 24 24"><path d="m12 2 9 4v6c0 5-4 9-9 10-5-1-9-5-9-10V6zM8 12l3 3 5-6"></path></svg><span>Source coverage audit</span><i>22</i></a><a class="side-link" data-nav="sources" href="#sources"><svg aria-hidden="true" class="ic" viewbox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 3 18 3 18 0V5M3 12c0 4 18 4 18 0"></path></svg><span>Source registry</span><i>22</i></a><a class="side-link" data-nav="quality" href="#quality"><svg aria-hidden="true" class="ic" viewbox="0 0 24 24"><path d="m12 2 9 4v6c0 5-4 9-9 10-5-1-9-5-9-10V6zM8 12l3 3 5-6"></path></svg><span>Data integrity</span></a></nav></div><div class="sidebar-section watchlist"><p class="sidecap">OPPOSITION LEADERS / 10</p><a class="watchperson" data-go-leader="Charan Das Mahant" href="#dossiers"><span class="roundel">CM</span><span><b>Charan Das Mahant</b><small>Leader of the Opposition · CLP</small></span></a><a class="watchperson" data-go-leader="Deepak Baij" href="#dossiers"><span class="roundel">DB</span><span><b>Deepak Baij</b><small>PCC President · Chhattisgarh</small></span></a><a class="watchperson" data-go-leader="Bhupesh Baghel" href="#dossiers"><span class="roundel">BB</span><span><b>Bhupesh Baghel</b><small>Former Chief Minister</small></span></a><a class="watchperson" data-go-leader="T. S. Singh Deo" href="#dossiers"><span class="roundel">TS</span><span><b>T. S. Singh Deo</b><small>Senior INC leader · Former Deputy CM</small></span></a><a class="watchperson" data-go-leader="Phulo Devi Netam" href="#dossiers"><span class="roundel">PN</span><span><b>Phulo Devi Netam</b><small>Rajya Sabha MP · Former Mahila Congress chief</small></span></a><a class="watchperson" data-go-leader="Jyotsna Charandas Mahant" href="#dossiers"><span class="roundel">JM</span><span><b>Jyotsna Charandas Mahant</b><small>Lok Sabha MP · Korba</small></span></a><a class="watchperson" data-go-leader="Mohan Markam" href="#dossiers"><span class="roundel">MM</span><span><b>Mohan Markam</b><small>Former PCC chief · Former minister</small></span></a><a class="watchperson" data-go-leader="Sandeep Sahu" href="#dossiers"><span class="roundel">SS</span><span><b>Sandeep Sahu</b><small>MLA · Kasdol</small></span></a><a class="watchperson" data-go-leader="Devendra Yadav" href="#dossiers"><span class="roundel">DY</span><span><b>Devendra Yadav</b><small>MLA · Bhilai Nagar</small></span></a><a class="watchperson" data-go-leader="Umesh Patel" href="#dossiers"><span class="roundel">UP</span><span><b>Umesh Patel</b><small>MLA · Kharsia</small></span></a></div><div class="sidefoot"><b><span class="dotlive"></span> RETROSPECTIVE / PARTIAL</b>05 Aug–05 Nov 2026<br/>Source-linked records; X historical posts not backfilled.</div></aside><div class="app"><header class="topbar"><div class="topbrand"><div class="smallcaps">CHHATTISGARH / POLITICAL INTELLIGENCE</div><strong>Opposition Monitoring Console</strong></div><div class="toolbar"><span class="period">05 AUG — 05 NOV 2026</span><span class="period" id="recordCount">182 records</span><button class="action" id="exportJSON"><svg aria-hidden="true" class="ic" viewbox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"></path></svg> Data JSON</button><button class="action" id="exportCSV"><svg aria-hidden="true" class="ic" viewbox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"></path></svg> Export CSV</button><button class="action" id="importBtn">Import</button><button class="action primary" id="newRecord">＋ New record</button></div></header><main class="content">
@@ -130,11 +147,21 @@ body{background:#020307;color:#d0d9ec}
  <div class="cg-map-controls">
   <label>Leader<select id="cgMapLeader"><option value="all">All ten leaders</option><option value="Charan Das Mahant">Charan Das Mahant</option><option value="Deepak Baij">Deepak Baij</option><option value="Bhupesh Baghel">Bhupesh Baghel</option><option value="T. S. Singh Deo">T. S. Singh Deo</option><option value="Phulo Devi Netam">Phulo Devi Netam</option><option value="Jyotsna Charandas Mahant">Jyotsna Charandas Mahant</option><option value="Mohan Markam">Mohan Markam</option><option value="Sandeep Sahu">Sandeep Sahu</option><option value="Devendra Yadav">Devendra Yadav</option><option value="Umesh Patel">Umesh Patel</option></select></label>
   <label>Issue<select id="cgMapIssue"><option value="all">All five categories</option><option value="Tribal Issues">Tribal issues</option><option value="Religion / Hinduism">Religion / Hinduism</option><option value="Governance">Governance</option><option value="Minerals">Minerals</option><option value="Mining">Mining</option></select></label>
-  <label>Evidence<select id="cgMapType"><option value="all">All linked references</option><option value="events">Reported public events only</option></select></label>
+  <label>Evidence<select id="cgMapType"><option value="events" selected>Reported public events only</option><option value="all">All linked references (includes media mentions)</option></select></label>
   <label>From<input id="cgMapFrom" type="date" min="2023-01-01" max="2026-11-10" value="2023-01-01"/></label>
   <label>To<input id="cgMapTo" type="date" min="2023-01-01" max="2026-11-10" value="2026-11-10"/></label>
   <button id="cgMapReset" type="button">Reset filters</button>
  </div>
+ <section class="cg-playback" aria-label="Historical district activity timeline">
+  <div class="cg-playback-top"><div><span class="cg-playback-kicker">HISTORICAL INTELLIGENCE / 2023–2026</span><strong id="cgTimelineLabel" aria-live="polite">Through November 2026</strong></div><span id="cgTimelineScope">Cumulative since January 2023</span></div>
+  <div class="cg-playback-row">
+   <button type="button" id="cgMapPlay" aria-pressed="false" aria-label="Play monthly historical sequence">▶ Play timeline</button>
+   <label class="cg-time-label" for="cgTimeline">Reporting period<input type="range" id="cgTimeline" min="0" max="46" step="1" value="46" aria-label="Reporting month from January 2023 to November 2026"></label>
+   <label class="cg-time-mode">Mode<select id="cgTimelineMode" aria-label="Timeline calculation mode"><option value="cumulative">Cumulative</option><option value="monthly">Month only</option></select></label>
+  </div>
+  <div class="cg-timeline-years" aria-hidden="true"><span>2023</span><span>2024</span><span>2025</span><span>2026</span></div>
+  <p>By default, shading counts <strong>documented reported public events</strong>, not all news mentions or completed development works. Select “All linked references” for broader media coverage. Playback is a research timeline, not live location tracking.</p>
+ </section>
  <div class="cg-map-layout">
   <div class="cg-map-visual">
    <div class="cg-map-visual-head"><span class="cg-live-dot"></span><strong>District heat map</strong><span id="cgMapSignal">Linked-source mentions</span></div>
@@ -343,6 +370,26 @@ const byName=new Map(NAMES.map(n=>[norm(n),n]));
 const aliases=new Map(Object.entries(ALIASES).map(([from,to])=>[norm(from),to]));
 let selected='Raipur';
 const E=id=>document.getElementById(id);
+const MONTHS=Array.from({length:47},(_,i)=>new Date(Date.UTC(2023,i,1)).toISOString().slice(0,7));
+let timelineTimer=null;
+function endOfMonth(key){const [y,m]=key.split('-').map(Number);return new Date(Date.UTC(y,m,0)).toISOString().slice(0,10)}
+function stopTimeline(){if(timelineTimer!==null){clearInterval(timelineTimer);timelineTimer=null}E('cgMapPlay').textContent='▶ Play timeline';E('cgMapPlay').setAttribute('aria-pressed','false')}
+function formatTimeline(){
+ const to=E('cgMapTo').value||'2026-11-10',from=E('cgMapFrom').value||'2023-01-01';
+ E('cgTimelineLabel').textContent='Through '+new Date(to+'T12:00:00Z').toLocaleDateString('en-GB',{month:'long',year:'numeric',timeZone:'UTC'});
+ E('cgTimelineScope').textContent=E('cgTimelineMode').value==='monthly'?'Selected month only':'From '+new Date(from+'T12:00:00Z').toLocaleDateString('en-GB',{month:'short',year:'numeric',timeZone:'UTC'});
+}
+function moveTimeline(){
+ const idx=Math.max(0,Math.min(MONTHS.length-1,Number(E('cgTimeline').value)||0));
+ const key=MONTHS[idx],last=endOfMonth(key);E('cgMapTo').value=last>'2026-11-10'?'2026-11-10':last;
+ E('cgMapFrom').value=E('cgTimelineMode').value==='monthly'?key+'-01':'2023-01-01';
+ formatTimeline();paint();
+}
+function alignTimeline(){
+ const month=(E('cgMapTo').value||'2026-11-10').slice(0,7);
+ const idx=MONTHS.indexOf(month);if(idx>=0)E('cgTimeline').value=String(idx);
+ formatTimeline();
+}
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function knownDistrict(raw){
  const t=norm(raw);
@@ -431,14 +478,27 @@ E('cgDistrictLeaderList').addEventListener('click',e=>{
  const b=e.target.closest('[data-map-leader]');if(!b)return;
  E('cgMapLeader').value=b.dataset.mapLeader;paint();
 });
-for(const id of ['cgMapLeader','cgMapIssue','cgMapType','cgMapFrom','cgMapTo'])E(id).addEventListener('change',paint);
+for(const id of ['cgMapLeader','cgMapIssue','cgMapType'])E(id).addEventListener('change',paint);
+for(const id of ['cgMapFrom','cgMapTo'])E(id).addEventListener('change',()=>{stopTimeline();alignTimeline();paint()});
+E('cgTimeline').addEventListener('input',()=>{stopTimeline();moveTimeline()});
+E('cgTimelineMode').addEventListener('change',()=>{stopTimeline();moveTimeline()});
+E('cgMapPlay').addEventListener('click',()=>{
+ if(timelineTimer!==null){stopTimeline();return}
+ if(Number(E('cgTimeline').value)>=MONTHS.length-1)E('cgTimeline').value='0';
+ moveTimeline();E('cgMapPlay').textContent='❚❚ Pause timeline';E('cgMapPlay').setAttribute('aria-pressed','true');
+ timelineTimer=setInterval(()=>{
+  const next=Number(E('cgTimeline').value)+1;
+  if(next>=MONTHS.length){stopTimeline();return}
+  E('cgTimeline').value=String(next);moveTimeline();
+ },850);
+});
 E('cgMapReset').addEventListener('click',()=>{
- E('cgMapLeader').value='all';E('cgMapIssue').value='all';E('cgMapType').value='all';E('cgMapFrom').value='2023-01-01';E('cgMapTo').value='2026-11-10';selected='Raipur';paint();
+ stopTimeline();E('cgMapLeader').value='all';E('cgMapIssue').value='all';E('cgMapType').value='events';E('cgMapFrom').value='2023-01-01';E('cgMapTo').value='2026-11-10';E('cgTimelineMode').value='cumulative';E('cgTimeline').value='46';selected='Raipur';formatTimeline();paint();
 });
 window.addEventListener('storage',paint);
 window.addEventListener('focus',paint);
-document.addEventListener('visibilitychange',()=>{if(!document.hidden)paint()});
-paint();
+document.addEventListener('visibilitychange',()=>{if(document.hidden)stopTimeline();else paint()});
+formatTimeline();paint();
 })();
 </script>
 </body></html>
