@@ -39,7 +39,7 @@ assert.equal(E('siMatches').textContent,'0 evidence items','date filter works');
 E('siReset').click();
 assert.equal(E('siMatches').textContent,'26 evidence items','reset restores sources');
 E('siKind').value='meta';E('siKind').dispatchEvent(new Event('change',{bubbles:true}));
-assert.equal(E('siMatches').textContent,'1 evidence item','Facebook press reference but no fake Instagram posts');
+assert.equal(E('siMatches').textContent,'2 evidence items','two Facebook press references but no fake Instagram posts');
 assert.match(E('siEvidenceList').textContent,/not a retrieved first-party social post/i);
 assert.equal(E('metaOriginalCount').textContent,'0','original Facebook/Instagram corpus remains empty');
 assert.equal(errors.length,0,'No inline JavaScript errors: '+errors.join('; '));
