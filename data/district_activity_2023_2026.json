@@ -1,6 +1,6 @@
 {
   "scope": "District-linked public activity and statements since 2023; separate from the 5 Aug–5 Nov 2026 archive",
-  "method": "The district field denotes the constituency/subject or the public event location as reported. A parliamentary question or press statement does not prove physical presence or completed works. Verify supporting source.",
+  "method": "The district field denotes the constituency/subject or the public event location as reported. A parliamentary question or press statement does not prove physical presence or completed works. Verify supporting source. The actionType and outcomeStatus fields distinguish reported activity and parliamentary demands from verified delivery; no entry is treated as a completed project without separate proof.",
   "records": [
     {
       "id": "CGH-0001",
@@ -21,7 +21,9 @@
       "event": "Reported election campaign",
       "verification": "Published article, dated 3 Nov 2023",
       "evidenceLevel": "publisher-report",
-      "scope": "district-history"
+      "scope": "district-history",
+      "actionType": "Campaign/outreach",
+      "outcomeStatus": "Campaign reported; no completed work verified"
     },
     {
       "id": "CGH-0002",
@@ -44,7 +46,9 @@
       "event": "Reported public protest",
       "verification": "Published 8 Jan 2024; event 7 Jan",
       "evidenceLevel": "publisher-report",
-      "scope": "district-history"
+      "scope": "district-history",
+      "actionType": "Public protest",
+      "outcomeStatus": "Advocacy reported; no government outcome verified"
     },
     {
       "id": "CGH-0003",
@@ -65,7 +69,9 @@
       "event": "",
       "verification": "Published 14 Mar 2024",
       "evidenceLevel": "publisher-report",
-      "scope": "district-history"
+      "scope": "district-history",
+      "actionType": "Performance report",
+      "outcomeStatus": "Proposed works and claims; completion not independently verified"
     },
     {
       "id": "CGH-0004",
@@ -86,7 +92,9 @@
       "event": "",
       "verification": "Official proceedings, 2 Aug 2024, printed page 25",
       "evidenceLevel": "primary-legislative-record",
-      "scope": "district-history"
+      "scope": "district-history",
+      "actionType": "Parliamentary demand",
+      "outcomeStatus": "Facility requested; not evidence of construction"
     },
     {
       "id": "CGH-0005",
@@ -106,7 +114,9 @@
       "event": "Reported public protest",
       "verification": "Published 24 Aug 2024",
       "evidenceLevel": "publisher-report",
-      "scope": "district-history"
+      "scope": "district-history",
+      "actionType": "Public protest",
+      "outcomeStatus": "Protest reported; no policy outcome verified"
     },
     {
       "id": "CGH-0006",
@@ -126,7 +136,9 @@
       "event": "Reported public protest",
       "verification": "Published 25 Aug 2024, referring to 24 Aug demonstration",
       "evidenceLevel": "publisher-report",
-      "scope": "district-history"
+      "scope": "district-history",
+      "actionType": "Public protest",
+      "outcomeStatus": "Protest reported; no inquiry outcome verified"
     },
     {
       "id": "CGH-0007",
@@ -146,7 +158,9 @@
       "event": "Reported public protest",
       "verification": "Published 25 Aug 2024; public event reported for 24 Aug",
       "evidenceLevel": "publisher-report",
-      "scope": "district-history"
+      "scope": "district-history",
+      "actionType": "Public protest",
+      "outcomeStatus": "Protest reported; no inquiry outcome verified"
     },
     {
       "id": "CGH-0008",
@@ -166,7 +180,9 @@
       "event": "Public constituency meeting reported",
       "verification": "Published 29 Dec 2024",
       "evidenceLevel": "publisher-video-page",
-      "scope": "district-history"
+      "scope": "district-history",
+      "actionType": "Constituency meeting",
+      "outcomeStatus": "Irrigation request reported; allocation not verified"
     },
     {
       "id": "CGH-0009",
@@ -187,7 +203,9 @@
       "event": "",
       "verification": "Published 22 Mar 2025",
       "evidenceLevel": "publisher-report",
-      "scope": "district-history"
+      "scope": "district-history",
+      "actionType": "Assembly scrutiny",
+      "outcomeStatus": "Question reported; compensation outcome not verified"
     },
     {
       "id": "CGH-0010",
@@ -209,7 +227,9 @@
       "event": "Reported public march",
       "verification": "Published 29 May 2025",
       "evidenceLevel": "agency-report",
-      "scope": "district-history"
+      "scope": "district-history",
+      "actionType": "Public march",
+      "outcomeStatus": "March reported; mining allocation decision not verified"
     },
     {
       "id": "CGH-0011",
@@ -229,7 +249,9 @@
       "event": "Reported constituency meeting",
       "verification": "Published 1 Jun 2025",
       "evidenceLevel": "publisher-report",
-      "scope": "district-history"
+      "scope": "district-history",
+      "actionType": "Constituency meeting",
+      "outcomeStatus": "Meeting reported; grievance resolution not verified"
     },
     {
       "id": "CGH-0012",
@@ -249,7 +271,9 @@
       "event": "Reported public protest",
       "verification": "Published 9 Jun 2025",
       "evidenceLevel": "publisher-report",
-      "scope": "district-history"
+      "scope": "district-history",
+      "actionType": "Public protest",
+      "outcomeStatus": "Road advocacy reported; completed repairs not verified"
     },
     {
       "id": "CGH-0013",
@@ -269,7 +293,9 @@
       "event": "Reported public protest",
       "verification": "Published 4 Sep 2025",
       "evidenceLevel": "publisher-report",
-      "scope": "district-history"
+      "scope": "district-history",
+      "actionType": "Public protest",
+      "outcomeStatus": "Farmer advocacy reported; final supply outcome not verified"
     },
     {
       "id": "CGH-0014",
@@ -289,7 +315,122 @@
       "event": "",
       "verification": "Published 10 Jun 2026",
       "evidenceLevel": "publisher-report",
-      "scope": "district-history"
+      "scope": "district-history",
+      "actionType": "Public statement",
+      "outcomeStatus": "Concern raised; hospital completion not verified"
+    },
+    {
+      "id": "CGH-0015",
+      "date": "2024-07-29",
+      "leaders": [
+        "Jyotsna Charandas Mahant"
+      ],
+      "platform": "Parliamentary debate index",
+      "publisher": "PRS Legislative Research / Lok Sabha",
+      "categories": [
+        "Governance"
+      ],
+      "title": "Korba–Gevra passenger train and Korba pit line raised in Lok Sabha",
+      "summary": "The Korba MP's parliamentary record lists a request to restart the Korba–Gevra Road passenger service and develop a pit line at Korba. This demonstrates advocacy; it does not confirm train restoration.",
+      "url": "https://prsindia.org/mptrack/18-lok-sabha/jyotsna-charandas-mahant",
+      "district": "Korba",
+      "event": "",
+      "verification": "PRS debate index, Lok Sabha, 29 Jul 2024",
+      "evidenceLevel": "legislative-index",
+      "scope": "district-history",
+      "actionType": "Parliamentary demand",
+      "outcomeStatus": "Rail service requested; delivery not established"
+    },
+    {
+      "id": "CGH-0016",
+      "date": "2025-02-11",
+      "leaders": [
+        "Jyotsna Charandas Mahant"
+      ],
+      "platform": "Parliamentary debate index",
+      "publisher": "PRS Legislative Research / Lok Sabha",
+      "categories": [
+        "Governance"
+      ],
+      "title": "Mahant requests improvements to Korba ESIC hospital",
+      "summary": "Her Lok Sabha activity lists a special mention seeking improvement of healthcare facilities at ESIC Hospital in Korba. The parliamentary request does not establish that upgrades were completed.",
+      "url": "https://prsindia.org/mptrack/18-lok-sabha/jyotsna-charandas-mahant",
+      "district": "Korba",
+      "event": "",
+      "verification": "PRS debate index, Lok Sabha, 11 Feb 2025",
+      "evidenceLevel": "legislative-index",
+      "scope": "district-history",
+      "actionType": "Parliamentary demand",
+      "outcomeStatus": "Hospital improvement requested; completion unverified"
+    },
+    {
+      "id": "CGH-0017",
+      "date": "2024-07-31",
+      "leaders": [
+        "Phulo Devi Netam"
+      ],
+      "platform": "Primary document",
+      "publisher": "Rajya Sabha Secretariat",
+      "categories": [
+        "Tribal Issues",
+        "Mining",
+        "Governance"
+      ],
+      "title": "Netam raises Kirandul flood damage and requests NMDC compensation",
+      "summary": "The official Rajya Sabha synopsis records her appeal for an inquiry, adequate compensation for flood-affected families, and safer mining embankments following the Kirandul flood. It documents a legislative intervention, not completed assistance.",
+      "url": "https://cms.rajyasabha.nic.in/UploadedFiles/Synopsis/SynopsisUpload/Session_265/English_S310724.pdf",
+      "district": "Dantewada",
+      "event": "",
+      "verification": "Rajya Sabha synopsis, 31 Jul 2024, Special Mention 22, printed pp. 143–144. Parliamentary synopsis notes it is not an authoritative final verbatim record.",
+      "evidenceLevel": "primary-legislative-record",
+      "scope": "district-history",
+      "actionType": "Parliamentary demand",
+      "outcomeStatus": "Inquiry and compensation requested; outcomes unverified"
+    },
+    {
+      "id": "CGH-0018",
+      "date": "2024-07-29",
+      "leaders": [
+        "Phulo Devi Netam"
+      ],
+      "platform": "Parliamentary debate index",
+      "publisher": "PRS Legislative Research / Rajya Sabha",
+      "categories": [
+        "Governance",
+        "Religion / Hinduism"
+      ],
+      "title": "Netam raises Sirpur World Heritage recognition proposal for Mahasamund",
+      "summary": "PRS lists a 29 July 2024 Rajya Sabha intervention calling for Sirpur's inclusion in the World Heritage framework. Sirpur is in Mahasamund district. This records the demand, not attribution for any later UNESCO listing.",
+      "url": "https://prsindia.org/mptrack/rajya-sabha/phulo-devi-netam",
+      "district": "Mahasamund",
+      "event": "",
+      "verification": "PRS Rajya Sabha debate index, 29 Jul 2024; geographical reference confirmed by Mahasamund District administration",
+      "evidenceLevel": "legislative-index",
+      "scope": "district-history",
+      "actionType": "Parliamentary demand",
+      "outcomeStatus": "Recognition requested in 2024; no subsequent outcome attributed to this intervention"
+    },
+    {
+      "id": "CGH-0019",
+      "date": "2024-08-02",
+      "leaders": [
+        "Phulo Devi Netam"
+      ],
+      "platform": "Parliamentary debate index",
+      "publisher": "PRS Legislative Research / Rajya Sabha",
+      "categories": [
+        "Governance"
+      ],
+      "title": "Netam demands direct Delhi–Jagdalpur flights for Bastar connectivity",
+      "summary": "The Rajya Sabha activity index records a request for direct air services between Delhi and Jagdalpur. Jagdalpur lies in Bastar district. The record is a demand and does not itself establish any operational service.",
+      "url": "https://prsindia.org/mptrack/rajya-sabha/phulo-devi-netam",
+      "district": "Bastar",
+      "event": "",
+      "verification": "PRS Rajya Sabha debate index, 2 Aug 2024",
+      "evidenceLevel": "legislative-index",
+      "scope": "district-history",
+      "actionType": "Parliamentary demand",
+      "outcomeStatus": "Direct flight service requested; operation not verified"
     }
   ]
 }
