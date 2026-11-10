@@ -1,6 +1,6 @@
 {
-  "scope": "District-linked public activity and statements since 2023; separate from the 5 Aug–5 Nov 2026 archive",
-  "method": "The district field denotes the constituency/subject or the public event location as reported. A parliamentary question or press statement does not prove physical presence or completed works. Verify supporting source. The actionType and outcomeStatus fields distinguish reported activity and parliamentary demands from verified delivery; no entry is treated as a completed project without separate proof.",
+  "scope": "District-linked public events, statements, demands, reported activities and documentary evidence from 2023–2026; supplemental to original 182-record Aug–Nov 2026 media archive",
+  "method": "The district field denotes the constituency/subject or the public event location as reported. A parliamentary question or press statement does not prove physical presence or completed works. Verify supporting source. The actionType and outcomeStatus fields distinguish reported activity and parliamentary demands from verified delivery; no entry is treated as a completed project without separate proof. Supplements include dated third-party publisher reports; these are not independent confirmations of quoted claims or eventual delivery. An actionType identifies the nature of evidence, and outcomeStatus avoids inferring project completion.",
   "records": [
     {
       "id": "CGH-0001",
@@ -431,6 +431,299 @@
       "scope": "district-history",
       "actionType": "Parliamentary demand",
       "outcomeStatus": "Direct flight service requested; operation not verified"
+    },
+    {
+      "scope": "district-history",
+      "evidenceLevel": "publisher-report",
+      "id": "CGH-0020",
+      "date": "2023-03-13",
+      "leaders": [
+        "Mohan Markam"
+      ],
+      "district": "Kondagaon",
+      "categories": [
+        "Governance",
+        "Minerals"
+      ],
+      "platform": "Press",
+      "publisher": "The Indian Express",
+      "title": "Markam alleges irregularities in Kondagaon District Mineral Foundation works",
+      "summary": "During a Chhattisgarh Assembly intervention, Markam alleged misuse of around ₹7 crore in Kondagaon DMF work and sought a probe. This is an attributed allegation, not a corruption finding.",
+      "url": "https://indianexpress.com/article/political-pulse/chhattisgarh-congress-chief-mohan-markam-dmf-fund-misuse-kondagaon-government-probe-8495462/lite/",
+      "verification": "Indian Express published 14 Mar 2023; alleged Assembly intervention 13 Mar",
+      "event": "",
+      "actionType": "Assembly scrutiny",
+      "outcomeStatus": "Inquiry requested; alleged misuse not established by this source"
+    },
+    {
+      "scope": "district-history",
+      "evidenceLevel": "publisher-report",
+      "id": "CGH-0021",
+      "date": "2024-08-16",
+      "leaders": [
+        "Bhupesh Baghel"
+      ],
+      "district": "Durg",
+      "categories": [
+        "Governance"
+      ],
+      "platform": "Press",
+      "publisher": "CG Mitan",
+      "title": "Baghel participates in Patan cattle-management demonstration",
+      "summary": "A local publisher reports Baghel and Congress workers protesting stray cattle, risks to traffic and crop damage in Patan, Durg. The article reports a public demonstration but not an independently verified long-term management result.",
+      "url": "https://cgmitan.com/former-chief-minister-bhupesh-baghel-set-out-to-go-to-patan-with-the-nomadic-cattle-sitting-on-the-road-congresss-cow-satyagraha-in-patan-today/",
+      "verification": "Local publisher, 16 Aug 2024",
+      "event": "Reported public demonstration",
+      "actionType": "Public demonstration",
+      "outcomeStatus": "Stray-cattle management demanded; lasting remedial action not verified"
+    },
+    {
+      "scope": "district-history",
+      "evidenceLevel": "publisher-report",
+      "id": "CGH-0022",
+      "date": "2024-09-20",
+      "leaders": [
+        "Bhupesh Baghel"
+      ],
+      "district": "Durg",
+      "categories": [
+        "Governance"
+      ],
+      "platform": "Press",
+      "publisher": "CG Mitan",
+      "title": "Patan farmers ask Baghel to intervene in power-line construction and crop damage",
+      "summary": "Local report describes farmers from Asoga and nearby villages meeting Baghel to seek relief over transmission-tower work affecting standing crops and asking that activity be paused until harvest.",
+      "url": "https://cgmitan.com/when-the-problem-was-not-solved-by-the-sdm-the-farmers-reached-to-meet-former-chief-minister-bhupesh-baghel-pleaded-to-save-the-crop-demanded-a-ban-on-the-work-of-installing-electric-pole-towers-in/",
+      "verification": "Local publisher, 20 Sep 2024",
+      "event": "Reported constituency meeting",
+      "actionType": "Constituency grievance meeting",
+      "outcomeStatus": "Farmers' appeal documented; pause or compensation not verified"
+    },
+    {
+      "scope": "district-history",
+      "evidenceLevel": "publisher-report",
+      "id": "CGH-0023",
+      "date": "2024-07-15",
+      "leaders": [
+        "Devendra Yadav"
+      ],
+      "district": "Durg",
+      "categories": [
+        "Governance"
+      ],
+      "platform": "Press",
+      "publisher": "Bhilai Times",
+      "title": "Bhilai MLA Yadav writes to collector over potential residential evictions",
+      "summary": "Local report describes Devendra Yadav writing to the district collector about financially vulnerable families living in Bhilai Steel Plant accommodation and calling for action on threatened evictions.",
+      "url": "https://bhilaitimes.com/bhilai-nagar-mla-devendra-yadav-wrote-a-letter-to-the-collector/",
+      "verification": "Bhilai Times, 15 Jul 2024",
+      "event": "",
+      "actionType": "Written representation",
+      "outcomeStatus": "Letter reported; eviction orders or safeguards not independently verified"
+    },
+    {
+      "scope": "district-history",
+      "evidenceLevel": "publisher-report",
+      "id": "CGH-0024",
+      "date": "2025-05-25",
+      "leaders": [
+        "Devendra Yadav"
+      ],
+      "district": "Durg",
+      "categories": [
+        "Governance"
+      ],
+      "platform": "Press",
+      "publisher": "Bhilai Times",
+      "title": "Yadav hears Bhilai grievances on water, roads, drains, lighting and healthcare",
+      "summary": "Bhilai Times reports a public meeting at the Sector 5 MLA office with residents discussing irregular water supply, broken roads, waterlogging, sanitation, street lighting and health access.",
+      "url": "https://bhilaitimes.com/mla-devendra-yadav-met-the-people/?amp=1",
+      "verification": "Bhilai Times, 25 May 2025",
+      "event": "Reported public constituency meeting",
+      "actionType": "Constituency grievance meeting",
+      "outcomeStatus": "Complaints and reportedly issued instructions; completed remedial works not verified"
+    },
+    {
+      "scope": "district-history",
+      "evidenceLevel": "publisher-report",
+      "id": "CGH-0025",
+      "date": "2025-05-26",
+      "leaders": [
+        "Devendra Yadav"
+      ],
+      "district": "Durg",
+      "categories": [
+        "Governance"
+      ],
+      "platform": "Press",
+      "publisher": "Bhilai Times",
+      "title": "Yadav meets Bhilai Steel Plant township officials about local facilities",
+      "summary": "A local report describes a meeting with BSP township management about stray cattle, lease renewals and housing maintenance. The meeting should not be confused with delivered infrastructure.",
+      "url": "https://bhilaitimes.com/mla-devendra-met-bsp-township-cgm/",
+      "verification": "Bhilai Times, 26 May 2025",
+      "event": "Reported official meeting",
+      "actionType": "Meeting with management",
+      "outcomeStatus": "Concerns raised with officials; resolution not established"
+    },
+    {
+      "scope": "district-history",
+      "evidenceLevel": "publisher-report",
+      "id": "CGH-0026",
+      "date": "2025-06-22",
+      "leaders": [
+        "Devendra Yadav"
+      ],
+      "district": "Durg",
+      "categories": [
+        "Governance"
+      ],
+      "platform": "Press",
+      "publisher": "Bhilai Times",
+      "title": "Yadav urges electricity-supply attention during Bhilai resident meeting",
+      "summary": "Bhilai Times reports a constituency visit where Yadav heard public concerns and instructed department officials to improve electric service arrangements.",
+      "url": "https://bhilaitimes.com/bhilai-nagar-mla-devendra-yadav-met-people/",
+      "verification": "Bhilai Times, 22 Jun 2025",
+      "event": "Reported constituency meeting",
+      "actionType": "Constituency grievance meeting",
+      "outcomeStatus": "Instructions reported; utility improvements not independently verified"
+    },
+    {
+      "scope": "district-history",
+      "evidenceLevel": "publisher-report",
+      "id": "CGH-0027",
+      "date": "2025-03-20",
+      "leaders": [
+        "Sandeep Sahu"
+      ],
+      "district": "Baloda Bazar",
+      "categories": [
+        "Governance"
+      ],
+      "platform": "Press",
+      "publisher": "CG Mitan",
+      "title": "Kasdol MLA Sahu raises lack of local jobs at Baloda Bazar cement plants",
+      "summary": "Coverage of the Assembly's Question Hour attributes to Sandeep Sahu questions about employment opportunities for qualified residents despite local cement factories. Employment changes are not documented.",
+      "url": "https://cgmitan.com/mla-sandeep-sahu-raised-the-issue-of-local-educated-youth-unemployment-in-the-assembly-despite-having-a-cement-plant-in-baloda-bazar-district-educated-unemployed-youth-are-wandering-from-door-to-d/",
+      "verification": "Local report dated 20 Mar 2025",
+      "event": "",
+      "actionType": "Assembly question",
+      "outcomeStatus": "Employment concern raised; policy or hiring outcomes unverified"
+    },
+    {
+      "scope": "district-history",
+      "evidenceLevel": "publisher-report",
+      "id": "CGH-0028",
+      "date": "2025-05-31",
+      "leaders": [
+        "Charan Das Mahant"
+      ],
+      "district": "Sakti",
+      "categories": [
+        "Governance",
+        "Minerals"
+      ],
+      "platform": "Press",
+      "publisher": "Aaj Ki Jandhara",
+      "title": "Charan Das Mahant calls for Sakti DMF funds to serve local development priorities",
+      "summary": "Local coverage identifies Mahant at Sakti district mineral foundation trust governing council meeting and reports his call for DMF funds to benefit common residents. This does not establish a funded project's completion.",
+      "url": "https://aajkijandhara.com/sakti-news-mahant-said-that-the-amount-of-dmf-should-be-used-in-the-development-works-of-the-common-man/",
+      "verification": "Publisher report 31 May 2025",
+      "event": "Reported district DMF meeting",
+      "actionType": "District mineral trust oversight",
+      "outcomeStatus": "Development use of DMF requested; allocation and completion not established"
+    },
+    {
+      "scope": "district-history",
+      "evidenceLevel": "publisher-report",
+      "id": "CGH-0029",
+      "date": "2024-10-17",
+      "leaders": [
+        "Jyotsna Charandas Mahant"
+      ],
+      "district": "Korba",
+      "categories": [
+        "Mining",
+        "Minerals",
+        "Governance"
+      ],
+      "platform": "Press",
+      "publisher": "Industrial Punch",
+      "title": "Korba MP submits memorandum on SECL coal mine displacement to parliamentary committee",
+      "summary": "Regional industrial newspaper reports that Jyotsna Charandas Mahant submitted a written memorandum at a Coal, Mines and Steel committee meeting calling attention to families displaced or affected by SECL coal mines in Korba district.",
+      "url": "https://www.industrialpunch.com/coal-and-steel-mines-parliamentary-committee-meeting-korba-mp-raised-the-issues-of-secls-displaced-people/",
+      "verification": "Industrial Punch, 17 Oct 2024",
+      "event": "",
+      "actionType": "Parliamentary committee representation",
+      "outcomeStatus": "Memorandum reported; rehabilitation or compensation outcome unverified"
+    },
+    {
+      "scope": "district-history",
+      "evidenceLevel": "publisher-report",
+      "id": "CGH-0030",
+      "date": "2026-02-27",
+      "leaders": [
+        "Umesh Patel"
+      ],
+      "district": "Raigarh",
+      "categories": [
+        "Mining",
+        "Governance"
+      ],
+      "platform": "Press",
+      "publisher": "PTI via Awaz the Voice",
+      "title": "Umesh Patel questions illegal fly-ash dumping and coal transport in Raigarh",
+      "summary": "News agency reporting identifies Patel asking the state Assembly about fly-ash dumping, polluting coal transport, enforcement and industry numbers in Raigarh. The Congress walked out dissatisfied with the response; allegations and official replies are attributed.",
+      "url": "https://www.awazthevoice.in/india-news/congress-stages-walkout-over-fly-ash-dumping-in-raigarh-52930.html",
+      "verification": "PTI published 27 Feb 2026; also covered by The Hitavada 28 Feb",
+      "event": "Reported Assembly walkout",
+      "actionType": "Assembly question and protest",
+      "outcomeStatus": "Questions and official response recorded; environmental conditions not independently measured"
+    },
+    {
+      "scope": "district-history",
+      "evidenceLevel": "publisher-report",
+      "id": "CGH-0031",
+      "date": "2025-05-29",
+      "leaders": [
+        "Deepak Baij"
+      ],
+      "district": "Uttar Bastar Kanker",
+      "categories": [
+        "Tribal Issues",
+        "Minerals",
+        "Mining"
+      ],
+      "platform": "Press",
+      "publisher": "PTI via The Week",
+      "title": "Baij's Bastar mining memorandum also disputes Hahaladi iron-ore lease in Kanker",
+      "summary": "PTI reports Baij's Dantewada Nyay Padyatra and an associated memorandum objecting to private mine allotments, specifically naming Hahaladi in Kanker district. This is district-subject evidence, not a claim that Baij travelled to Kanker.",
+      "url": "https://www.theweek.in/wire-updates/business/2025/05/29/bes18-cg-congress-mining.amp.html",
+      "verification": "PTI 29 May 2025; Kanker location is referenced as subject of memorandum",
+      "event": "",
+      "actionType": "Mining-policy memorandum",
+      "outcomeStatus": "Cancellation demanded; lease outcome not independently verified"
+    },
+    {
+      "scope": "district-history",
+      "evidenceLevel": "publisher-report",
+      "id": "CGH-0032",
+      "date": "2024-05-19",
+      "leaders": [
+        "T. S. Singh Deo"
+      ],
+      "district": "Surguja",
+      "categories": [
+        "Governance"
+      ],
+      "platform": "Video",
+      "publisher": "NDTV",
+      "title": "NDTV profiles Singh Deo's reported contributions to Ambikapur medical college",
+      "summary": "NDTV's video profile credits Singh Deo with contributions to medical facilities and health infrastructure in Ambikapur and rural Surguja. This is a broadcaster's attributed assessment, not independently verified attribution of construction or operating outcomes.",
+      "url": "https://www.ndtv.com/video/ts-singh-deo-chhattisgarh-leader-who-played-key-role-as-state-health-minister-786062",
+      "verification": "NDTV video published 19 May 2024",
+      "event": "",
+      "actionType": "Media-reported public service contribution",
+      "outcomeStatus": "NDTV attributes healthcare initiatives; individual delivery claims require official completion records"
     }
   ]
 }
