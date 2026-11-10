@@ -1,0 +1,23 @@
+name: Verify district atlas
+on:
+  push:
+    branches:
+      - 'feature/33-district-activity-map-v7'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  smoke:
+    name: Node & DOM smoke tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install test dependency
+        run: npm install --no-save --no-package-lock jsdom@26
+      - name: Run district atlas smoke checks
+        run: node qa/smoke.mjs

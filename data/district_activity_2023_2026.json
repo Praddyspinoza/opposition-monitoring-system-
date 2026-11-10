@@ -1,0 +1,295 @@
+{
+  "scope": "District-linked public activity and statements since 2023; separate from the 5 Aug–5 Nov 2026 archive",
+  "method": "The district field denotes the constituency/subject or the public event location as reported. A parliamentary question or press statement does not prove physical presence or completed works. Verify supporting source.",
+  "records": [
+    {
+      "id": "CGH-0001",
+      "date": "2023-11-03",
+      "leaders": [
+        "Mohan Markam"
+      ],
+      "platform": "Press",
+      "publisher": "The Indian Express",
+      "categories": [
+        "Tribal Issues",
+        "Governance"
+      ],
+      "title": "Kondagaon campaign: Markam’s reported village outreach amid tribal concerns",
+      "summary": "A November 2023 political profile reports Markam's constituency campaign and tribal grievances. Campaign activity is not evidence of completed public works.",
+      "url": "https://indianexpress.com/article/political-pulse/ex-cong-state-chief-tribal-anger-divisions-within-bastar-seat-9012240/",
+      "district": "Kondagaon",
+      "event": "Reported election campaign",
+      "verification": "Published article, dated 3 Nov 2023",
+      "evidenceLevel": "publisher-report",
+      "scope": "district-history"
+    },
+    {
+      "id": "CGH-0002",
+      "date": "2024-01-07",
+      "leaders": [
+        "Deepak Baij"
+      ],
+      "platform": "Press",
+      "publisher": "The Indian Express",
+      "categories": [
+        "Tribal Issues",
+        "Mining",
+        "Minerals",
+        "Governance"
+      ],
+      "title": "Baij joins Hasdeo forest demonstration opposing Parsa coal mining",
+      "summary": "Report describes Baij joining a protest at Hariharpur, Surguja, calling for protection of forest rights and opposing mining. Statements are attributed claims, not independently verified findings.",
+      "url": "https://indianexpress.com/article/india/hasdeo-protest-heats-up-in-chhattisgarh-as-congress-targets-cm-9099341/",
+      "district": "Surguja",
+      "event": "Reported public protest",
+      "verification": "Published 8 Jan 2024; event 7 Jan",
+      "evidenceLevel": "publisher-report",
+      "scope": "district-history"
+    },
+    {
+      "id": "CGH-0003",
+      "date": "2024-03-14",
+      "leaders": [
+        "Jyotsna Charandas Mahant"
+      ],
+      "platform": "Press",
+      "publisher": "Dainik Jagran",
+      "categories": [
+        "Governance",
+        "Mining"
+      ],
+      "title": "Korba MP report card: questions, MPLADS proposals and mining-displacement demands",
+      "summary": "Report describes Jyotsna Mahant raising displacement/rehabilitation issues linked to SECL mines, railway and hospital requests, and proposed MPLADS works. Progress figures are a 2024 snapshot; proposals must not be read as completed projects.",
+      "url": "https://www.jagran.com/elections/lok-sabha-lok-sabha-election-2024-korba-congress-mp-jyotsana-mahant-report-card-development-works-still-pending-23674650.html",
+      "district": "Korba",
+      "event": "",
+      "verification": "Published 14 Mar 2024",
+      "evidenceLevel": "publisher-report",
+      "scope": "district-history"
+    },
+    {
+      "id": "CGH-0004",
+      "date": "2024-08-02",
+      "leaders": [
+        "Phulo Devi Netam"
+      ],
+      "platform": "Primary document",
+      "publisher": "Rajya Sabha Secretariat",
+      "categories": [
+        "Tribal Issues",
+        "Governance"
+      ],
+      "title": "Netam raises proposal for multipurpose sports hall in Farsgaon, Kondagaon",
+      "summary": "Official Rajya Sabha debate records her request for a multipurpose hall at Farsgaon in Kondagaon district and archery support for indigenous and tribal sports. This is a parliamentary demand, not a completed construction.",
+      "url": "https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/265/282024/20240802.pdf",
+      "district": "Kondagaon",
+      "event": "",
+      "verification": "Official proceedings, 2 Aug 2024, printed page 25",
+      "evidenceLevel": "primary-legislative-record",
+      "scope": "district-history"
+    },
+    {
+      "id": "CGH-0005",
+      "date": "2024-08-24",
+      "leaders": [
+        "Bhupesh Baghel"
+      ],
+      "platform": "Press",
+      "publisher": "The Times of India",
+      "categories": [
+        "Governance"
+      ],
+      "title": "Baghel leads Durg demonstration after MLA Devendra Yadav’s arrest",
+      "summary": "Published report says Baghel led a Congress protest in Durg demanding a probe into the Baloda Bazar case. Allegations voiced by political leaders remain allegations.",
+      "url": "https://timesofindia.indiatimes.com/city/raipur/statewide-congress-protests-erupt-against-mla-devendra-yadavs-arrest-leaders-demand-cbi-probe-into-baloda-bazar-incident/amp_articleshow/112768366.cms",
+      "district": "Durg",
+      "event": "Reported public protest",
+      "verification": "Published 24 Aug 2024",
+      "evidenceLevel": "publisher-report",
+      "scope": "district-history"
+    },
+    {
+      "id": "CGH-0006",
+      "date": "2024-08-24",
+      "leaders": [
+        "Charan Das Mahant"
+      ],
+      "platform": "Press",
+      "publisher": "The Times of India",
+      "categories": [
+        "Governance"
+      ],
+      "title": "Mahant leads Sakti protest as Congress demands inquiry into Baloda Bazar case",
+      "summary": "Report identifies the Leader of the Opposition as leading the Congress protest in Sakti district. This is evidence of a reported public political event, not of development delivery.",
+      "url": "https://timesofindia.indiatimes.com/city/raipur/congress-protests-mla-yadavs-arrest-demand-cbi-probe/amp_articleshow/112772881.cms",
+      "district": "Sakti",
+      "event": "Reported public protest",
+      "verification": "Published 25 Aug 2024, referring to 24 Aug demonstration",
+      "evidenceLevel": "publisher-report",
+      "scope": "district-history"
+    },
+    {
+      "id": "CGH-0007",
+      "date": "2024-08-24",
+      "leaders": [
+        "Deepak Baij"
+      ],
+      "platform": "Press",
+      "publisher": "The Times of India",
+      "categories": [
+        "Governance"
+      ],
+      "title": "Baij joins Raipur opposition protest over Baloda Bazar arrests",
+      "summary": "Report says Congress president Baij led a public protest in Raipur. This is location of a public rally, not evidence of travel monitoring.",
+      "url": "https://timesofindia.indiatimes.com/city/raipur/congress-protests-mla-yadavs-arrest-demand-cbi-probe/amp_articleshow/112772881.cms",
+      "district": "Raipur",
+      "event": "Reported public protest",
+      "verification": "Published 25 Aug 2024; public event reported for 24 Aug",
+      "evidenceLevel": "publisher-report",
+      "scope": "district-history"
+    },
+    {
+      "id": "CGH-0008",
+      "date": "2024-12-29",
+      "leaders": [
+        "Sandeep Sahu"
+      ],
+      "platform": "Video",
+      "publisher": "NDTV MP-CG",
+      "categories": [
+        "Governance"
+      ],
+      "title": "Baloda Bazar farmers approach MLA Sandeep Sahu about irrigation reservoir water",
+      "summary": "NDTV MP-CG video reports local farmers asking Sandeep Sahu for irrigation supplies from Balar reservoir. It documents a request, not confirmed water allocation.",
+      "url": "https://mpcg.ndtv.in/videos/baloda-bazar-news-farmers-met-mla-regarding-water-demand-881693",
+      "district": "Baloda Bazar",
+      "event": "Public constituency meeting reported",
+      "verification": "Published 29 Dec 2024",
+      "evidenceLevel": "publisher-video-page",
+      "scope": "district-history"
+    },
+    {
+      "id": "CGH-0009",
+      "date": "2025-03-22",
+      "leaders": [
+        "Umesh Patel"
+      ],
+      "platform": "Press",
+      "publisher": "The Times of India",
+      "categories": [
+        "Governance",
+        "Mining"
+      ],
+      "title": "Patel questions Raigarh land acquisition and compensation figures in Assembly",
+      "summary": "Report describes Patel challenging official figures and asking about land acquisition/compensation for National Highway 200 in Raigarh district. Legislative questions are not evidence of compensation paid.",
+      "url": "https://timesofindia.indiatimes.com/city/raipur/inconsistencies-in-data-provided-by-revenue-min/articleshow/119315975.cms",
+      "district": "Raigarh",
+      "event": "",
+      "verification": "Published 22 Mar 2025",
+      "evidenceLevel": "publisher-report",
+      "scope": "district-history"
+    },
+    {
+      "id": "CGH-0010",
+      "date": "2025-05-29",
+      "leaders": [
+        "Deepak Baij"
+      ],
+      "platform": "Press",
+      "publisher": "PTI via Rediff",
+      "categories": [
+        "Tribal Issues",
+        "Mining",
+        "Minerals"
+      ],
+      "title": "Deepak Baij completes Dantewada Nyay Padyatra opposing private iron-ore allotments",
+      "summary": "PTI reports Baij leading the four-day Kirandul–Dantewada foot march, with Congress demanding cancellation of several private mine allotments. Claims about leases are party statements; march is reported to have occurred.",
+      "url": "https://money.rediff.com/amp/news/market/congress-demands-cancellation-of-bastar-mines-allotment/27732720250529",
+      "district": "Dantewada",
+      "event": "Reported public march",
+      "verification": "Published 29 May 2025",
+      "evidenceLevel": "agency-report",
+      "scope": "district-history"
+    },
+    {
+      "id": "CGH-0011",
+      "date": "2025-06-01",
+      "leaders": [
+        "Devendra Yadav"
+      ],
+      "platform": "Press",
+      "publisher": "Bhilai Times",
+      "categories": [
+        "Governance"
+      ],
+      "title": "Bhilai MLA meets constituents at Sector 5 office about local grievances",
+      "summary": "Report describes a public constituency meeting at the MLA office in Bhilai where residents raised local concerns. No independent record of grievance resolution is included.",
+      "url": "https://bhilaitimes.com/bhilai-nagar-mla-devendra-yadav-met-the-public/",
+      "district": "Durg",
+      "event": "Reported constituency meeting",
+      "verification": "Published 1 Jun 2025",
+      "evidenceLevel": "publisher-report",
+      "scope": "district-history"
+    },
+    {
+      "id": "CGH-0012",
+      "date": "2025-06-09",
+      "leaders": [
+        "Umesh Patel"
+      ],
+      "platform": "Press",
+      "publisher": "Amar Ujala",
+      "categories": [
+        "Governance"
+      ],
+      "title": "Patel joins Kharsia villagers’ protest over deteriorated roads",
+      "summary": "Amar Ujala documents Umesh Patel joining a road-condition protest with residents from villages in Kharsia. Report indicates officials were approached; the article headline claims demands met, which requires confirmation of completed road repairs.",
+      "url": "https://www.amarujala.com/chhattisgarh/raigarh/protest-for-dilapidated-road-in-kharsia-demands-of-villagers-met-under-the-leadership-of-umesh-patel-in-raigar-2025-06-09",
+      "district": "Raigarh",
+      "event": "Reported public protest",
+      "verification": "Published 9 Jun 2025",
+      "evidenceLevel": "publisher-report",
+      "scope": "district-history"
+    },
+    {
+      "id": "CGH-0013",
+      "date": "2025-09-04",
+      "leaders": [
+        "Umesh Patel"
+      ],
+      "platform": "Press",
+      "publisher": "RIG24",
+      "categories": [
+        "Governance"
+      ],
+      "title": "Kharsia farmers protest fertiliser shortage under Umesh Patel’s leadership",
+      "summary": "Local report describes a gherao of Kharsia tehsil office over fertiliser supply, led by Patel and Congress workers. This is reported collective action, not proof of supply restoration.",
+      "url": "https://rig24.in/kharsia-mla-umesh-patel-gherav/",
+      "district": "Raigarh",
+      "event": "Reported public protest",
+      "verification": "Published 4 Sep 2025",
+      "evidenceLevel": "publisher-report",
+      "scope": "district-history"
+    },
+    {
+      "id": "CGH-0014",
+      "date": "2026-06-10",
+      "leaders": [
+        "T. S. Singh Deo"
+      ],
+      "platform": "Press",
+      "publisher": "The Times of India",
+      "categories": [
+        "Governance"
+      ],
+      "title": "Singh Deo disputes government account of delayed Ambikapur medical college hospital",
+      "summary": "Singh Deo and state ministers traded accusations over the delayed hospital project. Singh Deo argued the government should account for its own time in office; this records a public policy response, not completed construction.",
+      "url": "https://timesofindia.indiatimes.com/city/raipur/ambikapur-hosp-delay-singhdeo-says-bjp-failed-to-finish-project-after-2-yrs-in-power/amp_articleshow/131618720.cms",
+      "district": "Surguja",
+      "event": "",
+      "verification": "Published 10 Jun 2026",
+      "evidenceLevel": "publisher-report",
+      "scope": "district-history"
+    }
+  ]
+}
