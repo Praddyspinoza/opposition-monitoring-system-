@@ -8,7 +8,7 @@ V10 displayed 20 Facebook/Instagram account slots but no verified original Meta 
 
 - **Social Intelligence · X / Facebook / Instagram** tab at `#meta`; existing Command Centre, geographic map, 10 leaders, all five topics, original 182-record news archive and V10 Meta import remain intact.
 - **11 publisher-linked direct X status URLs**, including 5 retained from the original archive and 6 additional publisher-corroborated items. They relate to Bhupesh Baghel (8), Deepak Baij (2), and Charan Das Mahant (1). They have original X status links and corroborating press links. They are **not** incorrectly labeled as directly API-verified X text.
-- **14 separate press-reported social references** across the monitoring interval, including Facebook-referenced debate reporting, X references, and reporting about social-media controversy. These are publisher reports, **not** original FB/IG/X posts unless the original permalink is separately indexed.
+- **15 separate press-reported social references** across the monitoring interval, including Facebook-referenced debate reporting, X references, and reporting about social-media controversy. These are publisher reports, **not** original FB/IG/X posts unless the original permalink is separately indexed.
 - A compact expandable **30-profile directory** (10 names × X, Facebook, Instagram). Uncertified candidate profile links remain clearly marked.
 - Filters: evidence class, politician, platform, five-category topic, date range from 5 Aug 2026, text search; show more; source links and verification details. Native first-party Facebook/Instagram count remains **0 verified originals**, not a fictional corpus.
 - Static no-JavaScript fallback with source links.
@@ -36,7 +36,7 @@ For X, supply an authorized X API bearer token with full-archive search access a
 
 ## Verification
 
-`qa/social-smoke.mjs` validates eleven X URLs, 14 press leads, 30 profile slots, filter combinations, timeline search, no fabricated Meta posts, and no uncaught errors. `tests/social-browser-smoke.cjs` verifies browser controls and layout in desktop, iPad, iPhone, and no-JavaScript mode. Existing V7–V10 tests remain.
+`qa/social-smoke.mjs` validates eleven X URLs, 15 press leads, 30 profile slots, filter combinations, timeline search, no fabricated Meta posts, and no uncaught errors. `tests/social-browser-smoke.cjs` verifies browser controls and layout in desktop, iPad, iPhone, and no-JavaScript mode. Existing V7–V10 tests remain.
 
 Important: There is no undocumented background job outside GitHub Actions, and GitHub Actions schedule execution may run later than the configured cron. Source coverage should be treated as evolving and incomplete.
 
