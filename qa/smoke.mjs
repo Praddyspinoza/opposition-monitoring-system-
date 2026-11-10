@@ -50,6 +50,18 @@ assert.match(document.getElementById("cgDistrictEvidence").textContent,/2024-08-
 document.getElementById("cgMapReset").click();
 assert.equal(document.getElementById("cgDistrictTitle").textContent,"Raipur");
 assert.equal(ld.value,"all");
+assert.equal(document.getElementById("cgMapType").value,"events","research map defaults to genuine public events");
+assert.equal(document.getElementById("cgTimeline").value,"46","timeline resets to Nov 2026");
+assert.equal(document.getElementById("cgTimelineMode").value,"cumulative","timeline resets to cumulative");
+const time=document.getElementById("cgTimeline");
+time.value="19";time.dispatchEvent(new Event("input",{bubbles:true}));
+assert.equal(document.getElementById("cgMapTo").value,"2024-08-31");
+assert.match(document.getElementById("cgTimelineLabel").textContent,/August 2024/);
+const mode=document.getElementById("cgTimelineMode");
+mode.value="monthly";mode.dispatchEvent(new Event("change",{bubbles:true}));
+assert.equal(document.getElementById("cgMapFrom").value,"2024-08-01");
+assert.equal(document.getElementById("cgMapTo").value,"2024-08-31");
+document.getElementById("cgMapReset").click();
 assert.equal(dt.value,"2026-11-10");
 assert.equal(errors.length,0,"no inline JavaScript exceptions: "+errors.join("; "));
 console.log("PASS: V7 map 33 boundaries, original V6 dossiers, 14 historical reports, date/leader drilldowns and default rendering");
