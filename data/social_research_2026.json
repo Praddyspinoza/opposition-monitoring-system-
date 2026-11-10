@@ -7,7 +7,7 @@
     "to": "2026-11-05",
     "timezone": "Asia/Kolkata"
   },
-  "method": "No covert browser evasion or bypass. An original permalink linked in a publisher is not necessarily an authenticated retrieved post; Facebook/Instagram individual originals remain unverified. Press leads are not counted as original platform posts. Six additional Baghel X URLs were cross-referenced to press articles and date-checkable X Snowflake IDs; the archive still does not represent a complete X timeline. Some reports contain attributed political claims that must not be interpreted as proven facts.",
+  "method": "Evidence-first public monitoring. Eleven original X permalinks are publisher-linked, not authenticated API captures; dated press references are secondary discovery leads. Facebook/Instagram originals remain unverified. No login or anti-bot bypass.",
   "x_accounts": [
     {
       "leader": "Charan Das Mahant",
@@ -517,6 +517,23 @@
       "publisher": "Hari Bhoomi",
       "source_type": "publisher_report",
       "status": "Original Facebook post not retrieved"
+    },
+    {
+      "id": "CGX-LEAD-2026-11-03-FB-BAGHEL",
+      "date": "2026-11-03",
+      "leaders": [
+        "Bhupesh Baghel"
+      ],
+      "platform": "Facebook",
+      "topics": [
+        "Religion / Hinduism"
+      ],
+      "title": "Publisher attributes a Facebook statement to Baghel over a Ram–Krishna comparison",
+      "summary": "Pradesh Khabar reports a public Facebook remark by Baghel in a dispute surrounding a Hindu religious speaker’s comments. The original Facebook post permalink and exact timestamp were not retrieved, so this is a press discovery lead only.",
+      "url": "https://pradeshkhabar.in/?p=239602",
+      "publisher": "Pradesh Khabar",
+      "source_type": "publisher_report",
+      "status": "Reported Facebook statement; original post link and timestamp not authenticated"
     }
   ]
 }
