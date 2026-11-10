@@ -7,7 +7,7 @@
     "to": "2026-11-05",
     "timezone": "Asia/Kolkata"
   },
-  "method": "No covert browser evasion or bypass. An original permalink linked in a publisher is not necessarily an authenticated retrieved post; Facebook/Instagram individual originals remain unverified. Press leads are not counted as original platform posts.",
+  "method": "No covert browser evasion or bypass. An original permalink linked in a publisher is not necessarily an authenticated retrieved post; Facebook/Instagram individual originals remain unverified. Press leads are not counted as original platform posts. Six additional Baghel X URLs were cross-referenced to press articles and date-checkable X Snowflake IDs; the archive still does not represent a complete X timeline. Some reports contain attributed political claims that must not be interpreted as proven facts.",
   "x_accounts": [
     {
       "leader": "Charan Das Mahant",
@@ -82,6 +82,57 @@
   ],
   "x_posts": [
     {
+      "id": "CGX-2026-10-29-KARWA",
+      "date": "2026-10-29",
+      "leader": "Bhupesh Baghel",
+      "platform": "X",
+      "topics": [
+        "Religion / Hinduism"
+      ],
+      "title": "Baghel posts public Karwa Chauth greetings",
+      "summary": "Pradesh Khabar reproduces a social greeting by Baghel relating to the Karwa Chauth festival. This entry documents public holiday messaging only, not private religious identity or belief.",
+      "url": "https://x.com/bhupeshbaghel/status/2115671307723637109",
+      "corroboration_url": "https://pradeshkhabar.in/?p=239297",
+      "publisher": "Pradesh Khabar",
+      "source_type": "original_X_permalink_corroborated_by_publisher",
+      "verification": "Publisher-linked original X status URL; full original content not fetched through authenticated X API",
+      "date_method": "X snowflake timestamp cross-checked with publisher report"
+    },
+    {
+      "id": "CGX-2026-10-29-EC",
+      "date": "2026-10-29",
+      "leader": "Bhupesh Baghel",
+      "platform": "X",
+      "topics": [
+        "Governance"
+      ],
+      "title": "Baghel questions the Election Commission's impartiality",
+      "summary": "Pradesh Khabar cites an X post in which Baghel alleges the ruling party treats the Election Commission as aligned with the BJP. The source is an attributed criticism, not evidence supporting the claim.",
+      "url": "https://x.com/bhupeshbaghel/status/2115768755511046189",
+      "corroboration_url": "https://pradeshkhabar.in/?p=239334",
+      "publisher": "Pradesh Khabar",
+      "source_type": "original_X_permalink_corroborated_by_publisher",
+      "verification": "Publisher-linked original X status URL; full original content not fetched through authenticated X API",
+      "date_method": "X snowflake timestamp cross-checked with publisher report"
+    },
+    {
+      "id": "CGX-2026-10-28-PARTY",
+      "date": "2026-10-28",
+      "leader": "Bhupesh Baghel",
+      "platform": "X",
+      "topics": [
+        "Governance"
+      ],
+      "title": "Baghel responds critically to BJP leadership remarks",
+      "summary": "Pradesh Khabar links to Baghel's X comment criticizing the BJP state leadership. The wording represents his political opinion, not an independently established finding.",
+      "url": "https://x.com/bhupeshbaghel/status/2115415441644634325",
+      "corroboration_url": "https://pradeshkhabar.in/?p=239295",
+      "publisher": "Pradesh Khabar",
+      "source_type": "original_X_permalink_corroborated_by_publisher",
+      "verification": "Publisher-linked original X status URL; full original content not fetched through authenticated X API",
+      "date_method": "X snowflake timestamp cross-checked with publisher report"
+    },
+    {
       "id": "CG-V6-0164",
       "date": "2026-10-26",
       "leader": "Bhupesh Baghel",
@@ -99,6 +150,40 @@
       "date_method": "publisher_and_X_snowflake"
     },
     {
+      "id": "CGX-2026-10-26-RALLY",
+      "date": "2026-10-26",
+      "leader": "Bhupesh Baghel",
+      "platform": "X",
+      "topics": [
+        "Governance"
+      ],
+      "title": "Baghel challenges government's response to planned public rally",
+      "summary": "Pradesh Khabar quotes an X statement in which Baghel argued the government was concerned about a planned rally and anticipated a large turnout. This is a quoted political prediction, not attendance evidence.",
+      "url": "https://x.com/bhupeshbaghel/status/2114699259505516743",
+      "corroboration_url": "https://pradeshkhabar.in/?p=239126",
+      "publisher": "Pradesh Khabar",
+      "source_type": "original_X_permalink_corroborated_by_publisher",
+      "verification": "Publisher-linked original X status URL; full original content not fetched through authenticated X API",
+      "date_method": "X snowflake timestamp cross-checked with publisher report"
+    },
+    {
+      "id": "CGX-2026-10-24-ADS",
+      "date": "2026-10-24",
+      "leader": "Bhupesh Baghel",
+      "platform": "X",
+      "topics": [
+        "Governance"
+      ],
+      "title": "Baghel alleges high daily state advertising expenditure",
+      "summary": "Pradesh Khabar quotes an X post in which Baghel alleged the state spent about ₹1.33 crore daily on political banners, posters and advertising. This amount is an attributed allegation, not a verified budget expenditure.",
+      "url": "https://x.com/bhupeshbaghel/status/2113951338208047562",
+      "corroboration_url": "https://pradeshkhabar.in/?p=238880",
+      "publisher": "Pradesh Khabar",
+      "source_type": "original_X_permalink_corroborated_by_publisher",
+      "verification": "Publisher-linked original X status URL; full original content not fetched through authenticated X API",
+      "date_method": "X snowflake timestamp cross-checked with publisher report"
+    },
+    {
       "id": "CG-0149",
       "date": "2026-09-15",
       "leader": "Bhupesh Baghel",
@@ -114,6 +199,23 @@
       "source_type": "original_X_permalink_corroborated_by_publisher",
       "verification": "Publisher-embedded permalink and attributed date; X original page/API could not be independently retrieved",
       "date_method": "publisher_and_X_snowflake"
+    },
+    {
+      "id": "CGX-2026-08-24-PMAY",
+      "date": "2026-08-24",
+      "leader": "Bhupesh Baghel",
+      "platform": "X",
+      "topics": [
+        "Governance"
+      ],
+      "title": "Baghel challenges state government's housing-sanction figures",
+      "summary": "ANI-syndicated reporting links an X statement by Baghel challenging public claims about PMAY housing sanctions and demanding official accounting. These are attributed political claims, not independently reconciled figures.",
+      "url": "https://x.com/bhupeshbaghel/status/2091814823118139837",
+      "corroboration_url": "https://newsable.asianetnews.com/india/punjab-polls-2027-baghel-meets-gandhis-plans-rahul-s-bus-tour-articleshow-8qagahn",
+      "publisher": "ANI via Asianet Newsable",
+      "source_type": "original_X_permalink_corroborated_by_publisher",
+      "verification": "Publisher-linked original X status URL; full original content not fetched through authenticated X API",
+      "date_method": "X snowflake timestamp cross-checked with publisher report"
     },
     {
       "id": "CG-0148",
