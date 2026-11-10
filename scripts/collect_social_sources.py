@@ -30,7 +30,19 @@ HEADERS = {"User-Agent": "ChhattisgarhPublicNewsResearch/1.0 (public-source moni
 TODAY = dt.datetime.now(dt.timezone.utc)
 TODAY_IST = TODAY.astimezone(ZoneInfo("Asia/Kolkata")).date()
 START = dt.date(2026, 8, 5)
-SOCIAL_WORDS = re.compile(r"\b(tweet|twitter|facebook|instagram|social media|posted on x|x post|posted|viral post|social-media)\b|सोशल मीडिया|ट्वीट|फेसबुक|इंस्टाग्राम|पोस्ट|वायरल", re.I)
+SOCIAL_WORDS = re.compile(r"\b(tweet|twitter|facebook|instagram|social media|posted on x|x post|posted|viral post|social-media)\b|सोशल मीडिया|ट्वीट|फेसबुक|इंस्टाग्राम|पोस्ट|वायरल|एक्स पर|सोशल साइट|साझा किया", re.I)
+HINDI_NAMES = {
+    "Charan Das Mahant": "चरणदास महंत",
+    "Deepak Baij": "दीपक बैज",
+    "Bhupesh Baghel": "भूपेश बघेल",
+    "T. S. Singh Deo": "टी एस सिंहदेव",
+    "Phulo Devi Netam": "फूलो देवी नेताम",
+    "Jyotsna Charandas Mahant": "ज्योत्स्ना महंत",
+    "Mohan Markam": "मोहन मरकाम",
+    "Sandeep Sahu": "संदीप साहू",
+    "Devendra Yadav": "देवेंद्र यादव",
+    "Umesh Patel": "उमेश पटेल",
+}
 TOPIC_RE = {
     "Tribal Issues": r"\b(tribal|adivasi|indigenous|pesa|forest rights|scheduled tribe)\b|आदिवासी|जनजाति|वनाधिकार",
     "Religion / Hinduism": r"\b(religion|hindu|temple|hareli|dussehra|religious|ram temple|durga)\b|हिंदू|धर्म|मंदिर|दुर्गा",
@@ -93,7 +105,9 @@ def discover_news(config: dict) -> tuple[list[dict], int, list[str]]:
         if n:
             # Polite jitter to spread requests, not to evade platform controls.
             time.sleep(random.uniform(2.3, 4.2))
-        q = '"' + leader + '" (tweet OR twitter OR "facebook post" OR "instagram post" OR "social media" OR ट्वीट OR फेसबुक) Chhattisgarh when:14d'
+        q = ('("' + leader + '" OR "' + HINDI_NAMES.get(leader, leader) + '") '
+             '(tweet OR twitter OR facebook OR instagram OR "social media" OR सोशल OR पोस्ट OR ट्वीट) '
+             'after:2026-08-04')
         url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({"q": q, "hl": "en-IN", "gl": "IN", "ceid": "IN:en"})
         try:
             root = ET.fromstring(request_text(url))
@@ -101,7 +115,7 @@ def discover_news(config: dict) -> tuple[list[dict], int, list[str]]:
         except (urllib.error.URLError, TimeoutError, ValueError, ET.ParseError) as error:
             failures.append(leader + ": " + type(error).__name__)
             continue
-        for item in root.findall("./channel/item")[:18]:
+        for item in root.findall("./channel/item")[:45]:
             title = clean(item.findtext("title") or "", 200)
             description = clean(item.findtext("description") or "", 400)
             source = clean(item.findtext("source") or "Google News indexed publisher", 90)
@@ -117,7 +131,9 @@ def discover_news(config: dict) -> tuple[list[dict], int, list[str]]:
                 continue
             # Name must be present, so another politician with a similar query doesn't get misattributed.
             pieces = [s for s in leader.split() if len(s) > 3]
-            if not any(p.casefold() in text.casefold() for p in pieces):
+            complete_english = leader.casefold() in text.casefold()
+            full_hindi = HINDI_NAMES.get(leader, "") in text
+            if not complete_english and not full_hindi and not (len(pieces)>1 and all(p.casefold() in text.casefold() for p in pieces)):
                 continue
             rid = "RSS-" + hashlib.sha256((leader + "|" + link).encode("utf-8")).hexdigest()[:16]
             leads.append({
