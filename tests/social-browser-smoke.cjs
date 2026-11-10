@@ -34,7 +34,7 @@ function check(condition,message){if(!condition)throw Error(message)}
     check((await page.locator('#siMatches').innerText()).includes('2 evidence items'),spec.name+': topic filter failed');
     await page.locator('#siReset').click();
     await page.locator('#siKind').selectOption('meta');
-    check((await page.locator('#siMatches').innerText()).includes('1 evidence item'),spec.name+': one Facebook press reference should show');
+    check((await page.locator('#siMatches').innerText()).includes('2 evidence items'),spec.name+': two Facebook press references should show');
     check((await page.locator('#siEvidenceList').innerText()).includes('not a retrieved first-party social post'),spec.name+': publisher link misrepresented');
     await page.locator('#siPlatform').selectOption('Instagram');
     check((await page.locator('#siMatches').innerText()).includes('0 evidence items'),spec.name+': should not synthesize Instagram post');
