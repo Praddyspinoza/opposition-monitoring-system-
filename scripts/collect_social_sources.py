@@ -30,13 +30,13 @@ HEADERS = {"User-Agent": "ChhattisgarhPublicNewsResearch/1.0 (public-source moni
 TODAY = dt.datetime.now(dt.timezone.utc)
 TODAY_IST = TODAY.astimezone(ZoneInfo("Asia/Kolkata")).date()
 START = dt.date(2026, 8, 5)
-SOCIAL_WORDS = re.compile(r"\\b(tweet|twitter|facebook|instagram|social media|posted on x|x post|posted|viral post|social-media)\\b|सोशल मीडिया|ट्वीट|फेसबुक|इंस्टाग्राम|पोस्ट|वायरल", re.I)
+SOCIAL_WORDS = re.compile(r"\b(tweet|twitter|facebook|instagram|social media|posted on x|x post|posted|viral post|social-media)\b|सोशल मीडिया|ट्वीट|फेसबुक|इंस्टाग्राम|पोस्ट|वायरल", re.I)
 TOPIC_RE = {
-    "Tribal Issues": r"\\b(tribal|adivasi|indigenous|pesa|forest rights|scheduled tribe)\\b|आदिवासी|जनजाति|वनाधिकार",
-    "Religion / Hinduism": r"\\b(religion|hindu|temple|hareli|dussehra|religious|ram temple|durga)\\b|हिंदू|धर्म|मंदिर|दुर्गा",
-    "Governance": r"\\b(government|governance|assembly|minister|scheme|policy|election|hospital|housing|farmers|paddy|school|education|employment|police)\\b|सरकार|विधानसभा|चुनाव|योजना|किसान|धान|रोजगार|स्वास्थ्य|स्कूल",
-    "Minerals": r"\\b(mineral|iron ore|bauxite|steel|dmf|district mineral|ore lease)\\b|खनिज|लौह अयस्क",
-    "Mining": r"\\b(mining|coal|mines|mine lease|hasdeo|secl|nmdc|fly ash)\\b|खनन|कोयला|खदान|फ्लाई ऐश",
+    "Tribal Issues": r"\b(tribal|adivasi|indigenous|pesa|forest rights|scheduled tribe)\b|आदिवासी|जनजाति|वनाधिकार",
+    "Religion / Hinduism": r"\b(religion|hindu|temple|hareli|dussehra|religious|ram temple|durga)\b|हिंदू|धर्म|मंदिर|दुर्गा",
+    "Governance": r"\b(government|governance|assembly|minister|scheme|policy|election|hospital|housing|farmers|paddy|school|education|employment|police)\b|सरकार|विधानसभा|चुनाव|योजना|किसान|धान|रोजगार|स्वास्थ्य|स्कूल",
+    "Minerals": r"\b(mineral|iron ore|bauxite|steel|dmf|district mineral|ore lease)\b|खनिज|लौह अयस्क",
+    "Mining": r"\b(mining|coal|mines|mine lease|hasdeo|secl|nmdc|fly ash)\b|खनन|कोयला|खदान|फ्लाई ऐश",
 }
 MAX_RECORDS = 350
 
@@ -49,11 +49,11 @@ def read_json(path: Path, fallback: dict) -> dict:
 
 def save_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 def clean(v: str, maxchars: int = 480) -> str:
     v = re.sub(r"<[^>]*>", " ", v or "")
-    return re.sub(r"\\s+", " ", html.unescape(v)).strip()[:maxchars]
+    return re.sub(r"\s+", " ", html.unescape(v)).strip()[:maxchars]
 
 def topics(text: str) -> list[str]:
     return [topic for topic, pattern in TOPIC_RE.items() if re.search(pattern, text, re.I)]
@@ -140,7 +140,7 @@ def confirmed_x_handles(config: dict) -> dict[str, str]:
     """Three identities with original X status URLs backed by the 2026 news archive."""
     found = {}
     for post in config.get("x_posts", []):
-        m = re.fullmatch(r"https://x\\.com/([A-Za-z0-9_]+)/status/\\d+", (post.get("url") or "").rstrip("/"))
+        m = re.fullmatch(r"https://x\.com/([A-Za-z0-9_]+)/status/\d+", (post.get("url") or "").rstrip("/"))
         if m and post.get("corroboration_url"):
             found[post["leader"]] = m.group(1)
     return found
