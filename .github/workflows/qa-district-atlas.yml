@@ -5,6 +5,7 @@ on:
       - 'feature/33-district-activity-map-v7'
       - 'feature/district-timeline-v8'
       - 'feature/33-district-ten-leader-five-topic-dossiers'
+      - 'feature/meta-facebook-instagram-archive-v10'
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -23,6 +24,8 @@ jobs:
         run: npm install --no-save --no-package-lock jsdom@26
       - name: Run district atlas smoke checks
         run: node qa/smoke.mjs
+      - name: Verify Meta archive and import validation
+        run: node qa/meta-smoke.mjs
 
   browser:
     if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
@@ -40,10 +43,14 @@ jobs:
         run: npx playwright install --with-deps chromium
       - name: Verify district dossiers on desktop, iPad and mobile
         run: node tests/dossier-browser-smoke.cjs
+      - name: Verify separate Facebook / Instagram tab
+        run: node tests/meta-browser-smoke.cjs
       - name: Save browser QA screenshots
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: chhattisgarh-district-browser-checks
-          path: tests/v9-*.png
+          path: |
+            tests/v9-*.png
+            tests/meta-*.png
           if-no-files-found: ignore
