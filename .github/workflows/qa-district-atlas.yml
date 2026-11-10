@@ -4,6 +4,7 @@ on:
     branches:
       - 'feature/33-district-activity-map-v7'
       - 'feature/district-timeline-v8'
+      - 'feature/33-district-ten-leader-five-topic-dossiers'
   pull_request:
     branches: [main]
   workflow_dispatch:
