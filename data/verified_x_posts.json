@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_checked_utc": "2026-11-10T18:43:51.282696+00:00",
+  "last_checked_utc": "2026-11-11T08:00:00.171237+00:00",
   "collection_status": "X_BEARER_TOKEN not connected; no direct API acquisition",
   "permission_requirement": "Approved X API v2 full-archive search access and verified account identities required; historical access depends on X tier",
   "confirmed_publisher_linked_handles": {
