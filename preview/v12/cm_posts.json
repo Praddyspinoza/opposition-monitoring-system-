@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "window": {
+    "start": "2026-08-05",
+    "end": "2026-11-05",
+    "timezone": "Asia/Kolkata"
+  },
+  "as_of_utc": null,
+  "provenance": "Official authorised X and Meta APIs only. No credentials connected; no post claims made.",
+  "status": {
+    "x": {
+      "state": "not_connected",
+      "retrieved": 0
+    },
+    "facebook": {
+      "state": "not_connected",
+      "retrieved": 0
+    },
+    "instagram": {
+      "state": "not_connected",
+      "retrieved": 0
+    }
+  },
+  "posts": []
+}
