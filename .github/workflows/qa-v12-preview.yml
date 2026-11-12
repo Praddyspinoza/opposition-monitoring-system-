@@ -1,0 +1,58 @@
+name: V12 preview integrity and browser smoke test
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'preview/v12/**'
+      - 'scripts/qa_v12_preview.cjs'
+      - '.github/workflows/qa-v12-preview.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  static_and_browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate research source counts, dates, data integrity and script syntax
+        run: node scripts/qa_v12_preview.cjs
+      - name: Headless browser smoke test where Chrome is available
+        shell: bash
+        run: |
+          set -euo pipefail
+          BIN=""
+          for B in google-chrome google-chrome-stable chromium chromium-browser; do
+            if command -v "$B" >/dev/null 2>&1; then BIN=$(command -v "$B"); break; fi
+          done
+          if [ -z "$BIN" ]; then echo "Chrome not installed on runner; static QA passed; browser test skipped"; exit 0; fi
+          echo "Testing with $BIN"
+          timeout 65 "$BIN" --no-sandbox --headless --disable-gpu --hide-scrollbars             --disable-extensions --virtual-time-budget=6000 --dump-dom             "file://$PWD/preview/v12/index.html" > /tmp/v12-rendered-dom.html 2>/tmp/v12-chrome.log
+          node - <<'NODE'
+          const fs=require('fs');
+          const assert=require('assert/strict');
+          const html=fs.readFileSync('/tmp/v12-rendered-dom.html','utf8');
+          for(const token of ['v12-ready','data-flow-leader=','data-flow-issue=',
+            'v12-person-card','Original CM X posts recovered via publishers',
+            'publisher-embedded original post URL']) {
+            assert(html.includes(token),'Browser did not render expected UI token '+token);
+          }
+          const nodes=(html.match(/data-flow-leader=/g)||[]).length;
+          const posts=(html.match(/Open original X post/g)||[]).length;
+          assert(nodes>=10,'Expected ten animated leader nodes');
+          assert(posts>=24,'Expected publisher-recovered CM X post links');
+          console.log('PASS browser smoke: '+nodes+' flow nodes; '+posts+' original X link buttons in rendered DOM');
+          NODE
+      - name: Upload browser debug log only on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v12-browser-debug
+          path: /tmp/v12-chrome.log
+          if-no-files-found: ignore
