@@ -5,7 +5,7 @@
     "end": "2026-11-05"
   },
   "verifiedAt": "2026-11-12",
-  "methodology": "Records are a selective, source-linked research sample. A sourced event is not necessarily an original post or a statement. Chart figures count one primary issue per record; social API data is not connected.",
+  "methodology": "Records are a selective, source-linked research sample. A sourced event is not necessarily an original post or a statement. Chart figures count one primary issue per record; social API data is not connected. Dates in press and official releases are generally source publication dates unless an original event timestamp is independently established; regional/division references must not be pinned to one district.",
   "issueTaxonomy": [
     {
       "id": "Tribal Issues",
@@ -111,7 +111,7 @@
       "r": "BJP National Social Media Convenor · appointed 17 Aug 2026",
       "p": "National party digital communications; CGMSC chairman",
       "g": "BJP organisation",
-      "district": "Raipur"
+      "district": "National BJP organisation (no district attribution)"
     },
     {
       "n": "Dr. Raman Singh",
@@ -287,7 +287,7 @@
       "summary": "Sai participated virtually in a programme involving rehabilitation for persons affected by IED blasts and discussed Bastar's development. Reported figures and characterisations belong to the source.",
       "publisher": "Lok Manjari",
       "url": "https://www.lokmanjari.com/chhattisgarh.php?articleid=5105",
-      "district": "Bastar",
+      "district": "Bastar division / multiple districts",
       "statement": true,
       "platform": "Press / official release",
       "verification": "Dated source; attribution recorded as published",
@@ -480,7 +480,7 @@
       "summary": "Hindustan Times reports the Home Minister's statement about phased downgrades in security cover after a threat assessment. Reasons are attributed to officials.",
       "publisher": "Hindustan Times",
       "url": "https://www.hindustantimes.com/india-news/chhattisgarh-to-reduce-security-cover-of-116-bastar-leaders-after-decline-in-maoist-violence-101793349783113.html",
-      "district": "Bastar",
+      "district": "Bastar division / multiple districts",
       "statement": true,
       "platform": "Press / official release",
       "verification": "Dated source; attribution recorded as published",
@@ -620,7 +620,7 @@
       "summary": "The Indian Express reports the 17 August organisational appointment; this is an event, not an issue statement.",
       "publisher": "The Indian Express",
       "url": "https://indianexpress.com/article/political-pulse/bjp-organisational-reshuffle-smriti-irani-piyush-goyal-amit-malviya-deepak-mhaskey-10837112/",
-      "district": "Raipur",
+      "district": "Statewide / national appointment",
       "statement": false,
       "platform": "Press / official release",
       "verification": "Dated source; attribution recorded as published",
@@ -637,7 +637,7 @@
       "summary": "The Indian Express interview contains his public statements on the role. Political messaging does not fit the ten substantive public-policy issues and is excluded from the issue pie.",
       "publisher": "The Indian Express",
       "url": "https://indianexpress.com/article/political-pulse/deepak-mhaskey-bjp-social-media-strategy-10837733/lite/",
-      "district": "Raipur",
+      "district": "Statewide / national appointment",
       "statement": true,
       "platform": "Press / official release",
       "verification": "Dated source; attribution recorded as published",
@@ -801,5 +801,9 @@
       "apiVerifiedPosts": 0
     },
     "posts": []
+  },
+  "sourceAudit": {
+    "status": "Partial editorial verification of cited sources; link-by-link and original quotation checking continue",
+    "note": "Do not interpret a media report count as a complete statement total, a programme announcement as delivery, or a regional reference as a single-district event."
   }
 }
