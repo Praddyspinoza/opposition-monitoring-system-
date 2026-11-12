@@ -3,7 +3,7 @@
   "updated": "2026-11-12",
   "coverageStart": "2026-08-05",
   "coverageEnd": "2026-11-05",
-  "methodology": "First-party X post permalinks recovered from independently published articles, not an API feed. Date derived from X snowflake ID UTC timestamp. Content and account ownership not directly verified from X API.",
+  "methodology": "First-party X post permalinks recovered from independently published articles, not an API feed. Date derived from X snowflake ID UTC timestamp. Content and account ownership not directly verified from X API. Condolences, courtesy visits and organisational events are not policy speeches; they remain unclassified unless a source establishes an explicit policy position.",
   "accounts": [
     {
       "person": "Vishnu Deo Sai",
@@ -95,7 +95,7 @@
       "publisherUrl": "https://ajkinews.com/?p=88432",
       "publisherName": "ajkinews.com",
       "title": "Condolences after Durga Puja accident",
-      "issue": "Religion / Hinduism",
+      "issue": "Unclassified",
       "evidenceClass": "publisher_embedded_original_permalink",
       "status": "Publisher-embedded original X URL; content not authenticated from X API.",
       "apiVerified": false
