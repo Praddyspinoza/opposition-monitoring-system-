@@ -40,7 +40,7 @@ jobs:
           const html=fs.readFileSync('/tmp/v12-rendered-dom.html','utf8');
           for(const token of ['v12-ready','data-flow-leader=','data-flow-issue=',
             'v12-person-card','Original CM X posts recovered via publishers',
-            'publisher-embedded original post URL']) {
+            'Publisher-embedded original post URL']) {
             assert(html.includes(token),'Browser did not render expected UI token '+token);
           }
           const nodes=(html.match(/data-flow-leader=/g)||[]).length;
