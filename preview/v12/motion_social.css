@@ -1,0 +1,58 @@
+
+/* V12.1: lightweight motion intelligence / publisher-verified links */
+.v12-flow-wrap,.v12-social-wrap{border:1px solid #334f65;border-radius:15px;background:radial-gradient(ellipse at 58% 50%,#183044 0,#0c192a 66%,#0b1524 100%);overflow:hidden;margin:16px 0 20px;position:relative}
+.v12-flow-head{padding:20px 24px 12px;display:flex;align-items:start;justify-content:space-between;gap:13px;flex-wrap:wrap}
+.v12-flow-head h2,.v12-flow-head h3,.v12-social-wrap h3{font-size:20px;color:#eff5f7;margin:8px 0 5px}
+.v12-flow-head p{color:#9db8c9;font-size:11px;line-height:1.6;max-width:750px}
+.v12-flow-filters{padding:8px 22px 0;display:flex;gap:8px;align-items:end;flex-wrap:wrap}
+.v12-flow-filters label{display:grid;gap:5px;color:#a7bac8;font-size:10px;font-weight:700;min-width:120px}
+.v12-flow-filters select,.v12-flow-filters button,.v12-social-controls select,.v12-social-controls input{min-width:130px;max-width:240px;background:#122638;color:#e4ebf2;border:1px solid #49647a;border-radius:7px;padding:8px;font-size:12px}
+.v12-flow-filters button{cursor:pointer;min-width:100px}
+.v12-flow-board{padding:6px 12px 10px;position:relative;min-height:360px;overflow:hidden}
+.v12-flow-svg{width:100%;height:auto;min-height:340px;max-height:590px;display:block;filter:none;transform:translateZ(0)}
+.v12-flow-svg .v12-flow-line{fill:none;stroke-width:1.5;opacity:.22;pointer-events:none}
+.v12-flow-svg .v12-flow-line.live{stroke-width:2.6;opacity:.94;stroke-dasharray:11 19;stroke-dashoffset:0;animation:v12-flow-dash 4.4s linear infinite}
+.v12-flow-svg .v12-flow-line.live:nth-of-type(2n){animation-duration:6.4s}
+.v12-flow-svg .v12-node{fill:#112b3b;stroke:#4c7d80;stroke-width:1.4;cursor:pointer}
+.v12-flow-svg .v12-node:hover,.v12-flow-svg .v12-node:focus{stroke:#d7c18b;fill:#1a3d43;outline:none}
+.v12-flow-svg text{font-size:11px;font-weight:500;fill:#cfdeea;pointer-events:none;dominant-baseline:middle}
+.v12-flow-svg .v12-node-count{font-size:10px;font-weight:730;fill:#cce7dc}
+.v12-flow-svg .v12-header-label{font-size:11px;letter-spacing:.12em;font-weight:800;fill:#83bfc1}
+.v12-flow-live-indicator{display:inline-flex;align-items:center;gap:7px;color:#8ccfca;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.12em}
+.v12-flow-live-indicator i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#6ee2c3;box-shadow:0 0 10px #6ee2c3;animation:v12-flow-beacon 2.4s ease-in-out infinite}
+.v12-flow-wrap[data-motion="paused"] .v12-flow-live-indicator i,.v12-flow-wrap[data-motion="paused"] .v12-flow-line.live,.v12-flow-wrap[data-visible="false"] .v12-flow-line.live,.v12-flow-wrap[data-visible="false"] .v12-flow-live-indicator i{animation-play-state:paused}
+.v12-flow-foot{padding:10px 22px 20px;border-top:1px solid #294358;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;color:#a2bbc7;font-size:10px;line-height:1.6}
+.v12-flow-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:0 22px 17px}
+.v12-flow-kpi{border:1px solid #3b5a6b;border-radius:8px;padding:10px 12px;background:#102538}
+.v12-flow-kpi b{display:block;font-size:19px;color:#eaf5f5}
+.v12-flow-kpi span{font-size:10px;color:#abc0ce}
+.v12-social-wrap{padding:19px 22px}
+.v12-social-wrap h3{font-size:17px}
+.v12-social-lead{color:#a8bfd0;font-size:12px;line-height:1.6}
+.v12-social-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:15px 0}
+.v12-social-kpis>div{padding:12px 15px;background:#102738;border:1px solid #355b6b;border-radius:10px}
+.v12-social-kpis b{font-size:24px;color:#f3f8f7;display:block}.v12-social-kpis span{font-size:10px;color:#b0c3d1}
+.v12-social-accounts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0}
+.v12-social-account{border:1px solid #3d556b;border-radius:9px;background:#101f30;padding:12px}
+.v12-social-account b{display:block;font-size:12px;color:#f0f6f9;margin-bottom:7px}
+.v12-social-account small{font-size:10px;color:#a8bbc6;line-height:1.5;display:block;margin:4px 0}
+.v12-social-account a{color:#92d9ce;font-size:11px;overflow-wrap:anywhere}
+.v12-social-controls{display:flex;flex-wrap:wrap;gap:9px;padding:12px 0;align-items:center}
+.v12-social-card{padding:13px 0;border-bottom:1px solid #345065}
+.v12-social-card:last-child{border-bottom:0}
+.v12-social-card strong{font-size:12px;color:#ecf2f9;display:block;margin:5px 0}
+.v12-social-card small{font-size:10px;color:#a9bfd0;display:block;line-height:1.55}
+.v12-social-card .v12-social-links{display:flex;gap:14px;flex-wrap:wrap;margin-top:6px}
+.v12-social-card .v12-social-links a{font-size:11px;color:#8cd8ce}
+.v12-social-ledger{max-height:700px;overflow:auto}
+.v12-social-alert{padding:11px 13px;background:#192e34;border-left:3px solid #70b6ae;border-radius:4px;color:#bed5d2;font-size:11px;line-height:1.65;margin:12px 0}
+.v12-social-searchrows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:12px 0}
+.v12-social-searchrow{padding:12px;border:1px solid #2d4d65;border-radius:9px;background:#102337}
+.v12-social-searchrow b{display:block;font-size:12px;color:#e8f0f4;margin-bottom:6px}
+.v12-social-searchrow small{display:block;font-size:10px;color:#a3b7c7;margin-bottom:8px}
+.v12-social-searchrow a{font-size:11px;color:#8fe0d5;margin-right:12px}
+@keyframes v12-flow-dash{to{stroke-dashoffset:-120}}
+@keyframes v12-flow-beacon{50%{box-shadow:0 0 16px 5px #4bc8b144;opacity:.5}}
+@media(prefers-reduced-motion:reduce){.v12-flow-line.live,.v12-flow-live-indicator i{animation:none !important}}
+@media(max-width:1100px){.v12-flow-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.v12-social-accounts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:670px){.v12-flow-head,.v12-social-wrap{padding:15px}.v12-flow-filters{padding:5px 14px 0}.v12-flow-board{min-height:260px;padding:4px}.v12-flow-svg{min-height:270px}.v12-social-searchrows,.v12-social-accounts{grid-template-columns:1fr}.v12-social-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.v12-flow-cards{padding:0 12px 12px}.v12-flow-foot{padding:12px}.v12-flow-svg text{font-size:12px}}
