@@ -40,6 +40,54 @@
       "platform": "X",
       "url": "https://x.com/ChhattisgarhCMO",
       "verification": "Listed by Chhattisgarh CMO account directory"
+    },
+    {
+      "person": "Kiran Singh Deo",
+      "platform": "X",
+      "url": "https://x.com/KiranDeoBJP",
+      "verification": "Publicly cross-referenced X profile; platform ownership not independently authenticated"
+    },
+    {
+      "person": "Arun Sao",
+      "platform": "X",
+      "url": "https://x.com/ArunSao3",
+      "verification": "Publicly cross-referenced X profile; platform ownership not independently authenticated"
+    },
+    {
+      "person": "Vijay Sharma",
+      "platform": "X",
+      "url": "https://x.com/vijaysharmacg",
+      "verification": "Publicly referenced X profile; historical alternative handles exist, so confirm before API backfill"
+    },
+    {
+      "person": "O. P. Choudhary",
+      "platform": "X",
+      "url": "https://x.com/OPChoudhary_Ind",
+      "verification": "Publicly cross-referenced X profile; platform ownership not independently authenticated"
+    },
+    {
+      "person": "Deepak Mhaskey",
+      "platform": "X",
+      "url": "https://x.com/deepakmhaskey",
+      "verification": "Publicly reported X profile; historical post coverage may be incomplete"
+    },
+    {
+      "person": "Dr. Raman Singh",
+      "platform": "X",
+      "url": "https://x.com/drramansingh",
+      "verification": "Publicly cross-referenced X profile; platform ownership not independently authenticated"
+    },
+    {
+      "person": "Brijmohan Agrawal",
+      "platform": "X",
+      "url": "https://x.com/brijmohan_ag",
+      "verification": "Publicly cross-referenced X profile; platform ownership not independently authenticated"
+    },
+    {
+      "person": "Kedar Kashyap",
+      "platform": "X",
+      "url": "https://x.com/KedarKashyapBJP",
+      "verification": "Published original X posts corroborate handle; platform API verification pending"
     }
   ],
   "accountDirectorySource": "https://linktr.ee/chhattisgarhcmo1",
@@ -384,5 +432,6 @@
   "metaPostLinks": [],
   "fallbackSearch": {
     "cmX": "https://x.com/search?q=from%3Avishnudsai%20since%3A2026-08-05%20until%3A2026-11-06&src=typed_query"
-  }
+  },
+  "accountNote": "Named politician X links are public profile references, not a guarantee of authenticity or authenticated archive access. Bhavna Bohra X account remains unassigned pending reliable corroboration."
 }
