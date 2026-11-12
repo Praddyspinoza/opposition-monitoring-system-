@@ -161,9 +161,9 @@ function renderCm(){
   ].map(([val,label])=>'<div class="v12-stat"><b>'+val+'</b><span>'+esc(label)+'</span></div>').join("");
   $("v12CmSocial").innerHTML=[
     ["X / Twitter",api.x?.handle||"@vishnudsai",api.x?.status||"No official account feed connected",api.x?.handle?"https://x.com/"+api.x.handle.replace(/^@/,""):""],
-    ["Facebook","CM public Page","No approved Page token or authenticated API collection",""],
-    ["Instagram","CM professional account","No authorised Meta Graph API connection",""]
-  ].map(([title,handle,status,url])=>'<div class="v12-socialbox"><div class="v12-row"><h3>'+esc(title)+'</h3><span class="v12-account-status">API PENDING</span></div><p>'+esc(handle)+'</p><p>'+esc(status)+'</p>'+(url?'<a class="v12-link" href="'+esc(u(url))+'" target="_blank" rel="noopener noreferrer">Open account ↗</a>':'<span class="v12-hint">No authenticated official Page/profile URL assigned</span>')+'</div>').join("");
+    ["Facebook","CM public Page",api.status?.facebook?.state==="connected"?"Connected via authorised Meta Page API · "+api.status.facebook.retrieved+" posts retrieved":"No approved Page token or authenticated API collection",""],
+    ["Instagram","CM professional account",api.status?.instagram?.state==="connected"?"Connected via authorised Instagram Graph API · "+api.status.instagram.retrieved+" posts retrieved":"No authorised Meta Graph API connection",""]
+  ].map(([title,handle,status,url])=>'<div class="v12-socialbox"><div class="v12-row"><h3>'+esc(title)+'</h3><span class="v12-account-status"+(status.startsWith("Connected")?" connected":"")+">"+(status.startsWith("Connected")?"API CONNECTED":"API PENDING")+"</span></div><p>'+esc(handle)+'</p><p>'+esc(status)+'</p>'+(url?'<a class="v12-link" href="'+esc(u(url))+'" target="_blank" rel="noopener noreferrer">Open account ↗</a>':'<span class="v12-hint">No authenticated official Page/profile URL assigned</span>')+'</div>').join("");
   const filtered=cmRows.filter(r=>(cmIssue==="all"||r.issue===cmIssue||(r.secondaryIssues||[]).includes(cmIssue))&&(cmSourceKind==="all"||cmSourceKind==="sources")&&(!cmQuery||(r.title+" "+r.summary+" "+r.publisher+" "+r.district).toLowerCase().includes(cmQuery)));
   $("v12CmResults").innerHTML=cmSourceKind==="posts"?"":filtered.length?filtered.map(r=>evidence(r)).join(""):'<div class="v12-blank">No matching CM source reports in this subset.</div>';
   let visiblePosts=posts.filter(p=>inTime(p.date)&&(cmIssue==="all"||p.issue===cmIssue)&&(!cmQuery||(String(p.text||"")+" "+String(p.handle||"")).toLowerCase().includes(cmQuery))).sort((a,b)=>b.date.localeCompare(a.date));
@@ -240,6 +240,22 @@ function installEvents(){
   ["v12From","v12To"].forEach(id=>$(id)?.addEventListener("change",()=>{const range=OUT();if(range.end<range.start){$("v12To").value=range.start;}renderAll();}));
 }
 function renderAll(){renderBjp();renderOppPies();renderMatrix();renderCommand();renderCm();addDistrictPanel();}
-setupImport();installEvents();renderAll();
+async function loadApiFeed(){
+  try{
+    const response=await fetch("./cm_posts.json",{cache:"no-store"});
+    if(!response.ok)return;
+    const body=await response.json();
+    if(!body||!Array.isArray(body.posts))return;
+    const allowed=new Set(["X","Facebook","Instagram"]);
+    const imported=body.posts.filter(p=>p&&p.api_verified===true&&allowed.has(p.platform)
+      &&String(p.date||"")>="2026-08-05"&&String(p.date||"")<="2026-11-05"
+      &&Boolean(u(p.url))&&String(p.collection_method||"").startsWith("authorised_"));
+    TAX.cmSocialApi.posts=imported;
+    TAX.cmSocialApi.status=body.status||{};
+    if(body.status?.x?.state==="connected")TAX.cmSocialApi.x.status="Connected via authorised X API · "+body.status.x.retrieved+" posts retrieved";
+    renderCm();
+  }catch(_){/* Static embedded archive remains available without API file. */}
+}
+setupImport();installEvents();renderAll();loadApiFeed();
 document.documentElement.classList.add("v12-ready");
 })();
