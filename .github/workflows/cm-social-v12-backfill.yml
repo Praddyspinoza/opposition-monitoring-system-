@@ -1,0 +1,37 @@
+name: V12 CM X and Meta authorised backfill
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backfill_cm_social:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect authorised 05 Aug to 05 Nov 2026 CM social records
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_IG_TOKEN: ${{ secrets.META_IG_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          META_GRAPH_VERSION: v26.0
+        run: python scripts/collect_cm_social_v12.py
+      - name: Commit source-linked API archive only when changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add preview/v12/cm_posts.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update V12 CM posts from authorised X/Meta API sources"
+            git push origin HEAD:main
+          fi
