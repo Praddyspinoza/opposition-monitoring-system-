@@ -36,7 +36,7 @@ The historical V11 archive has not been retroactively assigned to the five new c
 ## Source bases and pie-chart methodology
 
 - V11: 182 original dated opposition reports in 05 August–05 November 2026, plus separate earlier map history.
-- V12: initial *selective* source-linked BJP sample of 36 records covering the same dates; 12 explicitly refer to Vishnu Deo Sai.
+- V12: expanded *selective* source-linked BJP sample of 112 records covering the same dates; 40 explicitly refer to Vishnu Deo Sai. Of 112 records, some are documented events or organisational activity rather than attributed statements.
 - Each pie represents a distribution of **indexed issue-coded items** for that person in the filtered window, not all of their speeches.
 - The BJP/Government *statement-only* mode counts only source-attributed reported statements. Its *all* mode includes documented public appearances and reports.
 - The opposition charts use the existing V11 archive's five-category labels, which **do not establish that every mention contains an independently verified direct quote**. Do not compare opposition-report pie denominators to BJP-statement denominators as like-for-like measures.
@@ -77,6 +77,34 @@ Use Actions → **V12 CM X and Meta authorised backfill** → Run workflow. The 
 
 The CM tab supports JSON import in the browser, strictly marked **browser-local / unverified**. These items are not pushed to GitHub and do not increase API-verified counters. Use the JSON export button to save and review them.
 
+
+## V12.1 motion flow and original social-link recovery
+
+The Command Centre now contains a real animated, interactive **Leader → Issue → District** evidence flow, with political-group, leader and issue selectors. It visualises indexed source links, **not public opinion, voter support, completed government work or physical travel**. Maximum eight SVG connections animate at once using CSS; there are no JavaScript animation intervals. Animations pause off-screen, pause with the browser tab, respect `prefers-reduced-motion`, and can be paused manually. Click a leader or issue node to filter the flow; a district node opens the existing 33-district map when its name matches one of the 33 administrative polygons.
+
+The new `Original X & Meta links` tab and the CM dossier show **24 publisher-embedded original CM X status URLs** together with corroborating article URLs, within 05 Aug–05 Nov 2026. Their dates are derived from X's tweet ID timestamp and checked against the date window. They are **not** authenticated API post text and are not silently added to the 112 BJP research rows.
+
+Original CM/CMO account links were recovered through the CMO-linked directory `https://linktr.ee/chhattisgarhcmo1`:
+
+- CM X: `https://x.com/vishnudsai`
+- CM Facebook: `https://www.facebook.com/vishnudeosai1`
+- CM Instagram: `https://www.instagram.com/vishnudeosai/`
+- CMO Facebook: `https://www.facebook.com/ChhattisgarhCMO`
+- CMO Instagram: `https://www.instagram.com/chhattisgarhcmo/`
+- CMO X: `https://x.com/ChhattisgarhCMO`
+
+No independently recovered **Meta original post permalinks** have been added; direct account links are not a substitute for post-level evidence. The public-source tab also includes distinct X/Facebook/Instagram **search links** for all 20 leaders, clearly marked as research shortcuts rather than original-post records. Use the authorised Meta/X API workflow if full historical posts are required. Never attempt to evade platform access restrictions.
+
+### Research quality and limitations
+
+- 112 BJP/Government source-indexed items across ten leaders. 24 additional CM X post links are stored separately in `social_discovery.json`, not included in the 112 count. Some entries may be duplicates in real-world subject matter even if URLs are distinct.
+- 182 V11 opposition reports retain their original tags; they are not a strictly equivalent population.
+- The BJP pie in statement mode counts **source-attributed** items, not individually verified transcript quotations; date, speaker and source need further editorial verification.
+- Civic flag ceremonies and universal ration entitlement are not automatically classified as religion or tribal policy.
+- `scripts/qa_v12_preview.cjs` checks source integrity, script syntax, embedded JSON, counts, one-leader-one-URL deduplication, and X post ID dates.
+- GitHub workflow `.github/workflows/qa-v12-preview.yml` runs static tests on preview edits and a headless Chrome smoke test if Chrome is available on the runner.
+- Source-link visibility and original platform-post accessibility depend on the publishing site and platform. Original X posts may ask viewers to sign in.
+
 ## Publishing and download
 
 With GitHub Pages publishing from `main` root, open the preview or the dedicated one-click download page URLs above. On the download page, click “Download complete V12 HTML website”. The HTML will save to the Mac Downloads folder; rename to `index.html` when hosting in another repository.
@@ -85,4 +113,4 @@ For ongoing automated data updates, keep the collector scripts and `data/` direc
 
 ## Quality status / approval checkpoint
 
-The source sample is **not an exhaustive research archive**. Validate all 36 new source URLs, dates, quoted positions, geographic associations and primary tags before an executive presentation; no independent browser end-to-end interaction test has been performed in this environment. Inspect both branches of the district map and the CM API status in the published site. Do not merge over V11 without approval.
+The source sample is **not an exhaustive research archive**. On 12 November 2026, V12.1 expanded the BJP/CM archive from 36 to 112 records and recovered 24 original CM X post permalinks from publisher coverage; these are separate evidence pools and do not justify a combined statement count. Validate all 112 BJP source URLs, dates, quoted positions, geographic associations and primary tags before an executive presentation; no independent browser end-to-end interaction test has been performed in this environment. Inspect both branches of the district map and the CM API status in the published site. Do not merge over V11 without approval.
