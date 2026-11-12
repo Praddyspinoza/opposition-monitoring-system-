@@ -1573,7 +1573,7 @@ function renderCm(){
   $("v12CmFilters").innerHTML='<label>Issue<select id="v12CmIssue">'+cIssues+'</select></label><label>Evidence<select id="v12CmKind"><option value="all"'+(cmSourceKind==="all"?" selected":"")+'>All source types</option><option value="sources"'+(cmSourceKind==="sources"?" selected":"")+'>Press / official sources</option><option value="posts"'+(cmSourceKind==="posts"?" selected":"")+'>Original platform posts</option></select></label><label>Search<input id="v12CmQuery" type="search" placeholder="Scheme, district, quote…" value="'+esc(cmQuery)+'"></label><button id="v12CmClear" type="button">Reset filters</button>';
   $("v12CmIssue").addEventListener("change",e=>{cmIssue=e.target.value;renderCm()});
   $("v12CmKind").addEventListener("change",e=>{cmSourceKind=e.target.value;renderCm()});
-  $("v12CmQuery").addEventListener("input",e=>{cmQuery=e.target.value;renderCm()});
+  $("v12CmQuery").addEventListener("input",e=>{const at=e.target.selectionStart;cmQuery=e.target.value;renderCm();const box=$("v12CmQuery");box?.focus();if(at!==null)box?.setSelectionRange(at,at);});
   $("v12CmClear").addEventListener("click",()=>{cmIssue="all";cmQuery="";cmSourceKind="all";renderCm()});
   const status=$("v12CmImportCount");if(status)status.textContent=localPosts.length+" browser-local imported posts (unverified)";
 }
