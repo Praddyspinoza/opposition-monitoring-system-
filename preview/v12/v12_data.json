@@ -950,7 +950,7 @@
     {
       "date": "2026-08-11",
       "leader": "Vishnu Deo Sai",
-      "primaryIssue": "Religion / Hinduism",
+      "primaryIssue": null,
       "secondaryIssues": [],
       "type": "Reported public event",
       "title": "CM attends Har Ghar Tiranga programme",
@@ -1151,10 +1151,8 @@
     {
       "date": "2026-09-11",
       "leader": "Vishnu Deo Sai",
-      "primaryIssue": "Tribal Issues",
-      "secondaryIssues": [
-        "Governance"
-      ],
+      "primaryIssue": "Governance",
+      "secondaryIssues": [],
       "type": "Reported statement",
       "title": "CM calls for timely ration entitlements including vulnerable communities",
       "summary": "Food-entitlement monitoring and delivery directives attributed to the CM.",
@@ -1688,7 +1686,7 @@
       "verification": "Dated public-source record; original quote and date subject to editorial review",
       "collectedAt": "2026-11-12",
       "dateBasis": "article publication or attributed event date",
-      "reviewStatus": "source-indexed / pending full editorial audit",
+      "reviewStatus": "Party organisational report; no direct individual Kiran Deo speech established",
       "id": "V12-BJP-081"
     },
     {
@@ -2325,6 +2323,9 @@
     "previousTotal": 36,
     "addedCount": 76,
     "rule": "Unique leader + source URL; source-indexed, not a verified transcript archive; includes explicitly distinguished statements, events and organisational activity",
-    "evidenceWarning": "The source archive is expanding, but direct quotes, precise event dates and links still require a full editorial audit before executive use."
+    "evidenceWarning": "The source archive is expanding, but direct quotes, precise event dates and links still require a full editorial audit before executive use.",
+    "updated": "2026-11-12",
+    "pieInterpretation": "Counts are records about source-attributed public statements only when statement=true; they are not unique utterance counts or full-platform archives. Attribution may need manual article-by-article review.",
+    "recordReview": "All 112 BJP links are source-indexed; no claim of end-to-end source, quote or link audit is made."
   }
 }
