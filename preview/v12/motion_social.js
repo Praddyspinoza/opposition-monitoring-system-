@@ -152,6 +152,7 @@ function renderSocial(){
  recovered.querySelector("#v12CmViewAllPosts")?.addEventListener("click",()=>document.querySelector('[data-nav="v12-links"]')?.click());}
  document.querySelectorAll("[data-v12-social-banner]").forEach(b=>{b.innerHTML='<span class="v12-cap">V12.1 / ORIGINAL SOCIAL LINKS RECOVERED</span><h3>CM X: '+(socials.originalXPostLinks||[]).length+' publisher-embedded post permalinks · Meta: '+socials.accounts.filter(a=>a.platform==="Facebook"||a.platform==="Instagram").length+' CM / CMO account references</h3><p class="v12-hint">These are separate from the API-verified totals, which remain zero until authorised collection. Open the sourced archive for individual post URLs and publisher references.</p><button type="button" class="v12-btn" data-open-social-links>Open original X &amp; Meta links ↗</button>';b.querySelector("[data-open-social-links]")?.addEventListener("click",()=>document.querySelector('[data-nav="v12-links"]')?.click());});
  get("v12SocialAccounts").innerHTML=accountsHtml();
+ publicSearchCards();
  const select=get("v12SocialIssue");if(select&&select.options.length===1)select.innerHTML='<option value="all">All issue tags</option><option value="Unclassified">Unclassified / ceremonial</option>'+TAX.map(t=>'<option value="'+escape(t.id)+'">'+escape(t.id)+'</option>').join("");
  if(select)select.value=socialIssue;
 }
@@ -159,11 +160,13 @@ function publicSearchCards(){
  const names=d.bjpLeaders.map(x=>({name:x.n,party:"BJP / Government"})).concat(oppNames.map(name=>({name,party:"Opposition"})));
  const parent=get("v12PublicSocialSearch");if(!parent)return;
  parent.innerHTML=names.map(x=>{
- const query='"'+x.name+'" since:2026-08-05 until:2026-11-06';
+ const xProfile=(socials.accounts||[]).find(a=>a.person===x.name&&a.platform==="X"&&/^https:\/\/x\.com\/[a-zA-Z0-9_]+$/.test(a.url));
+ const username=xProfile?xProfile.url.split("/").pop():null;
+ const query=username?('from:'+username+' since:2026-08-05 until:2026-11-06'):('"'+x.name+'" since:2026-08-05 until:2026-11-06');
  const xurl='https://x.com/search?q='+encodeURIComponent(query)+'&src=typed_query';
  const fb='https://www.google.com/search?q='+encodeURIComponent('site:facebook.com "'+x.name+'" "2026"');
  const ig='https://www.google.com/search?q='+encodeURIComponent('site:instagram.com "'+x.name+'" 2026');
- return '<div class="v12-social-searchrow"><b>'+escape(x.name)+'</b><small>'+escape(x.party)+' · search shortcuts only, not verified post records</small><a href="'+escape(xurl)+'" target="_blank" rel="noopener noreferrer">Search X ↗</a><a href="'+escape(fb)+'" target="_blank" rel="noopener noreferrer">Search Facebook ↗</a><a href="'+escape(ig)+'" target="_blank" rel="noopener noreferrer">Search Instagram ↗</a></div>';
+ return '<div class="v12-social-searchrow"><b>'+escape(x.name)+'</b><small>'+escape(x.party)+' · '+(xProfile?'public X profile reference; API verification pending':'name search only; account not confirmed')+'</small>'+(xProfile?'<a href="'+escape(xProfile.url)+'" target="_blank" rel="noopener noreferrer">Open X profile ↗</a>':'')+'<a href="'+escape(xurl)+'" target="_blank" rel="noopener noreferrer">Search dated X ↗</a><a href="'+escape(fb)+'" target="_blank" rel="noopener noreferrer">Search Facebook ↗</a><a href="'+escape(ig)+'" target="_blank" rel="noopener noreferrer">Search Instagram ↗</a></div>';
  }).join("");
 }
 function initSocial(){
