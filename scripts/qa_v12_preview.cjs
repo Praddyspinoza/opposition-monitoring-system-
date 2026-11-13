@@ -55,8 +55,15 @@ for(const post of social.originalXPostLinks){
  assert(post.publisherUrl.startsWith('https://'),'No corroborating publisher');
  assert.equal(post.apiVerified,false,'Publisher-linked post must not be called API-verified');
 }
+const ledger=JSON.parse(fs.readFileSync(path.join(root,'preview/v12/social_intelligence_posts.json'),'utf8'));
+assert(ledger.posts.length>=36,'Must retain 36 distinct publisher-backed post URL references');
+assert(new Set(ledger.posts.map(p=>p.url)).size===ledger.posts.length,'Post ledger must be deduplicated');
+assert(ledger.posts.every(p=>p.apiVerified===false),'Do not mark publisher-backed posts as API verified');
+assert(ledger.posts.some(p=>p.party==='BJP')&&ledger.posts.some(p=>p.party==='Opposition'),'Both groups need original post URL references');
 const motion=fs.readFileSync(path.join(root,'preview/v12/motion_social.js'),'utf8');
+assert(motion.includes('data-v13-kind'),'Four-way interactive node bindings missing');
+assert(motion.includes('rowsMatch()'),'Four-way source filtering missing');
 assert(!motion.includes('requestAnimationFrame('),'Motion should not repaint continuously via JS');
 assert(!motion.includes('setInterval('),'Motion should not run background JS intervals');
 assert(page.includes('prefers-reduced-motion:reduce'),'Reduced-motion CSS missing');
-console.log('PASS V12 static QA: V11 preserved; BJP=112; opposition=182; CM X originals=24; 10 issues; 20 leaders; JS syntax valid; flow uses no JS animation loop.');
+console.log('PASS static QA: V11 preserved; BJP=112; opposition=182; 36+ original X publisher-backed links; four-dimensional motion, no JS animation loop.');
