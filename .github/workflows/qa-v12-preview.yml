@@ -21,8 +21,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Synchronize the inline preview for QA without modifying GitHub
+        run: python3 scripts/sync_preview_assets.py
       - name: Validate research source counts, dates, data integrity and script syntax
         run: node scripts/qa_v12_preview.cjs
+      - name: Verify public post extractor without network requests
+        run: python3 scripts/discover_issue_posts.py --self-test
       - name: Headless browser smoke test where Chrome is available
         shell: bash
         run: |
@@ -38,15 +42,15 @@ jobs:
           const fs=require('fs');
           const assert=require('assert/strict');
           const html=fs.readFileSync('/tmp/v12-rendered-dom.html','utf8');
-          for(const token of ['v12-ready','data-flow-leader=','data-flow-issue=',
-            'v12-person-card','Original CM X posts recovered via publishers',
-            'Publisher-embedded original post URL']) {
+          for(const token of ['v12-ready','data-v13-kind="bjp"','data-v13-kind="opp"',
+            'data-v13-kind="issue"','data-v13-kind="district"',
+            'v12-person-card','v13Evidence','Open original post']) {
             assert(html.includes(token),'Browser did not render expected UI token '+token);
           }
-          const nodes=(html.match(/data-flow-leader=/g)||[]).length;
-          const posts=(html.match(/Open original X post/g)||[]).length;
-          assert(nodes>=10,'Expected ten animated leader nodes');
-          assert(posts>=24,'Expected publisher-recovered CM X post links');
+          const nodes=(html.match(/data-v13-kind="(?:bjp|opp)"/g)||[]).length;
+          const posts=(html.match(/Open original post/g)||[]).length;
+          assert(nodes>=20,'Expected both ten BJP and ten opposition leader nodes');
+          assert(posts>=24,'Expected at least the 24 embedded publisher-recovered CM X post links');
           console.log('PASS browser smoke: '+nodes+' flow nodes; '+posts+' original X link buttons in rendered DOM');
           NODE
       - name: Upload browser debug log only on failure
