@@ -6,6 +6,8 @@ on:
     paths:
       - 'preview/v12/**'
       - 'scripts/qa_v12_preview.cjs'
+      - 'scripts/qa_v13_interactions.cjs'
+      - 'scripts/sync_preview_assets.py'
       - '.github/workflows/qa-v12-preview.yml'
   workflow_dispatch:
 
@@ -53,6 +55,8 @@ jobs:
           assert(posts>=24,'Expected at least the 24 embedded publisher-recovered CM X post links');
           console.log('PASS browser smoke: '+nodes+' flow nodes; '+posts+' original X link buttons in rendered DOM');
           NODE
+      - name: Test simultaneous BJP, opposition, issue and district clicks in Chromium
+        run: node scripts/qa_v13_interactions.cjs
       - name: Upload browser debug log only on failure
         if: failure()
         uses: actions/upload-artifact@v4
