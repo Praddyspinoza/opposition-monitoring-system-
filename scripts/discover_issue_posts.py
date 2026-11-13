@@ -42,7 +42,7 @@ ALLOWED = ("indianexpress.com","haribhoomi.com","patrika.com","jagran.com",
  "jansatta.com","livehindustan.com","amarujala.com","newsonair.gov.in",
  "indiatoday.in","pib.gov.in","scroll.in","thewire.in","thehindu.com",
  "business-standard.com","hindustantimes.com","apnachhattisgarh.com",
- "ajkinews.com")
+ "ajkinews.com","msn.com","firstpost.com","theweek.in","news24online.com")
 ISSUES = {
  "Tribal Issues":("आदिवासी","tribal","pesa","जनजाति","वनाधिकार"),
  "Religion / Hinduism":("मंदिर","religion","धर्म","त्योहार","हिंदू"),
@@ -169,6 +169,18 @@ def pubdate(raw):
   return d.astimezone(TZ).date().isoformat()
  except (ValueError,TypeError,OverflowError):return None
 
+def publisher_link(url):
+ """Bing News RSS uses an apiclick URL with the genuine publisher in ?url=."""
+ try:
+  parts=urllib.parse.urlsplit(url)
+  if (parts.hostname or "").lower() in ("www.bing.com","bing.com") and parts.path=="/news/apiclick.aspx":
+   params=urllib.parse.parse_qs(parts.query)
+   value=(params.get("url") or [""])[0]
+   if value.startswith("http://"):value="https://"+value[7:]
+   return value if allowed_host(value,ALLOWED) else None
+  return url if allowed_host(url,ALLOWED) else None
+ except ValueError:return None
+
 def news_articles(query):
  for endpoint in (
   "https://www.bing.com/news/search?"+urllib.parse.urlencode({"q":query,"format":"rss"}),
@@ -180,7 +192,8 @@ def news_articles(query):
   rows=[]
   for x in root.findall("./channel/item")[:12]:
    url=(x.findtext("link") or "").strip()
-   if url.startswith("https://"):rows.append((x.findtext("title") or "",url,pubdate(x.findtext("pubDate") or "")))
+   article=publisher_link(url)
+   if article:rows.append((x.findtext("title") or "",article,pubdate(x.findtext("pubDate") or "")))
   if rows:return rows
  return []
 
@@ -199,7 +212,7 @@ def run():
  for step in range(QUERY_LIMIT):
   if time.monotonic()-began>560:break
   leader,issue=combos[(start+step)%len(combos)]
-  query='"'+leader+'" '+ISSUES[issue][0]+' (twitter OR facebook OR instagram OR "X post") after:2026-08-04'
+  query='("'+leader+'" OR "'+NAMES[leader]+'") ('+ISSUES[issue][0]+' OR '+ISSUES[issue][1]+') (twitter OR facebook OR instagram OR post OR पोस्ट)'
   metrics["search_queries"]+=1
   for title,link,dated in news_articles(query)[:4]:
    metrics["rss_articles"]+=1
