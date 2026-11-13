@@ -208,14 +208,19 @@ def scan_publishers(found, known, metrics, state):
   "https://www.jansatta.com/rss/chhattisgarh.xml",
  ]
  start=int(state.get("publisher_feed_cursor",0))%len(feeds)
+ began=time.monotonic()
+ scanned=0
  for step in range(3):
+  if time.monotonic()-began>165:break
+  scanned+=1
   rss_url=feeds[(start+step)%len(feeds)]
   text,_=read_public(rss_url,ALLOWED)
   metrics["publisher_feeds_scanned"]+=1
   if not text:continue
   try:root=ET.fromstring(text)
   except ET.ParseError:continue
-  for item in root.findall(".//item")[:18]:
+  for item in root.findall(".//item")[:9]:
+   if time.monotonic()-began>165:break
    title=" ".join((item.findtext("title") or "").split())[:225]
    link=(item.findtext("link") or "").strip()
    dated=pubdate(item.findtext("pubDate") or "")
@@ -249,7 +254,7 @@ def scan_publishers(found, known, metrics, state):
       "reviewStatus":"needs_human_review","apiVerified":False}
      metrics["original_post_urls_added"]+=1
   time.sleep(0.5)
- return (start+3)%len(feeds)
+ return (start+scanned)%len(feeds)
 
 def run():
  existing=load(POSTS,{"posts":[]})
@@ -264,7 +269,7 @@ def run():
  began=time.monotonic()
  processed=0
  for step in range(QUERY_LIMIT):
-  if time.monotonic()-began>560:break
+  if time.monotonic()-began>390:break
   leader,issue=combos[(start+step)%len(combos)]
   query='("'+leader+'" OR "'+NAMES[leader]+'") ('+ISSUES[issue][0]+' OR '+ISSUES[issue][1]+') (twitter OR facebook OR instagram OR post OR पोस्ट)'
   metrics["search_queries"]+=1
