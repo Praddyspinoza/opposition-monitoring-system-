@@ -66,7 +66,11 @@ async function main(){
   for(const label of ['Vishnu Deo Sai','Bhupesh Baghel','Governance','Raipur'])assert(state.summary.includes(label));
   const reset=await evaluate("(()=>{document.getElementById('v13Reset').click();return [document.getElementById('v13Bjp').value,document.getElementById('v13Opp').value,document.getElementById('v12FlowIssue').value,document.getElementById('v13District').value,document.querySelectorAll('.v13-node-group.selected').length];})()");
   assert.deepEqual(reset,['all','all','all','all',0]);
-  console.log('PASS: 10 BJP + 10 opposition nodes; 4 simultaneous filters; evidence expansion; clear all');
+  const clicked=await evaluate("(()=>{for(const [type,value] of [['bjp','Vishnu Deo Sai'],['opp','Bhupesh Baghel'],['issue','Governance'],['district','Raipur']]){const n=[...document.querySelectorAll('[data-v13-kind]')].find(x=>x.dataset.v13Kind===type&&x.dataset.v13Value===value);if(!n)throw Error('Missing clickable '+type+': '+value);n.dispatchEvent(new MouseEvent('click',{bubbles:true}));}return {nodes:document.querySelectorAll('.v13-node-group.selected').length,expanded:!!document.querySelector('#v13Evidence .v13-evidence-grid'),text:document.getElementById('v13Evidence').textContent.slice(0,500)};})()");
+  assert.equal(clicked.nodes,4,'Four selected SVG nodes expected after direct clicking');
+  assert(clicked.expanded,'SVG clicks must open source-backed evidence panel');
+  assert(clicked.text.includes('Governance')&&clicked.text.includes('Raipur'),'Direct SVG clicks should update issue-region evidence');
+  console.log('PASS: 10 BJP + 10 opposition nodes; four dropdown filters and direct SVG node clicks; evidence expansion; clear all');
  }finally{try{socket?.close();}catch(_){}processChrome.kill('SIGTERM');}
 }
 main().catch(e=>{console.error('FAIL browser interactions: '+e.stack);processChrome.kill('SIGTERM');process.exitCode=1;});
