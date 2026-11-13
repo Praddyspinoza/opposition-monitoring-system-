@@ -201,16 +201,24 @@ function publicSearchCards(){
  }).join("");
 }
 async function loadUnifiedPosts(){
- try{
-  const response=await fetch("./social_intelligence_posts.json",{cache:"no-store"});
-  if(!response.ok)return;
-  const data=await response.json();
-  if(!Array.isArray(data.posts))return;
-  const merged=new Map();
-  for(const p of [...postCorpus,...data.posts]){if(p?.url&&safeUrl(p.url))merged.set(canonical(p.url),p);}
-  postCorpus=[...merged.values()];activeSource="unified BJP + opposition ledger";
-  updateDropdown();renderFlow();renderSocial();
- }catch(_){/* Preserve embedded verified-source references offline. */}
+ const sources=[
+  "https://raw.githubusercontent.com/Praddyspinoza/opposition-monitoring-system-/main/preview/v12/social_intelligence_posts.json",
+  "./social_intelligence_posts.json"
+ ];
+ for(const location of sources){
+  try{
+   const response=await fetch(location,{cache:"no-store"});
+   if(!response.ok)continue;
+   const data=await response.json();
+   if(!Array.isArray(data.posts)||!data.posts.length)continue;
+   const merged=new Map();
+   for(const p of [...postCorpus,...data.posts]){if(p?.url&&safeUrl(p.url))merged.set(canonical(p.url),p);}
+   postCorpus=[...merged.values()];
+   activeSource=(location.startsWith("https://")?"live public GitHub source ledger":"GitHub Pages source ledger")+(data.asOf?" · indexed "+data.asOf.slice(0,10):"");
+   updateDropdown();renderFlow();renderSocial();
+   return;
+  }catch(_){/* Continue to another public permitted source; retain embedded fallback. */}
+ }
 }
 function initSocial(){
  if(!byId("v12SocialLedger"))return;
