@@ -5,6 +5,11 @@ on:
     - cron: '0 2 * * *'   # Intended 07:30 IST; GitHub may delay scheduled starts
     - cron: '0 12 * * *'  # Intended 17:30 IST
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/discover_issue_posts.py'
+      - '.github/workflows/issue-post-collector.yml'
 
 permissions:
   contents: write
