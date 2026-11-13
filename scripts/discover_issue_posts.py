@@ -197,6 +197,60 @@ def news_articles(query):
   if rows:return rows
  return []
 
+def scan_publishers(found, known, metrics, state):
+ """Second discovery route: recent public publisher RSS items with embedded originals."""
+ feeds=[
+  "https://bharatnewsservice.com/feed/",
+  "https://pradeshkhabar.in/feed/",
+  "https://apnachhattisgarh.com/feed/",
+  "https://ajkinews.com/feed/",
+  "https://www.bansalnews.com/feed/",
+  "https://www.jansatta.com/rss/chhattisgarh.xml",
+ ]
+ start=int(state.get("publisher_feed_cursor",0))%len(feeds)
+ for step in range(3):
+  rss_url=feeds[(start+step)%len(feeds)]
+  text,_=read_public(rss_url,ALLOWED)
+  metrics["publisher_feeds_scanned"]+=1
+  if not text:continue
+  try:root=ET.fromstring(text)
+  except ET.ParseError:continue
+  for item in root.findall(".//item")[:18]:
+   title=" ".join((item.findtext("title") or "").split())[:225]
+   link=(item.findtext("link") or "").strip()
+   dated=pubdate(item.findtext("pubDate") or "")
+   if dated and dated<DATE_MIN.isoformat():continue
+   if not allowed_host(link,ALLOWED):continue
+   article,final=read_public(link,ALLOWED)
+   if not article:continue
+   metrics["publisher_pages_read"]+=1
+   excerpt=(title+" "+re.sub("<[^>]+>"," ",article[:14000])).casefold()
+   plausible=[issue for issue,words in ISSUES.items() if any(word.casefold() in excerpt for word in words)]
+   for post in embedded_posts(article)[:20]:
+    for leader in NAMES:
+     platform,matched=identify(post,leader,known)
+     if not matched or post in found:continue
+     when=x_timestamp(post) if platform=="X" else None
+     if when and (when<DATE_MIN or when>NOW.astimezone(TZ).date()):continue
+     published=when.isoformat() if when else dated
+     if not published or published<DATE_MIN.isoformat():continue
+     issue=plausible[0] if plausible else "Unclassified"
+     found[post]={
+      "id":"FEED-"+hashlib.sha256((leader+"|"+post).encode()).hexdigest()[:18],
+      "leader":leader,"party":"BJP" if leader in BJP else "Opposition",
+      "platform":platform,"date":published,
+      "dateSource":"X_id_derived_date" if when else "publisher_date_NOT_post_date",
+      "url":post,"title":title,"primaryIssue":issue,"secondaryIssues":plausible[1:3],
+      "districts":[],"publisherUrl":final,"publisherName":urllib.parse.urlsplit(final).hostname,
+      "evidenceClass":"public_publisher_embedded_original_permalink",
+      "postVerification":"not_authenticated_from_platform_API",
+      "identityVerification":"index_referenced_account_handle_match",
+      "issueVerification":"publisher_context_preliminary",
+      "reviewStatus":"needs_human_review","apiVerified":False}
+     metrics["original_post_urls_added"]+=1
+  time.sleep(0.5)
+ return (start+3)%len(feeds)
+
 def run():
  existing=load(POSTS,{"posts":[]})
  found={p["url"]:p for p in existing.get("posts",[]) if isinstance(p,dict) and p.get("url")}
@@ -206,7 +260,7 @@ def run():
  known=original_handles()
  combos=[(n,issue) for n in NAMES for issue in ISSUES]
  start=int(state.get("cursor",0))%len(combos)
- metrics={"search_queries":0,"rss_articles":0,"publisher_pages_read":0,"original_post_urls_added":0,"unconfirmed_attributions":0,"publisher_pages_unavailable":0}
+ metrics={"search_queries":0,"rss_articles":0,"publisher_pages_read":0,"original_post_urls_added":0,"unconfirmed_attributions":0,"publisher_pages_unavailable":0,"publisher_feeds_scanned":0}
  began=time.monotonic()
  processed=0
  for step in range(QUERY_LIMIT):
@@ -254,6 +308,7 @@ def run():
     metrics["original_post_urls_added"]+=1
   processed+=1
   time.sleep(0.7)  # public-source rate limit; never evade 403/429 or access restrictions
+ feed_cursor=scan_publishers(found,known,metrics,state)
  stamp=NOW.isoformat()
  existing.update({"asOf":stamp,"lastDiscoveryMethod":"public_news_RSS_and_publisher_page_permalink_extraction",
  "posts":sorted(found.values(),key=lambda x:(x.get("date") or "",x.get("leader") or ""),reverse=True)})
@@ -263,7 +318,7 @@ def run():
   "limitations":"A publisher reference without a confirmed original author is not a verified leader post.",
   "leads":list(leads.values())[-1500:]})
  save(STATE,{"last_checked_utc":stamp,"cursor":(start+processed)%len(combos),
-  "pairs_total":len(combos),"pairs_checked":processed,"result":metrics})
+  "pairs_total":len(combos),"pairs_checked":processed,"publisher_feed_cursor":feed_cursor,"result":metrics})
  print(json.dumps({"pairs_total":len(combos),"next_cursor":(start+processed)%len(combos),**metrics}))
  return 0
 
