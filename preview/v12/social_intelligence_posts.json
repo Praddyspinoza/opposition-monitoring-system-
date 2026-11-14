@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "asOf": "2026-11-13T17:20:59.183919+00:00",
+  "asOf": "2026-11-14T08:37:03.850386+00:00",
   "scope": "Original public post URLs with publisher-corroborated provenance for 20 named leaders; 05 Aug 2026 onward. Existing CM and opposition recovered URLs unified, plus new discoveries.",
   "limitations": "Publisher references are NOT authenticated platform API captures. The linked publisher may be inaccessible or post may have been removed. Tags are preliminary until human approval. Zero Meta URLs means none independently retrieved, not zero posts exist.",
   "researchWindow": {
