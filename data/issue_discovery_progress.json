@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-11-14T08:37:03.850386+00:00",
-  "cursor": 160,
+  "last_checked_utc": "2026-11-14T17:42:15.711541+00:00",
+  "cursor": 192,
   "pairs_total": 200,
   "pairs_checked": 32,
-  "publisher_feed_cursor": 3,
+  "publisher_feed_cursor": 0,
   "result": {
     "search_queries": 32,
     "rss_articles": 0,
-    "publisher_pages_read": 18,
+    "publisher_pages_read": 9,
     "original_post_urls_added": 0,
     "unconfirmed_attributions": 0,
     "publisher_pages_unavailable": 0,
