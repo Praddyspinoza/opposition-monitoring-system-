@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "asOf": "2026-11-15T18:31:58.405541+00:00",
+  "asOf": "2026-11-16T09:00:18.649601+00:00",
   "scope": "Original public post URLs with publisher-corroborated provenance for 20 named leaders; 05 Aug 2026 onward. Existing CM and opposition recovered URLs unified, plus new discoveries.",
   "limitations": "Publisher references are NOT authenticated platform API captures. The linked publisher may be inaccessible or post may have been removed. Tags are preliminary until human approval. Zero Meta URLs means none independently retrieved, not zero posts exist.",
   "researchWindow": {
@@ -9,11 +9,53 @@
     "ongoing": true
   },
   "platformCounts": {
-    "X": 36,
+    "X": 38,
     "Facebook": 0,
     "Instagram": 0
   },
   "posts": [
+    {
+      "id": "FEED-a4b98e16bc6986cc9d",
+      "leader": "Vishnu Deo Sai",
+      "party": "BJP",
+      "platform": "X",
+      "date": "2026-11-15",
+      "dateSource": "X_id_derived_date",
+      "url": "https://x.com/vishnudsai/status/2121879571457081707",
+      "title": "मुख्यमंत्री ने तपकरा में छठ घाट निर्माण की घोषणा की, दराखारिका में 4 करोड़ रुपए की लागत से बनेगा छठ घाट",
+      "primaryIssue": "Unclassified",
+      "secondaryIssues": [],
+      "districts": [],
+      "publisherUrl": "https://bharatnewsservice.com/4206/",
+      "publisherName": "bharatnewsservice.com",
+      "evidenceClass": "public_publisher_embedded_original_permalink",
+      "postVerification": "not_authenticated_from_platform_API",
+      "identityVerification": "index_referenced_account_handle_match",
+      "issueVerification": "publisher_context_preliminary",
+      "reviewStatus": "needs_human_review",
+      "apiVerified": false
+    },
+    {
+      "id": "FEED-91a526dee64ef77e56",
+      "leader": "Vishnu Deo Sai",
+      "party": "BJP",
+      "platform": "X",
+      "date": "2026-11-15",
+      "dateSource": "X_id_derived_date",
+      "url": "https://x.com/vishnudsai/status/2121911661787525311",
+      "title": "बस्तर में बंदूक की जगह खेल के मैदान, भय और हिंसा की जगह विश्वास एवं विकास का नया वातावरण : नितिन नवीन",
+      "primaryIssue": "Infrastructure & Development",
+      "secondaryIssues": [],
+      "districts": [],
+      "publisherUrl": "https://bharatnewsservice.com/4161/",
+      "publisherName": "bharatnewsservice.com",
+      "evidenceClass": "public_publisher_embedded_original_permalink",
+      "postVerification": "not_authenticated_from_platform_API",
+      "identityVerification": "index_referenced_account_handle_match",
+      "issueVerification": "publisher_context_preliminary",
+      "reviewStatus": "needs_human_review",
+      "apiVerified": false
+    },
     {
       "id": "X-CM-2026-008",
       "leader": "Vishnu Deo Sai",
