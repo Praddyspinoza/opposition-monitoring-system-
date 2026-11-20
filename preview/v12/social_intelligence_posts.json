@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "asOf": "2026-11-19T20:00:02.649222+00:00",
+  "asOf": "2026-11-20T09:41:10.726555+00:00",
   "scope": "Original public post URLs with publisher-corroborated provenance for 20 named leaders; 05 Aug 2026 onward. Existing CM and opposition recovered URLs unified, plus new discoveries.",
   "limitations": "Publisher references are NOT authenticated platform API captures. The linked publisher may be inaccessible or post may have been removed. Tags are preliminary until human approval. Zero Meta URLs means none independently retrieved, not zero posts exist.",
   "researchWindow": {
@@ -9,11 +9,32 @@
     "ongoing": true
   },
   "platformCounts": {
-    "X": 41,
+    "X": 42,
     "Facebook": 0,
     "Instagram": 0
   },
   "posts": [
+    {
+      "id": "FEED-3084b272d589c54db7",
+      "leader": "Vishnu Deo Sai",
+      "party": "BJP",
+      "platform": "X",
+      "date": "2026-11-20",
+      "dateSource": "X_id_derived_date",
+      "url": "https://x.com/vishnudsai/status/2123695067525533898",
+      "title": "मुख्यमंत्री श्री विष्णु देव साय ने उत्तर प्रदेश के मुख्यमंत्री योगी आदित्यनाथ की माताजी के निधन पर व्यक्त किया गहरा शोक",
+      "primaryIssue": "Unclassified",
+      "secondaryIssues": [],
+      "districts": [],
+      "publisherUrl": "https://apnachhattisgarh.com/archives/28943",
+      "publisherName": "apnachhattisgarh.com",
+      "evidenceClass": "public_publisher_embedded_original_permalink",
+      "postVerification": "not_authenticated_from_platform_API",
+      "identityVerification": "index_referenced_account_handle_match",
+      "issueVerification": "publisher_context_preliminary",
+      "reviewStatus": "needs_human_review",
+      "apiVerified": false
+    },
     {
       "id": "FEED-793420b565148a8897",
       "leader": "Vishnu Deo Sai",
