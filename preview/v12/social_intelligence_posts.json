@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "asOf": "2026-11-20T19:40:08.104361+00:00",
+  "asOf": "2026-11-21T09:13:51.133294+00:00",
   "scope": "Original public post URLs with publisher-corroborated provenance for 20 named leaders; 05 Aug 2026 onward. Existing CM and opposition recovered URLs unified, plus new discoveries.",
   "limitations": "Publisher references are NOT authenticated platform API captures. The linked publisher may be inaccessible or post may have been removed. Tags are preliminary until human approval. Zero Meta URLs means none independently retrieved, not zero posts exist.",
   "researchWindow": {
@@ -9,7 +9,7 @@
     "ongoing": true
   },
   "platformCounts": {
-    "X": 42,
+    "X": 43,
     "Facebook": 0,
     "Instagram": 0
   },
@@ -28,6 +28,27 @@
       "districts": [],
       "publisherUrl": "https://apnachhattisgarh.com/archives/28943",
       "publisherName": "apnachhattisgarh.com",
+      "evidenceClass": "public_publisher_embedded_original_permalink",
+      "postVerification": "not_authenticated_from_platform_API",
+      "identityVerification": "index_referenced_account_handle_match",
+      "issueVerification": "publisher_context_preliminary",
+      "reviewStatus": "needs_human_review",
+      "apiVerified": false
+    },
+    {
+      "id": "FEED-66bbdb1132d03a1549",
+      "leader": "Vishnu Deo Sai",
+      "party": "BJP",
+      "platform": "X",
+      "date": "2026-11-20",
+      "dateSource": "X_id_derived_date",
+      "url": "https://x.com/vishnudsai/status/2123812817031819762",
+      "title": "नक्सलवाद के साये से समृद्धि के उजाले तक, भारत मंडपम में दिखा नए छत्तीसगढ़ का नया चेहरा",
+      "primaryIssue": "Internal Security & Bastar",
+      "secondaryIssues": [],
+      "districts": [],
+      "publisherUrl": "https://bharatnewsservice.com/4351/",
+      "publisherName": "bharatnewsservice.com",
       "evidenceClass": "public_publisher_embedded_original_permalink",
       "postVerification": "not_authenticated_from_platform_API",
       "identityVerification": "index_referenced_account_handle_match",
