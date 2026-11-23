@@ -1,0 +1,99 @@
+{
+  "checks": {
+    "pythonSyntax": {
+      "status": "passed",
+      "files": 29
+    },
+    "jsonSyntax": {
+      "status": "passed",
+      "files": 68
+    },
+    "nodeValidatorSyntax": {
+      "status": "passed"
+    },
+    "splitRoundTrip": {
+      "status": "passed",
+      "numberedParts": 9,
+      "unpackedBytes": 20957704,
+      "sha256": "f5e45ec8456de6d9b6ba1b2e5c01a8e34ab8b6e8191c68f539a7ba268219f5c3",
+      "topLevelKeys": [
+        "meta",
+        "geometry",
+        "elections",
+        "finance",
+        "directory",
+        "research",
+        "issuePlan",
+        "handoff",
+        "census",
+        "issueEvidence",
+        "overlays",
+        "profiles",
+        "migrationFresh"
+      ]
+    },
+    "restore": {
+      "status": "passed",
+      "restoredFileCount": 82,
+      "counts": {
+        "districts": 63,
+        "censusDistricts": 63,
+        "issues": 20,
+        "uniqueIssueRecords": 848,
+        "migrationCountySeries": 62
+      }
+    },
+    "recoveredElectionAudit": {
+      "status": "passed",
+      "checks": 1769,
+      "errorCount": 0,
+      "warningCount": 2
+    },
+    "overwriteProtection": {
+      "status": "passed"
+    },
+    "independentPrivacyAndPackagingAudit": {
+      "status": "passed",
+      "filesReviewed": 104,
+      "knownOriginalFinanceStreetAddressSamplesChecked": 43,
+      "copyManifestEntriesChecked": 91,
+      "rawTransactionObjectsFound": 0,
+      "cachedFinancialExamplesFound": 0,
+      "prohibitedBinariesFound": 0,
+      "symlinksFound": 0,
+      "absoluteTemporaryScriptPathsFound": 0,
+      "minimalFinanceExclusions": 22,
+      "exclusionFields": [
+        "filingTransId",
+        "category"
+      ],
+      "externalPythonDependenciesDeclared": true,
+      "auditMode": "Read-only independent review."
+    }
+  },
+  "coverage": {
+    "senateDistricts": 63,
+    "censusDistricts": 63,
+    "issues": 20,
+    "issueRecords": 848,
+    "migrationKeys": [
+      "metadata",
+      "nyc",
+      "newYorkState",
+      "statePartners",
+      "nycCountyPairs",
+      "countyMigration",
+      "suffolkNyc",
+      "nycPopulationComponents",
+      "countyPopulationChanges",
+      "districtCountyContext",
+      "sources"
+    ],
+    "handoffPages": 98
+  },
+  "limitations": [
+    "Static syntax checks and complete local recovery were run; collectors were not re-run against live sources.",
+    "PDF exporter code is unchanged; original visual/content checks are included without reproducing binary PDFs.",
+    "Copy files are scoped to the research source package; app/runtime files were read only."
+  ]
+}

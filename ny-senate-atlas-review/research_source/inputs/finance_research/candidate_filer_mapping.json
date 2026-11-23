@@ -1,0 +1,3108 @@
+[
+  {
+    "district": 1,
+    "candidate": "E. Christopher Murray",
+    "committeeFilerId": "591082",
+    "candidateFilerIds": [
+      "26440"
+    ],
+    "filers": [
+      {
+        "filer_id": "591082",
+        "filer_name": "Chris Murray for State Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "26440",
+        "filer_name": "E. Christopher  Murray",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "1"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 1,
+    "candidate": "Anthony H. Palumbo",
+    "committeeFilerId": "496416",
+    "candidateFilerIds": [
+      "28375"
+    ],
+    "filers": [
+      {
+        "filer_id": "496416",
+        "filer_name": "Palumbo for Senate 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "28375",
+        "filer_name": "Anthony H. Palumbo",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "1"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 2,
+    "candidate": "Mario R. Mattera",
+    "committeeFilerId": "13467",
+    "candidateFilerIds": [
+      "28471"
+    ],
+    "filers": [
+      {
+        "filer_id": "13467",
+        "filer_name": "Friends of Mario Mattera",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "28471",
+        "filer_name": "Mario Richard Mattera",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "2"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 2,
+    "candidate": "Harjot Singh",
+    "committeeFilerId": "591703",
+    "candidateFilerIds": [
+      "591702"
+    ],
+    "filers": [
+      {
+        "filer_id": "591703",
+        "filer_name": "Harjot for New York",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "591702",
+        "filer_name": "Harjot  Singh",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "2"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 3,
+    "candidate": "Dean Murray",
+    "committeeFilerId": "496633",
+    "candidateFilerIds": [
+      "29393"
+    ],
+    "filers": [
+      {
+        "filer_id": "496633",
+        "filer_name": "Murray for New York",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "29393",
+        "filer_name": "Dean  Murray",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "3"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 3,
+    "candidate": "Antonio Vargas-Ayala",
+    "committeeFilerId": null,
+    "candidateFilerIds": [],
+    "filers": [],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "unresolved"
+  },
+  {
+    "district": 4,
+    "candidate": "Monica R. Martinez",
+    "committeeFilerId": "456367",
+    "candidateFilerIds": [
+      "27978"
+    ],
+    "filers": [
+      {
+        "filer_id": "456367",
+        "filer_name": "Monica for NY 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "27978",
+        "filer_name": "Monica R. Martinez",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "4"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 4,
+    "candidate": "Brianne R. Wakefield",
+    "committeeFilerId": "569851",
+    "candidateFilerIds": [
+      "569849"
+    ],
+    "filers": [
+      {
+        "filer_id": "569851",
+        "filer_name": "Wakefield For Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "569849",
+        "filer_name": "Brianne   Wakefield",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "4"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 5,
+    "candidate": "Steven D. Rhoads",
+    "committeeFilerId": "445867",
+    "candidateFilerIds": [
+      "31428"
+    ],
+    "filers": [
+      {
+        "filer_id": "445867",
+        "filer_name": "Steve Rhoads for Senate 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "31428",
+        "filer_name": "Steven D. Rhoads",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "5"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 5,
+    "candidate": "Andrew Piddoubny",
+    "committeeFilerId": "591584",
+    "candidateFilerIds": [
+      "591583"
+    ],
+    "filers": [
+      {
+        "filer_id": "591584",
+        "filer_name": "Friends of Andrew Piddoubny",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "591583",
+        "filer_name": "Andrew  Piddoubny",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "5"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 6,
+    "candidate": "Siela A. Bynoe",
+    "committeeFilerId": "456052",
+    "candidateFilerIds": [
+      "31660"
+    ],
+    "filers": [
+      {
+        "filer_id": "456052",
+        "filer_name": "Siela for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "31660",
+        "filer_name": "Siela A Bynoe",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "6"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 6,
+    "candidate": "Matthew J. Capp",
+    "committeeFilerId": "591168",
+    "candidateFilerIds": [
+      "591167"
+    ],
+    "filers": [
+      {
+        "filer_id": "591168",
+        "filer_name": "Matt Capp for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "591167",
+        "filer_name": "Matthew John Capp",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "6"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 7,
+    "candidate": "Jake Blumencranz",
+    "committeeFilerId": "591597",
+    "candidateFilerIds": [],
+    "filers": [
+      {
+        "filer_id": "591597",
+        "filer_name": "Blumencranz For Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 7,
+    "candidate": "Rory Lancman",
+    "committeeFilerId": "580573",
+    "candidateFilerIds": [
+      "33542"
+    ],
+    "filers": [
+      {
+        "filer_id": "580573",
+        "filer_name": "Rory for New York",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "33542",
+        "filer_name": "Rory  Lancman",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "7"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 8,
+    "candidate": "Jarett C. Gandolfo",
+    "committeeFilerId": "527697",
+    "candidateFilerIds": [
+      "28428"
+    ],
+    "filers": [
+      {
+        "filer_id": "527697",
+        "filer_name": "Gandolfo for NY 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "28428",
+        "filer_name": "Jarett C. Gandolfo",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "8"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 8,
+    "candidate": "Joshua James Taveras",
+    "committeeFilerId": "590937",
+    "candidateFilerIds": [
+      "590936"
+    ],
+    "filers": [
+      {
+        "filer_id": "590937",
+        "filer_name": "Friends of Josh Taveras",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "590936",
+        "filer_name": "Joshua  Taveras",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "8"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 9,
+    "candidate": "Lisa Malkie Vider",
+    "committeeFilerId": "591120",
+    "candidateFilerIds": [
+      "591117"
+    ],
+    "filers": [
+      {
+        "filer_id": "591120",
+        "filer_name": "Vider for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "591117",
+        "filer_name": "Lisa M. Vider",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "9"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 9,
+    "candidate": "Patricia M. Canzoneri-Fitzpatrick",
+    "committeeFilerId": "456194",
+    "candidateFilerIds": [
+      "28490"
+    ],
+    "filers": [
+      {
+        "filer_id": "456194",
+        "filer_name": "Friends of Patricia Canzoneri-Fitzpatrick",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "28490",
+        "filer_name": "Patricia M Canzoneri-Fitzpatrick",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "9"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 10,
+    "candidate": "James Sanders Jr.",
+    "committeeFilerId": "13265",
+    "candidateFilerIds": [
+      "29900"
+    ],
+    "filers": [
+      {
+        "filer_id": "13265",
+        "filer_name": "Sanders For Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "29900",
+        "filer_name": "James  Sanders, Jr.",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "10"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 11,
+    "candidate": "Toby Ann Stavisky",
+    "committeeFilerId": "445875",
+    "candidateFilerIds": [
+      "25631"
+    ],
+    "filers": [
+      {
+        "filer_id": "445875",
+        "filer_name": "Friends of Toby Stavisky 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "25631",
+        "filer_name": "Toby  Ann Stavisky",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "11"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 11,
+    "candidate": "Pamela H. Michos",
+    "committeeFilerId": "580695",
+    "candidateFilerIds": [
+      "580694"
+    ],
+    "filers": [
+      {
+        "filer_id": "580695",
+        "filer_name": "Pamela for NYS",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "580694",
+        "filer_name": "Pamela H Michos",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "11"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 12,
+    "candidate": "Aber Kawas",
+    "committeeFilerId": "569740",
+    "candidateFilerIds": [
+      "569737"
+    ],
+    "filers": [
+      {
+        "filer_id": "569740",
+        "filer_name": "Aber for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "569737",
+        "filer_name": "Aber  Abdelkareem Kawas",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "12"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 12,
+    "candidate": "Han-Khon To",
+    "committeeFilerId": "4946",
+    "candidateFilerIds": [
+      "28431"
+    ],
+    "filers": [
+      {
+        "filer_id": "4946",
+        "filer_name": "Friends of Han Khon To",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "28431",
+        "filer_name": "Han Khon To",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "12"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 13,
+    "candidate": "Jessica Gonzalez-Rojas",
+    "committeeFilerId": "445853",
+    "candidateFilerIds": [
+      "28210"
+    ],
+    "filers": [
+      {
+        "filer_id": "445853",
+        "filer_name": "People For JGR 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "28210",
+        "filer_name": "Jessica  Gonzalez-Rojas",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "13"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 13,
+    "candidate": "John Patrick Healy",
+    "committeeFilerId": null,
+    "candidateFilerIds": [],
+    "filers": [],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "unresolved"
+  },
+  {
+    "district": 14,
+    "candidate": "Leroy G. Comrie Jr.",
+    "committeeFilerId": "483",
+    "candidateFilerIds": [
+      "27179"
+    ],
+    "filers": [
+      {
+        "filer_id": "483",
+        "filer_name": "New Yorkers For Leroy Comrie",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "27179",
+        "filer_name": "Leroy G. Comrie, Jr.",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "14"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 15,
+    "candidate": "Joseph P. Addabbo Jr",
+    "committeeFilerId": "371928",
+    "candidateFilerIds": [
+      "29017"
+    ],
+    "filers": [
+      {
+        "filer_id": "371928",
+        "filer_name": "Re-Elect Addabbo for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "29017",
+        "filer_name": "Joseph P. Addabbo",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "15"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 15,
+    "candidate": "Danniel S. Maio",
+    "committeeFilerId": null,
+    "candidateFilerIds": [
+      "26380"
+    ],
+    "filers": [
+      {
+        "filer_id": "26380",
+        "filer_name": "Danniel Sun Maio",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "15"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "candidate_direct_filings_only"
+  },
+  {
+    "district": 16,
+    "candidate": "John C. Liu",
+    "committeeFilerId": "445971",
+    "candidateFilerIds": [
+      "27157"
+    ],
+    "filers": [
+      {
+        "filer_id": "445971",
+        "filer_name": "Liu for New York",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "27157",
+        "filer_name": "John C Liu",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "16"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 17,
+    "candidate": "Larry He",
+    "committeeFilerId": "580618",
+    "candidateFilerIds": [
+      "580614"
+    ],
+    "filers": [
+      {
+        "filer_id": "580618",
+        "filer_name": "Friends of Larry He",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "580614",
+        "filer_name": "Larry   He",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "17"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 17,
+    "candidate": "Steve Chan",
+    "committeeFilerId": "496606",
+    "candidateFilerIds": [],
+    "filers": [
+      {
+        "filer_id": "496606",
+        "filer_name": "CHAN26",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 18,
+    "candidate": "Julia Salazar",
+    "committeeFilerId": "382860",
+    "candidateFilerIds": [
+      "27893"
+    ],
+    "filers": [
+      {
+        "filer_id": "382860",
+        "filer_name": "Salazar for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "27893",
+        "filer_name": "Julia  Salazar",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "18"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 19,
+    "candidate": "Roxanne J. Persaud",
+    "committeeFilerId": "3467",
+    "candidateFilerIds": [
+      "27596"
+    ],
+    "filers": [
+      {
+        "filer_id": "3467",
+        "filer_name": "Persaud For Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "27596",
+        "filer_name": "Roxanne J. Persaud",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "19"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 20,
+    "candidate": "Zellnor Y. Myrie",
+    "committeeFilerId": "371690",
+    "candidateFilerIds": [
+      "27773"
+    ],
+    "filers": [
+      {
+        "filer_id": "371690",
+        "filer_name": "Zellnor for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "27773",
+        "filer_name": "Zellnor  Myrie",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "20"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 21,
+    "candidate": "Kevin S. Parker",
+    "committeeFilerId": "8843",
+    "candidateFilerIds": [
+      "26218"
+    ],
+    "filers": [
+      {
+        "filer_id": "8843",
+        "filer_name": "Friends Of Kevin Parker",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "26218",
+        "filer_name": "Kevin S. Parker",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "21"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 21,
+    "candidate": "Ronald Seifert",
+    "committeeFilerId": "591166",
+    "candidateFilerIds": [
+      "591165"
+    ],
+    "filers": [
+      {
+        "filer_id": "591166",
+        "filer_name": "Seifert for Senate 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "591165",
+        "filer_name": "Ronald  Seifert",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "21"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 22,
+    "candidate": "Sam Sutton",
+    "committeeFilerId": "517207",
+    "candidateFilerIds": [
+      "517206"
+    ],
+    "filers": [
+      {
+        "filer_id": "517207",
+        "filer_name": "Sam Sutton for NYS Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "517206",
+        "filer_name": "Solomon Sam Sutton",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "22"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 22,
+    "candidate": "Nachman Carl Caller",
+    "committeeFilerId": "445478",
+    "candidateFilerIds": [
+      "414489"
+    ],
+    "filers": [
+      {
+        "filer_id": "445478",
+        "filer_name": "Nachman Carl Caller for NYS Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "414489",
+        "filer_name": "Carl  Caller",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "22"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 23,
+    "candidate": "Jessica Scarcella-Spanton",
+    "committeeFilerId": "456128",
+    "candidateFilerIds": [
+      "217050"
+    ],
+    "filers": [
+      {
+        "filer_id": "456128",
+        "filer_name": "JESSICA FOR NY 26",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "217050",
+        "filer_name": "Jessica  Scarcella-Spanton",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "23"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 23,
+    "candidate": "Ruslan Shamal",
+    "committeeFilerId": "580769",
+    "candidateFilerIds": [
+      "580768"
+    ],
+    "filers": [
+      {
+        "filer_id": "580769",
+        "filer_name": "Russ for Us",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "580768",
+        "filer_name": "Ruslan  Shamal",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "23"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 24,
+    "candidate": "Andrew J. Lanza",
+    "committeeFilerId": "591155",
+    "candidateFilerIds": [
+      "28650"
+    ],
+    "filers": [
+      {
+        "filer_id": "591155",
+        "filer_name": "ANDREW LANZA FOR STATEN ISLAND",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "28650",
+        "filer_name": "Andrew J. Lanza",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "24"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 24,
+    "candidate": "Alexis Rodriguez",
+    "committeeFilerId": "580677",
+    "candidateFilerIds": [
+      "580675"
+    ],
+    "filers": [
+      {
+        "filer_id": "580677",
+        "filer_name": "Alexis for New York",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "580675",
+        "filer_name": "Alexis  Rodriguez",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "24"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 25,
+    "candidate": "Jabari Brisport",
+    "committeeFilerId": "456378",
+    "candidateFilerIds": [
+      "28264"
+    ],
+    "filers": [
+      {
+        "filer_id": "456378",
+        "filer_name": "Jabari for State Senate 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "28264",
+        "filer_name": "Jabari  Brisport",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "25"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 26,
+    "candidate": "Andrew S. Gounardes",
+    "committeeFilerId": "456326",
+    "candidateFilerIds": [
+      "27750"
+    ],
+    "filers": [
+      {
+        "filer_id": "456326",
+        "filer_name": "Andrew Gounardes for State Senate 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "27750",
+        "filer_name": "Andrew  Gounardes",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "26"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 26,
+    "candidate": "Tom Stanten",
+    "committeeFilerId": "580824",
+    "candidateFilerIds": [
+      "580823"
+    ],
+    "filers": [
+      {
+        "filer_id": "580824",
+        "filer_name": "STAND WITH TOM",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "580823",
+        "filer_name": "Tom A. Stanten",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "26"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 27,
+    "candidate": "Grace Lee",
+    "committeeFilerId": "319624",
+    "candidateFilerIds": [
+      "28229"
+    ],
+    "filers": [
+      {
+        "filer_id": "319624",
+        "filer_name": "Grace Lee for New York",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "28229",
+        "filer_name": "Grace  Lee",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "27"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 27,
+    "candidate": "Jason C. Murillo",
+    "committeeFilerId": null,
+    "candidateFilerIds": [
+      "569447"
+    ],
+    "filers": [
+      {
+        "filer_id": "569447",
+        "filer_name": "Jason C.  Murillo",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "27"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "candidate_direct_filings_only"
+  },
+  {
+    "district": 28,
+    "candidate": "Liz Krueger",
+    "committeeFilerId": "371436",
+    "candidateFilerIds": [
+      "25724"
+    ],
+    "filers": [
+      {
+        "filer_id": "371436",
+        "filer_name": "Krueger for New York",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "25724",
+        "filer_name": "Liz  Krueger",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "28"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 28,
+    "candidate": "Alina Bonsell",
+    "committeeFilerId": "580285",
+    "candidateFilerIds": [
+      "580284"
+    ],
+    "filers": [
+      {
+        "filer_id": "580285",
+        "filer_name": "Alina for NY",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "580284",
+        "filer_name": "Alina  Bonsell",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "28"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 29,
+    "candidate": "Jose M. Serrano",
+    "committeeFilerId": "9909",
+    "candidateFilerIds": [
+      "26654"
+    ],
+    "filers": [
+      {
+        "filer_id": "9909",
+        "filer_name": "Serrano For State Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "26654",
+        "filer_name": "Jose M. Serrano",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "29"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 30,
+    "candidate": "Cordell Cleare",
+    "committeeFilerId": "414451",
+    "candidateFilerIds": [
+      "33855"
+    ],
+    "filers": [
+      {
+        "filer_id": "414451",
+        "filer_name": "Cleare for New York",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "33855",
+        "filer_name": "Cordell  Cleare",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "30"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 31,
+    "candidate": "Robert Jackson",
+    "committeeFilerId": "517368",
+    "candidateFilerIds": [
+      "27121"
+    ],
+    "filers": [
+      {
+        "filer_id": "517368",
+        "filer_name": "Jackson for Senate 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "27121",
+        "filer_name": "Robert  Jackson",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "31"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 32,
+    "candidate": "Luis R. Sepulveda",
+    "committeeFilerId": "404039",
+    "candidateFilerIds": [
+      "27729"
+    ],
+    "filers": [
+      {
+        "filer_id": "404039",
+        "filer_name": "Sepulveda for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "27729",
+        "filer_name": "Luis R. Sepulveda",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "32"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 33,
+    "candidate": "J. Gustavo Rivera",
+    "committeeFilerId": "506847",
+    "candidateFilerIds": [
+      "29497"
+    ],
+    "filers": [
+      {
+        "filer_id": "506847",
+        "filer_name": "Gustavo Rivera for State Senate 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "29497",
+        "filer_name": "Jose Gustavo Rivera",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "33"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 34,
+    "candidate": "Nathalia Fernandez",
+    "committeeFilerId": "383641",
+    "candidateFilerIds": [
+      "27836"
+    ],
+    "filers": [
+      {
+        "filer_id": "383641",
+        "filer_name": "Fernandez for NY",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "27836",
+        "filer_name": "Nathalia  Fernandez",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "34"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 34,
+    "candidate": "Adrian Romero",
+    "committeeFilerId": null,
+    "candidateFilerIds": [],
+    "filers": [],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "unresolved"
+  },
+  {
+    "district": 35,
+    "candidate": "Andrea Stewart-Cousins",
+    "committeeFilerId": "414606",
+    "candidateFilerIds": [
+      "26664"
+    ],
+    "filers": [
+      {
+        "filer_id": "414606",
+        "filer_name": "Friends of Andrea Stewart-Cousins",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "26664",
+        "filer_name": "Andrea  Stewart-Cousins",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "35"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 35,
+    "candidate": "Anthony J. Merante",
+    "committeeFilerId": "580704",
+    "candidateFilerIds": [
+      "43407"
+    ],
+    "filers": [
+      {
+        "filer_id": "580704",
+        "filer_name": "Merante for NY Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "43407",
+        "filer_name": "Anthony J. Merante",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "35"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 36,
+    "candidate": "Jamaal T. Bailey",
+    "committeeFilerId": "14797",
+    "candidateFilerIds": [
+      "27357"
+    ],
+    "filers": [
+      {
+        "filer_id": "14797",
+        "filer_name": "Friends Of Jamaal T. Bailey",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "27357",
+        "filer_name": "Jamaal T. Bailey",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "36"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 36,
+    "candidate": "Grace Marrero",
+    "committeeFilerId": null,
+    "candidateFilerIds": [
+      "445540"
+    ],
+    "filers": [
+      {
+        "filer_id": "445540",
+        "filer_name": "Grace   Marrero",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "36"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "candidate_direct_filings_only"
+  },
+  {
+    "district": 37,
+    "candidate": "Shelley B. Mayer",
+    "committeeFilerId": "445903",
+    "candidateFilerIds": [
+      "27797"
+    ],
+    "filers": [
+      {
+        "filer_id": "445903",
+        "filer_name": "Shelley Mayer for NY",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "27797",
+        "filer_name": "Shelley  Mayer",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "37"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 37,
+    "candidate": "Thomas H. Fix Jr",
+    "committeeFilerId": "591579",
+    "candidateFilerIds": [
+      "227817"
+    ],
+    "filers": [
+      {
+        "filer_id": "591579",
+        "filer_name": "Fix New York",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "227817",
+        "filer_name": "Thomas  Fix",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "37"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 38,
+    "candidate": "Joseph W. Rand",
+    "committeeFilerId": "580325",
+    "candidateFilerIds": [
+      "580319"
+    ],
+    "filers": [
+      {
+        "filer_id": "580325",
+        "filer_name": "Joe Rand for Rockland",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "580319",
+        "filer_name": "Joseph  Rand",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "38"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 38,
+    "candidate": "Bill Weber",
+    "committeeFilerId": "456053",
+    "candidateFilerIds": [],
+    "filers": [
+      {
+        "filer_id": "456053",
+        "filer_name": "Bill Weber for Senate 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 39,
+    "candidate": "Lisa Kaul",
+    "committeeFilerId": "549093",
+    "candidateFilerIds": [],
+    "filers": [
+      {
+        "filer_id": "549093",
+        "filer_name": "Friends of Lisa Kaul 4 NYS",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 39,
+    "candidate": "Robert G. Rolison",
+    "committeeFilerId": "506855",
+    "candidateFilerIds": [
+      "27007"
+    ],
+    "filers": [
+      {
+        "filer_id": "506855",
+        "filer_name": "Rolison For NY 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "27007",
+        "filer_name": "Robert G Rolison",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "39"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 40,
+    "candidate": "Peter B. Harckham",
+    "committeeFilerId": "445743",
+    "candidateFilerIds": [
+      "27932"
+    ],
+    "filers": [
+      {
+        "filer_id": "445743",
+        "filer_name": "Pete Harckham for NY 26",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "27932",
+        "filer_name": "Peter  Harckham",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "40"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 40,
+    "candidate": "Sergio J. Esposito",
+    "committeeFilerId": "591221",
+    "candidateFilerIds": [
+      "164984"
+    ],
+    "filers": [
+      {
+        "filer_id": "591221",
+        "filer_name": "Esposito For NY",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "164984",
+        "filer_name": "Sergio J Esposito",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "40"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 41,
+    "candidate": "Michelle Hinchey",
+    "committeeFilerId": "506858",
+    "candidateFilerIds": [
+      "28227"
+    ],
+    "filers": [
+      {
+        "filer_id": "506858",
+        "filer_name": "Hinchey for NY",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "28227",
+        "filer_name": "Michelle  Hinchey",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "41"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 41,
+    "candidate": "Patrick Sheehan",
+    "committeeFilerId": "506818",
+    "candidateFilerIds": [
+      "227770"
+    ],
+    "filers": [
+      {
+        "filer_id": "506818",
+        "filer_name": "Committee to elect Patrick Sheehan",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "227770",
+        "filer_name": "Patrick  Sheehan",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "41"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 42,
+    "candidate": "James G. Skoufis",
+    "committeeFilerId": "496616",
+    "candidateFilerIds": [
+      "27454"
+    ],
+    "filers": [
+      {
+        "filer_id": "496616",
+        "filer_name": "Skoufis for NY Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "27454",
+        "filer_name": "James  Skoufis",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "42"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 42,
+    "candidate": "Jennifer R. Figueroa",
+    "committeeFilerId": "591610",
+    "candidateFilerIds": [
+      "591609"
+    ],
+    "filers": [
+      {
+        "filer_id": "591610",
+        "filer_name": "Figueroa for State Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "591609",
+        "filer_name": "Jennifer   Figueroa",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "42"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 42,
+    "candidate": "Joshua Blumenthal",
+    "committeeFilerId": null,
+    "candidateFilerIds": [],
+    "filers": [],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "unresolved"
+  },
+  {
+    "district": 43,
+    "candidate": "Devin R. Lander",
+    "committeeFilerId": "569247",
+    "candidateFilerIds": [
+      "569246"
+    ],
+    "filers": [
+      {
+        "filer_id": "569247",
+        "filer_name": "Devin Lander for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "569246",
+        "filer_name": "Devin  Lander",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "43"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 43,
+    "candidate": "Jake Ashby",
+    "committeeFilerId": "506864",
+    "candidateFilerIds": [],
+    "filers": [
+      {
+        "filer_id": "506864",
+        "filer_name": "Friends of Jake Ashby 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 44,
+    "candidate": "Sarah F. Rogerson",
+    "committeeFilerId": "590867",
+    "candidateFilerIds": [
+      "238257"
+    ],
+    "filers": [
+      {
+        "filer_id": "590867",
+        "filer_name": "Friends of Sarah Rogerson",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "238257",
+        "filer_name": "Sarah  Rogerson",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "44"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 44,
+    "candidate": "James N. Tedisco",
+    "committeeFilerId": "446000",
+    "candidateFilerIds": [
+      "27510"
+    ],
+    "filers": [
+      {
+        "filer_id": "446000",
+        "filer_name": "Tedisco for Senate 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "27510",
+        "filer_name": "James N. Tedisco",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "44"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 45,
+    "candidate": "Daniel G. Stec",
+    "committeeFilerId": "8056",
+    "candidateFilerIds": [
+      "28318"
+    ],
+    "filers": [
+      {
+        "filer_id": "8056",
+        "filer_name": "Stec for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "28318",
+        "filer_name": "Daniel G. Stec",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "45"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 45,
+    "candidate": "Melissa T. Seale",
+    "committeeFilerId": "580693",
+    "candidateFilerIds": [
+      "580692"
+    ],
+    "filers": [
+      {
+        "filer_id": "580693",
+        "filer_name": "Melissa Seale for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "580692",
+        "filer_name": "Melissa  Teresa  Seale",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "45"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 46,
+    "candidate": "Patricia A. Fahy",
+    "committeeFilerId": "445891",
+    "candidateFilerIds": [
+      "29901"
+    ],
+    "filers": [
+      {
+        "filer_id": "445891",
+        "filer_name": "Friends of Patricia Fahy 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "29901",
+        "filer_name": "Patricia A. Fahy",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "46"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 46,
+    "candidate": "Martha G. McHugh",
+    "committeeFilerId": "591105",
+    "candidateFilerIds": [
+      "591102"
+    ],
+    "filers": [
+      {
+        "filer_id": "591105",
+        "filer_name": "Friends of Martha McHugh",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "591102",
+        "filer_name": "Martha   McHugh",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "46"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 47,
+    "candidate": "Erik D. Bottcher",
+    "committeeFilerId": "580669",
+    "candidateFilerIds": [
+      "37353"
+    ],
+    "filers": [
+      {
+        "filer_id": "580669",
+        "filer_name": "Bottcher for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "37353",
+        "filer_name": "Erik  Bottcher",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "47"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 47,
+    "candidate": "Charlotte Friedman",
+    "committeeFilerId": null,
+    "candidateFilerIds": [
+      "580802"
+    ],
+    "filers": [
+      {
+        "filer_id": "580802",
+        "filer_name": "Charlotte  Friedman",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "47"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "candidate_direct_filings_only"
+  },
+  {
+    "district": 48,
+    "candidate": "Rachel May",
+    "committeeFilerId": "445982",
+    "candidateFilerIds": [
+      "27780"
+    ],
+    "filers": [
+      {
+        "filer_id": "445982",
+        "filer_name": "Friends of Rachel May 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "27780",
+        "filer_name": "Rachel  May",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "48"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 48,
+    "candidate": "Richard McCarron Jr",
+    "committeeFilerId": "580424",
+    "candidateFilerIds": [
+      "309198"
+    ],
+    "filers": [
+      {
+        "filer_id": "580424",
+        "filer_name": "McCarron for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "309198",
+        "filer_name": "Richard  McCarron",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "48"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 49,
+    "candidate": "Mark C. Walczyk",
+    "committeeFilerId": "227512",
+    "candidateFilerIds": [
+      "28037"
+    ],
+    "filers": [
+      {
+        "filer_id": "227512",
+        "filer_name": "Friends of Walczyk",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "28037",
+        "filer_name": "Mark C. Walczyk",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "49"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 49,
+    "candidate": "Cassie L. Robbins-Forbus",
+    "committeeFilerId": "591070",
+    "candidateFilerIds": [
+      "591069"
+    ],
+    "filers": [
+      {
+        "filer_id": "591070",
+        "filer_name": "Friends of Cassie Robbins-Forbus",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "591069",
+        "filer_name": "Cassie   Robbins-Forbus",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "49"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 50,
+    "candidate": "Christopher J. Ryan",
+    "committeeFilerId": "445987",
+    "candidateFilerIds": [
+      "38764"
+    ],
+    "filers": [
+      {
+        "filer_id": "445987",
+        "filer_name": "Chris Ryan for CNY 26",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "38764",
+        "filer_name": "Christopher J. Ryan",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "50"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 50,
+    "candidate": "James Corl",
+    "committeeFilerId": "580454",
+    "candidateFilerIds": [
+      "580447"
+    ],
+    "filers": [
+      {
+        "filer_id": "580454",
+        "filer_name": "Corl For Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "580447",
+        "filer_name": "James Edward Corl",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "50"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 51,
+    "candidate": "Christopher W. Tague",
+    "committeeFilerId": "527663",
+    "candidateFilerIds": [
+      "27819"
+    ],
+    "filers": [
+      {
+        "filer_id": "527663",
+        "filer_name": "Friends of Chris Tague 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "27819",
+        "filer_name": "Christopher  Tague",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "51"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 51,
+    "candidate": "Michele Frazier",
+    "committeeFilerId": "414488",
+    "candidateFilerIds": [
+      "414486"
+    ],
+    "filers": [
+      {
+        "filer_id": "414488",
+        "filer_name": "Michele Frazier for 51",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "414486",
+        "filer_name": "Michele L Frazier",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "51"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 52,
+    "candidate": "Lea Webb",
+    "committeeFilerId": "456058",
+    "candidateFilerIds": [
+      "216731"
+    ],
+    "filers": [
+      {
+        "filer_id": "456058",
+        "filer_name": "Webb For State Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "216731",
+        "filer_name": "Lea  Webb",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "52"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 52,
+    "candidate": "Michael S. Bolles",
+    "committeeFilerId": "591247",
+    "candidateFilerIds": [
+      "591244"
+    ],
+    "filers": [
+      {
+        "filer_id": "591247",
+        "filer_name": "Friends of Mike Bolles",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "591244",
+        "filer_name": "Michael  Stephen Bolles",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "52"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 53,
+    "candidate": "Joseph A. Griffo",
+    "committeeFilerId": "496610",
+    "candidateFilerIds": [
+      "28567"
+    ],
+    "filers": [
+      {
+        "filer_id": "496610",
+        "filer_name": "Friends of Joe Griffo",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "28567",
+        "filer_name": "Joseph A. Griffo",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "53"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 53,
+    "candidate": "Mandi Drake",
+    "committeeFilerId": "580566",
+    "candidateFilerIds": [
+      "580565"
+    ],
+    "filers": [
+      {
+        "filer_id": "580566",
+        "filer_name": "Friends of Mandi Drake",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "580565",
+        "filer_name": "Mandi E Drake",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "53"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 54,
+    "candidate": "Pamela A. Helming",
+    "committeeFilerId": "414323",
+    "candidateFilerIds": [
+      "27504"
+    ],
+    "filers": [
+      {
+        "filer_id": "414323",
+        "filer_name": "Pam Helming For Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "27504",
+        "filer_name": "Pamela A Helming",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "54"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 54,
+    "candidate": "Michael Mills",
+    "committeeFilerId": "528327",
+    "candidateFilerIds": [
+      "308954"
+    ],
+    "filers": [
+      {
+        "filer_id": "528327",
+        "filer_name": "Mills for NY Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "308954",
+        "filer_name": "Michael P Mills",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "54"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 55,
+    "candidate": "Samra G. Brouk",
+    "committeeFilerId": "456325",
+    "candidateFilerIds": [
+      "28218"
+    ],
+    "filers": [
+      {
+        "filer_id": "456325",
+        "filer_name": "Samra Brouk for State Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "28218",
+        "filer_name": "Samra G. Brouk",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "55"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 55,
+    "candidate": "Chris Brown",
+    "committeeFilerId": "591233",
+    "candidateFilerIds": [],
+    "filers": [
+      {
+        "filer_id": "591233",
+        "filer_name": "Christopher Brown for State Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 56,
+    "candidate": "Jeremy A. Cooney",
+    "committeeFilerId": "445964",
+    "candidateFilerIds": [
+      "27899"
+    ],
+    "filers": [
+      {
+        "filer_id": "445964",
+        "filer_name": "Cooney for New York 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "27899",
+        "filer_name": "Jeremy Akbar Cooney",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "56"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 56,
+    "candidate": "Orlando Rivera",
+    "committeeFilerId": "591159",
+    "candidateFilerIds": [
+      "36731"
+    ],
+    "filers": [
+      {
+        "filer_id": "591159",
+        "filer_name": "Orlando for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "36731",
+        "filer_name": "Orlando J. Rivera",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "56"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 57,
+    "candidate": "George M. Borrello",
+    "committeeFilerId": "371726",
+    "candidateFilerIds": [
+      "28195"
+    ],
+    "filers": [
+      {
+        "filer_id": "371726",
+        "filer_name": "Borrello for Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "28195",
+        "filer_name": "George M. Borrello",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "57"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 57,
+    "candidate": "Victoria A. Guite-Williams",
+    "committeeFilerId": "590887",
+    "candidateFilerIds": [
+      "590886"
+    ],
+    "filers": [
+      {
+        "filer_id": "590887",
+        "filer_name": "Victoria for State Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "590886",
+        "filer_name": "Victoria A Guite-Williams",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "57"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 58,
+    "candidate": "Thomas Fellers O'Mara",
+    "committeeFilerId": "496619",
+    "candidateFilerIds": [
+      "26653"
+    ],
+    "filers": [
+      {
+        "filer_id": "496619",
+        "filer_name": "Friends of Tom OMara 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "26653",
+        "filer_name": "Thomas F. O'Mara",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "58"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 58,
+    "candidate": "James J. Bobreski",
+    "committeeFilerId": null,
+    "candidateFilerIds": [
+      "591527"
+    ],
+    "filers": [
+      {
+        "filer_id": "591527",
+        "filer_name": "James J. Bobreski",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "58"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "candidate_direct_filings_only"
+  },
+  {
+    "district": 59,
+    "candidate": "Kristen Gonzalez",
+    "committeeFilerId": "445624",
+    "candidateFilerIds": [
+      "216864"
+    ],
+    "filers": [
+      {
+        "filer_id": "445624",
+        "filer_name": "Gonzalez for New York 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "216864",
+        "filer_name": "Kristen S Gonzalez",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "59"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 60,
+    "candidate": "Patrick M. Gallivan",
+    "committeeFilerId": "15214",
+    "candidateFilerIds": [
+      "29567"
+    ],
+    "filers": [
+      {
+        "filer_id": "15214",
+        "filer_name": "Gallivan For Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "29567",
+        "filer_name": "Patrick M. Gallivan",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "60"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name; current-period receipts under filer 15214.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 61,
+    "candidate": "Jonathan D. Rivera",
+    "committeeFilerId": "569429",
+    "candidateFilerIds": [
+      "28342"
+    ],
+    "filers": [
+      {
+        "filer_id": "569429",
+        "filer_name": "Jon Rivera for State Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "28342",
+        "filer_name": "Jonathan D. Rivera",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "61"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 62,
+    "candidate": "Robert G. Ortt",
+    "committeeFilerId": "22460",
+    "candidateFilerIds": [
+      "27208"
+    ],
+    "filers": [
+      {
+        "filer_id": "22460",
+        "filer_name": "Ortt For State Senate",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Authorized Single Candidate Committee"
+      },
+      {
+        "filer_id": "27208",
+        "filer_name": "Robert G Ortt",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "62"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 62,
+    "candidate": "Thomas E. Arida",
+    "committeeFilerId": "591108",
+    "candidateFilerIds": [
+      "591107"
+    ],
+    "filers": [
+      {
+        "filer_id": "591108",
+        "filer_name": "Vote Arida",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "591107",
+        "filer_name": "Thomas  Edward Arida",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "62"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "reviewed_name_match"
+  },
+  {
+    "district": 63,
+    "candidate": "April N. McCants-Baskin",
+    "committeeFilerId": "414556",
+    "candidateFilerIds": [
+      "34228"
+    ],
+    "filers": [
+      {
+        "filer_id": "414556",
+        "filer_name": "Friends of April Baskin 2026",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "34228",
+        "filer_name": "April Nicole McCants-Baskin",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "63"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  },
+  {
+    "district": 63,
+    "candidate": "Geoffrey M. Szymanski",
+    "committeeFilerId": "591224",
+    "candidateFilerIds": [
+      "44915"
+    ],
+    "filers": [
+      {
+        "filer_id": "591224",
+        "filer_name": "Friends of Geoff Szymanski",
+        "compliance_type_desc": "COMMITTEE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "committee_type_desc": "Public Campaign Finance Committee"
+      },
+      {
+        "filer_id": "44915",
+        "filer_name": "Geoffrey M. Szymanski",
+        "compliance_type_desc": "CANDIDATE",
+        "filer_type_desc": "State",
+        "filer_status": "ACTIVE",
+        "office_desc": "State Senator",
+        "district": "63"
+      }
+    ],
+    "mappingBasis": "Official BOE active filer register: candidate office/district/name and reviewed committee name.",
+    "mappingStatus": "official_authorization_corrobated",
+    "mappingSource": "https://pcfb.ny.gov/system/files/documents/2026/11/11.18.2026-commissioner-report-for-the-approval-to-disburse-public-matching-funds.pdf"
+  }
+]

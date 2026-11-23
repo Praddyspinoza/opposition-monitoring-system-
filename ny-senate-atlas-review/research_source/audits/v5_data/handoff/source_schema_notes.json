@@ -1,0 +1,58 @@
+{
+  "files": {
+    "normalized.json": "Complete98-page PDF text,24 layers,20 issues,72 tables,65 historical media references,195 source records,17 chart objects with structured data and provenance.",
+    "fresh_migration.json": "Six official IRS vintages2018–2019 through2023–2024; county and state records,62 county PEP series,63 district-to-county-context links.",
+    "migration_charts_data.json": "Compact81KB structured chart objects and fresh sources.",
+    "district_overlays.json": "All4214 NYC ED geometries and262 NTA geometries clipped into28 official NYC Senate districts; same atlas projection;2.94MB.",
+    "neighborhood_overlays.json": "Lightweight939KB NTA and detailed Senate boundaries, excludes ED paths.",
+    "import_validation.json": "Import coverage and limitations.",
+    "geography_validation.json": "Spatial coverage and label validation."
+  },
+  "migrationSchema": {
+    "nyc": "Array of six vintages. inflow/outflow/net each contain returns,exemptions,agiUsd. Internal borough moves removed.",
+    "newYorkState": "Same flow schema; domestic interstate moves only.",
+    "countyMigration": "372 directly published county-total records,62 counties×six vintages.",
+    "statePartners": "Other-state inflow/outflow/net with stateFips and abbreviation.",
+    "nycCountyPairs": "Published borough-to-county sums. publishedInflow/publishedOutflow/netPublished may be null; missing is not zero.",
+    "suffolkNyc": "Six vintages of fromNyc/toNyc/netFromNyc. WholeSuffolk, notSD1.",
+    "countyPopulationChanges": "62 county records with2021–2025 series: population,domesticMigration,domesticMigrationRatePer1000,internationalMigration,naturalChange.",
+    "districtCountyContext": "All63 districts link to their named counties from officialSenate directory. No area weighting or population allocation.",
+    "nycPopulationComponents": "2011–2019 PEP2019 and2021–2025 PEP2025, base break explicit.",
+    "sources": "Direct official fileURLs and retrieval dates."
+  },
+  "chartSchema": {
+    "data": "Numeric data matching original historicalchart, where reconstructable.",
+    "freshData": "Updated2023–2024 IRS extension for c01,c02,c03,c04,c16.",
+    "archiveImageAsOf": "2026-11-20; an archival PNG is not a chart of freshly appended values.",
+    "dataCoverage": "10 charts from newly retrieved officialIRS/PEP or Census-originACS;6 retainedhistoricalreal-estate/Comptrollerseries;1 incompletehistoricalexploratoryscatter."
+  },
+  "geometrySchema": {
+    "districts": "All63 entries;28NYCdistricts have detail. IDs10–34,36,47,59.",
+    "detailedPath": "NYCDCP26c high-resolutionSenate outline in atlas coordinates.",
+    "detailedBounds": "Use as SVG viewBox. SD34 and36 show NYCportion only; use globalatlas forfullboundary.",
+    "neighborhoods": "NTA features, name,borough,typeCode,path,position,bounds,areaKm2,shareOfSourceAreaPct. typeCode0 is residentialneighborhood; othercodes areparks/airports/etc.",
+    "electionDistricts": "ED ID,AssemblyDistrict,EDnumber,path,position,bounds. EDgeometryonly; no vote data.",
+    "projection": "ExactNewYorkAlbers and1000×780 transform from officialatlas. fillRule evenodd."
+  },
+  "cautions": [
+    "IRS enhancedmatchingbreak2022–2023. Returns approximate households; exemptions approximate people; moverAGI is not taxrevenue.",
+    "County context must be labeledwholecounty, neverallocated toSenatedistrict.",
+    "Ancestry doesnot identifyreligion; use normalizedancestry labels, nothistoricalPNGreligionproxylabels.",
+    "Historicalc17correlations use oldunofficial2026snapshot andsecondary2022results. Full23-pointscatterdata absent;11printedrows andsixcorrelations preserved.",
+    "NTAstatisticalareas approximate neighborhoods. NYCoverlaysonlycoverNYC.",
+    "65mediareferenceURLs arehistoricalhandoffrecords, notnewlyvalidatedlivefeeds."
+  ],
+  "buildOrder": [
+    "python import_handoff.py",
+    "python build_migration.py",
+    "python enrich_charts.py",
+    "python build_overlays.py"
+  ],
+  "freshOfficialPages": [
+    "https://www.irs.gov/statistics/soi-tax-stats-migration-data-2023-2024",
+    "https://www.irs.gov/statistics/soi-tax-stats-migration-data-2022-2023",
+    "https://data.cityofnewyork.us/City-Government/Election-Districts/wwxk-38u4",
+    "https://data.cityofnewyork.us/City-Government/2020-Neighborhood-Tabulation-Areas-NTAs-/9nt8-h7nd",
+    "https://data.cityofnewyork.us/City-Government/State-Senate-Districts/afns-vxeu"
+  ]
+}

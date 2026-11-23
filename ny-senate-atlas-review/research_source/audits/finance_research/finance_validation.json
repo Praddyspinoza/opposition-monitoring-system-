@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "NYS Senate campaign donor snapshot",
+    "retrievedAt": "2026-11-22",
+    "sourceUpdatedAt": "2026-11-21T04:59:37+00:00",
+    "sourceAgency": "New York State Board of Elections",
+    "sourceDataset": "e9ss-239a",
+    "sourceUrl": "https://data.ny.gov/Government-Finance/Campaign-Finance-Disclosure-Reports-Data-Beginning/e9ss-239a",
+    "filerRegisterUrl": "https://data.ny.gov/Government-Finance/Campaign-Finance-Filer-Data-Beginning-1974/7x2g-h32p",
+    "windowStart": "2025-01-01",
+    "windowEnd": "2026-11-22",
+    "period": "1 January 2025\u201322 November 2026",
+    "currency": "USD",
+    "districtCount": 63,
+    "candidateCount": 112,
+    "candidatesWithData": 103,
+    "rawRowsFetched": 68082,
+    "duplicateRowsRemoved": 77,
+    "selectedUniqueRowsBeforePublicFundExclusion": 68005,
+    "selectedDonationRows": 67983,
+    "excludedPublicMatchingFunds": 163947.0,
+    "excludedNonDonationReceipts": 123967.53,
+    "excludedReceiptCount": 22,
+    "committeesWithData": 103,
+    "explicitOfficialCommitteeMappings": 70,
+    "methodology": [
+      "Only monetary contribution Schedules A, B and C in itemized disclosure filings; transaction date 2025-01-01 through 2026-11-22, disclosure year at least 2025.",
+      "Amended filings are retained. Repeated UUID transaction IDs retain the latest filing_trans_id; legacy numeric transaction IDs are deduplicated only when filer, schedule, date, amount and disclosed donor name/type also agree, since numeric IDs can be reused.",
+      "Donor ranks aggregate the same disclosed donor name (case and whitespace normalized) and contributor type within the displayed candidate/committee group. Distinct people with the same disclosed name may be combined; name spelling variants are not inferred to be one person.",
+      "Totals are gross disclosed monetary contributions, not net receipts or cash on hand. Unitemized/unnamed contributions are included in the total when reported but excluded from named donor rankings. Subsequent refunds to contributors are not netted out.",
+      "Loans, transfers, in-kind support, independent expenditures and public matching funds are outside these donor rankings. Identifiable Comptroller public funds and transaction narratives explicitly describing recovered bank balances, bank verification credits, dividends, expense refunds, payroll-provider balance returns or reimbursements were excluded even when filed in contribution schedules.",
+      "Candidate-to-committee identities use official filer names, candidate office/district records and, where available, explicit official PCFB payment-report mappings. The mapping basis is retained per candidate.",
+      "No residential addresses, emails, telephone numbers, employer addresses or treasurer personal details are included.",
+      "Source filings are reported by campaigns and may be amended. Missing data is not a zero-donation claim."
+    ]
+  },
+  "missingCandidates": [
+    {
+      "district": 3,
+      "candidate": "Antonio Vargas-Ayala",
+      "mappingStatus": "unresolved"
+    },
+    {
+      "district": 12,
+      "candidate": "Han-Khon To",
+      "mappingStatus": "reviewed_name_match"
+    },
+    {
+      "district": 13,
+      "candidate": "John Patrick Healy",
+      "mappingStatus": "unresolved"
+    },
+    {
+      "district": 21,
+      "candidate": "Kevin S. Parker",
+      "mappingStatus": "reviewed_name_match"
+    },
+    {
+      "district": 27,
+      "candidate": "Jason C. Murillo",
+      "mappingStatus": "candidate_direct_filings_only"
+    },
+    {
+      "district": 34,
+      "candidate": "Adrian Romero",
+      "mappingStatus": "unresolved"
+    },
+    {
+      "district": 36,
+      "candidate": "Grace Marrero",
+      "mappingStatus": "candidate_direct_filings_only"
+    },
+    {
+      "district": 42,
+      "candidate": "Joshua Blumenthal",
+      "mappingStatus": "unresolved"
+    },
+    {
+      "district": 47,
+      "candidate": "Charlotte Friedman",
+      "mappingStatus": "candidate_direct_filings_only"
+    }
+  ],
+  "districtsWithPartialCoverage": [
+    3,
+    12,
+    13,
+    21,
+    27,
+    34,
+    36,
+    42,
+    47
+  ]
+}

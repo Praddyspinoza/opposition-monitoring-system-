@@ -1,0 +1,210 @@
+[
+  {
+    "file": "stateinflow2324.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/stateinflow2324.csv",
+    "bytes": 100611,
+    "sha256": "da98fc3bf695ab6da8215f0e60f6345b40163def055da0fa910a2a5aa5c54224",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "stateoutflow2324.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/stateoutflow2324.csv",
+    "bytes": 100651,
+    "sha256": "362b99905718aa09207d6e8b63dae4d063fde730a99ea79294ad4963cdc2119a",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "countyinflow2324.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/countyinflow2324.csv",
+    "bytes": 4506475,
+    "sha256": "6b92738f43c96fe8c773486d0afb4dcb744e3e78456d499fc7bc7dea17c10b1b",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "countyoutflow2324.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/countyoutflow2324.csv",
+    "bytes": 4520578,
+    "sha256": "1c9b2addef8c29b1b475dfdba8c7311448c9d52ffba73e4954f8c06f1b0b909e",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "stateinflow2223.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/stateinflow2223.csv",
+    "bytes": 100523,
+    "sha256": "ea95debe27153e2a60aeb67e386250ad67d3ebe7ce226e02b540ca9b7ab01d73",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "stateoutflow2223.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv",
+    "bytes": 100548,
+    "sha256": "59d594df259ecb5b97ec832f8e4069bca4b8fce56e989d44ce511f3151332ceb",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "countyinflow2223.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/countyinflow2223.csv",
+    "bytes": 4571970,
+    "sha256": "813ba2ef550c6a598a5121ccf98edcc79f61f1af69eb495bf44cd830b1586745",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "countyoutflow2223.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/countyoutflow2223.csv",
+    "bytes": 4584439,
+    "sha256": "364dba518f0db092515ccde03dda987815f6e54bcc8859640001e9185d4c106e",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "stateinflow1819.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/stateinflow1819.csv",
+    "bytes": 100136,
+    "sha256": "5106544e24a33cd40319f00fc7a96ac46eab86970321221d784c00dbb5cfc1c4",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "stateoutflow1819.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/stateoutflow1819.csv",
+    "bytes": 100120,
+    "sha256": "f0edaeadb82f0fb306bf979159191285c612b3cbbccbda7a38a8d9e35931bf9e",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "countyinflow1819.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/countyinflow1819.csv",
+    "bytes": 4268559,
+    "sha256": "e547e8b75d6792c37a55d5f02623f16108de5f91d97784d70c8af1190a83792f",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "countyoutflow1819.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/countyoutflow1819.csv",
+    "bytes": 4275091,
+    "sha256": "ca26084b492c3c0152c82494ecb42fe24e044421351a8a36cd353d1102d05688",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "stateinflow1920.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/stateinflow1920.csv",
+    "bytes": 100513,
+    "sha256": "6a6c3f316f35290f393dfd565724b00346eb216c9abb94cea523a8c0f7fde5b2",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "stateoutflow1920.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/stateoutflow1920.csv",
+    "bytes": 100468,
+    "sha256": "6b746ac30d7f0f82b6af3e2c55ab0893332f9d2a8dd9a659288b8ea1c79efc0b",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "countyinflow1920.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/countyinflow1920.csv",
+    "bytes": 4448418,
+    "sha256": "a6c85b3fbd187f861862c40b25508371e585e33ab4ab25768b9176c29defd53c",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "countyoutflow1920.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/countyoutflow1920.csv",
+    "bytes": 4429398,
+    "sha256": "79724ba660a3c64ebe3e98c0de54124bf77cf600d7cc85f8f4200470f7386a3f",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "stateinflow2021.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/stateinflow2021.csv",
+    "bytes": 100596,
+    "sha256": "130561ac0f246d4de90e0f543575ebe6264df9739320dc402b020e950403980d",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "stateoutflow2021.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/stateoutflow2021.csv",
+    "bytes": 100564,
+    "sha256": "8e6827aa2dbe8bec66133f1bfea87acfff91cb921d207882e0add614cd4bb4a6",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "countyinflow2021.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/countyinflow2021.csv",
+    "bytes": 4442060,
+    "sha256": "37bfbf656cbbb953bb6cdaeea480ced653849456d49313c141b096b2e6aed495",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "countyoutflow2021.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/countyoutflow2021.csv",
+    "bytes": 4414697,
+    "sha256": "ff4fb70dc4f4dee63ef0b2587c8df76c7bf75aa9cd8c3c29cd9297862dc79914",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "stateinflow2122.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/stateinflow2122.csv",
+    "bytes": 100808,
+    "sha256": "4f3924b115ad605b6b91eef2b394ad7ebfed23bc441b13fef9d167113e1c7e42",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "stateoutflow2122.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/stateoutflow2122.csv",
+    "bytes": 100795,
+    "sha256": "6b60b07e3359b33b2795fa96352fa0fb9db140faeeffe56255ab9c96998d733b",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "countyinflow2122.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/countyinflow2122.csv",
+    "bytes": 4482703,
+    "sha256": "9c0778ed91553866820301bf1b9352c135c21cb27c2a73db0caac60502383f92",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "countyoutflow2122.csv",
+    "url": "https://www.irs.gov/pub/irs-soi/countyoutflow2122.csv",
+    "bytes": 4468798,
+    "sha256": "51b988a3b170e37a45f1598bfbe18e136ef3236dcda7227b458e6714cf0535e4",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "coest2025.csv",
+    "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv",
+    "bytes": 2071735,
+    "sha256": "4f5a499d851e2cb48fd7a5405e5a9235453a8a66933657aacd10df0e264f35d5",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  },
+  {
+    "file": "coest2019.csv",
+    "url": "https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/counties/totals/co-est2019-alldata.csv",
+    "bytes": 3644730,
+    "sha256": "654032fbb805bc9a7c124ba04ad47e170f5d9dc9d4974a73edfc20598fde77d8",
+    "retrievedAt": "2026-11-23",
+    "status": "ok"
+  }
+]

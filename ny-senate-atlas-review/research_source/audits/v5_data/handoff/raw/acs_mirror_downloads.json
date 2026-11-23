@@ -1,0 +1,54 @@
+{
+  "geographies": {
+    "Bronx": "05000US36005",
+    "Brooklyn": "05000US36047",
+    "Manhattan": "05000US36061",
+    "Queens": "05000US36081",
+    "Staten Island": "05000US36085",
+    "Nassau": "05000US36059",
+    "Suffolk": "05000US36103",
+    "Westchester": "05000US36119",
+    "Palm Beach FL": "05000US12099",
+    "Broward FL": "05000US12011",
+    "Miami-Dade FL": "05000US12086",
+    "Bergen NJ": "05000US34003",
+    "Southampton town": "06000US3610368473",
+    "East Hampton town": "06000US3610322194",
+    "Shelter Island town": "06000US3610366839",
+    "Southold town": "06000US3610369463",
+    "Riverhead town": "06000US3610361984",
+    "New York State": "04000US36"
+  },
+  "downloads": [
+    {
+      "file": "migration_acs_mobility.json",
+      "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B07004H%2CB07004B%2CB07004D%2CB07004I&geo_ids=05000US36005%2C05000US36047%2C05000US36061%2C05000US36081%2C05000US36085%2C05000US36059%2C05000US36103%2C05000US36119%2C05000US12099%2C05000US12011%2C05000US12086%2C05000US34003%2C06000US3610368473%2C06000US3610322194%2C06000US3610366839%2C06000US3610369463%2C06000US3610361984%2C04000US36",
+      "geographies": 18,
+      "tables": [
+        "B07004H",
+        "B07004B",
+        "B07004D",
+        "B07004I"
+      ],
+      "status": "ok",
+      "sha256": "40472d5f682e81add1727c7ed295d41984ff7f0cc2158f843a650f52d10d6cab",
+      "retrievedAt": "2026-11-23",
+      "dataOrigin": "U.S. Census Bureau ACS2020\u20132024 five-year, delivered through Census Reporter API mirror"
+    },
+    {
+      "file": "migration_acs_housing_ancestry.json",
+      "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25004%2CB25002%2CB04006%2CB01003&geo_ids=05000US36005%2C05000US36047%2C05000US36061%2C05000US36081%2C05000US36085%2C05000US36059%2C05000US36103%2C05000US36119%2C05000US12099%2C05000US12011%2C05000US12086%2C05000US34003%2C06000US3610368473%2C06000US3610322194%2C06000US3610366839%2C06000US3610369463%2C06000US3610361984%2C04000US36",
+      "geographies": 18,
+      "tables": [
+        "B25004",
+        "B25002",
+        "B04006",
+        "B01003"
+      ],
+      "status": "ok",
+      "sha256": "b64bb8ddf1a3187518e32005545b0b4741f3d6889d7697457aff84bc68655558",
+      "retrievedAt": "2026-11-23",
+      "dataOrigin": "U.S. Census Bureau ACS2020\u20132024 five-year, delivered through Census Reporter API mirror"
+    }
+  ]
+}

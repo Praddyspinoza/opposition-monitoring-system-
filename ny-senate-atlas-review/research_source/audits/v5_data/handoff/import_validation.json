@@ -1,0 +1,27 @@
+{
+  "pdfPages": 98,
+  "layers": 24,
+  "issues": 20,
+  "tables": 72,
+  "media": 65,
+  "sources": 195,
+  "chartCoverage": {
+    "chartsWithStructuredData": 17,
+    "chartsWithFreshPrimaryOrCensusOriginData": 10,
+    "archivalRealEstateAndComptrollerSeries": 6,
+    "archivalExploratoryModelWithIncompleteRawScatter": 1
+  },
+  "oldIrsNetReturnsReproducedExactly": true,
+  "freshLatestIrsVintage": "2023\u20132024",
+  "counties": 62,
+  "countyMigrationRows": 372,
+  "districtCountyContext": 63,
+  "normalizedBytes": 993125,
+  "chartDataBytes": 80914,
+  "limitations": [
+    "Six real estate/Comptroller series retain archival verification status; they were imported, not newly validated with broker reports.",
+    "The historical Senate correlation chart lacks its complete23-row raw scatter dataset;11 printed rows and six correlations were preserved.",
+    "Ancestry data does not measure religion.",
+    "County migration is not district migration."
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "originalPath": "finance_research/filer_meta.json",
+  "originalSha256": "71c1ea8db490221a87e0cedf57bb81a8c3e31cd3560a74038704c4bc45c547ce",
+  "originalBytes": 31732,
+  "sanitization": "Removed all cachedContents/sample/top/smallest/largest values, owner/tableAuthor/approvals/contact fields and other metadata not required for source/schema provenance. No donor or filer address values are retained.",
+  "metadata": {
+    "id": "7x2g-h32p",
+    "name": "Campaign Finance Filer Data: Beginning 1974",
+    "description": "All Campaign Finance Filers registered with the New York State Board of Elections",
+    "attribution": "New York State Board of Elections",
+    "attributionLink": "https://publicreporting.elections.ny.gov/",
+    "category": "Government & Finance",
+    "createdAt": 1615411420,
+    "publicationDate": 1615413636,
+    "rowsUpdatedAt": 1795342928,
+    "viewLastModified": 1795342876,
+    "tableId": 18122803,
+    "viewType": "tabular",
+    "assetType": "dataset",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "provenance": "official",
+    "tags": [
+      "filer",
+      "campaign finance"
+    ],
+    "columns": [
+      {
+        "id": 529200806,
+        "name": "FILER_ID",
+        "fieldName": "filer_id",
+        "dataTypeName": "text",
+        "description": "Filer ID assigned to Candidate/Committee once registered with the New York State Board of Elections",
+        "position": 1,
+        "format": {
+          "align": "center"
+        }
+      },
+      {
+        "id": 529200822,
+        "name": "FILER_NAME",
+        "fieldName": "filer_name",
+        "dataTypeName": "text",
+        "description": "Name of Candidate or Committee ",
+        "position": 2,
+        "format": {}
+      },
+      {
+        "id": 529200821,
+        "name": "COMPLIANCE_TYPE_DESC",
+        "fieldName": "compliance_type_desc",
+        "dataTypeName": "text",
+        "description": "Candidate or Committee ",
+        "position": 3,
+        "format": {}
+      },
+      {
+        "id": 529200820,
+        "name": "FILER_TYPE_DESC",
+        "fieldName": "filer_type_desc",
+        "dataTypeName": "text",
+        "description": "State or County",
+        "position": 4,
+        "format": {}
+      },
+      {
+        "id": 529200819,
+        "name": "FILER_STATUS",
+        "fieldName": "filer_status",
+        "dataTypeName": "text",
+        "description": "Active or Terminated",
+        "position": 5,
+        "format": {}
+      },
+      {
+        "id": 529200818,
+        "name": "COMMITTEE_TYPE_DESC",
+        "fieldName": "committee_type_desc",
+        "dataTypeName": "text",
+        "description": "If Committee, Type of Committee ",
+        "position": 6,
+        "format": {}
+      },
+      {
+        "id": 529200817,
+        "name": "OFFICE_DESC",
+        "fieldName": "office_desc",
+        "dataTypeName": "text",
+        "description": "If Candidate, Office running for",
+        "position": 7,
+        "format": {}
+      },
+      {
+        "id": 529200816,
+        "name": "DISTRICT",
+        "fieldName": "district",
+        "dataTypeName": "text",
+        "description": "If Office has a district, district candidate is running for",
+        "position": 8,
+        "format": {}
+      },
+      {
+        "id": 529200815,
+        "name": "COUNTY_DESC",
+        "fieldName": "county_desc",
+        "dataTypeName": "text",
+        "description": "If County Filer, County they are associated with",
+        "position": 9,
+        "format": {}
+      },
+      {
+        "id": 529200814,
+        "name": "MUNICIPALITY_DESC, SUBDIVISION_DESC",
+        "fieldName": "municipality_desc_subdivision",
+        "dataTypeName": "text",
+        "description": "If County Filer, Municipality they are associated with",
+        "position": 10,
+        "format": {}
+      },
+      {
+        "id": 529200813,
+        "name": "TREASURER_FIRST_NAME",
+        "fieldName": "treasurer_first_name",
+        "dataTypeName": "text",
+        "description": "Candidate/Committee Treasurer First Name  ",
+        "position": 11,
+        "format": {}
+      },
+      {
+        "id": 529200812,
+        "name": "TREASURER_MIDDLE_NAME",
+        "fieldName": "treasurer_middle_name",
+        "dataTypeName": "text",
+        "description": "Candidate/Committee Treasurer Middle Name",
+        "position": 12,
+        "format": {}
+      },
+      {
+        "id": 529200811,
+        "name": "TREASURER_LAST_NAME",
+        "fieldName": "treasurer_last_name",
+        "dataTypeName": "text",
+        "description": "Candidate/Committee Treasurer Last Name",
+        "position": 13,
+        "format": {}
+      },
+      {
+        "id": 529200810,
+        "name": "ADDRESS",
+        "fieldName": "address",
+        "dataTypeName": "text",
+        "description": "Candidate/Committee Treasurer Address",
+        "position": 14,
+        "format": {}
+      },
+      {
+        "id": 529200809,
+        "name": "CITY",
+        "fieldName": "city",
+        "dataTypeName": "text",
+        "description": "Candidate/Committee Treasurer City",
+        "position": 15,
+        "format": {}
+      },
+      {
+        "id": 529200807,
+        "name": "STATE",
+        "fieldName": "state",
+        "dataTypeName": "text",
+        "description": "Candidate/Committee Treasurer State",
+        "position": 16,
+        "format": {
+          "align": "center"
+        }
+      },
+      {
+        "id": 529200808,
+        "name": "ZIPCODE",
+        "fieldName": "zipcode",
+        "dataTypeName": "text",
+        "description": "Candidate/Committee Treasurer Zipcode",
+        "position": 17,
+        "format": {
+          "align": "center"
+        }
+      }
+    ]
+  }
+}

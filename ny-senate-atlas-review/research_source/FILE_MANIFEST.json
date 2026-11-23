@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "sha256",
+  "scope": "All files in research_source, excluding this manifest itself.",
+  "fileCountExcludingManifest": 104,
+  "totalBytesExcludingManifest": 619774,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 25,
+      "sha256": "16efb1aafab2d99d1dfee53e728010380484ce4c3ef3e5980bb1ba5f4aaa3533"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14402,
+      "sha256": "59bc124cc785fda134b759b3596f2505ad8fb513f98ceb58bf9fe60de250dc45"
+    },
+    {
+      "path": "audits/election_research/election_data_audit.json",
+      "bytes": 2469,
+      "sha256": "e13e7b59aa857e99071a09ad18c01a17a7d828bedf5262d5b6dece98e62242b5"
+    },
+    {
+      "path": "audits/finance_research/extra2_fetch_report.json",
+      "bytes": 158,
+      "sha256": "12ca252a27548b5c7a546da2894a0747e459f50617cb309a24a7e6846584077a"
+    },
+    {
+      "path": "audits/finance_research/extra3_fetch_report.json",
+      "bytes": 120,
+      "sha256": "2483b01bfea04206f298c3cc5cfcd3cb2d0beee51fad6ca1ffac599687fb4471"
+    },
+    {
+      "path": "audits/finance_research/extra_fetch_report.json",
+      "bytes": 109,
+      "sha256": "3ab1473a5eff280de7ff946d2da0e02796ca0fb186ff8af5ef43a670c9c70b67"
+    },
+    {
+      "path": "audits/finance_research/finance_validation.json",
+      "bytes": 4129,
+      "sha256": "7fc3d7bf27dde4188843f286a573c0374ce4d5f838249ddae82f9921e926ff95"
+    },
+    {
+      "path": "audits/finance_research/raw/extra2_00.source.json",
+      "bytes": 767,
+      "sha256": "1ba2923a1eb90f854753f24c03f31cf7c6d1155895a76ef17df17481b89c7ef5"
+    },
+    {
+      "path": "audits/finance_research/raw/extra3_00.source.json",
+      "bytes": 713,
+      "sha256": "a64e074fa8e00816e581456c6f06cf1a16c705c8b7324a1c8a74973f61f41ee2"
+    },
+    {
+      "path": "audits/finance_research/raw/extra_00.source.json",
+      "bytes": 698,
+      "sha256": "c93186da7cd2efbe0b8ea7730d7d28cb28d3d454d3820a52037cfd462a72ff62"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_00.source.json",
+      "bytes": 829,
+      "sha256": "32d49f1c052bf6288b1a3cc9d261b80207ff06f41665990582900aa95fcd6408"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_01.source.json",
+      "bytes": 843,
+      "sha256": "7471c17d244ece3b933be6615bf66a968bdf62148278c0268fffd849d4a27e8c"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_02.source.json",
+      "bytes": 840,
+      "sha256": "461a10d181348ffdcfe6cb0a38c039f2bb8cb49395a965c7a36b8004efe8dcf1"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_03.source.json",
+      "bytes": 840,
+      "sha256": "0134eca460a6f543a8db93aeee53363cea2c79399fade5d3a95befc2f11144b7"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_04.source.json",
+      "bytes": 840,
+      "sha256": "c36fee7d19873196eeee270ae8a759785e25690f8f8b4dd6279a0e0157a849f0"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_05.source.json",
+      "bytes": 840,
+      "sha256": "636e8567c5939d671a46bac776fcdda74b2c75d8013f86af4e44fb6cc712cdd5"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_06.source.json",
+      "bytes": 840,
+      "sha256": "61e647b5b79e3e3c928a56d31c949954a613e4d68011738d4324b3d4d0239659"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_07.source.json",
+      "bytes": 840,
+      "sha256": "ad0f67f287dd302bfccbe6f845896cdfb3372ca8092fe4f094d7ebf9660420e7"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_08.source.json",
+      "bytes": 842,
+      "sha256": "44c9994a9d276212f5bc8a2131772abb2607f4f23125ff8daf8a64c3363d6706"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_09.source.json",
+      "bytes": 858,
+      "sha256": "5be6c2ca147a2185d23c0a9501918bce137af853475406545879daeea6bce0e4"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_10.source.json",
+      "bytes": 859,
+      "sha256": "bf855cb95756f6bbcba2ac4e02322746dc10cb363602d34ca96f85ba89729321"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_11.source.json",
+      "bytes": 859,
+      "sha256": "7382758df204d11d21f103500b4efe1ba7d0e0ad3d2809e785a30673ca6c84bb"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_12.source.json",
+      "bytes": 859,
+      "sha256": "b56398ad7ef3d7e610ad4c4f3d5be544ccc5d7eb35142a681b1f3b5a6e86bf51"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_13.source.json",
+      "bytes": 859,
+      "sha256": "49c44a0bf1583c62af87248037d9fa17811bff182e89fcaca881a7d3498f18b4"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_14.source.json",
+      "bytes": 859,
+      "sha256": "6aac513ee05acf99855018f3d2d587e3632c421ffad02663ad6d75ce930a04e4"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_15.source.json",
+      "bytes": 859,
+      "sha256": "9ab1b88dde99d60226f19a3d5d9b1f0f7552bc2c7416eac445a826442865dd38"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_16.source.json",
+      "bytes": 859,
+      "sha256": "9054bc2217a11fd72c967675d7626ff7db7a3ae5d1042873b793c90f45753c96"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_17.source.json",
+      "bytes": 859,
+      "sha256": "203c5994b540a8a37a59e9fa7d7334654142f68ed4af467ed02f48369c733f2c"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_18.source.json",
+      "bytes": 859,
+      "sha256": "9450039a5a7d1d82e29fb2eeab13ea5b88c4ef11de03b03905ff811da29b7d9b"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_19.source.json",
+      "bytes": 859,
+      "sha256": "93cd06e9f077d0626d52bd30626ccef87d9d45ba999cc3f2a2470077b797b783"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_20.source.json",
+      "bytes": 859,
+      "sha256": "aa92d29f2ba0969a8eaac6924e35cbca876bd413a42a15a19299475345a6f69e"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_21.source.json",
+      "bytes": 859,
+      "sha256": "cedd76da07d2b01bc1e8348b752135284adf5af780d770e1a0dd59b022090b65"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_22.source.json",
+      "bytes": 859,
+      "sha256": "f331f624594cfcf13e549d32638539a0c6c0132e76e12039614dc33a5246c414"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_23.source.json",
+      "bytes": 859,
+      "sha256": "c22533824d6d36d2a75c03e736e4d217ace7fd266586863b29f0b081a2cb6a5a"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_24.source.json",
+      "bytes": 859,
+      "sha256": "ad8f12d23d160382562676ab25a714890abccdf7161c8df350685fa99d1defc5"
+    },
+    {
+      "path": "audits/finance_research/raw/senate_25.source.json",
+      "bytes": 697,
+      "sha256": "5c2a00d96d33d1a93d10055f9b7afb4b0a925fe06c0416d563475641e1fd2c85"
+    },
+    {
+      "path": "audits/finance_research/senate_fetch_report.json",
+      "bytes": 5485,
+      "sha256": "c0564125cda5f65a904393538a38d011fba4173b3de225d2866da6d91dbafa43"
+    },
+    {
+      "path": "audits/geography/geometry_validation.json",
+      "bytes": 566,
+      "sha256": "a644eb82d6e2263e8cd2f4825495d0b7d348630fb869b49d3a0ba5c6203fdc94"
+    },
+    {
+      "path": "audits/v5_data/census/coverage.json",
+      "bytes": 2571,
+      "sha256": "8e9902f39fbba5874f3de452b66f395848dbdf364f00e9305faf27e2065ffaa4"
+    },
+    {
+      "path": "audits/v5_data/census/fetch_report.json",
+      "bytes": 20458,
+      "sha256": "4ede7d477dab9dd7f731eeeca6af0f84afa93ffe78d6704e238fd9388046748e"
+    },
+    {
+      "path": "audits/v5_data/census/official_crosscheck.json",
+      "bytes": 1942,
+      "sha256": "1a215d7ce5e8a2d696911d9840b25d9b180a676d45fd455b43b352f9c2467f76"
+    },
+    {
+      "path": "audits/v5_data/handoff/geography_validation.json",
+      "bytes": 4476,
+      "sha256": "b1cc1bb4fe9f057597fe0021c2d931a6369b30901b3243aaf7dbd86324766497"
+    },
+    {
+      "path": "audits/v5_data/handoff/import_validation.json",
+      "bytes": 954,
+      "sha256": "19483677f5d309d2b06cf5e1a5c3e9841771dd6782c9f312e8798f03c963aa3a"
+    },
+    {
+      "path": "audits/v5_data/handoff/pdf_validation/content_validation.json",
+      "bytes": 974,
+      "sha256": "1d7e5a89ef78d1ef9f7b0ceeec25ccdb21471fe2c5e89242ccb0ae8fa5019d3f"
+    },
+    {
+      "path": "audits/v5_data/handoff/pdf_validation/report.json",
+      "bytes": 212,
+      "sha256": "5c6fc2c47ef790646d26d13b43f6c14f060b1dda9e3b3104832f17b97af0872d"
+    },
+    {
+      "path": "audits/v5_data/handoff/raw/acs_downloads.json",
+      "bytes": 1209,
+      "sha256": "5d65d4950b1a91e3bc602764b020ac56270b8397c7fa97cfea56b21030cfefb6"
+    },
+    {
+      "path": "audits/v5_data/handoff/raw/acs_mirror_downloads.json",
+      "bytes": 2423,
+      "sha256": "44d7c909e153d66992d073e313a5d7d81eca1599c456b4759366bd7fd6b88541"
+    },
+    {
+      "path": "audits/v5_data/handoff/raw/geometry_downloads.json",
+      "bytes": 607,
+      "sha256": "6ddb6c06f205cc881fa0ee1ce18b3415c72faf901ed9322317ab9697c5d369ce"
+    },
+    {
+      "path": "audits/v5_data/handoff/raw/migration_downloads.json",
+      "bytes": 7050,
+      "sha256": "eb01dd95f1fbe73f984be8149ef1545ef392574c4ad7af0996bba15cd4c01f01"
+    },
+    {
+      "path": "audits/v5_data/handoff/source_schema_notes.json",
+      "bytes": 4449,
+      "sha256": "ab21af735f24b49d7a721b35077f5c7ff3f44c39f926755b27b09ba55fde0959"
+    },
+    {
+      "path": "audits/v5_data/issues/audit.json",
+      "bytes": 1879,
+      "sha256": "66cc82d0aaea1a8597ecc2f827168c734885daef459c55b09a33b7917a5db4bc"
+    },
+    {
+      "path": "docs/v5_data/census/README.md",
+      "bytes": 5992,
+      "sha256": "c770cc4ca4081f7af9dd794a1fe2c8c91c3f328106065ff5efe64285ff1aa0c1"
+    },
+    {
+      "path": "docs/v5_data/issues/README.md",
+      "bytes": 5613,
+      "sha256": "6443115c79f6b74c18cb0205dfe0c3c7b7be748e54bf387691430491a4c83856"
+    },
+    {
+      "path": "inputs/election_research/senate_roster_2026.json",
+      "bytes": 20911,
+      "sha256": "7b7f8ddd8c488c70a3b98932c639d609883f2adf1a6fbaa7305863a7a17ef72c"
+    },
+    {
+      "path": "inputs/finance_research/base_meta.json",
+      "bytes": 159,
+      "sha256": "fde080eaa07a6006c00945d278f166bf75be00915872e7bbb97a06ac8238089a"
+    },
+    {
+      "path": "inputs/finance_research/candidate_filer_mapping.json",
+      "bytes": 100738,
+      "sha256": "81789e7830b022b428f0985c788544ac097ef16f647333a08e8553d13ce65b3e"
+    },
+    {
+      "path": "inputs/finance_research/extra2_filer_ids.json",
+      "bytes": 40,
+      "sha256": "3cc559092c77ae6019da3ee5d99d59aa289b7e22db7365c48f8281dca8d33b49"
+    },
+    {
+      "path": "inputs/finance_research/extra3_filer_ids.json",
+      "bytes": 16,
+      "sha256": "31888efdbffa011aabcdbf152637aa17eb0cf8c4c42acfbf55640161ff5c1f0f"
+    },
+    {
+      "path": "inputs/finance_research/extra_filer_ids.json",
+      "bytes": 10,
+      "sha256": "f053e5d601b1dc19cf56c00433196ba7b9a07f073d4f587762ac76f8ad08eac4"
+    },
+    {
+      "path": "inputs/finance_research/pcfb_authorization_oct26.json",
+      "bytes": 11326,
+      "sha256": "0ea50c26f4bb073bc9c9f3f5e79e108b1876f941599a0d156dc42ad82d1c1760"
+    },
+    {
+      "path": "inputs/finance_research/pcfb_authorization_supplemental.json",
+      "bytes": 8242,
+      "sha256": "ab15e0a735ee59c4c6a91df6ad80e0565d65a593292218643dedc14c2785fb9a"
+    },
+    {
+      "path": "inputs/finance_research/reviewed_non_donation_exclusions.json",
+      "bytes": 1786,
+      "sha256": "f6b32dba6f9f87e5305c45d905c840db33d671131290e7dcee168a2d167e01a9"
+    },
+    {
+      "path": "inputs/finance_research/selected_filer_ids.json",
+      "bytes": 1932,
+      "sha256": "53a36fc8070eca2abfee7178dfcf0562feda214b9c3b4e15797ac60021ce9088"
+    },
+    {
+      "path": "metadata/copy_manifest.json",
+      "bytes": 44661,
+      "sha256": "c20e22d646ac5408b7e854e450ff67bef2ec5b885e5a1b3ec911bff1b282608c"
+    },
+    {
+      "path": "metadata/finance/base_meta.json",
+      "bytes": 18383,
+      "sha256": "628d5516c5d92cf2cf74615ef8ebd05ba50b070826b60007ecbd2ab91ff41b5b"
+    },
+    {
+      "path": "metadata/finance/contrib_meta.json",
+      "bytes": 14156,
+      "sha256": "ecbafd887051f606d8524471415828f0498a121499d312447e68023e7628e36d"
+    },
+    {
+      "path": "metadata/finance/filer_meta.json",
+      "bytes": 5639,
+      "sha256": "024853580ebe6d018bc935dfaadfe88a9be519a59f7e9d835f2a450f7ac0b09c"
+    },
+    {
+      "path": "metadata/geography/civil_boundaries_metadata.json",
+      "bytes": 68,
+      "sha256": "d3bff46fb9baf687de8593b4fd51e2e8acf23548b9a0a68295e8bf5c1fc710ba"
+    },
+    {
+      "path": "metadata/geography/official_senate_metadata.json",
+      "bytes": 15514,
+      "sha256": "0a26ba17f7c52c98a18496ae56d3acbb168b867d79452100ab2b0011f2125f46"
+    },
+    {
+      "path": "metadata/geography/official_state_metadata.json",
+      "bytes": 15654,
+      "sha256": "453b8ea1874ab0eab3e83259b884da0c87be447c4850d1e70e2e99349da28e57"
+    },
+    {
+      "path": "metadata/nyc_senate_download.json",
+      "bytes": 421,
+      "sha256": "c4f97d8a70e02d75978bb9bf0ce2f406f6383383238f056ac51857e65b699218"
+    },
+    {
+      "path": "metadata/package_validation.json",
+      "bytes": 2566,
+      "sha256": "ef2f2f1b5252621025ffdfec05fa57471a0272edf3d5b5595a77755389055ea1"
+    },
+    {
+      "path": "metadata/snapshot_metadata.json",
+      "bytes": 31252,
+      "sha256": "92818aebf1fbe3a92212b24d12bee0a9320320368d323fa402cc241dc0a8e4f7"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 215,
+      "sha256": "d40fcf95a45348b62156bb1e74e9d0ba2da48a18ab711f8982a0a3bf2ba6a7c3"
+    },
+    {
+      "path": "research_paths.py",
+      "bytes": 630,
+      "sha256": "142a0c6ac41315198a72732ad0f8188d81f32d733cd988f6f35b2bb954d296ab"
+    },
+    {
+      "path": "restore_runtime.py",
+      "bytes": 8390,
+      "sha256": "c45ffccc255f98d190f23af8d9687f4332ae24feb5510c7dcd4965ebe3a6afb4"
+    },
+    {
+      "path": "scripts/dossier_research/build_media.py",
+      "bytes": 4675,
+      "sha256": "4289d0abdf10f20bfb57bc5640f669b15be03cc030d56402332102fa52ecc98d"
+    },
+    {
+      "path": "scripts/dossier_research/extract_enrichment.py",
+      "bytes": 13934,
+      "sha256": "c81686808f51dfabef1c78400e6405f13917ce0a7c7a20c5e4982f063685fdcf"
+    },
+    {
+      "path": "scripts/election_research/audit_elections.py",
+      "bytes": 5736,
+      "sha256": "8e9077d6e240b342307ca1acbf8ea267d6af6511aef0196ca6045fabea5a8dbd"
+    },
+    {
+      "path": "scripts/election_research/enrich_elections.py",
+      "bytes": 6498,
+      "sha256": "0ca2737e7f25b80e15cd614db2ca425d86c36f4e9724e264dc4f5fb8729139a8"
+    },
+    {
+      "path": "scripts/election_research/normalize.py",
+      "bytes": 6307,
+      "sha256": "a5758681275f1eb42a5b0492756f9ac6c0cd2a77382fb11f0cf24804afd801cc"
+    },
+    {
+      "path": "scripts/election_research/normalize_history.py",
+      "bytes": 3835,
+      "sha256": "36b2cc6b224b472f81774396381a1467e644da24edb94e3c5f37527e842dc3b0"
+    },
+    {
+      "path": "scripts/finance_research/aggregate_finance.py",
+      "bytes": 13550,
+      "sha256": "1c036fc9436b18a2ed42518153a671a9dc94ec80154310400490fa28a9473c3d"
+    },
+    {
+      "path": "scripts/finance_research/fetch_donations.py",
+      "bytes": 2836,
+      "sha256": "3d06bbba8c2ae71b9178d6ef9f5e76044ee8fde12129a1fc4f1a8b6692e11b1e"
+    },
+    {
+      "path": "scripts/finance_research/prepare_mapping.py",
+      "bytes": 3805,
+      "sha256": "44c67b946c6968b15e8388262e8d04ba69b1cc94e96fb9ad8e34c27d42682b25"
+    },
+    {
+      "path": "scripts/geography/build_atlas_geometry.py",
+      "bytes": 8155,
+      "sha256": "4406f069261a9f768863de593a792d877ccbcf0ff366a453febf418f5f8b22ab"
+    },
+    {
+      "path": "scripts/senate_v5/build_data.py",
+      "bytes": 3758,
+      "sha256": "c3344bf68c88fb9e6a89d7e65c7bb64c4a5c0e9bce59253db577d86f3aa65a6a"
+    },
+    {
+      "path": "scripts/senate_v5/build_map.py",
+      "bytes": 1808,
+      "sha256": "cab7ab17cb0ce1592ebe80eb6796946f5f85ccf5ce4b48ac19b3ac196624e7b7"
+    },
+    {
+      "path": "scripts/v5_data/census/check_official_summary.py",
+      "bytes": 4168,
+      "sha256": "2e383273897312ae9044a741532220d160a4c40933d906a1d74e6492a1851093"
+    },
+    {
+      "path": "scripts/v5_data/census/normalize_census.py",
+      "bytes": 26988,
+      "sha256": "77b8daf0469d7537ed3d54d24f5e547119e106afdecd29415c3c0a0bfaf7e36c"
+    },
+    {
+      "path": "scripts/v5_data/census/pull_census.py",
+      "bytes": 3149,
+      "sha256": "a4855fbd12d8d33f7087c0ad29b1751521873f24e300bb35dd03ce7d7f975e2e"
+    },
+    {
+      "path": "scripts/v5_data/handoff/build_migration.py",
+      "bytes": 10622,
+      "sha256": "7afe2c170c1eee2ebe5cb5983c69b724492a78c4a7ccac48b1d0ef94f1d863dc"
+    },
+    {
+      "path": "scripts/v5_data/handoff/build_overlays.py",
+      "bytes": 11433,
+      "sha256": "2ca20d0bd52db4ee8fce21c6c4d571dce8dd164b79db3a6890869e5991f70c41"
+    },
+    {
+      "path": "scripts/v5_data/handoff/enrich_charts.py",
+      "bytes": 15037,
+      "sha256": "d6af91c548dca7bd68faa2d2e2a21f43901d4c4b4584302d53ac5125851e5205"
+    },
+    {
+      "path": "scripts/v5_data/handoff/fetch_county_acs.py",
+      "bytes": 1770,
+      "sha256": "e8b9035206e85d39d49a442bf8fb79870dee7fb3807b87484cd49f0e37b95c25"
+    },
+    {
+      "path": "scripts/v5_data/handoff/fetch_county_acs_mirror.py",
+      "bytes": 2267,
+      "sha256": "6410b57e3ec8570cdd9fb3767db8acd6fcdb321ff17a69440d76ee73576a57be"
+    },
+    {
+      "path": "scripts/v5_data/handoff/fetch_geography.py",
+      "bytes": 1539,
+      "sha256": "a4145b8c11efb26d32f6fa39a6f1fc8f72b4f17fd2618bd4918bc6be3fde4c1d"
+    },
+    {
+      "path": "scripts/v5_data/handoff/fetch_migration.py",
+      "bytes": 1906,
+      "sha256": "e62fa45a2b7f7096b7bcd3c8b62c26fc8088c392791f607439de6befcbac7683"
+    },
+    {
+      "path": "scripts/v5_data/handoff/import_handoff.py",
+      "bytes": 12897,
+      "sha256": "b0630331407c1b0ef322f926df35043b1d43b9a68c80570238bd1637654e5fc1"
+    },
+    {
+      "path": "scripts/v5_data/issues/build_normalized.py",
+      "bytes": 10462,
+      "sha256": "d3f94ba537f5888a136f95da447b8e4d1e4b17d3647bbcbacfeec101ce26e344"
+    },
+    {
+      "path": "scripts/v5_data/issues/download_portraits.py",
+      "bytes": 2643,
+      "sha256": "472e3e6d6bbfda8b16eada9e843ca95b585c6a68e4400375f674bb696b7f9014"
+    },
+    {
+      "path": "scripts/v5_data/issues/enrich_legislation.py",
+      "bytes": 16128,
+      "sha256": "45468823d3dde782ebdeb8f7d4e731064a27a34c5abccec9a2435c73ce32dbd0"
+    },
+    {
+      "path": "scripts/v5_data/issues/enrich_profiles.py",
+      "bytes": 6183,
+      "sha256": "24d647aba18db1b87ed1f0681ca62c125e191a595c9886937ce1a8f4d1d27690"
+    },
+    {
+      "path": "validators/validate_export.cjs",
+      "bytes": 2532,
+      "sha256": "45dbf140e08312aedbfff31659b94dea4c881b11c7ee7f91e2fae47e22f6a718"
+    }
+  ]
+}

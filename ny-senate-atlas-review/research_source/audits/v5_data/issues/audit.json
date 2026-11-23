@@ -1,0 +1,111 @@
+{
+  "checkedAt": "2026-11-23",
+  "errors": [],
+  "issueCoverage": {
+    "1": {
+      "evidence": 91,
+      "fresh": 75,
+      "districts": 63
+    },
+    "2": {
+      "evidence": 38,
+      "fresh": 16,
+      "districts": 27
+    },
+    "3": {
+      "evidence": 50,
+      "fresh": 28,
+      "districts": 37
+    },
+    "4": {
+      "evidence": 100,
+      "fresh": 76,
+      "districts": 63
+    },
+    "5": {
+      "evidence": 126,
+      "fresh": 74,
+      "districts": 63
+    },
+    "6": {
+      "evidence": 60,
+      "fresh": 26,
+      "districts": 44
+    },
+    "7": {
+      "evidence": 120,
+      "fresh": 104,
+      "districts": 63
+    },
+    "8": {
+      "evidence": 121,
+      "fresh": 104,
+      "districts": 63
+    },
+    "9": {
+      "evidence": 34,
+      "fresh": 24,
+      "districts": 25
+    },
+    "10": {
+      "evidence": 111,
+      "fresh": 85,
+      "districts": 63
+    },
+    "11": {
+      "evidence": 106,
+      "fresh": 85,
+      "districts": 63
+    },
+    "12": {
+      "evidence": 75,
+      "fresh": 53,
+      "districts": 40
+    },
+    "13": {
+      "evidence": 100,
+      "fresh": 91,
+      "districts": 63
+    },
+    "14": {
+      "evidence": 82,
+      "fresh": 75,
+      "districts": 63
+    },
+    "15": {
+      "evidence": 8,
+      "fresh": 5,
+      "districts": 6
+    },
+    "16": {
+      "evidence": 218,
+      "fresh": 208,
+      "districts": 63
+    },
+    "17": {
+      "evidence": 12,
+      "fresh": 11,
+      "districts": 11
+    },
+    "18": {
+      "evidence": 10,
+      "fresh": 2,
+      "districts": 7
+    },
+    "19": {
+      "evidence": 4,
+      "fresh": 1,
+      "districts": 4
+    },
+    "20": {
+      "evidence": 3,
+      "fresh": 1,
+      "districts": 1
+    }
+  },
+  "all63DistrictsHaveOfficialEvidence": true,
+  "minOfficialEvidencePerDistrict": 6,
+  "noCandidateOpinionInferred": true,
+  "portraitBytes": 24626703,
+  "dataBytes": 4520350
+}

@@ -1,0 +1,917 @@
+{
+  "edition": "2026-11-23",
+  "copies": [
+    {
+      "originalPath": "v5_data/census/check_official_summary.py",
+      "packagePath": "scripts/v5_data/census/check_official_summary.py",
+      "originalBytes": 3761,
+      "originalSha256": "6768494ec3aa35b217cfd317ce7dc0965b30d90aab29f71b72bb63b1e9f99e1d",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 4168,
+      "packageSha256": "2e383273897312ae9044a741532220d160a4c40933d906a1d74e6492a1851093"
+    },
+    {
+      "originalPath": "v5_data/census/normalize_census.py",
+      "packagePath": "scripts/v5_data/census/normalize_census.py",
+      "originalBytes": 26581,
+      "originalSha256": "280409bd2577ff088405ddcdf36e4f9963a8ae23fd3c876e8d9f4c75f1f88202",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 26988,
+      "packageSha256": "77b8daf0469d7537ed3d54d24f5e547119e106afdecd29415c3c0a0bfaf7e36c"
+    },
+    {
+      "originalPath": "v5_data/census/pull_census.py",
+      "packagePath": "scripts/v5_data/census/pull_census.py",
+      "originalBytes": 2742,
+      "originalSha256": "080331f2641b575571201cca0a700cbbafc3f512407a30df47972df119aef50f",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 3149,
+      "packageSha256": "a4855fbd12d8d33f7087c0ad29b1751521873f24e300bb35dd03ce7d7f975e2e"
+    },
+    {
+      "originalPath": "v5_data/issues/build_normalized.py",
+      "packagePath": "scripts/v5_data/issues/build_normalized.py",
+      "originalBytes": 10092,
+      "originalSha256": "893b6441f23f8eea4750ee50935f52f0afa60ae34f43f4ece844ab9444b1ef7e",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 10462,
+      "packageSha256": "d3f94ba537f5888a136f95da447b8e4d1e4b17d3647bbcbacfeec101ce26e344"
+    },
+    {
+      "originalPath": "v5_data/issues/download_portraits.py",
+      "packagePath": "scripts/v5_data/issues/download_portraits.py",
+      "originalBytes": 2249,
+      "originalSha256": "71e4c50d7d8afac141b0abced57866e5066cffc005b08c1f9376bdfb0419b78a",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports.",
+        "Fresh collector retrieval timestamps now use the execution time; source vintages and historical normalizer dates remain unchanged."
+      ],
+      "packageBytes": 2643,
+      "packageSha256": "472e3e6d6bbfda8b16eada9e843ca95b585c6a68e4400375f674bb696b7f9014"
+    },
+    {
+      "originalPath": "v5_data/issues/enrich_legislation.py",
+      "packagePath": "scripts/v5_data/issues/enrich_legislation.py",
+      "originalBytes": 15752,
+      "originalSha256": "1251fd19ee2b11dd196f03604657f0d4594c76159630005cab3de450d66ce523",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 16128,
+      "packageSha256": "45468823d3dde782ebdeb8f7d4e731064a27a34c5abccec9a2435c73ce32dbd0"
+    },
+    {
+      "originalPath": "v5_data/issues/enrich_profiles.py",
+      "packagePath": "scripts/v5_data/issues/enrich_profiles.py",
+      "originalBytes": 5807,
+      "originalSha256": "457c6650f389adc25a5c950a991d42ddd9c8a2860cc1d6289474973dac565931",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 6183,
+      "packageSha256": "24d647aba18db1b87ed1f0681ca62c125e191a595c9886937ce1a8f4d1d27690"
+    },
+    {
+      "originalPath": "v5_data/handoff/build_migration.py",
+      "packagePath": "scripts/v5_data/handoff/build_migration.py",
+      "originalBytes": 10244,
+      "originalSha256": "de4e27748f6bf718993c401234269c0cb8f505d56a9f0307b74db68e6e192796",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 10622,
+      "packageSha256": "7afe2c170c1eee2ebe5cb5983c69b724492a78c4a7ccac48b1d0ef94f1d863dc"
+    },
+    {
+      "originalPath": "v5_data/handoff/build_overlays.py",
+      "packagePath": "scripts/v5_data/handoff/build_overlays.py",
+      "originalBytes": 11055,
+      "originalSha256": "f2b76aa256657ad23fbb2fde8cadb9a8651739e582b4ea9ed7d23c36ca4a91a7",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 11433,
+      "packageSha256": "2ca20d0bd52db4ee8fce21c6c4d571dce8dd164b79db3a6890869e5991f70c41"
+    },
+    {
+      "originalPath": "v5_data/handoff/enrich_charts.py",
+      "packagePath": "scripts/v5_data/handoff/enrich_charts.py",
+      "originalBytes": 14659,
+      "originalSha256": "ec353a5e3ac5a284f8c1d6551fe4549c24979c057170064a95936734f168e56e",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 15037,
+      "packageSha256": "d6af91c548dca7bd68faa2d2e2a21f43901d4c4b4584302d53ac5125851e5205"
+    },
+    {
+      "originalPath": "v5_data/handoff/fetch_county_acs.py",
+      "packagePath": "scripts/v5_data/handoff/fetch_county_acs.py",
+      "originalBytes": 1377,
+      "originalSha256": "a7fab6ddb3d34b94cbaccec464ca6df7d9af1eddafb8ed2dade01ccc06506945",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports.",
+        "Fresh collector retrieval timestamps now use the execution time; source vintages and historical normalizer dates remain unchanged."
+      ],
+      "packageBytes": 1770,
+      "packageSha256": "e8b9035206e85d39d49a442bf8fb79870dee7fb3807b87484cd49f0e37b95c25"
+    },
+    {
+      "originalPath": "v5_data/handoff/fetch_county_acs_mirror.py",
+      "packagePath": "scripts/v5_data/handoff/fetch_county_acs_mirror.py",
+      "originalBytes": 1874,
+      "originalSha256": "cfcf04d3132995547cf6b53a1d44b6e86810a42b36ba5a618ac2e74c5c3fdfee",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports.",
+        "Fresh collector retrieval timestamps now use the execution time; source vintages and historical normalizer dates remain unchanged."
+      ],
+      "packageBytes": 2267,
+      "packageSha256": "6410b57e3ec8570cdd9fb3767db8acd6fcdb321ff17a69440d76ee73576a57be"
+    },
+    {
+      "originalPath": "v5_data/handoff/fetch_geography.py",
+      "packagePath": "scripts/v5_data/handoff/fetch_geography.py",
+      "originalBytes": 1028,
+      "originalSha256": "68bf7f81e437338a8c80ed9ef6f3ecf5f26eb77a014aae8e7b5f31e2f6d2223b",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports.",
+        "Fresh collector retrieval timestamps now use the execution time; source vintages and historical normalizer dates remain unchanged.",
+        "Added the matching NYC Senate 26c download that was collected separately in the original session; necessary for build_overlays.py."
+      ],
+      "packageBytes": 1539,
+      "packageSha256": "a4145b8c11efb26d32f6fa39a6f1fc8f72b4f17fd2618bd4918bc6be3fde4c1d"
+    },
+    {
+      "originalPath": "v5_data/handoff/fetch_migration.py",
+      "packagePath": "scripts/v5_data/handoff/fetch_migration.py",
+      "originalBytes": 1504,
+      "originalSha256": "1de2747e26caea29a83dd61f5aade850311329b9061fc69247aae45c6e218cef",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports.",
+        "Fresh collector retrieval timestamps now use the execution time; source vintages and historical normalizer dates remain unchanged."
+      ],
+      "packageBytes": 1906,
+      "packageSha256": "e62fa45a2b7f7096b7bcd3c8b62c26fc8088c392791f607439de6befcbac7683"
+    },
+    {
+      "originalPath": "v5_data/handoff/import_handoff.py",
+      "packagePath": "scripts/v5_data/handoff/import_handoff.py",
+      "originalBytes": 12519,
+      "originalSha256": "3313416891448a12e8259e3bf15f2578e8e44aad0c94b6e5ea8dcfe6fdef9876",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 12897,
+      "packageSha256": "b0630331407c1b0ef322f926df35043b1d43b9a68c80570238bd1637654e5fc1"
+    },
+    {
+      "originalPath": "election_research/audit_elections.py",
+      "packagePath": "scripts/election_research/audit_elections.py",
+      "originalBytes": 5352,
+      "originalSha256": "85470902e0c5ff6efe0a7b00c7d4ee6dade502e68e5bffc000fcb9bf1e4716f8",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 5736,
+      "packageSha256": "8e9077d6e240b342307ca1acbf8ea267d6af6511aef0196ca6045fabea5a8dbd"
+    },
+    {
+      "originalPath": "election_research/enrich_elections.py",
+      "packagePath": "scripts/election_research/enrich_elections.py",
+      "originalBytes": 6114,
+      "originalSha256": "6b6b559a0c64c5843723713ab5f27aec5980474be51695be3d4d004627a16187",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 6498,
+      "packageSha256": "0ca2737e7f25b80e15cd614db2ca425d86c36f4e9724e264dc4f5fb8729139a8"
+    },
+    {
+      "originalPath": "election_research/normalize.py",
+      "packagePath": "scripts/election_research/normalize.py",
+      "originalBytes": 5923,
+      "originalSha256": "37215457a9d3c3f235fd0d2a584b99cd0b96eb2da5ed2ee3a21db35737495c0d",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 6307,
+      "packageSha256": "a5758681275f1eb42a5b0492756f9ac6c0cd2a77382fb11f0cf24804afd801cc"
+    },
+    {
+      "originalPath": "election_research/normalize_history.py",
+      "packagePath": "scripts/election_research/normalize_history.py",
+      "originalBytes": 3451,
+      "originalSha256": "83b2cf572869822168fe7fbc26d7e7cc3487bbc9f8da7725e3d25214a38d9633",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 3835,
+      "packageSha256": "36b2cc6b224b472f81774396381a1467e644da24edb94e3c5f37527e842dc3b0"
+    },
+    {
+      "originalPath": "finance_research/aggregate_finance.py",
+      "packagePath": "scripts/finance_research/aggregate_finance.py",
+      "originalBytes": 13167,
+      "originalSha256": "bfc6f1068e37b18ebd44d56e33f7ddd554272a9623e2cd1805b2be244ab91e5b",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 13550,
+      "packageSha256": "1c036fc9436b18a2ed42518153a671a9dc94ec80154310400490fa28a9473c3d"
+    },
+    {
+      "originalPath": "finance_research/fetch_donations.py",
+      "packagePath": "scripts/finance_research/fetch_donations.py",
+      "originalBytes": 2416,
+      "originalSha256": "16db8a65c4af95fddfa43249b79ef2c0505bdd7984aaa39ccf44ce7c171ceb22",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports.",
+        "Newly fetched finance provenance records use the actual execution timestamp; historical collection-window bounds are unchanged."
+      ],
+      "packageBytes": 2836,
+      "packageSha256": "3d06bbba8c2ae71b9178d6ef9f5e76044ee8fde12129a1fc4f1a8b6692e11b1e"
+    },
+    {
+      "originalPath": "finance_research/prepare_mapping.py",
+      "packagePath": "scripts/finance_research/prepare_mapping.py",
+      "originalBytes": 3422,
+      "originalSha256": "df26bd4044c1b316a442ab8a7a0bd4d7c6d44ccaddb1a53e5338ea8228f65565",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 3805,
+      "packageSha256": "44c67b946c6968b15e8388262e8d04ba69b1cc94e96fb9ad8e34c27d42682b25"
+    },
+    {
+      "originalPath": "dossier_research/build_media.py",
+      "packagePath": "scripts/dossier_research/build_media.py",
+      "originalBytes": 4302,
+      "originalSha256": "783a40b9df4cd9e1373a9c036a0ef190ecf0fd57ea84f665b684d4bae9768e56",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 4675,
+      "packageSha256": "4289d0abdf10f20bfb57bc5640f669b15be03cc030d56402332102fa52ecc98d"
+    },
+    {
+      "originalPath": "dossier_research/extract_enrichment.py",
+      "packagePath": "scripts/dossier_research/extract_enrichment.py",
+      "originalBytes": 13570,
+      "originalSha256": "bf175ca85ebad6b9d224b3c33834d4a0b413eefdeaf1e62d25b0ca2639be04e0",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 13934,
+      "packageSha256": "c81686808f51dfabef1c78400e6405f13917ce0a7c7a20c5e4982f063685fdcf"
+    },
+    {
+      "originalPath": "geography/build_atlas_geometry.py",
+      "packagePath": "scripts/geography/build_atlas_geometry.py",
+      "originalBytes": 7762,
+      "originalSha256": "8c7c8ea962868f658d3e811bc0ab0d8b99f2bb12841f5f4931f3b6bb9fa5f026",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 8155,
+      "packageSha256": "4406f069261a9f768863de593a792d877ccbcf0ff366a453febf418f5f8b22ab"
+    },
+    {
+      "originalPath": "senate_v5/build_data.py",
+      "packagePath": "scripts/senate_v5/build_data.py",
+      "originalBytes": 3380,
+      "originalSha256": "792952a31a65a8cb2df7e49cdb7e0efb2ebe400f5d95dfddef5871c98afb0cd1",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 3758,
+      "packageSha256": "c3344bf68c88fb9e6a89d7e65c7bb64c4a5c0e9bce59253db577d86f3aa65a6a"
+    },
+    {
+      "originalPath": "senate_v5/build_map.py",
+      "packagePath": "scripts/senate_v5/build_map.py",
+      "originalBytes": 1441,
+      "originalSha256": "c86b706bbcd435e87293ea20ca69d845eedd30547fff15ae9b92c777efd7f2cc",
+      "adaptations": [
+        "Workspace and __file__-relative data paths resolve through research_paths.py; default work/ or SENATE_RESEARCH_ROOT.",
+        "Bootstrap inserted after module docstring and future imports."
+      ],
+      "packageBytes": 1808,
+      "packageSha256": "cab7ab17cb0ce1592ebe80eb6796946f5f85ccf5ce4b48ac19b3ac196624e7b7"
+    },
+    {
+      "originalPath": "v5_data/census/coverage.json",
+      "packagePath": "audits/v5_data/census/coverage.json",
+      "originalBytes": 2571,
+      "originalSha256": "8e9902f39fbba5874f3de452b66f395848dbdf364f00e9305faf27e2065ffaa4",
+      "adaptations": [],
+      "packageBytes": 2571,
+      "packageSha256": "8e9902f39fbba5874f3de452b66f395848dbdf364f00e9305faf27e2065ffaa4"
+    },
+    {
+      "originalPath": "v5_data/census/fetch_report.json",
+      "packagePath": "audits/v5_data/census/fetch_report.json",
+      "originalBytes": 20458,
+      "originalSha256": "4ede7d477dab9dd7f731eeeca6af0f84afa93ffe78d6704e238fd9388046748e",
+      "adaptations": [],
+      "packageBytes": 20458,
+      "packageSha256": "4ede7d477dab9dd7f731eeeca6af0f84afa93ffe78d6704e238fd9388046748e"
+    },
+    {
+      "originalPath": "v5_data/census/official_crosscheck.json",
+      "packagePath": "audits/v5_data/census/official_crosscheck.json",
+      "originalBytes": 1942,
+      "originalSha256": "1a215d7ce5e8a2d696911d9840b25d9b180a676d45fd455b43b352f9c2467f76",
+      "adaptations": [],
+      "packageBytes": 1942,
+      "packageSha256": "1a215d7ce5e8a2d696911d9840b25d9b180a676d45fd455b43b352f9c2467f76"
+    },
+    {
+      "originalPath": "v5_data/issues/audit.json",
+      "packagePath": "audits/v5_data/issues/audit.json",
+      "originalBytes": 1879,
+      "originalSha256": "66cc82d0aaea1a8597ecc2f827168c734885daef459c55b09a33b7917a5db4bc",
+      "adaptations": [],
+      "packageBytes": 1879,
+      "packageSha256": "66cc82d0aaea1a8597ecc2f827168c734885daef459c55b09a33b7917a5db4bc"
+    },
+    {
+      "originalPath": "v5_data/handoff/source_schema_notes.json",
+      "packagePath": "audits/v5_data/handoff/source_schema_notes.json",
+      "originalBytes": 4449,
+      "originalSha256": "ab21af735f24b49d7a721b35077f5c7ff3f44c39f926755b27b09ba55fde0959",
+      "adaptations": [],
+      "packageBytes": 4449,
+      "packageSha256": "ab21af735f24b49d7a721b35077f5c7ff3f44c39f926755b27b09ba55fde0959"
+    },
+    {
+      "originalPath": "v5_data/handoff/import_validation.json",
+      "packagePath": "audits/v5_data/handoff/import_validation.json",
+      "originalBytes": 954,
+      "originalSha256": "19483677f5d309d2b06cf5e1a5c3e9841771dd6782c9f312e8798f03c963aa3a",
+      "adaptations": [],
+      "packageBytes": 954,
+      "packageSha256": "19483677f5d309d2b06cf5e1a5c3e9841771dd6782c9f312e8798f03c963aa3a"
+    },
+    {
+      "originalPath": "v5_data/handoff/geography_validation.json",
+      "packagePath": "audits/v5_data/handoff/geography_validation.json",
+      "originalBytes": 4476,
+      "originalSha256": "b1cc1bb4fe9f057597fe0021c2d931a6369b30901b3243aaf7dbd86324766497",
+      "adaptations": [],
+      "packageBytes": 4476,
+      "packageSha256": "b1cc1bb4fe9f057597fe0021c2d931a6369b30901b3243aaf7dbd86324766497"
+    },
+    {
+      "originalPath": "v5_data/handoff/raw/migration_downloads.json",
+      "packagePath": "audits/v5_data/handoff/raw/migration_downloads.json",
+      "originalBytes": 7050,
+      "originalSha256": "eb01dd95f1fbe73f984be8149ef1545ef392574c4ad7af0996bba15cd4c01f01",
+      "adaptations": [],
+      "packageBytes": 7050,
+      "packageSha256": "eb01dd95f1fbe73f984be8149ef1545ef392574c4ad7af0996bba15cd4c01f01"
+    },
+    {
+      "originalPath": "v5_data/handoff/raw/geometry_downloads.json",
+      "packagePath": "audits/v5_data/handoff/raw/geometry_downloads.json",
+      "originalBytes": 607,
+      "originalSha256": "6ddb6c06f205cc881fa0ee1ce18b3415c72faf901ed9322317ab9697c5d369ce",
+      "adaptations": [],
+      "packageBytes": 607,
+      "packageSha256": "6ddb6c06f205cc881fa0ee1ce18b3415c72faf901ed9322317ab9697c5d369ce"
+    },
+    {
+      "originalPath": "v5_data/handoff/raw/acs_downloads.json",
+      "packagePath": "audits/v5_data/handoff/raw/acs_downloads.json",
+      "originalBytes": 1209,
+      "originalSha256": "5d65d4950b1a91e3bc602764b020ac56270b8397c7fa97cfea56b21030cfefb6",
+      "adaptations": [],
+      "packageBytes": 1209,
+      "packageSha256": "5d65d4950b1a91e3bc602764b020ac56270b8397c7fa97cfea56b21030cfefb6"
+    },
+    {
+      "originalPath": "v5_data/handoff/raw/acs_mirror_downloads.json",
+      "packagePath": "audits/v5_data/handoff/raw/acs_mirror_downloads.json",
+      "originalBytes": 2423,
+      "originalSha256": "44d7c909e153d66992d073e313a5d7d81eca1599c456b4759366bd7fd6b88541",
+      "adaptations": [],
+      "packageBytes": 2423,
+      "packageSha256": "44d7c909e153d66992d073e313a5d7d81eca1599c456b4759366bd7fd6b88541"
+    },
+    {
+      "originalPath": "v5_data/handoff/pdf_validation/content_validation.json",
+      "packagePath": "audits/v5_data/handoff/pdf_validation/content_validation.json",
+      "originalBytes": 974,
+      "originalSha256": "1d7e5a89ef78d1ef9f7b0ceeec25ccdb21471fe2c5e89242ccb0ae8fa5019d3f",
+      "adaptations": [],
+      "packageBytes": 974,
+      "packageSha256": "1d7e5a89ef78d1ef9f7b0ceeec25ccdb21471fe2c5e89242ccb0ae8fa5019d3f"
+    },
+    {
+      "originalPath": "v5_data/handoff/pdf_validation/report.json",
+      "packagePath": "audits/v5_data/handoff/pdf_validation/report.json",
+      "originalBytes": 212,
+      "originalSha256": "5c6fc2c47ef790646d26d13b43f6c14f060b1dda9e3b3104832f17b97af0872d",
+      "adaptations": [],
+      "packageBytes": 212,
+      "packageSha256": "5c6fc2c47ef790646d26d13b43f6c14f060b1dda9e3b3104832f17b97af0872d"
+    },
+    {
+      "originalPath": "election_research/election_data_audit.json",
+      "packagePath": "audits/election_research/election_data_audit.json",
+      "originalBytes": 2469,
+      "originalSha256": "e13e7b59aa857e99071a09ad18c01a17a7d828bedf5262d5b6dece98e62242b5",
+      "adaptations": [],
+      "packageBytes": 2469,
+      "packageSha256": "e13e7b59aa857e99071a09ad18c01a17a7d828bedf5262d5b6dece98e62242b5"
+    },
+    {
+      "originalPath": "finance_research/finance_validation.json",
+      "packagePath": "audits/finance_research/finance_validation.json",
+      "originalBytes": 4129,
+      "originalSha256": "7fc3d7bf27dde4188843f286a573c0374ce4d5f838249ddae82f9921e926ff95",
+      "adaptations": [],
+      "packageBytes": 4129,
+      "packageSha256": "7fc3d7bf27dde4188843f286a573c0374ce4d5f838249ddae82f9921e926ff95"
+    },
+    {
+      "originalPath": "finance_research/senate_fetch_report.json",
+      "packagePath": "audits/finance_research/senate_fetch_report.json",
+      "originalBytes": 5485,
+      "originalSha256": "c0564125cda5f65a904393538a38d011fba4173b3de225d2866da6d91dbafa43",
+      "adaptations": [],
+      "packageBytes": 5485,
+      "packageSha256": "c0564125cda5f65a904393538a38d011fba4173b3de225d2866da6d91dbafa43"
+    },
+    {
+      "originalPath": "finance_research/extra_fetch_report.json",
+      "packagePath": "audits/finance_research/extra_fetch_report.json",
+      "originalBytes": 109,
+      "originalSha256": "3ab1473a5eff280de7ff946d2da0e02796ca0fb186ff8af5ef43a670c9c70b67",
+      "adaptations": [],
+      "packageBytes": 109,
+      "packageSha256": "3ab1473a5eff280de7ff946d2da0e02796ca0fb186ff8af5ef43a670c9c70b67"
+    },
+    {
+      "originalPath": "finance_research/extra2_fetch_report.json",
+      "packagePath": "audits/finance_research/extra2_fetch_report.json",
+      "originalBytes": 158,
+      "originalSha256": "12ca252a27548b5c7a546da2894a0747e459f50617cb309a24a7e6846584077a",
+      "adaptations": [],
+      "packageBytes": 158,
+      "packageSha256": "12ca252a27548b5c7a546da2894a0747e459f50617cb309a24a7e6846584077a"
+    },
+    {
+      "originalPath": "finance_research/extra3_fetch_report.json",
+      "packagePath": "audits/finance_research/extra3_fetch_report.json",
+      "originalBytes": 120,
+      "originalSha256": "2483b01bfea04206f298c3cc5cfcd3cb2d0beee51fad6ca1ffac599687fb4471",
+      "adaptations": [],
+      "packageBytes": 120,
+      "packageSha256": "2483b01bfea04206f298c3cc5cfcd3cb2d0beee51fad6ca1ffac599687fb4471"
+    },
+    {
+      "originalPath": "geography/geometry_validation.json",
+      "packagePath": "audits/geography/geometry_validation.json",
+      "originalBytes": 566,
+      "originalSha256": "a644eb82d6e2263e8cd2f4825495d0b7d348630fb869b49d3a0ba5c6203fdc94",
+      "adaptations": [],
+      "packageBytes": 566,
+      "packageSha256": "a644eb82d6e2263e8cd2f4825495d0b7d348630fb869b49d3a0ba5c6203fdc94"
+    },
+    {
+      "originalPath": "finance_research/raw/extra2_00.source.json",
+      "packagePath": "audits/finance_research/raw/extra2_00.source.json",
+      "originalBytes": 767,
+      "originalSha256": "1ba2923a1eb90f854753f24c03f31cf7c6d1155895a76ef17df17481b89c7ef5",
+      "adaptations": [],
+      "packageBytes": 767,
+      "packageSha256": "1ba2923a1eb90f854753f24c03f31cf7c6d1155895a76ef17df17481b89c7ef5"
+    },
+    {
+      "originalPath": "finance_research/raw/extra3_00.source.json",
+      "packagePath": "audits/finance_research/raw/extra3_00.source.json",
+      "originalBytes": 713,
+      "originalSha256": "a64e074fa8e00816e581456c6f06cf1a16c705c8b7324a1c8a74973f61f41ee2",
+      "adaptations": [],
+      "packageBytes": 713,
+      "packageSha256": "a64e074fa8e00816e581456c6f06cf1a16c705c8b7324a1c8a74973f61f41ee2"
+    },
+    {
+      "originalPath": "finance_research/raw/extra_00.source.json",
+      "packagePath": "audits/finance_research/raw/extra_00.source.json",
+      "originalBytes": 698,
+      "originalSha256": "c93186da7cd2efbe0b8ea7730d7d28cb28d3d454d3820a52037cfd462a72ff62",
+      "adaptations": [],
+      "packageBytes": 698,
+      "packageSha256": "c93186da7cd2efbe0b8ea7730d7d28cb28d3d454d3820a52037cfd462a72ff62"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_00.source.json",
+      "packagePath": "audits/finance_research/raw/senate_00.source.json",
+      "originalBytes": 829,
+      "originalSha256": "32d49f1c052bf6288b1a3cc9d261b80207ff06f41665990582900aa95fcd6408",
+      "adaptations": [],
+      "packageBytes": 829,
+      "packageSha256": "32d49f1c052bf6288b1a3cc9d261b80207ff06f41665990582900aa95fcd6408"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_01.source.json",
+      "packagePath": "audits/finance_research/raw/senate_01.source.json",
+      "originalBytes": 843,
+      "originalSha256": "7471c17d244ece3b933be6615bf66a968bdf62148278c0268fffd849d4a27e8c",
+      "adaptations": [],
+      "packageBytes": 843,
+      "packageSha256": "7471c17d244ece3b933be6615bf66a968bdf62148278c0268fffd849d4a27e8c"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_02.source.json",
+      "packagePath": "audits/finance_research/raw/senate_02.source.json",
+      "originalBytes": 840,
+      "originalSha256": "461a10d181348ffdcfe6cb0a38c039f2bb8cb49395a965c7a36b8004efe8dcf1",
+      "adaptations": [],
+      "packageBytes": 840,
+      "packageSha256": "461a10d181348ffdcfe6cb0a38c039f2bb8cb49395a965c7a36b8004efe8dcf1"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_03.source.json",
+      "packagePath": "audits/finance_research/raw/senate_03.source.json",
+      "originalBytes": 840,
+      "originalSha256": "0134eca460a6f543a8db93aeee53363cea2c79399fade5d3a95befc2f11144b7",
+      "adaptations": [],
+      "packageBytes": 840,
+      "packageSha256": "0134eca460a6f543a8db93aeee53363cea2c79399fade5d3a95befc2f11144b7"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_04.source.json",
+      "packagePath": "audits/finance_research/raw/senate_04.source.json",
+      "originalBytes": 840,
+      "originalSha256": "c36fee7d19873196eeee270ae8a759785e25690f8f8b4dd6279a0e0157a849f0",
+      "adaptations": [],
+      "packageBytes": 840,
+      "packageSha256": "c36fee7d19873196eeee270ae8a759785e25690f8f8b4dd6279a0e0157a849f0"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_05.source.json",
+      "packagePath": "audits/finance_research/raw/senate_05.source.json",
+      "originalBytes": 840,
+      "originalSha256": "636e8567c5939d671a46bac776fcdda74b2c75d8013f86af4e44fb6cc712cdd5",
+      "adaptations": [],
+      "packageBytes": 840,
+      "packageSha256": "636e8567c5939d671a46bac776fcdda74b2c75d8013f86af4e44fb6cc712cdd5"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_06.source.json",
+      "packagePath": "audits/finance_research/raw/senate_06.source.json",
+      "originalBytes": 840,
+      "originalSha256": "61e647b5b79e3e3c928a56d31c949954a613e4d68011738d4324b3d4d0239659",
+      "adaptations": [],
+      "packageBytes": 840,
+      "packageSha256": "61e647b5b79e3e3c928a56d31c949954a613e4d68011738d4324b3d4d0239659"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_07.source.json",
+      "packagePath": "audits/finance_research/raw/senate_07.source.json",
+      "originalBytes": 840,
+      "originalSha256": "ad0f67f287dd302bfccbe6f845896cdfb3372ca8092fe4f094d7ebf9660420e7",
+      "adaptations": [],
+      "packageBytes": 840,
+      "packageSha256": "ad0f67f287dd302bfccbe6f845896cdfb3372ca8092fe4f094d7ebf9660420e7"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_08.source.json",
+      "packagePath": "audits/finance_research/raw/senate_08.source.json",
+      "originalBytes": 842,
+      "originalSha256": "44c9994a9d276212f5bc8a2131772abb2607f4f23125ff8daf8a64c3363d6706",
+      "adaptations": [],
+      "packageBytes": 842,
+      "packageSha256": "44c9994a9d276212f5bc8a2131772abb2607f4f23125ff8daf8a64c3363d6706"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_09.source.json",
+      "packagePath": "audits/finance_research/raw/senate_09.source.json",
+      "originalBytes": 858,
+      "originalSha256": "5be6c2ca147a2185d23c0a9501918bce137af853475406545879daeea6bce0e4",
+      "adaptations": [],
+      "packageBytes": 858,
+      "packageSha256": "5be6c2ca147a2185d23c0a9501918bce137af853475406545879daeea6bce0e4"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_10.source.json",
+      "packagePath": "audits/finance_research/raw/senate_10.source.json",
+      "originalBytes": 859,
+      "originalSha256": "bf855cb95756f6bbcba2ac4e02322746dc10cb363602d34ca96f85ba89729321",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "bf855cb95756f6bbcba2ac4e02322746dc10cb363602d34ca96f85ba89729321"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_11.source.json",
+      "packagePath": "audits/finance_research/raw/senate_11.source.json",
+      "originalBytes": 859,
+      "originalSha256": "7382758df204d11d21f103500b4efe1ba7d0e0ad3d2809e785a30673ca6c84bb",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "7382758df204d11d21f103500b4efe1ba7d0e0ad3d2809e785a30673ca6c84bb"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_12.source.json",
+      "packagePath": "audits/finance_research/raw/senate_12.source.json",
+      "originalBytes": 859,
+      "originalSha256": "b56398ad7ef3d7e610ad4c4f3d5be544ccc5d7eb35142a681b1f3b5a6e86bf51",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "b56398ad7ef3d7e610ad4c4f3d5be544ccc5d7eb35142a681b1f3b5a6e86bf51"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_13.source.json",
+      "packagePath": "audits/finance_research/raw/senate_13.source.json",
+      "originalBytes": 859,
+      "originalSha256": "49c44a0bf1583c62af87248037d9fa17811bff182e89fcaca881a7d3498f18b4",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "49c44a0bf1583c62af87248037d9fa17811bff182e89fcaca881a7d3498f18b4"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_14.source.json",
+      "packagePath": "audits/finance_research/raw/senate_14.source.json",
+      "originalBytes": 859,
+      "originalSha256": "6aac513ee05acf99855018f3d2d587e3632c421ffad02663ad6d75ce930a04e4",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "6aac513ee05acf99855018f3d2d587e3632c421ffad02663ad6d75ce930a04e4"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_15.source.json",
+      "packagePath": "audits/finance_research/raw/senate_15.source.json",
+      "originalBytes": 859,
+      "originalSha256": "9ab1b88dde99d60226f19a3d5d9b1f0f7552bc2c7416eac445a826442865dd38",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "9ab1b88dde99d60226f19a3d5d9b1f0f7552bc2c7416eac445a826442865dd38"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_16.source.json",
+      "packagePath": "audits/finance_research/raw/senate_16.source.json",
+      "originalBytes": 859,
+      "originalSha256": "9054bc2217a11fd72c967675d7626ff7db7a3ae5d1042873b793c90f45753c96",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "9054bc2217a11fd72c967675d7626ff7db7a3ae5d1042873b793c90f45753c96"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_17.source.json",
+      "packagePath": "audits/finance_research/raw/senate_17.source.json",
+      "originalBytes": 859,
+      "originalSha256": "203c5994b540a8a37a59e9fa7d7334654142f68ed4af467ed02f48369c733f2c",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "203c5994b540a8a37a59e9fa7d7334654142f68ed4af467ed02f48369c733f2c"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_18.source.json",
+      "packagePath": "audits/finance_research/raw/senate_18.source.json",
+      "originalBytes": 859,
+      "originalSha256": "9450039a5a7d1d82e29fb2eeab13ea5b88c4ef11de03b03905ff811da29b7d9b",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "9450039a5a7d1d82e29fb2eeab13ea5b88c4ef11de03b03905ff811da29b7d9b"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_19.source.json",
+      "packagePath": "audits/finance_research/raw/senate_19.source.json",
+      "originalBytes": 859,
+      "originalSha256": "93cd06e9f077d0626d52bd30626ccef87d9d45ba999cc3f2a2470077b797b783",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "93cd06e9f077d0626d52bd30626ccef87d9d45ba999cc3f2a2470077b797b783"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_20.source.json",
+      "packagePath": "audits/finance_research/raw/senate_20.source.json",
+      "originalBytes": 859,
+      "originalSha256": "aa92d29f2ba0969a8eaac6924e35cbca876bd413a42a15a19299475345a6f69e",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "aa92d29f2ba0969a8eaac6924e35cbca876bd413a42a15a19299475345a6f69e"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_21.source.json",
+      "packagePath": "audits/finance_research/raw/senate_21.source.json",
+      "originalBytes": 859,
+      "originalSha256": "cedd76da07d2b01bc1e8348b752135284adf5af780d770e1a0dd59b022090b65",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "cedd76da07d2b01bc1e8348b752135284adf5af780d770e1a0dd59b022090b65"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_22.source.json",
+      "packagePath": "audits/finance_research/raw/senate_22.source.json",
+      "originalBytes": 859,
+      "originalSha256": "f331f624594cfcf13e549d32638539a0c6c0132e76e12039614dc33a5246c414",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "f331f624594cfcf13e549d32638539a0c6c0132e76e12039614dc33a5246c414"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_23.source.json",
+      "packagePath": "audits/finance_research/raw/senate_23.source.json",
+      "originalBytes": 859,
+      "originalSha256": "c22533824d6d36d2a75c03e736e4d217ace7fd266586863b29f0b081a2cb6a5a",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "c22533824d6d36d2a75c03e736e4d217ace7fd266586863b29f0b081a2cb6a5a"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_24.source.json",
+      "packagePath": "audits/finance_research/raw/senate_24.source.json",
+      "originalBytes": 859,
+      "originalSha256": "ad8f12d23d160382562676ab25a714890abccdf7161c8df350685fa99d1defc5",
+      "adaptations": [],
+      "packageBytes": 859,
+      "packageSha256": "ad8f12d23d160382562676ab25a714890abccdf7161c8df350685fa99d1defc5"
+    },
+    {
+      "originalPath": "finance_research/raw/senate_25.source.json",
+      "packagePath": "audits/finance_research/raw/senate_25.source.json",
+      "originalBytes": 697,
+      "originalSha256": "5c2a00d96d33d1a93d10055f9b7afb4b0a925fe06c0416d563475641e1fd2c85",
+      "adaptations": [],
+      "packageBytes": 697,
+      "packageSha256": "5c2a00d96d33d1a93d10055f9b7afb4b0a925fe06c0416d563475641e1fd2c85"
+    },
+    {
+      "originalPath": "v5_data/census/README.md",
+      "packagePath": "docs/v5_data/census/README.md",
+      "originalBytes": 5992,
+      "originalSha256": "c770cc4ca4081f7af9dd794a1fe2c8c91c3f328106065ff5efe64285ff1aa0c1",
+      "adaptations": [],
+      "packageBytes": 5992,
+      "packageSha256": "c770cc4ca4081f7af9dd794a1fe2c8c91c3f328106065ff5efe64285ff1aa0c1"
+    },
+    {
+      "originalPath": "v5_data/issues/README.md",
+      "packagePath": "docs/v5_data/issues/README.md",
+      "originalBytes": 5613,
+      "originalSha256": "6443115c79f6b74c18cb0205dfe0c3c7b7be748e54bf387691430491a4c83856",
+      "adaptations": [],
+      "packageBytes": 5613,
+      "packageSha256": "6443115c79f6b74c18cb0205dfe0c3c7b7be748e54bf387691430491a4c83856"
+    },
+    {
+      "originalPath": "finance_research/candidate_filer_mapping.json",
+      "packagePath": "inputs/finance_research/candidate_filer_mapping.json",
+      "originalBytes": 100738,
+      "originalSha256": "81789e7830b022b428f0985c788544ac097ef16f647333a08e8553d13ce65b3e",
+      "adaptations": [],
+      "packageBytes": 100738,
+      "packageSha256": "81789e7830b022b428f0985c788544ac097ef16f647333a08e8553d13ce65b3e"
+    },
+    {
+      "originalPath": "finance_research/selected_filer_ids.json",
+      "packagePath": "inputs/finance_research/selected_filer_ids.json",
+      "originalBytes": 1932,
+      "originalSha256": "53a36fc8070eca2abfee7178dfcf0562feda214b9c3b4e15797ac60021ce9088",
+      "adaptations": [],
+      "packageBytes": 1932,
+      "packageSha256": "53a36fc8070eca2abfee7178dfcf0562feda214b9c3b4e15797ac60021ce9088"
+    },
+    {
+      "originalPath": "finance_research/extra_filer_ids.json",
+      "packagePath": "inputs/finance_research/extra_filer_ids.json",
+      "originalBytes": 10,
+      "originalSha256": "f053e5d601b1dc19cf56c00433196ba7b9a07f073d4f587762ac76f8ad08eac4",
+      "adaptations": [],
+      "packageBytes": 10,
+      "packageSha256": "f053e5d601b1dc19cf56c00433196ba7b9a07f073d4f587762ac76f8ad08eac4"
+    },
+    {
+      "originalPath": "finance_research/extra2_filer_ids.json",
+      "packagePath": "inputs/finance_research/extra2_filer_ids.json",
+      "originalBytes": 40,
+      "originalSha256": "3cc559092c77ae6019da3ee5d99d59aa289b7e22db7365c48f8281dca8d33b49",
+      "adaptations": [],
+      "packageBytes": 40,
+      "packageSha256": "3cc559092c77ae6019da3ee5d99d59aa289b7e22db7365c48f8281dca8d33b49"
+    },
+    {
+      "originalPath": "finance_research/extra3_filer_ids.json",
+      "packagePath": "inputs/finance_research/extra3_filer_ids.json",
+      "originalBytes": 16,
+      "originalSha256": "31888efdbffa011aabcdbf152637aa17eb0cf8c4c42acfbf55640161ff5c1f0f",
+      "adaptations": [],
+      "packageBytes": 16,
+      "packageSha256": "31888efdbffa011aabcdbf152637aa17eb0cf8c4c42acfbf55640161ff5c1f0f"
+    },
+    {
+      "originalPath": "finance_research/pcfb_authorization_oct26.json",
+      "packagePath": "inputs/finance_research/pcfb_authorization_oct26.json",
+      "originalBytes": 11326,
+      "originalSha256": "0ea50c26f4bb073bc9c9f3f5e79e108b1876f941599a0d156dc42ad82d1c1760",
+      "adaptations": [],
+      "packageBytes": 11326,
+      "packageSha256": "0ea50c26f4bb073bc9c9f3f5e79e108b1876f941599a0d156dc42ad82d1c1760"
+    },
+    {
+      "originalPath": "finance_research/pcfb_authorization_supplemental.json",
+      "packagePath": "inputs/finance_research/pcfb_authorization_supplemental.json",
+      "originalBytes": 8242,
+      "originalSha256": "ab15e0a735ee59c4c6a91df6ad80e0565d65a593292218643dedc14c2785fb9a",
+      "adaptations": [],
+      "packageBytes": 8242,
+      "packageSha256": "ab15e0a735ee59c4c6a91df6ad80e0565d65a593292218643dedc14c2785fb9a"
+    },
+    {
+      "originalPath": "election_research/senate_roster_2026.json",
+      "packagePath": "inputs/election_research/senate_roster_2026.json",
+      "originalBytes": 20911,
+      "originalSha256": "7b7f8ddd8c488c70a3b98932c639d609883f2adf1a6fbaa7305863a7a17ef72c",
+      "adaptations": [],
+      "packageBytes": 20911,
+      "packageSha256": "7b7f8ddd8c488c70a3b98932c639d609883f2adf1a6fbaa7305863a7a17ef72c"
+    },
+    {
+      "originalPath": "geography/official_senate_metadata.json",
+      "packagePath": "metadata/geography/official_senate_metadata.json",
+      "originalBytes": 15514,
+      "originalSha256": "0a26ba17f7c52c98a18496ae56d3acbb168b867d79452100ab2b0011f2125f46",
+      "adaptations": [],
+      "packageBytes": 15514,
+      "packageSha256": "0a26ba17f7c52c98a18496ae56d3acbb168b867d79452100ab2b0011f2125f46"
+    },
+    {
+      "originalPath": "geography/official_state_metadata.json",
+      "packagePath": "metadata/geography/official_state_metadata.json",
+      "originalBytes": 15654,
+      "originalSha256": "453b8ea1874ab0eab3e83259b884da0c87be447c4850d1e70e2e99349da28e57",
+      "adaptations": [],
+      "packageBytes": 15654,
+      "packageSha256": "453b8ea1874ab0eab3e83259b884da0c87be447c4850d1e70e2e99349da28e57"
+    },
+    {
+      "originalPath": "geography/civil_boundaries_metadata.json",
+      "packagePath": "metadata/geography/civil_boundaries_metadata.json",
+      "originalBytes": 68,
+      "originalSha256": "d3bff46fb9baf687de8593b4fd51e2e8acf23548b9a0a68295e8bf5c1fc710ba",
+      "adaptations": [],
+      "packageBytes": 68,
+      "packageSha256": "d3bff46fb9baf687de8593b4fd51e2e8acf23548b9a0a68295e8bf5c1fc710ba"
+    },
+    {
+      "originalPath": "finance_research/reviewed_non_donation_exclusions.json",
+      "originalBytes": 6747,
+      "originalSha256": "f318d22f570195966aa6f08ba49960b51f9c8a6a6058256aaec2458213d2f2ea",
+      "adaptations": [
+        "Retained only fields needed by the original normalizer: filingTransId, category. Transaction names, dates, amounts, addresses and explanatory text excluded."
+      ],
+      "packagePath": "inputs/finance_research/reviewed_non_donation_exclusions.json",
+      "packageBytes": 1786,
+      "packageSha256": "f6b32dba6f9f87e5305c45d905c840db33d671131290e7dcee168a2d167e01a9"
+    },
+    {
+      "originalPath": "finance_research/base_meta.json",
+      "originalBytes": 23423,
+      "originalSha256": "331633b87cf91ae0d14270da25b3f08ce0c595a74977f048145bf2fb334d7c29",
+      "adaptations": [
+        "Retained only fields needed by the original normalizer: id, name, rowsUpdatedAt, viewLastModified. Transaction names, dates, amounts, addresses and explanatory text excluded."
+      ],
+      "packagePath": "inputs/finance_research/base_meta.json",
+      "packageBytes": 159,
+      "packageSha256": "fde080eaa07a6006c00945d278f166bf75be00915872e7bbb97a06ac8238089a"
+    }
+  ],
+  "policy": "Only copied files were rebased. Original research and application files were not changed. Historical audit reports are preserved unchanged; finance metadata is explicitly sanitized."
+}

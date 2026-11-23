@@ -1,0 +1,636 @@
+{
+  "edition": "2026-11-23",
+  "note": "Original metadata and source-file hashes only; normalized rows remain in the application runtime snapshot.",
+  "snapshots": [
+    {
+      "originalPath": "election_research/senate_elections_2026.json",
+      "bytes": 288206,
+      "sha256": "795e3ff5c46c9dbb17be800bc2d01fd4309cfa795c53f02d2c79835ce0481dbb",
+      "topLevelKeys": [
+        "meta",
+        "districts"
+      ],
+      "meta": {
+        "title": "2026 New York State Senate unofficial general-election results",
+        "publisher": "New York State Board of Elections",
+        "retrievedOn": "2026-11-22",
+        "sourceUpdatedAt": "2026-11-21 11:42:41 AM",
+        "sourceUrl": "https://nyenr.elections.ny.gov/HomeNoJS.aspx",
+        "rosterSourceUrl": "https://www.nysenate.gov/senators-committees",
+        "status": "Unofficial; no certified winners assigned",
+        "statewideCaution": "NYS BOE states that unscanned emergency Election Day ballots from Westchester County are missing. All results remain unofficial; precinct reporting counts may be inconsistent with vote totals as reported by BOE.",
+        "voteShareMethod": "shareOfAllBallots uses official page percentage including blank/void ballots; shareOfValidVotes divides candidate vote total by all candidate votes plus aggregate write-ins.",
+        "fusionVotingMethod": "Votes aggregated across ballot lines by candidate; each ballot line is preserved.",
+        "incumbencyMethod": "Serving senator matched to BOE ballot names; April N. McCants-Baskin mapped to April Baskin. SD12 is vacant at election based on official Gianaris service end date; the directory entry for incoming Kawas is preserved separately, not treated as incumbency.",
+        "historicalSourceUrl": "https://results.elections.ny.gov/search?df=2024&dt=2024&p=1",
+        "primarySourceUrl": "https://results.elections.ny.gov/search?df=2026&dt=2026"
+      },
+      "topLevelArrayCounts": {
+        "districts": 63
+      }
+    },
+    {
+      "originalPath": "election_research/senate_elections_2024.json",
+      "bytes": 91440,
+      "sha256": "73c8e9e768034ed6046f514ca109b75d2b70b2293d8144e1d5d160b2b22c6116",
+      "topLevelKeys": [
+        "meta",
+        "districts"
+      ],
+      "meta": {
+        "title": "Certified 2024 New York State Senate general-election returns",
+        "sourceUrl": "https://results.elections.ny.gov/search?df=2024&dt=2024&p=1",
+        "csvUrl": "https://ny.elstats.civera.com/api/download_search.csv?search=%7B%22global%22%3A%7B%22years%22%3A%7B%22from%22%3A2024%2C%22to%22%3A2024%7D%7D%2C%22ballotQuestions%22%3A%7B%22text%22%3A%22%22%2C%22types%22%3A%5B%5D%2C%22number%22%3A%22%22%2C%22divisions%22%3A%5B%5D%7D%2C%22contests%22%3A%7B%22candidates%22%3A%5B%5D%2C%22offices%22%3A%5B%5D%2C%22divisions%22%3A%5B%5D%7D%2C%22voterStats%22%3Afalse%2C%22stages%22%3A%5B%5D%2C%22specialElectionsOnly%22%3Afalse%7D",
+        "publisher": "NYS Board of Elections official archived results",
+        "retrievedOn": "2026-11-22",
+        "aggregation": "Sum County rows by district and candidate across fusion ballot lines. District winner is the candidate with the largest district-wide total; the CSV is_winner flag is county-level and is NOT used for district conclusions. Blank, void and scattering counted separately.",
+        "voteShareMethod": "Valid votes include all named candidates plus aggregate scattering/write-in votes and exclude blank and void ballots. Margin is first minus second named candidate divided by valid votes.",
+        "countyNote": "Counties here are election-reporting units in the 2024 official returns, not a substitute for the official GIS geography.",
+        "status": "Certified historical results; do not conflate with 2026 returns."
+      },
+      "topLevelArrayCounts": {
+        "districts": 63
+      }
+    },
+    {
+      "originalPath": "election_research/senate_primaries_2026.json",
+      "bytes": 15227,
+      "sha256": "33f89053c3fb75a3d13c8e03ed62b82370190a53a475e6b2c4b0692568b96796",
+      "topLevelKeys": [
+        "meta",
+        "contests"
+      ],
+      "meta": {
+        "sourceUrl": "https://results.elections.ny.gov/search?df=2026&dt=2026",
+        "csvUrl": "https://ny.elstats.civera.com/api/download_search.csv?search=%7B%22global%22%3A%7B%22years%22%3A%7B%22from%22%3A2026%2C%22to%22%3A2026%7D%7D%2C%22ballotQuestions%22%3A%7B%22text%22%3A%22%22%2C%22types%22%3A%5B%5D%2C%22number%22%3A%22%22%2C%22divisions%22%3A%5B%5D%7D%2C%22contests%22%3A%7B%22candidates%22%3A%5B%5D%2C%22offices%22%3A%5B%5D%2C%22divisions%22%3A%5B%5D%7D%2C%22voterStats%22%3Afalse%2C%22stages%22%3A%5B%5D%2C%22specialElectionsOnly%22%3Afalse%7D",
+        "status": "Certified primary elections only",
+        "retrievedOn": "2026-11-22",
+        "winnerMethod": "Ranked candidate vote totals aggregated across all reporting counties; county-level is_winner flags are NOT used for district conclusions.",
+        "voteShareMethod": "Valid votes include named candidates plus scattering/write-ins; blank/void ballots excluded."
+      },
+      "topLevelArrayCounts": {
+        "contests": 16
+      }
+    },
+    {
+      "originalPath": "election_research/senate_roster_2026.json",
+      "bytes": 20911,
+      "sha256": "7b7f8ddd8c488c70a3b98932c639d609883f2adf1a6fbaa7305863a7a17ef72c",
+      "topLevelKeys": [
+        "meta",
+        "senators"
+      ],
+      "meta": {
+        "sourceUrl": "https://www.nysenate.gov/senators-committees",
+        "retrievedOn": "2026-11-22"
+      },
+      "topLevelArrayCounts": {
+        "senators": 63
+      }
+    },
+    {
+      "originalPath": "election_research/district_counties_official.json",
+      "bytes": 21312,
+      "sha256": "e6386ca4ee443042b89a8572be3cab9ca3e35e98753f6481b50d7b20b481447a",
+      "topLevelKeys": [
+        "meta",
+        "districts"
+      ],
+      "meta": {
+        "sourceUrl": "https://www.nysenate.gov/sites/default/files/pdfs/9-2-26-member-directory.pdf",
+        "sourceDate": "2026-09-01",
+        "retrievedOn": "2026-11-22",
+        "publisher": "Secretary of the New York State Senate",
+        "note": "Counties are stated geographic coverage, including parts of counties. Original directory spellings retained. SD12 is explicitly vacant."
+      },
+      "topLevelArrayCounts": {
+        "districts": 63
+      }
+    },
+    {
+      "originalPath": "finance_research/atlas_finance_normalized.json",
+      "bytes": 381230,
+      "sha256": "e57f797fd7ecdaffb2e22e57898518b7cbfd04179a6e222b3a4028b9b75e2914",
+      "topLevelKeys": [
+        "meta",
+        "districts"
+      ],
+      "meta": {
+        "title": "NYS Senate campaign donor snapshot",
+        "retrievedAt": "2026-11-22",
+        "sourceUpdatedAt": "2026-11-21T04:59:37+00:00",
+        "sourceAgency": "New York State Board of Elections",
+        "sourceDataset": "e9ss-239a",
+        "sourceUrl": "https://data.ny.gov/Government-Finance/Campaign-Finance-Disclosure-Reports-Data-Beginning/e9ss-239a",
+        "filerRegisterUrl": "https://data.ny.gov/Government-Finance/Campaign-Finance-Filer-Data-Beginning-1974/7x2g-h32p",
+        "windowStart": "2025-01-01",
+        "windowEnd": "2026-11-22",
+        "period": "1 January 2025–22 November 2026",
+        "currency": "USD",
+        "districtCount": 63,
+        "candidateCount": 112,
+        "candidatesWithData": 103,
+        "rawRowsFetched": 68082,
+        "duplicateRowsRemoved": 77,
+        "selectedUniqueRowsBeforePublicFundExclusion": 68005,
+        "selectedDonationRows": 67983,
+        "excludedPublicMatchingFunds": 163947.0,
+        "excludedNonDonationReceipts": 123967.53,
+        "excludedReceiptCount": 22,
+        "committeesWithData": 103,
+        "explicitOfficialCommitteeMappings": 70,
+        "methodology": [
+          "Only monetary contribution Schedules A, B and C in itemized disclosure filings; transaction date 2025-01-01 through 2026-11-22, disclosure year at least 2025.",
+          "Amended filings are retained. Repeated UUID transaction IDs retain the latest filing_trans_id; legacy numeric transaction IDs are deduplicated only when filer, schedule, date, amount and disclosed donor name/type also agree, since numeric IDs can be reused.",
+          "Donor ranks aggregate the same disclosed donor name (case and whitespace normalized) and contributor type within the displayed candidate/committee group. Distinct people with the same disclosed name may be combined; name spelling variants are not inferred to be one person.",
+          "Totals are gross disclosed monetary contributions, not net receipts or cash on hand. Unitemized/unnamed contributions are included in the total when reported but excluded from named donor rankings. Subsequent refunds to contributors are not netted out.",
+          "Loans, transfers, in-kind support, independent expenditures and public matching funds are outside these donor rankings. Identifiable Comptroller public funds and transaction narratives explicitly describing recovered bank balances, bank verification credits, dividends, expense refunds, payroll-provider balance returns or reimbursements were excluded even when filed in contribution schedules.",
+          "Candidate-to-committee identities use official filer names, candidate office/district records and, where available, explicit official PCFB payment-report mappings. The mapping basis is retained per candidate.",
+          "No residential addresses, emails, telephone numbers, employer addresses or treasurer personal details are included.",
+          "Source filings are reported by campaigns and may be amended. Missing data is not a zero-donation claim."
+        ]
+      },
+      "topLevelArrayCounts": {
+        "districts": 63
+      }
+    },
+    {
+      "originalPath": "geography/atlas_geometry.json",
+      "bytes": 790748,
+      "sha256": "e6e1e95760f6540f216364f3ece4a42613db76da0f03b6bbffe98e938b50f5e0",
+      "topLevelKeys": [
+        "metadata",
+        "viewBox",
+        "state",
+        "districts",
+        "insets",
+        "places"
+      ],
+      "meta": {
+        "title": "Official New York State Senate District Boundaries",
+        "retrieved": "2026-11-22",
+        "districtCount": 63,
+        "districtSource": "https://services6.arcgis.com/EbVsqZ18sv1kVJ3k/ArcGIS/rest/services/NYS_Senate_Districts/FeatureServer/0",
+        "stateSource": "https://services6.arcgis.com/EbVsqZ18sv1kVJ3k/arcgis/rest/services/NYS_Civil_Boundaries/FeatureServer/1",
+        "officialMap": "https://pubgeo.nysenate.gov/map/senate",
+        "boundaryVintage": "NYS Senate 2022 redistricting; clipped to New York shoreline by NYS ITS Geospatial Services.",
+        "senatorRosterAsOf": "2026-08-28",
+        "stateShorelineAsOf": "2026-03",
+        "projection": "New York Albers equal-area conic, WGS84; central meridian 76°W; standard parallels 40°N and 45°N; origin 42.5°N.",
+        "proj4": "+proj=aea +lat_0=42.5 +lon_0=-76 +lat_1=40 +lat_2=45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+        "simplification": "Official service query maxAllowableOffset=0.0003 degrees; geometryPrecision=5; invalid degenerate polygon fragments repaired with Shapely make_valid. All positive-area polygons and holes retained.",
+        "rosterNote": "GIS name/party/contact fields reflect the source update date and do not establish November 2026 election outcomes.",
+        "fillRule": "evenodd"
+      },
+      "topLevelArrayCounts": {
+        "viewBox": 4,
+        "districts": 63,
+        "places": 9
+      }
+    },
+    {
+      "originalPath": "senate_v5/map-data.json",
+      "bytes": 1163804,
+      "sha256": "fc75009398e385cd9fcca1302426af7d97abd7ca15bd2c1fc1a1a7f8a2182b2f",
+      "topLevelKeys": [
+        "metadata",
+        "viewBox",
+        "state",
+        "districts",
+        "insets",
+        "places"
+      ],
+      "meta": {
+        "title": "Official New York State Senate District Boundaries",
+        "retrieved": "2026-11-22",
+        "districtCount": 63,
+        "districtSource": "https://services6.arcgis.com/EbVsqZ18sv1kVJ3k/ArcGIS/rest/services/NYS_Senate_Districts/FeatureServer/0",
+        "stateSource": "https://services6.arcgis.com/EbVsqZ18sv1kVJ3k/arcgis/rest/services/NYS_Civil_Boundaries/FeatureServer/1",
+        "officialMap": "https://pubgeo.nysenate.gov/map/senate",
+        "boundaryVintage": "NYS Senate 2022 redistricting; clipped to New York shoreline by NYS ITS Geospatial Services.",
+        "senatorRosterAsOf": "2026-08-28",
+        "stateShorelineAsOf": "2026-03",
+        "projection": "New York Albers equal-area conic, WGS84; central meridian 76°W; standard parallels 40°N and 45°N; origin 42.5°N.",
+        "proj4": "+proj=aea +lat_0=42.5 +lon_0=-76 +lat_1=40 +lat_2=45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+        "simplification": "Official service query maxAllowableOffset=0.0003 degrees; geometryPrecision=5; invalid degenerate polygon fragments repaired with Shapely make_valid. All positive-area polygons and holes retained.",
+        "rosterNote": "GIS name/party/contact fields reflect the source update date and do not establish November 2026 election outcomes.",
+        "fillRule": "evenodd"
+      },
+      "topLevelArrayCounts": {
+        "viewBox": 4,
+        "districts": 63,
+        "places": 9
+      }
+    },
+    {
+      "originalPath": "dossier_research/district_enrichment_compact.json",
+      "bytes": 358863,
+      "sha256": "568700e537f46303b376fe7c6d7b8934901f8a962a029020b7c26d1aeabcdeb8",
+      "topLevelKeys": [
+        "metadata",
+        "districts",
+        "source_registry"
+      ],
+      "meta": {
+        "source": "NY_State_Senate_Terminal_Master_Plan_v4.pdf",
+        "snapshot": "2026-11-19",
+        "pages": 81,
+        "district_map_spec_pages": [
+          59,
+          60,
+          61,
+          62
+        ],
+        "scope": "Documented master-plan evidence. Election snapshot is historical; use refreshed official election feed in preference to PDF results.",
+        "acs_status": "Direct Census 2024 ACS data query redirects to missing API key; Census Reporter API returned 403. Numeric fields below are the supplied PDF values, not a fresh data pull.",
+        "source_url": "https://censusreporter.org/",
+        "notes": [
+          "No complete ranked donor lists in PDF.",
+          "Household tables are specified but values not pulled in PDF.",
+          "No 2026 ED results or candidate media collected in PDF.",
+          "Demographics describe residents, not votes."
+        ]
+      },
+      "topLevelArrayCounts": {
+        "districts": 63
+      }
+    },
+    {
+      "originalPath": "v5_data/census/normalized.json",
+      "bytes": 9629010,
+      "sha256": "98aad2f10bd3ee83d041d176d0ac79908e602bc47e4f04f95b5405e2d940348f",
+      "topLevelKeys": [
+        "meta",
+        "tables",
+        "districts"
+      ],
+      "meta": {
+        "schemaVersion": "1.0",
+        "publisher": "United States Census Bureau",
+        "distributor": "Census Reporter",
+        "release": "acs2024_5yr",
+        "period": "2020–2024",
+        "retrievedAt": "2026-11-23T14:32:22.897711+00:00",
+        "generatedAt": "2026-11-23T14:37:04.820919+00:00",
+        "districtCount": 63,
+        "tableCount": 38,
+        "evidenceType": "ACS survey estimate",
+        "moeConfidence": 90,
+        "handoffValuesImported": 0,
+        "geography": "New York state legislative districts, upper chamber, in ACS 2024 geography",
+        "sourceUrl": "https://www.census.gov/programs-surveys/acs/data/summary-file.2024.html",
+        "methodologyUrl": "https://www.census.gov/content/dam/Census/library/publications/2018/acs/acs_general_handbook_2018_ch08.pdf",
+        "notes": [
+          "Freshly retrieved Census-origin estimates, not values copied from the project handoff.",
+          "The five-year survey period is 2020–2024. These are not a live 2026 population count.",
+          "The official API requires a key; the documented Census Reporter API supplied the Census-origin tables and their original margins of error.",
+          "Single-cell estimates and margins of error are published values. Summed/differenced counts use approximate root-sum-square margins of error.",
+          "Derived percentages use the Census subset-proportion MOE approximation; a negative variance term falls back to the ratio formula. Derived MOEs are approximate and do not include full covariance.",
+          "High sampling uncertainty means a coefficient of variation greater than 30% using SE = MOE / 1.645. This is a presentation flag, not a Census suppression rule.",
+          "Null is missing/suppressed; an estimated zero is retained with its margin of error. No missing value is filled with zero.",
+          "No demographic table establishes religious affiliation, political preferences, individual eligibility to vote, or donor identity."
+        ]
+      },
+      "topLevelArrayCounts": {
+        "districts": 63
+      }
+    },
+    {
+      "originalPath": "v5_data/census/household_cross_tabs.json",
+      "bytes": 3462451,
+      "sha256": "2b4f015c81a3a3e9b736135ad13ff5f51118f723f270ea7771c3a1fb1c1314c6",
+      "topLevelKeys": [
+        "meta",
+        "districts"
+      ],
+      "meta": {
+        "schemaVersion": "1.0",
+        "publisher": "United States Census Bureau",
+        "distributor": "Census Reporter",
+        "release": "acs2024_5yr",
+        "period": "2020–2024",
+        "retrievedAt": "2026-11-23T14:32:22.897711+00:00",
+        "generatedAt": "2026-11-23T14:37:04.820919+00:00",
+        "districtCount": 63,
+        "tableCount": 38,
+        "evidenceType": "ACS survey estimate",
+        "moeConfidence": 90,
+        "handoffValuesImported": 0,
+        "geography": "New York state legislative districts, upper chamber, in ACS 2024 geography",
+        "sourceUrl": "https://www.census.gov/programs-surveys/acs/data/summary-file.2024.html",
+        "methodologyUrl": "https://www.census.gov/content/dam/Census/library/publications/2018/acs/acs_general_handbook_2018_ch08.pdf",
+        "notes": [
+          "Freshly retrieved Census-origin estimates, not values copied from the project handoff.",
+          "The five-year survey period is 2020–2024. These are not a live 2026 population count.",
+          "The official API requires a key; the documented Census Reporter API supplied the Census-origin tables and their original margins of error.",
+          "Single-cell estimates and margins of error are published values. Summed/differenced counts use approximate root-sum-square margins of error.",
+          "Derived percentages use the Census subset-proportion MOE approximation; a negative variance term falls back to the ratio formula. Derived MOEs are approximate and do not include full covariance.",
+          "High sampling uncertainty means a coefficient of variation greater than 30% using SE = MOE / 1.645. This is a presentation flag, not a Census suppression rule.",
+          "Null is missing/suppressed; an estimated zero is retained with its margin of error. No missing value is filled with zero.",
+          "No demographic table establishes religious affiliation, political preferences, individual eligibility to vote, or donor identity."
+        ]
+      },
+      "topLevelArrayCounts": {
+        "districts": 63
+      }
+    },
+    {
+      "originalPath": "v5_data/issues/normalized.json",
+      "bytes": 4520080,
+      "sha256": "0f216452574a75ec73a8e5f7d3531dfd19c8a0be55419ac20c4331bdc429cf9e",
+      "topLevelKeys": [
+        "meta",
+        "issues",
+        "evidence",
+        "sources",
+        "legislation",
+        "districtCoverage",
+        "profiles"
+      ],
+      "meta": {
+        "title": "NY Senate issue and legislative evidence",
+        "builtAt": "2026-11-23",
+        "handoffSnapshotAt": "2026-11-20",
+        "issuesCount": 20,
+        "districtsCount": 63,
+        "rawDistrictRecords": 241,
+        "districtEvidenceCount": 145,
+        "explicitGapCount": 96,
+        "candidatePositionRecords": 112,
+        "freshLegislativeRecords": 16,
+        "status": "Imported district evidence plus newly retrieved official bill, roll-call, profile and policy records; source and event dates remain distinct",
+        "methodology": "Candidate names match the independently refreshed district general-election dataset. Imported evidence retains handoff dates. No demographic proxy or regional poll is treated as district sentiment. Legislative activity is distinct from campaign position.",
+        "limitations": [
+          "S54 is a compilation homepage, not an exact original questionnaire permalink.",
+          "No inference is made about public opinion from issue-evidence counts.",
+          "2026 election totals remain in the independent BOE dataset and are not overwritten by the handoff."
+        ],
+        "officialProfileCount": 63,
+        "officialHeadshotCount": 63,
+        "officialBiographyCount": 62,
+        "downloadedHeadshotCount": 63,
+        "freshOfficialEvidenceRecords": 607,
+        "totalEvidenceRecords": 848,
+        "officialIssuesCovered": 20,
+        "rollCallEvents": 13,
+        "namedRollCallEntries": 466
+      },
+      "topLevelArrayCounts": {
+        "issues": 20,
+        "evidence": 848,
+        "sources": 99,
+        "legislation": 16,
+        "districtCoverage": 63,
+        "profiles": 63
+      }
+    },
+    {
+      "originalPath": "v5_data/issues/official_profiles.json",
+      "bytes": 568027,
+      "sha256": "3e42de96d1305a571860f3a5725eca7c62307961174e66ce26fea2d0d3c59f8e",
+      "topLevelKeys": [
+        "meta",
+        "profiles",
+        "fetchErrors"
+      ],
+      "meta": {
+        "retrievedAt": "2026-11-23",
+        "count": 63,
+        "headshots": 63,
+        "biographies": 62,
+        "imagePolicyUrl": "https://www.nysenate.gov/policies-and-waivers",
+        "statusCaution": "SD12 incoming Aber Kawas profile is preserved separately from the vacant seat/incumbency at election; official biographies are office-authored, not independent assessments."
+      },
+      "topLevelArrayCounts": {
+        "profiles": 63,
+        "fetchErrors": 6
+      }
+    },
+    {
+      "originalPath": "v5_data/issues/official_legislation.json",
+      "bytes": 188405,
+      "sha256": "c98b8c3cef574e1aa4d67e55e8600df375db3a6105e921d12b350c56d7e7d3dc",
+      "topLevelKeys": [
+        "meta",
+        "legislation"
+      ],
+      "meta": {
+        "retrievedAt": "2026-11-23",
+        "count": 16,
+        "note": "Official status is retained as shown; missing member votes and cosponsors are never inferred."
+      },
+      "topLevelArrayCounts": {
+        "legislation": 16
+      }
+    },
+    {
+      "originalPath": "v5_data/handoff/normalized.json",
+      "bytes": 993125,
+      "sha256": "35953e436d78de48b3376d8d6e187f098606e5cd1a8e021fc3cef728d27ca774",
+      "topLevelKeys": [
+        "meta",
+        "layers",
+        "pages",
+        "sections",
+        "issueDefinitions",
+        "issueCatalog",
+        "migration",
+        "researchGroups",
+        "media",
+        "sources"
+      ],
+      "meta": {
+        "title": "The Sixty-Three — v5 handoff evidence",
+        "preparedAt": "2026-11-20",
+        "importedAt": "2026-11-23",
+        "timezone": "Asia/Kolkata",
+        "sourceFile": "NY_State_Senate_Terminal_Master_Plan_v5.pdf",
+        "pageCount": 98,
+        "sourceSha256": "4b43da6b8ab719bd93ff6e3b1a0d1092804205e08e6e45cca962506527eb3a3f",
+        "status": "Historical supplied research; fresh records are separately dated",
+        "note": "Document-imported figures are not automatically newly verified. County/city/state migration does not establish district flows or individual voting behavior.",
+        "freshDataNote": "This import now includes newly retrieved IRS migration through2023–2024, Census PEP2019/2025 and ACS2020–2024 county/town estimates. Original PDF pages and images remain archival and dated."
+      },
+      "topLevelArrayCounts": {
+        "layers": 24,
+        "pages": 98,
+        "sections": 29,
+        "issueDefinitions": 1,
+        "issueCatalog": 20,
+        "media": 65,
+        "sources": 195
+      }
+    },
+    {
+      "originalPath": "v5_data/handoff/fresh_migration.json",
+      "bytes": 1336329,
+      "sha256": "0985a16136bbee5aca7d6bf5b44da0da3fe4f4a11c066cb23979bcf0c58380fa",
+      "topLevelKeys": [
+        "metadata",
+        "nyc",
+        "newYorkState",
+        "statePartners",
+        "nycCountyPairs",
+        "countyMigration",
+        "suffolkNyc",
+        "nycPopulationComponents",
+        "countyPopulationChanges",
+        "districtCountyContext",
+        "sources"
+      ],
+      "meta": {
+        "title": "Fresh official migration and population context",
+        "retrievedAt": "2026-11-23",
+        "latestIrsVintage": "2023–2024",
+        "irsVintages": [
+          "2018–2019",
+          "2019–2020",
+          "2020–2021",
+          "2021–2022",
+          "2022–2023",
+          "2023–2024"
+        ],
+        "geographicUnits": [
+          "state",
+          "county",
+          "five-county aggregation"
+        ],
+        "districtCoverage": "County context links for all63 Senate districts; no district migration estimates or crosswalk allocations",
+        "definitions": {
+          "returns": "Tax returns; approximate households, not exact household counts",
+          "exemptions": "Personal exemptions; approximate individuals covered by returns",
+          "agiUsd": "Mover adjusted gross income in year2, converted from published thousands to USD; not tax revenue",
+          "net": "Inflow minus outflow; negative means net outflow"
+        },
+        "limits": [
+          "IRS enhanced matching beginning2022–2023; series before and after the break are not strictly comparable.",
+          "IRS records describe tax filers and do not cover all residents.",
+          "Published county-pair flows are suppressed below reporting thresholds; missing or unpublished flows are not observed zero.",
+          "PEP2019 and PEP2025 use different census bases;2020 partial-period change is omitted.",
+          "County geography never establishes a Senate district migration flow or a migration effect on voting."
+        ]
+      },
+      "topLevelArrayCounts": {
+        "nyc": 6,
+        "newYorkState": 6,
+        "statePartners": 300,
+        "nycCountyPairs": 1994,
+        "countyMigration": 372,
+        "suffolkNyc": 6,
+        "nycPopulationComponents": 14,
+        "countyPopulationChanges": 62,
+        "districtCountyContext": 63,
+        "sources": 9
+      }
+    },
+    {
+      "originalPath": "v5_data/handoff/district_overlays.json",
+      "bytes": 2941841,
+      "sha256": "e985ee429d5bda0fa3f8efb9291804c02d608b7baec0d055000fb54e182dba20",
+      "topLevelKeys": [
+        "metadata",
+        "districts"
+      ],
+      "meta": {
+        "title": "Official NYC neighborhood and election-district overlays for NY Senate districts",
+        "retrievedAt": "2026-11-23",
+        "boundaryVersion": "NYC 26c, updated 2026-11-02; NTA statistical definitions are 2020 vintage",
+        "viewBox": [
+          0,
+          0,
+          1000,
+          780
+        ],
+        "proj4": "+proj=aea +lat_1=40 +lat_2=45 +lat_0=42.5 +lon_0=-76 +datum=WGS84 +units=m +no_defs",
+        "projectionTransform": {
+          "x0": -311302.58054142265,
+          "y1": 282373.94963284937,
+          "scale": 0.0014380761054076543,
+          "offx": 26.0,
+          "offy": 27.92241729283535
+        },
+        "fillRule": "evenodd",
+        "method": "Official NYC polygons projected and spatially clipped to matching NYC DCP 26c State Senate district polygons. The statewide atlas projection is retained exactly, while the detailed NYC Senate outline avoids mismatched shared edges from separately generalized statewide data. NTA fragments below 100 m², ED fragments below 1 m², or fragments below 0.1% of source feature area are suppressed; the lower ED threshold retains all 4,214 published precinct geometries, including very small shoreline features. SVG display simplified 5 m for NTAs and 3 m for EDs, preserving topology; areas calculated before simplification. Label points lie inside clipped polygons.",
+        "limits": [
+          "Neighborhood tabulation areas approximate neighborhoods; they are statistical areas, not definitive neighborhood borders.",
+          "Detailed overlays use the matching NYC DCP 26c Senate, NTA and ED representations. At transition from the statewide atlas, tiny outline differences can occur due to the atlas service generalization.",
+          "An ED can intersect multiple Senate districts. The clip does not allocate voters, population, or votes.",
+          "No election returns are supplied or inferred by this geometry dataset.",
+          "Non-NYC Senate districts are outside the coverage of these NYC datasets."
+        ],
+        "sources": [
+          {
+            "id": "NYC_SD_26C",
+            "title": "State Senate Districts, NYC shoreline, version 26c",
+            "publisher": "NYC Department of City Planning",
+            "url": "https://data.cityofnewyork.us/City-Government/State-Senate-Districts/afns-vxeu",
+            "dataUrl": "https://data.cityofnewyork.us/resource/afns-vxeu.geojson?$limit=1000",
+            "sourceUpdatedAt": "2026-11-02",
+            "retrievedAt": "2026-11-23",
+            "features": 28
+          },
+          {
+            "id": "NYC_NTA_26C",
+            "title": "2020 Neighborhood Tabulation Areas (NTAs), version 26c",
+            "publisher": "NYC Department of City Planning / NYC Open Data",
+            "url": "https://data.cityofnewyork.us/City-Government/2020-Neighborhood-Tabulation-Areas-NTAs-/9nt8-h7nd",
+            "dataUrl": "https://data.cityofnewyork.us/resource/9nt8-h7nd.geojson?$limit=1000",
+            "sourceUpdatedAt": "2026-11-02",
+            "retrievedAt": "2026-11-23",
+            "features": 262
+          },
+          {
+            "id": "NYC_ED_26C",
+            "title": "Election Districts, version 26c",
+            "publisher": "NYC Department of City Planning, from NYC Board of Elections",
+            "url": "https://data.cityofnewyork.us/City-Government/Election-Districts/wwxk-38u4",
+            "dataUrl": "https://data.cityofnewyork.us/resource/wwxk-38u4.geojson?$limit=10000",
+            "sourceUpdatedAt": "2026-11-02",
+            "retrievedAt": "2026-11-23",
+            "features": 4214
+          },
+          {
+            "id": "NYS_SD_2022",
+            "title": "New York State Senate Districts, 2022 redistricting",
+            "publisher": "NYS ITS Geospatial Services",
+            "url": "https://services6.arcgis.com/EbVsqZ18sv1kVJ3k/ArcGIS/rest/services/NYS_Senate_Districts/FeatureServer/0",
+            "retrievedAt": "2026-11-22"
+          }
+        ],
+        "districtsWithNycCoverage": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          36,
+          47,
+          59
+        ]
+      },
+      "topLevelArrayCounts": {
+        "districts": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "districtCount": 63,
+  "uniqueIds": 63,
+  "idsComplete": true,
+  "allLabelPointsOnDistrictLand": true,
+  "viewBox": [
+    0,
+    0,
+    1000,
+    780
+  ],
+  "geographicExtent": [
+    -79.76195,
+    40.49615,
+    -71.85615,
+    45.01291
+  ],
+  "planarExtentMetres": [
+    -311302.58054142265,
+    -221184.35489029798,
+    347911.48777888267,
+    282373.94963284937
+  ],
+  "repairedDegenerateDistricts": [
+    5,
+    8,
+    10,
+    26,
+    31,
+    34,
+    37,
+    45,
+    49,
+    59,
+    62
+  ],
+  "outputBytes": 790748,
+  "officialSourcesRespondedHTTP200": true
+}

@@ -1,0 +1,11 @@
+{
+  "name": "nyc_senate_districts",
+  "url": "https://data.cityofnewyork.us/resource/afns-vxeu.geojson?$limit=1000",
+  "features": 28,
+  "bytes": 3663361,
+  "sha256": "57cd91b9905a1c3b8618003cd15d98bb5bbbfd6ffeba461aa478f26ac81d208b",
+  "retrievedAt": "2026-11-23",
+  "version": "26c",
+  "sourceUpdatedAt": "2026-11-02",
+  "note": "This separately collected original input was added to the packaged fetch_geography.py."
+}

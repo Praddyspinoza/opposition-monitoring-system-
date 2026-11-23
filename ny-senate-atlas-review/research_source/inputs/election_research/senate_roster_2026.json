@@ -1,0 +1,678 @@
+{
+  "meta": {
+    "sourceUrl": "https://www.nysenate.gov/senators-committees",
+    "retrievedOn": "2026-11-22"
+  },
+  "senators": [
+    {
+      "district": 1,
+      "name": "Anthony H. Palumbo",
+      "parties": [
+        "R"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/anthony-h-palumbo",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 2,
+      "name": "Mario R. Mattera",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/mario-r-mattera",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 3,
+      "name": "Dean Murray",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/dean-murray",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 4,
+      "name": "Monica R. Martinez",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/monica-r-martinez",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 5,
+      "name": "Steven D. Rhoads",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/steven-d-rhoads",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 6,
+      "name": "Siela A. Bynoe",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/siela-bynoe",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 7,
+      "name": "Jack M. Martins",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/jack-m-martins",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 8,
+      "name": "Alexis Weik",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/alexis-weik",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 9,
+      "name": "Patricia Canzoneri-Fitzpatrick",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/patricia-canzoneri-fitzpatrick",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 10,
+      "name": "James Sanders Jr.",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/james-sanders-jr",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 11,
+      "name": "Toby Ann Stavisky",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/toby-ann-stavisky",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 12,
+      "name": "Aber Kawas",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/aber-kawas",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 13,
+      "name": "Jessica Ramos",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/jessica-ramos",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 14,
+      "name": "Leroy Comrie",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/leroy-comrie",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 15,
+      "name": "Joseph P. Addabbo Jr.",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/joseph-p-addabbo-jr",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 16,
+      "name": "John C. Liu",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/john-c-liu",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 17,
+      "name": "Stephen T. Chan",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/stephen-t-chan",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 18,
+      "name": "Julia Salazar",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/julia-salazar",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 19,
+      "name": "Roxanne J. Persaud",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/roxanne-j-persaud",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 20,
+      "name": "Zellnor Myrie",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/zellnor-myrie",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 21,
+      "name": "Kevin S. Parker",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/kevin-s-parker",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 22,
+      "name": "Sam Sutton",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/sam-sutton",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 23,
+      "name": "Jessica Scarcella-Spanton",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/jessica-scarcella-spanton",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 24,
+      "name": "Andrew J. Lanza",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/andrew-j-lanza",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 25,
+      "name": "Jabari Brisport",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/jabari-brisport",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 26,
+      "name": "Andrew Gounardes",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/andrew-gounardes",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 27,
+      "name": "Brian Kavanagh",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/brian-kavanagh",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 28,
+      "name": "Liz Krueger",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/liz-krueger",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 29,
+      "name": "José M. Serrano",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/jose-m-serrano",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 30,
+      "name": "Cordell Cleare",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/cordell-cleare",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 31,
+      "name": "Robert Jackson",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/robert-jackson",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 32,
+      "name": "Luis R. Sepúlveda",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/luis-r-sepulveda",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 33,
+      "name": "Gustavo Rivera",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/gustavo-rivera",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 34,
+      "name": "Nathalia Fernandez",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/nathalia-fernandez",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 35,
+      "name": "Andrea Stewart-Cousins",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/andrea-stewart-cousins",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 36,
+      "name": "Jamaal T. Bailey",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/jamaal-t-bailey",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 37,
+      "name": "Shelley B. Mayer",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/shelley-b-mayer",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 38,
+      "name": "Bill Weber",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/bill-weber",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 39,
+      "name": "Rob Rolison",
+      "parties": [
+        "R"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/rob-rolison",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 40,
+      "name": "Pete Harckham",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/pete-harckham",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 41,
+      "name": "Michelle Hinchey",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/michelle-hinchey",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 42,
+      "name": "James Skoufis",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/james-skoufis",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 43,
+      "name": "Jacob Ashby",
+      "parties": [
+        "R"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/jacob-ashby",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 44,
+      "name": "James Tedisco",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/james-tedisco",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 45,
+      "name": "Daniel G. Stec",
+      "parties": [
+        "R",
+        "C",
+        "IP"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/daniel-g-stec",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 46,
+      "name": "Patricia Fahy",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/patricia-fahy",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 47,
+      "name": "Erik Bottcher",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/erik-bottcher",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 48,
+      "name": "Rachel May",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/rachel-may",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 49,
+      "name": "Mark Walczyk",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/mark-walczyk",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 50,
+      "name": "Christopher J. Ryan",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/christopher-j-ryan",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 51,
+      "name": "Peter Oberacker",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/peter-oberacker",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 52,
+      "name": "Lea Webb",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/lea-webb",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 53,
+      "name": "Joseph A. Griffo",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/joseph-griffo",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 54,
+      "name": "Pamela Helming",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/pamela-helming",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 55,
+      "name": "Samra G. Brouk",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/samra-g-brouk",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 56,
+      "name": "Jeremy Cooney",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/jeremy-cooney",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 57,
+      "name": "George M. Borrello",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/george-m-borrello",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 58,
+      "name": "Thomas F. O'Mara",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/thomas-f-omara",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 59,
+      "name": "Kristen Gonzalez",
+      "parties": [
+        "D",
+        "WF"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/kristen-gonzalez",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 60,
+      "name": "Patrick M. Gallivan",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/patrick-m-gallivan",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 61,
+      "name": "Jeremy J. Zellner",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/jeremy-j-zellner",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 62,
+      "name": "Robert G. Ortt",
+      "parties": [
+        "R",
+        "C",
+        "IP"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/robert-g-ortt",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    },
+    {
+      "district": 63,
+      "name": "April N.M. Baskin",
+      "parties": [
+        "D"
+      ],
+      "profileUrl": "https://www.nysenate.gov/senators/april-baskin",
+      "sourceUrl": "https://www.nysenate.gov/senators-committees",
+      "sourceStatus": "current official roster; serving term before 2027"
+    }
+  ]
+}

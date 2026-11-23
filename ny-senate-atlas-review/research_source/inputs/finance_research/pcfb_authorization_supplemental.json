@@ -1,0 +1,226 @@
+[
+  {
+    "district": 3,
+    "filerId": "496633",
+    "committee": "Murray for New York",
+    "candidate": "Dean Murray",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/10/commissioner-report-for-the-approval-to-disburse-public-matching-funds-10.05.2026.pdf"
+  },
+  {
+    "district": 5,
+    "filerId": "445867",
+    "committee": "Steve Rhoads for Senate 2026",
+    "candidate": "Steven D. Rhoads",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/06/commissioner-report-for-the-approval-to-disburse-public-matching-funds-06.30.2026.pdf"
+  },
+  {
+    "district": 7,
+    "filerId": "580573",
+    "committee": "Rory for New York",
+    "candidate": "Rory Lancman",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/06/commissioner-report-for-the-approval-to-disburse-public-matching-funds-06.30.2026.pdf"
+  },
+  {
+    "district": 7,
+    "filerId": "591597",
+    "committee": "Blumencranz For Senate",
+    "candidate": "Jacob Ryan Blumencranz",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 12,
+    "filerId": "404044",
+    "committee": "Raga for New York",
+    "candidate": "Steven B. Raga",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 13,
+    "filerId": "445853",
+    "committee": "People For JGR 2026",
+    "candidate": "Jessica Gonzalez-Rojas",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 13,
+    "filerId": "580402",
+    "committee": "Hiram 26",
+    "candidate": "Hiram Monserrate",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 13,
+    "filerId": "580612",
+    "committee": "Ramos for State Senate 2026",
+    "candidate": "Jessica Ramos",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 17,
+    "filerId": "496606",
+    "committee": "CHAN26",
+    "candidate": "Stephen T. Chan",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/06/commissioner-report-for-the-approval-to-disburse-public-matching-funds-06.30.2026.pdf"
+  },
+  {
+    "district": 17,
+    "filerId": "580618",
+    "committee": "Friends of Larry He",
+    "candidate": "Larry He",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/06/commissioner-report-for-the-approval-to-disburse-public-matching-funds-06.30.2026.pdf"
+  },
+  {
+    "district": 23,
+    "filerId": "580766",
+    "committee": "Omar Mohamad for New York State Senate",
+    "candidate": "Omar Mohamad",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 25,
+    "filerId": "382186",
+    "committee": "Committee to Elect Marlon Rice",
+    "candidate": "Marlon Rice",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 25,
+    "filerId": "456378",
+    "committee": "Jabari for State Senate 2026",
+    "candidate": "Jabari Brisport",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/06/commissioner-report-for-the-approval-to-disburse-public-matching-funds-06.09.2026-002.pdf"
+  },
+  {
+    "district": 27,
+    "filerId": "319624",
+    "committee": "Grace Lee for New York",
+    "candidate": "Grace Lee",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 27,
+    "filerId": "590922",
+    "committee": "Niou for New York",
+    "candidate": "Yuh-Line Niou",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 31,
+    "filerId": "580568",
+    "committee": "Invictus USA",
+    "candidate": "Nayma Silver-Matos",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 31,
+    "filerId": "517368",
+    "committee": "Jackson for Senate 2026",
+    "candidate": "Robert Jackson",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 38,
+    "filerId": "580325",
+    "committee": "Joe Rand for Rockland",
+    "candidate": "Joseph Rand",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/06/commissioner-report-for-the-approval-to-disburse-public-matching-funds-06.30.2026.pdf"
+  },
+  {
+    "district": 38,
+    "filerId": "456053",
+    "committee": "Bill Weber for Senate 2026",
+    "candidate": "William J Weber",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/06/commissioner-report-for-the-approval-to-disburse-public-matching-funds-06.30.2026.pdf"
+  },
+  {
+    "district": 39,
+    "filerId": "549026",
+    "committee": "Menist for Senate",
+    "candidate": "Evan Robert Menist",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 40,
+    "filerId": "445743",
+    "committee": "Pete Harckham for NY 26",
+    "candidate": "Peter Harckham",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 44,
+    "filerId": "580712",
+    "committee": "Nelson for NYS",
+    "candidate": "Patrick F. Nelson",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 44,
+    "filerId": "590867",
+    "committee": "Friends of Sarah Rogerson",
+    "candidate": "Sarah Rogerson",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 45,
+    "filerId": "8056",
+    "committee": "Stec for Senate",
+    "candidate": "Daniel G. Stec",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/06/commissioner-report-for-the-approval-to-disburse-public-matching-funds-06.30.2026.pdf"
+  },
+  {
+    "district": 46,
+    "filerId": "445891",
+    "committee": "Friends of Patricia Fahy 2026",
+    "candidate": "Patricia A. Fahy",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/06/commissioner-report-for-the-approval-to-disburse-public-matching-funds-06.30.2026.pdf"
+  },
+  {
+    "district": 48,
+    "filerId": "445982",
+    "committee": "Friends of Rachel May 2026",
+    "candidate": "Rachel May",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/08/commissioner-report-for-the-approval-to-disburse-public-matching-funds-08.21.2026.pdf"
+  },
+  {
+    "district": 50,
+    "filerId": "580454",
+    "committee": "Corl For Senate",
+    "candidate": "James Edward Corl",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/06/commissioner-report-for-the-approval-to-disburse-public-matching-funds-06.30.2026.pdf"
+  },
+  {
+    "district": 50,
+    "filerId": "445987",
+    "committee": "Chris Ryan for CNY 26",
+    "candidate": "Christopher J. Ryan",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/06/commissioner-report-for-the-approval-to-disburse-public-matching-funds-06.30.2026.pdf"
+  },
+  {
+    "district": 51,
+    "filerId": "580682",
+    "committee": "Terry Bernardo for NYS Senate",
+    "candidate": "Terry L. Blosser-Bernardo",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 54,
+    "filerId": "456161",
+    "committee": "Scott Comegys for New York State",
+    "candidate": "Christopher Scott Comegys",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 61,
+    "filerId": "569429",
+    "committee": "Jon Rivera for State Senate",
+    "candidate": "Jonathan D. Rivera",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/07/commissionerreport73126_0.pdf"
+  },
+  {
+    "district": 61,
+    "filerId": "580615",
+    "committee": "Friends of Jeremy Zellner",
+    "candidate": "Jeremy Zellner",
+    "sourceUrl": "https://pcfb.ny.gov/system/files/documents/2026/06/commissioner-report-for-the-approval-to-disburse-public-matching-funds-06.01.2026.pdf"
+  }
+]

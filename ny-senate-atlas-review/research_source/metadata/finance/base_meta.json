@@ -1,0 +1,650 @@
+{
+  "originalPath": "finance_research/base_meta.json",
+  "originalSha256": "331633b87cf91ae0d14270da25b3f08ce0c595a74977f048145bf2fb334d7c29",
+  "originalBytes": 23423,
+  "sanitization": "Removed all cachedContents/sample/top/smallest/largest values, owner/tableAuthor/approvals/contact fields and other metadata not required for source/schema provenance. No donor or filer address values are retained.",
+  "metadata": {
+    "id": "e9ss-239a",
+    "name": "Campaign Finance Disclosure Reports Data: Beginning 1999",
+    "description": "All Campaign Finance Disclosure Reports Filed with the New York Board of Elections since July 1999",
+    "attribution": "New York State Board of Elections",
+    "attributionLink": "https://publicreporting.elections.ny.gov/",
+    "category": "Government & Finance",
+    "createdAt": 1615413809,
+    "publicationDate": 1795188608,
+    "rowsUpdatedAt": 1795237177,
+    "viewLastModified": 1795208648,
+    "tableId": 20727652,
+    "viewType": "tabular",
+    "assetType": "dataset",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "provenance": "official",
+    "tags": [
+      "campaign finance",
+      "disclosure report",
+      "filing"
+    ],
+    "columns": [
+      {
+        "id": 652078627,
+        "name": "FILER_ID",
+        "fieldName": "filer_id",
+        "dataTypeName": "number",
+        "description": "Filer ID assigned to Candidate/Committee once registered with the New York State Board of Elections",
+        "position": 1,
+        "format": {
+          "noCommas": "true",
+          "align": "center"
+        }
+      },
+      {
+        "id": 652078629,
+        "name": "CAND_COMM_NAME",
+        "fieldName": "cand_comm_name",
+        "dataTypeName": "text",
+        "description": "Name of Candidate or Committee",
+        "position": 2,
+        "format": {}
+      },
+      {
+        "id": 652078630,
+        "name": "ELECTION_YEAR",
+        "fieldName": "election_year",
+        "dataTypeName": "number",
+        "description": "Disclosure Report Year",
+        "position": 3,
+        "format": {
+          "noCommas": "true",
+          "precision": "0",
+          "align": "center"
+        }
+      },
+      {
+        "id": 652078631,
+        "name": "ELECTION_TYPE",
+        "fieldName": "election_type",
+        "dataTypeName": "text",
+        "description": "Election Type (State/Local, Village)",
+        "position": 4,
+        "format": {}
+      },
+      {
+        "id": 652078695,
+        "name": "REPORT_TYPE",
+        "fieldName": "report_type",
+        "dataTypeName": "text",
+        "description": "Disclosure Report Type (Primary, General, Special, Periodic, Off-Cycle)",
+        "position": 5,
+        "format": {}
+      },
+      {
+        "id": 652078632,
+        "name": "COUNTY_DESC",
+        "fieldName": "county_desc",
+        "dataTypeName": "text",
+        "description": "If County Election, County Name",
+        "position": 6,
+        "format": {}
+      },
+      {
+        "id": 652078633,
+        "name": "FILING_ABBREV",
+        "fieldName": "filing_abbrev",
+        "dataTypeName": "text",
+        "description": "Letter Abbreviation for Disclosure Report Period",
+        "position": 7,
+        "format": {
+          "align": "center"
+        }
+      },
+      {
+        "id": 652078634,
+        "name": "FILING_DESC",
+        "fieldName": "filing_desc",
+        "dataTypeName": "text",
+        "description": "Disclosure Report Period Name",
+        "position": 8,
+        "format": {}
+      },
+      {
+        "id": 652078635,
+        "name": "R_AMEND",
+        "fieldName": "r_amend",
+        "dataTypeName": "text",
+        "description": "Disclosure Report Amended, Yes or No",
+        "position": 9,
+        "format": {
+          "align": "center"
+        }
+      },
+      {
+        "id": 652078636,
+        "name": "FILING_CAT_DESC",
+        "fieldName": "filing_cat_desc",
+        "dataTypeName": "text",
+        "description": "Disclosure Report Type (Itemized, No Activity, In Lieu Of, Notice of Non Participation, 24 Hour Notice, IE 24 Hour/Weekly Notices)",
+        "position": 10,
+        "format": {}
+      },
+      {
+        "id": 652078637,
+        "name": "FILING_SCHED_ABBREV",
+        "fieldName": "filing_sched_abbrev",
+        "dataTypeName": "text",
+        "description": "Transaction Type Abbreviation",
+        "position": 11,
+        "format": {}
+      },
+      {
+        "id": 652078638,
+        "name": "FILING_SCHED_DESC",
+        "fieldName": "filing_sched_desc",
+        "dataTypeName": "text",
+        "description": "Transaction Type Name",
+        "position": 12,
+        "format": {}
+      },
+      {
+        "id": 652078639,
+        "name": "LOAN_LIB_NUMBER",
+        "fieldName": "loan_lib_number",
+        "dataTypeName": "text",
+        "description": "Unique Number given to loans and liabilities for mapping purposed",
+        "position": 13,
+        "format": {
+          "align": "center"
+        }
+      },
+      {
+        "id": 652078640,
+        "name": "TRANS_NUMBER",
+        "fieldName": "trans_number",
+        "dataTypeName": "text",
+        "description": "Unique Number given to each transaction",
+        "position": 14,
+        "format": {
+          "noCommas": "true",
+          "align": "center"
+        }
+      },
+      {
+        "id": 652078641,
+        "name": "TRANS_MAPPING",
+        "fieldName": "trans_mapping",
+        "dataTypeName": "text",
+        "description": "Number used for child records to map to parent Trans_Number",
+        "position": 15,
+        "format": {}
+      },
+      {
+        "id": 652078642,
+        "name": "SCHED_DATE",
+        "fieldName": "sched_date",
+        "dataTypeName": "calendar_date",
+        "description": "Date of Transaction",
+        "position": 16,
+        "format": {
+          "view": "date",
+          "align": "center"
+        }
+      },
+      {
+        "id": 652078643,
+        "name": "ORG_DATE",
+        "fieldName": "org_date",
+        "dataTypeName": "calendar_date",
+        "description": "Original Date of Parent Transaction (Schedules K,L,M,N)",
+        "position": 17,
+        "format": {
+          "view": "date",
+          "align": "center"
+        }
+      },
+      {
+        "id": 652078644,
+        "name": "CNTRBR_TYPE_DESC",
+        "fieldName": "cntrbr_type_desc",
+        "dataTypeName": "text",
+        "description": "Contributor Type",
+        "position": 18,
+        "format": {}
+      },
+      {
+        "id": 652078645,
+        "name": "CNTRBN_TYPE_DESC",
+        "fieldName": "cntrbn_type_desc",
+        "dataTypeName": "text",
+        "description": "Contribution Type",
+        "position": 19,
+        "format": {}
+      },
+      {
+        "id": 652078646,
+        "name": "TRANSFER_TYPE_DESC",
+        "fieldName": "transfer_type_desc",
+        "dataTypeName": "text",
+        "description": "Transfer Type",
+        "position": 20,
+        "format": {}
+      },
+      {
+        "id": 652078647,
+        "name": "RECEIPT_TYPE_DESC",
+        "fieldName": "receipt_type_desc",
+        "dataTypeName": "text",
+        "description": "Receipt Type",
+        "position": 21,
+        "format": {}
+      },
+      {
+        "id": 652078648,
+        "name": "RECEIPT_CODE_DESC",
+        "fieldName": "receipt_code_desc",
+        "dataTypeName": "text",
+        "description": "Receipt Code",
+        "position": 22,
+        "format": {}
+      },
+      {
+        "id": 652078649,
+        "name": "PURPOSE_CODE_DESC",
+        "fieldName": "purpose_code_desc",
+        "dataTypeName": "text",
+        "description": "Purpose Code",
+        "position": 23,
+        "format": {}
+      },
+      {
+        "id": 652078650,
+        "name": "R_SUBCONTRACTOR",
+        "fieldName": "r_subcontractor",
+        "dataTypeName": "text",
+        "description": "Subcontractor, Yes or No",
+        "position": 24,
+        "format": {}
+      },
+      {
+        "id": 652078651,
+        "name": "FLNG_ENT_NAME",
+        "fieldName": "flng_ent_name",
+        "dataTypeName": "text",
+        "description": "Entity Name",
+        "position": 25,
+        "format": {}
+      },
+      {
+        "id": 652078652,
+        "name": "FLNG_ENT_FIRST_NAME",
+        "fieldName": "flng_ent_first_name",
+        "dataTypeName": "text",
+        "description": "Entity First Name",
+        "position": 26,
+        "format": {}
+      },
+      {
+        "id": 652078653,
+        "name": "FLNG_ENT_MIDDLE_NAME",
+        "fieldName": "flng_ent_middle_name",
+        "dataTypeName": "text",
+        "description": "Entity Middle Name",
+        "position": 27,
+        "format": {}
+      },
+      {
+        "id": 652078654,
+        "name": "FLNG_ENT_LAST_NAME",
+        "fieldName": "flng_ent_last_name",
+        "dataTypeName": "text",
+        "description": "Entity Last Name",
+        "position": 28,
+        "format": {}
+      },
+      {
+        "id": 652078655,
+        "name": "FLNG_ENT_ADD1",
+        "fieldName": "flng_ent_add1",
+        "dataTypeName": "text",
+        "description": "Entity Address",
+        "position": 29,
+        "format": {}
+      },
+      {
+        "id": 652078656,
+        "name": "FLNG_ENT_CITY",
+        "fieldName": "flng_ent_city",
+        "dataTypeName": "text",
+        "description": "Entity City",
+        "position": 30,
+        "format": {}
+      },
+      {
+        "id": 652078657,
+        "name": "FLNG_ENT_STATE",
+        "fieldName": "flng_ent_state",
+        "dataTypeName": "text",
+        "description": "Entity State",
+        "position": 31,
+        "format": {
+          "align": "center"
+        }
+      },
+      {
+        "id": 652078658,
+        "name": "FLNG_ENT_ZIP",
+        "fieldName": "flng_ent_zip",
+        "dataTypeName": "text",
+        "description": "Entity Zip",
+        "position": 32,
+        "format": {
+          "align": "center"
+        }
+      },
+      {
+        "id": 652078659,
+        "name": "FLNG_ENT_COUNTRY",
+        "fieldName": "flng_ent_country",
+        "dataTypeName": "text",
+        "description": "Entity Country",
+        "position": 33,
+        "format": {}
+      },
+      {
+        "id": 652078660,
+        "name": "PAYMENT_TYPE_DESC",
+        "fieldName": "payment_type_desc",
+        "dataTypeName": "text",
+        "description": "Payment Type",
+        "position": 34,
+        "format": {}
+      },
+      {
+        "id": 652078661,
+        "name": "PAY_NUMBER",
+        "fieldName": "pay_number",
+        "dataTypeName": "text",
+        "description": "Payment Number (Check)",
+        "position": 35,
+        "format": {
+          "align": "center"
+        }
+      },
+      {
+        "id": 652078662,
+        "name": "OWED_AMT",
+        "fieldName": "owed_amt",
+        "dataTypeName": "number",
+        "description": "Owed Amount",
+        "position": 36,
+        "format": {
+          "precisionStyle": "currency",
+          "noCommas": "false",
+          "align": "right"
+        }
+      },
+      {
+        "id": 652078663,
+        "name": "ORG_AMT",
+        "fieldName": "org_amt",
+        "dataTypeName": "number",
+        "description": "Original Amount",
+        "position": 37,
+        "format": {
+          "precisionStyle": "currency",
+          "align": "right"
+        }
+      },
+      {
+        "id": 652078664,
+        "name": "LOAN_OTHER_DESC",
+        "fieldName": "loan_other_desc",
+        "dataTypeName": "text",
+        "description": "Loan Received by Types",
+        "position": 38,
+        "format": {}
+      },
+      {
+        "id": 652078665,
+        "name": "TRANS_EXPLNTN",
+        "fieldName": "trans_explntn",
+        "dataTypeName": "text",
+        "description": "Transaction Explanation",
+        "position": 39,
+        "format": {}
+      },
+      {
+        "id": 652078666,
+        "name": "R_ITEMIZED",
+        "fieldName": "r_itemized",
+        "dataTypeName": "text",
+        "description": "Transaction Itemized or Un-Itemized, Yes or No",
+        "position": 40,
+        "format": {
+          "align": "center"
+        }
+      },
+      {
+        "id": 652078667,
+        "name": "R_LIABILITY",
+        "fieldName": "r_liability",
+        "dataTypeName": "text",
+        "description": "Transaction a Liability, Yes or No",
+        "position": 41,
+        "format": {
+          "align": "center"
+        }
+      },
+      {
+        "id": 652078668,
+        "name": "ELECTION_YEAR_R",
+        "fieldName": "election_year_r",
+        "dataTypeName": "number",
+        "description": "Candidate Election Year (Schedule R)",
+        "position": 42,
+        "format": {
+          "precisionStyle": "standard",
+          "noCommas": "true",
+          "align": "center"
+        }
+      },
+      {
+        "id": 652078669,
+        "name": "OFFICE_DESC",
+        "fieldName": "office_desc",
+        "dataTypeName": "text",
+        "description": "Candidate Office (Schedule R)",
+        "position": 43,
+        "format": {}
+      },
+      {
+        "id": 652078670,
+        "name": "DISTRICT",
+        "fieldName": "district",
+        "dataTypeName": "text",
+        "description": "Candidate District (Schedule R)",
+        "position": 44,
+        "format": {}
+      },
+      {
+        "id": 652078671,
+        "name": "DIST_OFF_CAND_BAL_PROP",
+        "fieldName": "dist_off_cand_bal_prop",
+        "dataTypeName": "text",
+        "description": "District, Office, Candidate, Ballot Proposition (Schedule R)",
+        "position": 45,
+        "format": {}
+      },
+      {
+        "id": 652078678,
+        "name": "IE_CNTRBR_OCC",
+        "fieldName": "ie_cntrbr_occ",
+        "dataTypeName": "text",
+        "description": "Independent Expenditure Occupation",
+        "position": 46,
+        "format": {}
+      },
+      {
+        "id": 652078679,
+        "name": "IE_CNTRBR_EMP",
+        "fieldName": "ie_cntrbr_emp",
+        "dataTypeName": "text",
+        "description": "Independent Expenditure Employer",
+        "position": 47,
+        "format": {}
+      },
+      {
+        "id": 652078680,
+        "name": "R_IE_SUPPORTED",
+        "fieldName": "r_ie_supported",
+        "dataTypeName": "text",
+        "description": "Independent Expenditure Supported Candidate",
+        "position": 48,
+        "format": {}
+      },
+      {
+        "id": 652078681,
+        "name": "R_CLAIM",
+        "fieldName": "r_claim",
+        "dataTypeName": "text",
+        "description": "Public Campaign Finance Contribution Matched for Claim",
+        "position": 49,
+        "format": {}
+      },
+      {
+        "id": 652078682,
+        "name": "R_IN_DISTRICT",
+        "fieldName": "r_in_district",
+        "dataTypeName": "text",
+        "description": "Public Campaign Finance Contributor In-District",
+        "position": 50,
+        "format": {}
+      },
+      {
+        "id": 652078683,
+        "name": "R_MINOR",
+        "fieldName": "r_minor",
+        "dataTypeName": "text",
+        "description": "Public Campaign Finance Contributor is a Minor",
+        "position": 51,
+        "format": {}
+      },
+      {
+        "id": 652078684,
+        "name": "R_VENDOR",
+        "fieldName": "r_vendor",
+        "dataTypeName": "text",
+        "description": "Public Campaign Finance Contributor is a Vendor",
+        "position": 52,
+        "format": {}
+      },
+      {
+        "id": 652078685,
+        "name": "R_LOBBYIST",
+        "fieldName": "r_lobbyist",
+        "dataTypeName": "text",
+        "description": "Public Campaign Finance Contributor is a Lobbyist",
+        "position": 53,
+        "format": {}
+      },
+      {
+        "id": 652078687,
+        "name": "R_SUPPORT_OPPOSE",
+        "fieldName": "r_support_oppose",
+        "dataTypeName": "text",
+        "description": "In Support or Opposition of a Candidate (Schedule N)",
+        "position": 54,
+        "format": {}
+      },
+      {
+        "id": 652078686,
+        "name": "R_CONTRIBUTIONS",
+        "fieldName": "r_contributions",
+        "dataTypeName": "text",
+        "description": "Public Campaign Finance Contribution over $100",
+        "position": 55,
+        "format": {}
+      },
+      {
+        "id": 652078673,
+        "name": "EMPLOYER",
+        "fieldName": "employer",
+        "dataTypeName": "text",
+        "description": "Public Campaign Finance Contributor- Employer Details.",
+        "position": 56,
+        "format": {}
+      },
+      {
+        "id": 652078672,
+        "name": "EMP_OCCUPATION",
+        "fieldName": "emp_occupation",
+        "dataTypeName": "text",
+        "description": "Public Campaign Finance Contributor- Employer Occupation.",
+        "position": 57,
+        "format": {}
+      },
+      {
+        "id": 652078674,
+        "name": "EMP_ADDR_ADDR1",
+        "fieldName": "emp_addr_addr1",
+        "dataTypeName": "text",
+        "description": "Public Campaign Finance Contributor- Employer Address.",
+        "position": 58,
+        "format": {}
+      },
+      {
+        "id": 652078675,
+        "name": "EMP_ADDR_CITY",
+        "fieldName": "emp_addr_city",
+        "dataTypeName": "text",
+        "description": "Public Campaign Finance Contributor- Employer City.",
+        "position": 59,
+        "format": {}
+      },
+      {
+        "id": 652078676,
+        "name": "EMP_ADDR_STATE",
+        "fieldName": "emp_addr_state",
+        "dataTypeName": "text",
+        "description": "Public Campaign Finance Contributor- Employer State.",
+        "position": 60,
+        "format": {}
+      },
+      {
+        "id": 652078677,
+        "name": "EMP_ADDR_ZIP",
+        "fieldName": "emp_addr_zip",
+        "dataTypeName": "text",
+        "description": "Public Campaign Finance Contributor- Employer Zip.",
+        "position": 61,
+        "format": {}
+      },
+      {
+        "id": 652078694,
+        "name": "EMP_COUNTRY",
+        "fieldName": "emp_country",
+        "dataTypeName": "text",
+        "description": "Public Campaign Finance Contributor- Employer Country.",
+        "position": 62,
+        "format": {}
+      },
+      {
+        "id": 652078688,
+        "name": "R_IS_QUALIFIED_EXPENSE",
+        "fieldName": "r_is_qualified_expense",
+        "dataTypeName": "text",
+        "description": "Public Campaign Finance Liability is a qualified expense",
+        "position": 63,
+        "format": {}
+      },
+      {
+        "id": 652078689,
+        "name": "FILING_TRANS_ID",
+        "fieldName": "filing_trans_id",
+        "dataTypeName": "number",
+        "description": "Unique Identity Key",
+        "position": 64,
+        "format": {}
+      }
+    ]
+  }
+}

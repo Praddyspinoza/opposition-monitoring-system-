@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-22",
+  "dataSha256": "795e3ff5c46c9dbb17be800bc2d01fd4309cfa795c53f02d2c79835ce0481dbb",
+  "checks": {
+    "all63_unique_current_districts": 1,
+    "all112_named_candidates": 1,
+    "current_candidates_sorted": 63,
+    "current_valid_vote_denominator": 63,
+    "current_ballots_reconcile": 63,
+    "current_leader": 63,
+    "current_leading_party": 63,
+    "current_not_certified": 63,
+    "fusion_vote_lines_reconcile": 112,
+    "current_valid_vote_share": 112,
+    "official_all_ballot_share": 112,
+    "current_margin_votes": 48,
+    "current_margin_percentage": 48,
+    "incumbent_ballot_flag": 63,
+    "pre_election_official_incumbent": 63,
+    "reporting_counter_bounds": 63,
+    "reporting_percent_math": 63,
+    "embedded_history_matches_standalone": 63,
+    "historical_winner_is_districtwide_leader": 63,
+    "historical_single_district_winner": 63,
+    "historical_valid_vote_denominator": 63,
+    "historical_ballots_reconcile": 63,
+    "historical_fusion_lines": 109,
+    "historical_valid_vote_share": 109,
+    "historical_margin_votes": 44,
+    "historical_margin_percentage": 44,
+    "unopposed_has_no_named_runner_margin": 15,
+    "historical_unopposed_margin": 19,
+    "primary_sorted": 16,
+    "primary_districtwide_winner": 16,
+    "primary_ballots_reconcile": 16,
+    "district12_vacancy_correct": 1,
+    "district63_baskin_alias_correct": 1
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "district": 35,
+      "kind": "official_source_counter_conflict",
+      "note": "BOE displays zero election districts reporting alongside nonzero votes; retain exact source and explain.",
+      "ballots": 97189
+    },
+    {
+      "district": 37,
+      "kind": "official_source_counter_conflict",
+      "note": "BOE displays zero election districts reporting alongside nonzero votes; retain exact source and explain.",
+      "ballots": 116546
+    }
+  ],
+  "preElectionDirectoryUrl": "https://www.nysenate.gov/sites/default/files/pdfs/9-2-26-member-directory.pdf",
+  "preElectionDirectoryDate": "2026-09-01",
+  "historicalWinnerMethod": "Ranked districtwide totals across all counties; county is_winner field is not used.",
+  "correctedHistoricalWinnerDistricts": [
+    11,
+    12,
+    23,
+    40,
+    43,
+    48
+  ],
+  "correctedPrimaryWinnerDistricts": [
+    51
+  ],
+  "currentLeadCounts": {
+    "DEM": 48,
+    "REP": 15
+  },
+  "historicalWinnerPartyCounts": {
+    "Republican": 22,
+    "Democratic": 41
+  }
+}

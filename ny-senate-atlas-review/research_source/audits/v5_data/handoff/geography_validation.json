@@ -1,0 +1,226 @@
+{
+  "sourceCounts": {
+    "neighborhoods": 262,
+    "electionDistricts": 4214
+  },
+  "intersections": {
+    "neighborhoods": 408,
+    "electionDistricts": 4214
+  },
+  "unassignedSourceFeatures": {
+    "neighborhoods": [],
+    "electionDistricts": []
+  },
+  "allLabelPointsWithinClippedGeometry": true,
+  "retainedFragmentsOutsideSenate": 0,
+  "repairedSourceFeatures": {
+    "neighborhoods": 0,
+    "electionDistricts": 0
+  },
+  "minAreaM2": {
+    "neighborhoods": 100,
+    "electionDistricts": 1
+  },
+  "minShareOfSourceArea": 0.001,
+  "districtsWithNycCoverage": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    36,
+    47,
+    59
+  ],
+  "outputBytes": 2941837,
+  "perDistrict": [
+    {
+      "district": 10,
+      "neighborhoodCount": 14,
+      "specialAreaCount": 4,
+      "electionDistrictCount": 158
+    },
+    {
+      "district": 11,
+      "neighborhoodCount": 17,
+      "specialAreaCount": 6,
+      "electionDistrictCount": 163
+    },
+    {
+      "district": 12,
+      "neighborhoodCount": 14,
+      "specialAreaCount": 5,
+      "electionDistrictCount": 150
+    },
+    {
+      "district": 13,
+      "neighborhoodCount": 8,
+      "specialAreaCount": 1,
+      "electionDistrictCount": 117
+    },
+    {
+      "district": 14,
+      "neighborhoodCount": 17,
+      "specialAreaCount": 2,
+      "electionDistrictCount": 171
+    },
+    {
+      "district": 15,
+      "neighborhoodCount": 15,
+      "specialAreaCount": 4,
+      "electionDistrictCount": 151
+    },
+    {
+      "district": 16,
+      "neighborhoodCount": 11,
+      "specialAreaCount": 5,
+      "electionDistrictCount": 123
+    },
+    {
+      "district": 17,
+      "neighborhoodCount": 12,
+      "specialAreaCount": 1,
+      "electionDistrictCount": 122
+    },
+    {
+      "district": 18,
+      "neighborhoodCount": 8,
+      "specialAreaCount": 4,
+      "electionDistrictCount": 146
+    },
+    {
+      "district": 19,
+      "neighborhoodCount": 12,
+      "specialAreaCount": 6,
+      "electionDistrictCount": 160
+    },
+    {
+      "district": 20,
+      "neighborhoodCount": 13,
+      "specialAreaCount": 2,
+      "electionDistrictCount": 174
+    },
+    {
+      "district": 21,
+      "neighborhoodCount": 10,
+      "specialAreaCount": 1,
+      "electionDistrictCount": 158
+    },
+    {
+      "district": 22,
+      "neighborhoodCount": 12,
+      "specialAreaCount": 2,
+      "electionDistrictCount": 142
+    },
+    {
+      "district": 23,
+      "neighborhoodCount": 15,
+      "specialAreaCount": 5,
+      "electionDistrictCount": 150
+    },
+    {
+      "district": 24,
+      "neighborhoodCount": 12,
+      "specialAreaCount": 5,
+      "electionDistrictCount": 170
+    },
+    {
+      "district": 25,
+      "neighborhoodCount": 12,
+      "specialAreaCount": 1,
+      "electionDistrictCount": 170
+    },
+    {
+      "district": 26,
+      "neighborhoodCount": 13,
+      "specialAreaCount": 3,
+      "electionDistrictCount": 185
+    },
+    {
+      "district": 27,
+      "neighborhoodCount": 8,
+      "specialAreaCount": 1,
+      "electionDistrictCount": 154
+    },
+    {
+      "district": 28,
+      "neighborhoodCount": 8,
+      "specialAreaCount": 1,
+      "electionDistrictCount": 162
+    },
+    {
+      "district": 29,
+      "neighborhoodCount": 15,
+      "specialAreaCount": 4,
+      "electionDistrictCount": 167
+    },
+    {
+      "district": 30,
+      "neighborhoodCount": 7,
+      "specialAreaCount": 1,
+      "electionDistrictCount": 167
+    },
+    {
+      "district": 31,
+      "neighborhoodCount": 9,
+      "specialAreaCount": 2,
+      "electionDistrictCount": 151
+    },
+    {
+      "district": 32,
+      "neighborhoodCount": 13,
+      "specialAreaCount": 2,
+      "electionDistrictCount": 126
+    },
+    {
+      "district": 33,
+      "neighborhoodCount": 16,
+      "specialAreaCount": 3,
+      "electionDistrictCount": 128
+    },
+    {
+      "district": 34,
+      "neighborhoodCount": 10,
+      "specialAreaCount": 5,
+      "electionDistrictCount": 117
+    },
+    {
+      "district": 36,
+      "neighborhoodCount": 6,
+      "specialAreaCount": 1,
+      "electionDistrictCount": 107
+    },
+    {
+      "district": 47,
+      "neighborhoodCount": 7,
+      "specialAreaCount": 1,
+      "electionDistrictCount": 165
+    },
+    {
+      "district": 59,
+      "neighborhoodCount": 13,
+      "specialAreaCount": 3,
+      "electionDistrictCount": 160
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Standard-library-only: runtime restore, Census, IRS, elections, finance, issue normalizers.
+# Geometry and legacy PDF import additionally use:
+shapely>=2.0,<3
+pyproj>=3.6,<4
+matplotlib>=3.8,<4
+pdfplumber>=0.11,<1

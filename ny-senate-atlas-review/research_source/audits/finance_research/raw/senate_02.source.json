@@ -1,0 +1,15 @@
+{
+  "url": "https://data.ny.gov/resource/e9ss-239a.json?%24select=filer_id%2Ccand_comm_name%2Celection_year%2Cfiling_cat_desc%2Cfiling_sched_abbrev%2Cfiling_sched_desc%2Ctrans_number%2Cfiling_trans_id%2Csched_date%2Cflng_ent_name%2Cflng_ent_first_name%2Cflng_ent_middle_name%2Cflng_ent_last_name%2Ccntrbr_type_desc%2Corg_amt%2Cr_itemized%2Cr_amend&%24where=filer_id+in%2826654%2C26664%2C27007%2C27121%2C27157%2C27179%2C27208%2C27357%29+AND+election_year%3E%3D2025+AND+sched_date+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+sched_date+%3C+%272026-11-23T00%3A00%3A00%27+AND+filing_sched_abbrev+in%28%27A%27%2C%27B%27%2C%27C%27%29+AND+filing_cat_desc%3D%27Itemized%27&%24limit=50000",
+  "ids": [
+    "26654",
+    "26664",
+    "27007",
+    "27121",
+    "27157",
+    "27179",
+    "27208",
+    "27357"
+  ],
+  "retrieved": "2026-11-22",
+  "rows": 0
+}

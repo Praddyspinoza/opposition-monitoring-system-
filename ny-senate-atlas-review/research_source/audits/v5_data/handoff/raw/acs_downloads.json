@@ -1,0 +1,20 @@
+[
+  {
+    "file": "county_mobility_housing.json",
+    "url": "https://api.census.gov/data/2024/acs/acs5?get=NAME%2CB07004H_001E%2CB07004H_001M%2CB07004H_005E%2CB07004H_005M%2CB07004H_006E%2CB07004H_006M%2CB07004B_001E%2CB07004B_001M%2CB07004B_005E%2CB07004B_005M%2CB07004B_006E%2CB07004B_006M%2CB07004D_001E%2CB07004D_001M%2CB07004D_005E%2CB07004D_005M%2CB07004D_006E%2CB07004D_006M%2CB07004I_001E%2CB07004I_001M%2CB07004I_005E%2CB07004I_005M%2CB07004I_006E%2CB07004I_006M%2CB25004_006E%2CB25004_006M%2CB25002_001E%2CB25002_001M&for=county%3A%2A&in=state%3A36",
+    "status": "error",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "file": "east_end_housing.json",
+    "url": "https://api.census.gov/data/2024/acs/acs5?get=NAME%2CB25004_006E%2CB25004_006M%2CB25002_001E%2CB25002_001M&for=county+subdivision%3A%2A&in=state%3A36+county%3A103",
+    "status": "error",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "file": "state_housing.json",
+    "url": "https://api.census.gov/data/2024/acs/acs5?get=NAME%2CB25004_006E%2CB25004_006M%2CB25002_001E%2CB25002_001M&for=state%3A36",
+    "status": "error",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  }
+]

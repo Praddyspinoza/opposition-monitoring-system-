@@ -1,0 +1,30 @@
+[
+  {
+    "district": 44,
+    "pages": 24,
+    "all49MetricsPresent": true,
+    "allDistrictEvidenceSummariesPresent": true,
+    "allCollectedTop10DonorsPresent": true,
+    "missingMetrics": [],
+    "missingEvidence": [],
+    "missingDonors": [],
+    "clickableUrlAnnotations": 100,
+    "uniqueSourceUrls": 74,
+    "outOfPageTextSpans": [],
+    "visualReview": "First, middle and last pages inspected; embedded font corrected substitution and repeated table headers retain context."
+  },
+  {
+    "district": 12,
+    "pages": 26,
+    "all49MetricsPresent": true,
+    "allDistrictEvidenceSummariesPresent": true,
+    "allCollectedTop10DonorsPresent": true,
+    "missingMetrics": [],
+    "missingEvidence": [],
+    "missingDonors": [],
+    "clickableUrlAnnotations": 104,
+    "uniqueSourceUrls": 78,
+    "outOfPageTextSpans": [],
+    "visualReview": "First, middle and last pages inspected; embedded font corrected substitution and repeated table headers retain context."
+  }
+]

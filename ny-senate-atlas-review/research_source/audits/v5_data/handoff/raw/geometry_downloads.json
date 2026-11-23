@@ -1,0 +1,20 @@
+[
+  {
+    "name": "nyc_nta2020",
+    "url": "https://data.cityofnewyork.us/resource/9nt8-h7nd.geojson?$limit=1000",
+    "features": 262,
+    "bytes": 4586084,
+    "retrievedAt": "2026-11-23",
+    "sha256": "6d8f5ee8654ad1ffd6ea3975d50287102b2e98375c641bcd9dc23705a82edfc8",
+    "status": "ok"
+  },
+  {
+    "name": "nyc_election_districts",
+    "url": "https://data.cityofnewyork.us/resource/wwxk-38u4.geojson?$limit=10000",
+    "features": 4214,
+    "bytes": 9123107,
+    "retrievedAt": "2026-11-23",
+    "sha256": "8ac632a8d915a7208a15e368a4ef9627550fcb374ea28445fc19e7a97d344e4c",
+    "status": "ok"
+  }
+]

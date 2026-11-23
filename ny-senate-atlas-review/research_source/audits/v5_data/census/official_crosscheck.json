@@ -1,0 +1,45 @@
+{
+  "method": "Official public Census table-based summary-file HTTP byte-range extraction; all63 NY Senate rows checked against Census Reporter estimate and MOE cells.",
+  "checks": [
+    {
+      "table": "B01003",
+      "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01003.dat",
+      "districts": 63,
+      "fieldsPerDistrict": 2,
+      "mismatches": [],
+      "httpRangeRequests": 9,
+      "officialFileBytes": 18313708,
+      "extractFile": "raw/official_summary_extract_B01003.psv",
+      "sha256": "44be06354cb89133ec865a09c186bdf8cce92bf45537aa6453b85f4db112b9eb",
+      "retrievedAt": "2026-11-23T14:43:39.561814+00:00",
+      "lastModified": "Thu, 29 Jan 2026 12:31:45 GMT"
+    },
+    {
+      "table": "B19013",
+      "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "districts": 63,
+      "fieldsPerDistrict": 2,
+      "mismatches": [],
+      "httpRangeRequests": 12,
+      "officialFileBytes": 17917916,
+      "extractFile": "raw/official_summary_extract_B19013.psv",
+      "sha256": "894f495939d2fd88595e64cbc30574a9987b9aa8cf4a4740dff717bbf5bb186f",
+      "retrievedAt": "2026-11-23T14:44:02.875802+00:00",
+      "lastModified": "Thu, 29 Jan 2026 12:57:38 GMT"
+    },
+    {
+      "table": "B11001",
+      "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b11001.dat",
+      "districts": 63,
+      "fieldsPerDistrict": 18,
+      "mismatches": [],
+      "httpRangeRequests": 14,
+      "officialFileBytes": 45827971,
+      "extractFile": "raw/official_summary_extract_B11001.psv",
+      "sha256": "e0b3da17bab72e7fffa53f73cb75a2b10bfa0efc6caf1472d86b18127705cbbc",
+      "retrievedAt": "2026-11-23T14:44:17.170043+00:00",
+      "lastModified": "Thu, 29 Jan 2026 12:42:57 GMT"
+    }
+  ],
+  "allMatch": true
+}

@@ -1,0 +1,572 @@
+[
+  {
+    "table": "B01001",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B01001&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 126419,
+    "sha256": "f9be40e96fb659cd78dd46144687e22c23a9bc16c08b41e1b0abd121ec88af6b",
+    "retrievedAt": "2026-11-23T14:31:28.721780+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Sex by Age"
+  },
+  {
+    "table": "B01002",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B01002&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 15032,
+    "sha256": "9ad8e158b9b9b2359e568ecdc82f56e64fe01c215f1b960b4cdf853ad7f854c5",
+    "retrievedAt": "2026-11-23T14:31:36.452165+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Median Age by Sex"
+  },
+  {
+    "table": "B01003",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B01003&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 11152,
+    "sha256": "5d344c09d55139a64a71bf40746a63b97216ca6581be95c80b949d0d1015258c",
+    "retrievedAt": "2026-11-23T14:31:13.545432+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Total Population"
+  },
+  {
+    "table": "B02015",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B02015&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 86830,
+    "sha256": "aa528eab07e850fd4697726c97991a89ab35583b2850d02b30518a12ba5a5fad",
+    "retrievedAt": "2026-11-23T14:31:13.557592+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Asian Alone by Selected Groups"
+  },
+  {
+    "table": "B03001",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B03001&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 81282,
+    "sha256": "0bc708a51399348dced0cd9e77adeb062970b4c4f08228224c586b7f315f8a67",
+    "retrievedAt": "2026-11-23T14:31:13.521204+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Hispanic or Latino Origin by Specific Origin"
+  },
+  {
+    "table": "B03002",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B03002&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 59689,
+    "sha256": "97e427785791d0eb823098f7bbdd79c89f3e298b5f399260bfae1057bc3731e7",
+    "retrievedAt": "2026-11-23T14:31:13.112972+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Hispanic or Latino Origin by Race"
+  },
+  {
+    "table": "B04006",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B04006&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 256926,
+    "sha256": "e8b23596d430e00bd53b4d753a749060310ae9f99c60bee15e7fe6d8845fa55a",
+    "retrievedAt": "2026-11-23T14:31:21.021158+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "People Reporting Ancestry"
+  },
+  {
+    "table": "B05002",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B05002&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 73678,
+    "sha256": "7b113d9395b8073c497b825613da6ccd56c0f8cf0a72460057b3c7c7c8243b34",
+    "retrievedAt": "2026-11-23T14:31:44.227852+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Place of Birth by Nativity and Citizenship Status"
+  },
+  {
+    "table": "B05006",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B05006&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 408955,
+    "sha256": "505a54e2268bffd22a46e1286cf7d8b376ce156b3682dbd13241cec5078cb34d",
+    "retrievedAt": "2026-11-23T14:31:21.056876+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Place of Birth for the Foreign-born Population in the United States"
+  },
+  {
+    "table": "B07003",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B07003&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 52756,
+    "sha256": "44fc597665ef83d15d4b322318746adc15759e0db6e7e767464ab53f104d7320",
+    "retrievedAt": "2026-11-23T14:32:15.140251+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Geographical Mobility in the Past Year by Sex for Current Residence in the United States"
+  },
+  {
+    "table": "B07013",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B07013&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 53196,
+    "sha256": "00b736bbf8a8b043313c5a362fa7af44123ca2af65b2a5c31977aeaee8032975",
+    "retrievedAt": "2026-11-23T14:32:15.215831+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Geographical Mobility in the Past Year by Tenure for Current Residence in the United States"
+  },
+  {
+    "table": "B08202",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B08202&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 62445,
+    "sha256": "34a7545ce4726109499cead4e537fc458a7962adf1def161dd1229985713e4c4",
+    "retrievedAt": "2026-11-23T14:31:51.973230+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Household Size by Number of Workers in Household"
+  },
+  {
+    "table": "B08301",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B08301&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 58602,
+    "sha256": "7b2e953a89598b15873c1a4af1cd0acc7f1c0eeef8a4c7246cfaf364523b4605",
+    "retrievedAt": "2026-11-23T14:32:22.877876+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Means of Transportation to Work"
+  },
+  {
+    "table": "B11001",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B11001&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 31055,
+    "sha256": "27e6b09f12bcf0ced000b1ee39adbef8fe27eb2926a4135c91d60e3bc5cd6d2e",
+    "retrievedAt": "2026-11-23T14:31:44.259960+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Household Type (Including Living Alone)"
+  },
+  {
+    "table": "B11003",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B11003&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 57165,
+    "sha256": "4f2491938584a7bd9f2e948b87183583501edf090c4be63071a6df133497cf2a",
+    "retrievedAt": "2026-11-23T14:31:44.268968+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Family Type by Presence and Age of Own Children Under 18 Years"
+  },
+  {
+    "table": "B12001",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B12001&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 55362,
+    "sha256": "9b9ab4d1d34ddc662dd09e676a799c02c1b22c3b399894fa130c1b95a76cd448",
+    "retrievedAt": "2026-11-23T14:31:51.887296+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Sex by Marital Status for the Population 15 Years and Over"
+  },
+  {
+    "table": "B15003",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B15003&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 68213,
+    "sha256": "7aef475973288c2738ee6341db85e72710e0e2810dd61eb3d450020d4237f047",
+    "retrievedAt": "2026-11-23T14:31:44.257283+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Educational Attainment for the Population 25 Years and Over"
+  },
+  {
+    "table": "B17001",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B17001&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 150428,
+    "sha256": "7b11519d057395d9822e04ac7f9a25c118fccf1d70b83e51892fd222c0575d17",
+    "retrievedAt": "2026-11-23T14:31:36.489404+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Poverty Status in the Past 12 Months by Sex by Age"
+  },
+  {
+    "table": "B19001",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B19001&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 49765,
+    "sha256": "19bf8dc937b351b088d91976dfc5065988588c9bdafbf66d63800594fd08efc2",
+    "retrievedAt": "2026-11-23T14:32:22.897711+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Household Income in the Past 12 Months (In 2024 Inflation-adjusted Dollars)"
+  },
+  {
+    "table": "B19013",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B19013&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 11277,
+    "sha256": "c3f1877e55fe5dbb03d56a7bb43df145a34126ecf8391ed48bfb0411106feeae",
+    "retrievedAt": "2026-11-23T14:31:36.508294+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Median Household Income in the Past 12 Months (In 2024 Inflation-adjusted Dollars)"
+  },
+  {
+    "table": "B19037",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B19037&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 171215,
+    "sha256": "3760128d5b0942532f5167c0cdfb0221370067f6054b92b68c8ab384a36e82eb",
+    "retrievedAt": "2026-11-23T14:31:59.750744+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Age of Householder by Household Income in the Past 12 Months (In 2024 Inflation-adjusted Dollars)"
+  },
+  {
+    "table": "B19059",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B19059&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 16240,
+    "sha256": "a8e0725053b3e413bd7d178570eca6e817d052f706f8b530fc812becc9195774",
+    "retrievedAt": "2026-11-23T14:31:28.704321+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Retirement Income in the Past 12 Months for Households"
+  },
+  {
+    "table": "B19131",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B19131&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 257012,
+    "sha256": "324fb79b089dbead64a294ae556bb93f8070748c7e1cd0cc305df2c484223425",
+    "retrievedAt": "2026-11-23T14:32:07.498344+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Family Type by Presence of Own Children Under 18 Years by Family Income in the Past 12 Months (In 2024 Inflation-adjusted Dollars)"
+  },
+  {
+    "table": "B19301",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B19301&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 11228,
+    "sha256": "7c12a23562e0290605494c4ca05070993d91aa1aa9abd9f4b672de41d026ab95",
+    "retrievedAt": "2026-11-23T14:31:36.488923+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Per Capita Income in the Past 12 Months (In 2024 Inflation-adjusted Dollars)"
+  },
+  {
+    "table": "B21001",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B21001&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 103264,
+    "sha256": "b5d970929faafc13d083b527403fa092dbf063630510e00e30cd9fbaa60e4ccb",
+    "retrievedAt": "2026-11-23T14:31:20.967561+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Sex by Age by Veteran Status for the Civilian Population 18 Years and Over"
+  },
+  {
+    "table": "B23009",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B23009&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 111105,
+    "sha256": "fb18df087cce54ae78e5e8a51b0073efbe92a32784c7129a21f68a158f8c14c0",
+    "retrievedAt": "2026-11-23T14:31:51.979612+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Presence of Own Children Under 18 Years by Family Type by Number of Workers in Family in the Past 12 Months"
+  },
+  {
+    "table": "B25002",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25002&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 16132,
+    "sha256": "ac4c7e094becaaf3aeb8a79a9ad532a5920f40223d0c88286de99b7154b49e88",
+    "retrievedAt": "2026-11-23T14:32:15.172125+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Occupancy Status"
+  },
+  {
+    "table": "B25003",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25003&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 16191,
+    "sha256": "b0d9a56fcee4bf21831b40e6881b381a649291c9af22b5c357f278f0e0c943bf",
+    "retrievedAt": "2026-11-23T14:31:51.936104+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Tenure"
+  },
+  {
+    "table": "B25004",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25004&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 27329,
+    "sha256": "8e65c731f70367f18cf972664c0f917384ca1f8d4d14eba49ad0d1e3079abd48",
+    "retrievedAt": "2026-11-23T14:32:15.273064+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Vacancy Status"
+  },
+  {
+    "table": "B25007",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25007&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 59516,
+    "sha256": "3a86b8601b1e0a6f7d42b4612654431a282351b2e96f36459f390d7b59c65704",
+    "retrievedAt": "2026-11-23T14:31:59.628914+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Tenure by Age of Householder"
+  },
+  {
+    "table": "B25024",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25024&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 35027,
+    "sha256": "92f2b8f74ed59df144d53fd7cf5995c147f923ee82c078290914fe2b3f04ec65",
+    "retrievedAt": "2026-11-23T14:31:59.696419+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Units in Structure"
+  },
+  {
+    "table": "B25032",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25032&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 63070,
+    "sha256": "4fab20ba88ad947ccfce4b646b311e5102bb0b9787ace29a2870758ab7c30845",
+    "retrievedAt": "2026-11-23T14:31:59.650237+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Tenure by Units in Structure"
+  },
+  {
+    "table": "B25064",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25064&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 10980,
+    "sha256": "848f703afdcde3f368abb39096cc2b40f7a073d00560ab09872aef392efe0317",
+    "retrievedAt": "2026-11-23T14:32:07.420685+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Median Gross Rent (Dollars)"
+  },
+  {
+    "table": "B25070",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25070&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 35186,
+    "sha256": "ca4181812f7869f8cbe838937dbf6f79babee8e89f77881af36dc6f233f5137a",
+    "retrievedAt": "2026-11-23T14:32:07.414078+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Gross Rent as a Percentage of Household Income in the Past 12 Months"
+  },
+  {
+    "table": "B25077",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25077&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 11252,
+    "sha256": "1ec0ab56f39883a2ee892c779abb8054172f52a45ca1b448f3d51734cd32c9ff",
+    "retrievedAt": "2026-11-23T14:32:07.422115+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Median Value (Dollars)"
+  },
+  {
+    "table": "C16001",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=C16001&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 99327,
+    "sha256": "4ba8b01ad6493ed800debe34ae9706624983f8eb0cc04774fc6e9298516a186a",
+    "retrievedAt": "2026-11-23T14:31:20.930474+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Language Spoken at Home for the Population 5 Years and Over"
+  },
+  {
+    "table": "C24010",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=C24010&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 184725,
+    "sha256": "f81c6714cbe7d53981b85df1ff27c18eb815798b77dfddc42b93eeaa9a289b5c",
+    "retrievedAt": "2026-11-23T14:31:28.787351+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Sex by Occupation for the Civilian Employed Population 16 Years and Over"
+  },
+  {
+    "table": "C24030",
+    "sourceUrl": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=C24030&geo_ids=610%7C04000US36",
+    "status": "downloaded",
+    "districtCount": 63,
+    "bytes": 140268,
+    "sha256": "de5999ed7a766755721c313a073904ea41949a447996f5cd10dffc0d833b3743",
+    "retrievedAt": "2026-11-23T14:31:28.801831+00:00",
+    "release": {
+      "id": "acs2024_5yr",
+      "name": "ACS 2024 5-year",
+      "years": "2020-2024"
+    },
+    "title": "Sex by Industry for the Civilian Employed Population 16 Years and Over"
+  }
+]
