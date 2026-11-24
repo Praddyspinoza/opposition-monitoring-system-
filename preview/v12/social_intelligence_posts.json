@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "asOf": "2026-11-23T23:26:45.040348+00:00",
+  "asOf": "2026-11-24T11:59:59.736982+00:00",
   "scope": "Original public post URLs with publisher-corroborated provenance for 20 named leaders; 05 Aug 2026 onward. Existing CM and opposition recovered URLs unified, plus new discoveries.",
   "limitations": "Publisher references are NOT authenticated platform API captures. The linked publisher may be inaccessible or post may have been removed. Tags are preliminary until human approval. Zero Meta URLs means none independently retrieved, not zero posts exist.",
   "researchWindow": {
@@ -9,11 +9,55 @@
     "ongoing": true
   },
   "platformCounts": {
-    "X": 48,
+    "X": 50,
     "Facebook": 0,
     "Instagram": 0
   },
   "posts": [
+    {
+      "id": "FEED-a11e05c4fac4063201",
+      "leader": "Vishnu Deo Sai",
+      "party": "BJP",
+      "platform": "X",
+      "date": "2026-11-22",
+      "dateSource": "X_id_derived_date",
+      "url": "https://x.com/vishnudsai/status/2124458029617914060",
+      "title": "मुख्यमंत्री विष्णुदेव साय ने धरसींवा विधानसभा क्षेत्र को दी 27.53 करोड़ रुपए के विकास कार्यों की सौगात",
+      "primaryIssue": "Agriculture & Farmers",
+      "secondaryIssues": [
+        "Infrastructure & Development"
+      ],
+      "districts": [],
+      "publisherUrl": "https://bharatnewsservice.com/4449/",
+      "publisherName": "bharatnewsservice.com",
+      "evidenceClass": "public_publisher_embedded_original_permalink",
+      "postVerification": "not_authenticated_from_platform_API",
+      "identityVerification": "index_referenced_account_handle_match",
+      "issueVerification": "publisher_context_preliminary",
+      "reviewStatus": "needs_human_review",
+      "apiVerified": false
+    },
+    {
+      "id": "FEED-0828a29a3b21521db4",
+      "leader": "Vishnu Deo Sai",
+      "party": "BJP",
+      "platform": "X",
+      "date": "2026-11-22",
+      "dateSource": "X_id_derived_date",
+      "url": "https://x.com/vishnudsai/status/2124515747238215908",
+      "title": "मुख्यमंत्री विष्णु देव साय ने राधा-कृष्ण मंदिर में की पूजा-अर्चना, भजन-कीर्तन में हुए शामिल",
+      "primaryIssue": "Religion / Hinduism",
+      "secondaryIssues": [],
+      "districts": [],
+      "publisherUrl": "https://bharatnewsservice.com/4441/",
+      "publisherName": "bharatnewsservice.com",
+      "evidenceClass": "public_publisher_embedded_original_permalink",
+      "postVerification": "not_authenticated_from_platform_API",
+      "identityVerification": "index_referenced_account_handle_match",
+      "issueVerification": "publisher_context_preliminary",
+      "reviewStatus": "needs_human_review",
+      "apiVerified": false
+    },
     {
       "id": "FEED-e0499c26a54e93eeee",
       "leader": "Vishnu Deo Sai",

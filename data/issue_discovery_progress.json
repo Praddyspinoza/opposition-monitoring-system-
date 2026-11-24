@@ -1,14 +1,14 @@
 {
-  "last_checked_utc": "2026-11-23T23:26:45.040348+00:00",
-  "cursor": 168,
+  "last_checked_utc": "2026-11-24T11:59:59.736982+00:00",
+  "cursor": 0,
   "pairs_total": 200,
   "pairs_checked": 32,
-  "publisher_feed_cursor": 0,
+  "publisher_feed_cursor": 3,
   "result": {
     "search_queries": 32,
     "rss_articles": 0,
-    "publisher_pages_read": 9,
-    "original_post_urls_added": 0,
+    "publisher_pages_read": 18,
+    "original_post_urls_added": 2,
     "unconfirmed_attributions": 0,
     "publisher_pages_unavailable": 0,
     "publisher_feeds_scanned": 3
