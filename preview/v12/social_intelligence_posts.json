@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "asOf": "2026-11-24T21:57:41.235062+00:00",
+  "asOf": "2026-11-25T10:53:34.627360+00:00",
   "scope": "Original public post URLs with publisher-corroborated provenance for 20 named leaders; 05 Aug 2026 onward. Existing CM and opposition recovered URLs unified, plus new discoveries.",
   "limitations": "Publisher references are NOT authenticated platform API captures. The linked publisher may be inaccessible or post may have been removed. Tags are preliminary until human approval. Zero Meta URLs means none independently retrieved, not zero posts exist.",
   "researchWindow": {
@@ -9,11 +9,77 @@
     "ongoing": true
   },
   "platformCounts": {
-    "X": 50,
+    "X": 53,
     "Facebook": 0,
     "Instagram": 0
   },
   "posts": [
+    {
+      "id": "FEED-2f3af504226bb61c44",
+      "leader": "Vishnu Deo Sai",
+      "party": "BJP",
+      "platform": "X",
+      "date": "2026-11-24",
+      "dateSource": "X_id_derived_date",
+      "url": "https://x.com/vishnudsai/status/2125180542933176499",
+      "title": "सिख समाज के लोगों को प्रकाश पर्व की दी बधाई एवं शुभकामनाएं",
+      "primaryIssue": "Unclassified",
+      "secondaryIssues": [],
+      "districts": [],
+      "publisherUrl": "https://bharatnewsservice.com/4496/",
+      "publisherName": "bharatnewsservice.com",
+      "evidenceClass": "public_publisher_embedded_original_permalink",
+      "postVerification": "not_authenticated_from_platform_API",
+      "identityVerification": "index_referenced_account_handle_match",
+      "issueVerification": "publisher_context_preliminary",
+      "reviewStatus": "needs_human_review",
+      "apiVerified": false
+    },
+    {
+      "id": "FEED-8562f6df4c085b9175",
+      "leader": "Vishnu Deo Sai",
+      "party": "BJP",
+      "platform": "X",
+      "date": "2026-11-24",
+      "dateSource": "X_id_derived_date",
+      "url": "https://x.com/vishnudsai/status/2125148779380891992",
+      "title": "प्रधानमंत्री नरेंद्र मोदी के विजन के अनुरूप शहरों को आर्थिक विकास के सशक्त केंद्र बना रही डबल इंजन सरकार : मुख्यमंत्री विष्णु देव साय",
+      "primaryIssue": "Governance",
+      "secondaryIssues": [
+        "Agriculture & Farmers",
+        "Infrastructure & Development"
+      ],
+      "districts": [],
+      "publisherUrl": "https://bharatnewsservice.com/4476/",
+      "publisherName": "bharatnewsservice.com",
+      "evidenceClass": "public_publisher_embedded_original_permalink",
+      "postVerification": "not_authenticated_from_platform_API",
+      "identityVerification": "index_referenced_account_handle_match",
+      "issueVerification": "publisher_context_preliminary",
+      "reviewStatus": "needs_human_review",
+      "apiVerified": false
+    },
+    {
+      "id": "FEED-c0b3799bf22601d1a0",
+      "leader": "Vishnu Deo Sai",
+      "party": "BJP",
+      "platform": "X",
+      "date": "2026-11-23",
+      "dateSource": "X_id_derived_date",
+      "url": "https://x.com/vishnudsai/status/2124861613694193823",
+      "title": "मुख्यमंत्री विष्णु देव साय धनोरा में आयोजित भगवान सहस्रबाहु अर्जुन जयंती कलार महोत्सव में हुए शामिल",
+      "primaryIssue": "Unclassified",
+      "secondaryIssues": [],
+      "districts": [],
+      "publisherUrl": "https://bharatnewsservice.com/4471/",
+      "publisherName": "bharatnewsservice.com",
+      "evidenceClass": "public_publisher_embedded_original_permalink",
+      "postVerification": "not_authenticated_from_platform_API",
+      "identityVerification": "index_referenced_account_handle_match",
+      "issueVerification": "publisher_context_preliminary",
+      "reviewStatus": "needs_human_review",
+      "apiVerified": false
+    },
     {
       "id": "FEED-a11e05c4fac4063201",
       "leader": "Vishnu Deo Sai",
